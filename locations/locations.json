@@ -1,0 +1,528 @@
+[
+    {
+        "name": "Act 1",
+        "children": [
+            {
+                "name": "Southern Jungle",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 430,
+                        "y": 400
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Gourds behind bushes",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "$canCutBushes"
+                        ],
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Miracle Cure",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "access_rules": [
+                            "$canCutBushes"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fire Eye's Village",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 435,
+                        "y": 355
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 26
+                    },
+                    {
+                        "name": "Flash",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Defend",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Quick Sand Field",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 480,
+                        "y": 380
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 12
+                    },
+                    {
+                        "name": "Acid Rain",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jaguar Ring",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/charm.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bugmuck",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 490,
+                        "y": 415
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 11
+                    },
+                    {
+                        "name": "Hardball",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Thraxx",
+                        "hosted_item": "thraxx"
+                    },
+                    {
+                        "name": "Coleoptera",
+                        "hosted_item": "coleoptera"
+                    }
+                ]
+            },
+            {
+                "name": "Northern Jungle",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 465,
+                        "y": 340
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes"
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Mammoth Graveyard Vipers",
+                        "hosted_item": "viper_commander_1"
+                    },
+                    {
+                        "name": "Heal",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    }                    
+                ]
+            },
+            {
+                "name": "Volcano Path",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 480,
+                        "y": 310
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes"
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Gourds behind non-sword",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "$hasNonSword"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Raptor Cave",
+                        "hosted_item": "raptors"
+                    }
+                ]
+            },
+            {
+                "name": "Swamp",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 530,
+                        "y": 335
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes"
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 12
+                    },
+                    {
+                        "name": "Salabog",
+                        "hosted_item": "salabog"
+                    }            
+                ]
+            },
+            {
+                "name": "Volcano Core",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 450,
+                        "y": 310
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes, levitate"
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 22
+                    },
+                    {
+                        "name": "Speed",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Commander Viper",
+                        "hosted_item": "viper_commander_2"
+                    },
+                    {
+                        "name": "Magmar",
+                        "hosted_item": "magmar"
+                    }            
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Act 2",
+        "children": [
+            {
+                "name": "Crustacia",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 575,
+                        "y": 665
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes"
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 8
+                    },
+                    {
+                        "name": "Gourds behind Bronze Axe or higher",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "$hasBronzeAxeOrHigher"
+                        ],
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Gourds behind Levitate",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "levitate"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Cursh",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Revive",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "access_rules": [
+                            "diamond_eyes_1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Drain",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "access_rules": [
+                            "$hasBronzeAxeOrHigher"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Double Drain",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "access_rules": [
+                            "$hasBronzeAxeOrHigher, diamond_eyes_2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Revealer",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Escape",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "access_rules": [
+                            "[revealer], rimsala",
+                            "[revealer], megataur"
+                        ],
+                        "item_count": 1
+                    }          
+                ]
+            },
+            {
+                "name": "Pyramid",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 450,
+                        "y": 700
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes, [revealer]"
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 34
+                    },
+                    {
+                        "name": "Gourds behind Bronze Axe",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "axe_2"
+                        ],
+                        "item_count": 7
+                    },
+                    {
+                        "name": "Sons Of Anhur",
+                        "hosted_item": "sons_of_anhur"
+                    },
+                    {
+                        "name": "Rimsala",
+                        "hosted_item": "rimsala"
+                    }
+                ]
+            },
+            {
+                "name": "Halls of Collosia",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 495,
+                        "y": 600
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes, [revealer]"
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 9
+                    },
+                    {
+                        "name": "Gourds behind Bronze Axe or higher",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "axe_2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gourds behind Jaguar Ring",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "jaguar_ring"
+                        ],
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Mad Monk",
+                        "hosted_item": "mad_monk"
+                    },
+                    {
+                        "name": "Megataur",
+                        "hosted_item": "megataur"
+                    }
+                ]
+            },
+            {
+                "name": "Tiny's Hideout",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 470,
+                        "y": 720
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes, [revealer], aegis"
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Gourds behind Bronze Axe or higher",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "$hasBronzeAxeOrHigher"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gourds behind Knight Basher or higher ",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "$hasKnightBasherOrHigher"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Tiny",
+                        "hosted_item": "tiny"
+                    }                  
+                ]
+            },
+            {
+                "name": "Oglin Tunnel",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 455,
+                        "y": 545
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes, [revealer], aegis"
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aquagoth",
+                        "hosted_item": "aquagoth"
+                    }
+                ]
+            }
+        ]
+    }
+]

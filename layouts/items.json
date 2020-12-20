@@ -1,0 +1,206 @@
+{
+    "items_weapons": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            [
+                "sword_1",
+                "sword_2",
+                "sword_3",
+                "sword_4"
+            ],
+            [
+                "axe_1",
+                "axe_2",
+                "axe_3",
+                "axe_4"
+            ],
+            [
+                "spear_1",
+                "spear_2",
+                "spear_3",
+                "spear_4"
+            ],
+            [
+                "bazooka",
+                "ammo_1",
+                "ammo_2",
+                "ammo_3"
+            ]
+        ]
+    },
+    "items_magic": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            [
+                "acid_rain",
+                "atlas",
+                "barrier",
+                "call_up",
+                "corrosion",
+                "crush",
+                "cure",
+                "defend",
+                "double_drain"
+            ],
+            [
+                "drain",
+                "energize",
+                "escape",
+                "explosion",
+                "fireball",
+                "fire_power",
+                "flash",
+                "force_field",
+                "hard_ball"
+            ],
+            [
+                "heal",
+                "lance",
+                "levitate",
+                "lightning_storm",
+                "miracle_cure",
+                "nitro",
+                "one_up",
+                "reflect"
+            ],
+            [
+                "regrowth",
+                "revealer",
+                "revive",
+                "slow_burn",
+                "speed",
+                "sting",
+                "stop",
+                "super_heal"
+            ]
+        ]
+    },
+    "items_keyitems": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            [
+                "diamond_eyes",
+                "gauge",
+                "wheel"
+            ],
+            [
+                "queens_key",
+                "energy_core",
+                "aeroglider"
+            ]
+        ]
+    },
+    "items_charms": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            [
+                "jaguar_ring",
+                "chocobo_egg",
+                "oracle_bone",
+                "thugs_cloak"
+            ],
+            [
+                "silver_sheath",
+                "moxa_stick",
+                "armor_polish",
+                "insect_incense"
+            ],
+            [
+                "jade_disk",
+                "ruby_heart",
+                "wizards_coin"
+            ],
+            [
+                "staff_of_life",
+                "sun_stone",
+                "magic_gourd"
+            ]
+        ]
+    },
+    "items_bosses": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "item_size": "4,4",
+        "rows": [
+            [
+                "thraxx",
+                "coleoptera",                
+                "viper_commander_1",
+                "raptors",
+                "salabog",            
+                "viper_commander_2",
+                "magmar"
+            ],
+            [
+                "vigor",
+                "aegis",
+                "sons_of_anhur",
+                "rimsala",
+                "mad_monk",
+                "megataur",
+                "tiny",
+                "aquagoth"
+            ],
+            [
+                "verminator",
+                "timberdrake",
+                "bad_boys",
+                "sterling",
+                "mungola"
+            ]
+        ]
+    },
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "layout",
+                                "key": "items_weapons"
+                            },
+                            {
+                                "type": "layout",
+                                "key": "items_magic"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "layout",
+                                "key": "items_keyitems"
+                            },
+                            {
+                                "type": "layout",
+                                "key": "items_charms"
+                            },
+                            {
+                                "type": "layout",
+                                "key": "items_bosses"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

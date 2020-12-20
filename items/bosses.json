@@ -1,0 +1,145 @@
+[
+    {
+        "name": "Aegis",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/aegis.png",
+        "codes": "aegis",
+        "size": 8
+    },
+    {
+        "name": "Aquagoth",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/aquagoth.png",
+        "codes": "aquagoth"
+    },
+    {
+        "name": "Bad Boys",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/bad_boys.png",
+        "codes": "bad_boys"
+    },
+    {
+        "name": "Coleoptera",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/coleoptera.png",
+        "codes": "coleoptera"
+    },
+    {
+        "name": "Mad Monk",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/mad_monk.png",
+        "codes": "mad_monk"
+    },
+    {
+        "name": "Magmar",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/magmar.png",
+        "codes": "magmar"
+    },
+    {
+        "name": "Megataur",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/megataur.png",
+        "codes": "megataur"
+    },
+    {
+        "name": "Mungola",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/mungola.png",
+        "codes": "mungola"
+    },
+    {
+        "name": "Raptors",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/raptors.png",
+        "codes": "raptors"
+    },
+    {
+        "name": "Rimsala",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/rimsala.png",
+        "codes": "rimsala"
+    },
+    {
+        "name": "Salabog",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/salabog.png",
+        "codes": "salabog"
+    },
+    {
+        "name": "Sons of Anhur",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/sons_of_anhur.png",
+        "codes": "sons_of_anhur, sons_of_sth"
+    },
+    {
+        "name": "Sterling",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/sterling.png",
+        "codes": "sterling"
+    },
+    {
+        "name": "Thraxx",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/thraxx.png",
+        "codes": "thraxx"
+    },
+    {
+        "name": "Timberdrake",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/timberdrake.png",
+        "codes": "timberdrake"
+    },
+    {
+        "name": "Tiny",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/tiny.png",
+        "codes": "tiny"
+    },
+    {
+        "name": "Verminator",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/verminator.png",
+        "codes": "verminator"
+    },
+    {
+        "name": "Vigor",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/vigor.png",
+        "codes": "vigor"
+    },
+    {
+        "name": "Viper Commander (Mammoth Graveyard)",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/viper_commander.png",
+        "img_mods": "overlay|images/items/bosses/overlay_1.png",
+        "codes": "viper_commander_1"
+    },
+    {
+        "name": "Viper Commander (Volcano Core)",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/viper_commander.png",
+        "img_mods": "overlay|images/items/bosses/overlay_2.png",
+        "codes": "viper_commander_2"
+    }
+]

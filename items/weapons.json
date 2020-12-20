@@ -1,0 +1,119 @@
+[
+    //swords    
+    {
+        "name": "Bone Crusher",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/sword_1.png",
+        "codes": "sword_1"
+    },
+    {
+        "name": "Gladiator Sword",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/sword_2.png",
+        "codes": "sword_2"
+    },
+    {
+        "name": "Cursader Sword",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/sword_3.png",
+        "codes": "sword_3"
+    },
+    {
+        "name": "Neutron Blade",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/sword_4.png",
+        "codes": "sword_4"
+    },
+    //axes
+    {
+        "name": "Spider's Claw",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/axe_1.png",
+        "codes": "axe_1"
+    },
+    {
+        "name": "Bronze Axe",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/axe_2.png",
+        "codes": "axe_2"
+    },
+    {
+        "name": "Knight Basher",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/axe_3.png",
+        "codes": "axe_3"
+    },
+    {
+        "name": "Atom Smasher",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/axe_4.png",
+        "codes": "axe_4"
+    },
+    //spears
+    {
+        "name": "Horn Spear",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/spear_1.png",
+        "codes": "spear_1"
+    },
+    {
+        "name": "Bronze Spear",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/spear_2.png",
+        "codes": "spear_2"
+    },
+    {
+        "name": "Lance",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/spear_3.png",
+        "codes": "spear_3"
+    },
+    {
+        "name": "Laser Lance",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/spear_4.png",
+        "codes": "spear_4"
+    },
+    //bazooka    
+    {
+        "name": "Bazooka",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/bazooka.png",
+        "codes": "bazooka"
+    },
+    //ammo
+    {
+        "name": "Thunderball",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/ammo_1.png",
+        "codes": "ammo_1"
+    },
+    {
+        "name": "Particle Bomb",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/ammo_2.png",
+        "codes": "ammo_2"
+    },
+    {
+        "name": "Cryo-Blast",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/weapons/ammo_3.png",
+        "codes": "ammo_3"
+    }
+]

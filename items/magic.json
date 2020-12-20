@@ -1,0 +1,247 @@
+[
+    {
+        "name": "Acid Rain",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/acid_rain.gif",
+        "codes": "acid_rain"
+    },
+    {
+        "name": "Atlas",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/atlas.gif",
+        "codes": "atlas"
+    },
+    {
+        "name": "Barrier",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/barrier.gif",
+        "codes": "barrier"
+    },
+    {
+        "name": "Call Up",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/call_up.gif",
+        "codes": "call_up"
+    },
+    {
+        "name": "Corrosion",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/corrosion.gif",
+        "codes": "corrosion"
+    },
+    {
+        "name": "Crush",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/crush.gif",
+        "codes": "crush"
+    },
+    {
+        "name": "Cure",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/cure.gif",
+        "codes": "cure"
+    },
+    {
+        "name": "Defend",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/defend.gif",
+        "codes": "defend"
+    },
+    {
+        "name": "Double Drain",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/double_drain.gif",
+        "codes": "double_drain"
+    },
+    {
+        "name": "Drain",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/drain.gif",
+        "codes": "drain"
+    },
+    {
+        "name": "Energize",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/energize.gif",
+        "codes": "energize"
+    },
+    {
+        "name": "Escape",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/escape.gif",
+        "codes": "escape"
+    },
+    {
+        "name": "Explosion",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/explosion.gif",
+        "codes": "explosion"
+    },
+    {
+        "name": "Fireball",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/fireball.gif",
+        "codes": "fireball"
+    },
+    {
+        "name": "Fire Power",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/fire_power.gif",
+        "codes": "fire_power"
+    },
+    {
+        "name": "Fire Power",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/fire_power.gif",
+        "codes": "fire_power"
+    },
+    {
+        "name": "Flash",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/flash.gif",
+        "codes": "flash"
+    },
+    {
+        "name": "Force Field",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/force_field.gif",
+        "codes": "force_field"
+    },
+    {
+        "name": "Hard Ball",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/hard_ball.gif",
+        "codes": "hard_ball"
+    },
+    {
+        "name": "Heal",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/heal.gif",
+        "codes": "heal"
+    },
+    {
+        "name": "Lance",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/lance.gif",
+        "codes": "lance"
+    },
+    {
+        "name": "Levitate",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/levitate.gif",
+        "codes": "levitate"
+    },
+    {
+        "name": "Lightning Storm",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/lightning_storm.gif",
+        "codes": "lightning_storm"
+    },
+    {
+        "name": "Miracle Cure",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/miracle_cure.gif",
+        "codes": "miracle_cure"
+    },
+    {
+        "name": "Nitro",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/nitro.gif",
+        "codes": "nitro"
+    },
+    {
+        "name": "One Up",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/one_up.gif",
+        "codes": "one_up"
+    },
+    {
+        "name": "Reflect",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/reflect.gif",
+        "codes": "reflect"
+    },
+    {
+        "name": "Regrowth",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/regrowth.gif",
+        "codes": "regrowth"
+    },
+    {
+        "name": "Revealer",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/revealer.gif",
+        "codes": "revealer"
+    },
+    {
+        "name": "Revive",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/revive.gif",
+        "codes": "revive"
+    },
+    {
+        "name": "Slow Burn",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/slow_burn.gif",
+        "codes": "slow_burn"
+    },
+    {
+        "name": "Speed",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/speed.gif",
+        "codes": "speed"
+    },
+    {
+        "name": "Sting",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/sting.gif",
+        "codes": "sting"
+    },
+    {
+        "name": "Stop",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/stop.gif",
+        "codes": "stop"
+    },
+    {
+        "name": "Super Heal",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/magic/super_heal.gif",
+        "codes": "super_heal"
+    }
+]

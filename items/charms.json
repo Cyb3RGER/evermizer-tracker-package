@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Jaguar Ring",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/jaguar_ring.png",
+        "codes": "jaguar_ring"
+    },
+    {
+        "name": "Chocobo Egg",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/chocobo_egg.png",
+        "codes": "chocobo_egg"
+    },
+    {
+        "name": "Oracle Bone",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/oracle_bone.png",
+        "codes": "oracle_bone"
+    },
+    {
+        "name": "Thug's Cloak",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/thugs_cloak.png",
+        "codes": "thugs_cloak"
+    },
+    {
+        "name": "Silver Sheath",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/silver_sheath.png",
+        "codes": "silver_sheath"
+    },
+    {
+        "name": "Moxa Stick",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/moxa_stick.png",
+        "codes": "moxa_stick"
+    },
+    {
+        "name": "Armor Polish",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/armor_polish.png",
+        "codes": "armor_polish"
+    },
+    {
+        "name": "Insect Incense",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/insect_incense.png",
+        "codes": "insect_incense"
+    },
+    {
+        "name": "Jade Disk",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/jade_disk.png",
+        "codes": "jade_disk"
+    },
+    {
+        "name": "Ruby Heart",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/ruby_heart.png",
+        "codes": "ruby_heart"
+    },
+    {
+        "name": "Wizard's Coin",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/wizards_coin.png",
+        "codes": "wizards_coin"
+    },
+    {
+        "name": "Staff of Life",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/staff_of_life.png",
+        "codes": "staff_of_life"
+    },
+    {
+        "name": "Sun Stone",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/sun_stone.png",
+        "codes": "sun_stone"
+    },
+    {
+        "name": "Magic Gourd",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/charms/magic_gourd.png",
+        "codes": "magic_gourd"
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Diamond Eyes",
+        "type": "progressive",
+        "capturable": false,
+        "loop": true,
+        "allow_disabled": true,
+        "stages": [
+            {
+                "img": "images/items/keyitems/diamond_eyes_1.png",
+                "codes": "diamond_eyes, diamond_eyes_1",
+                "secondary_codes": "diamond_eyes_1"
+            },
+            {
+                "img": "images/items/keyitems/diamond_eyes_2.png",
+                "codes": "diamond_eyes, diamond_eyes_2",
+                "secondary_codes": "diamond_eyes_2"
+            },
+            {
+                "img": "images/items/keyitems/diamond_eyes_3.png",
+                "codes": "diamond_eyes, diamond_eyes_3",
+                "secondary_codes": "diamond_eyes_3"
+            }
+        ]
+    },
+    {
+        "name": "Gauge",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/keyitems/gauge.png",
+        "codes": "gauge"
+    },
+    {
+        "name": "Wheel",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/keyitems/wheel.png",
+        "codes": "wheel"
+    },
+    {
+        "name": "Queen's Key",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/keyitems/queens_key.png",
+        "codes": "queens_key"
+    },
+    {
+        "name": "Energy Core",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/keyitems/energy_core.png",
+        "codes": "energy_core"
+    },
+    {
+        "name": "Aeroglider",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/keyitems/aeroglider.png",
+        "codes": "aeroglider"
+    }
+]
