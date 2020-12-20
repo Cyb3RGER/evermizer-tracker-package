@@ -96,9 +96,7 @@
                     },
                     {
                         "name": "Jaguar Ring",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/charm.png",
-                        "item_count": 1
+                        "hosted_item": "jaguar_ring"
                     }
                 ]
             },
@@ -164,7 +162,7 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "item_count": 1
-                    }                    
+                    }
                 ]
             },
             {
@@ -196,10 +194,16 @@
                             "$hasNonSword"
                         ],
                         "item_count": 2
-                    },
+                    },                    
                     {
                         "name": "Raptor Cave",
                         "hosted_item": "raptors"
+                    },
+                    {
+                        "name": "Levitate",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
                     }
                 ]
             },
@@ -226,7 +230,7 @@
                     {
                         "name": "Salabog",
                         "hosted_item": "salabog"
-                    }            
+                    }
                 ]
             },
             {
@@ -262,7 +266,7 @@
                     {
                         "name": "Magmar",
                         "hosted_item": "magmar"
-                    }            
+                    }
                 ]
             }
         ]
@@ -358,7 +362,82 @@
                             "[revealer], megataur"
                         ],
                         "item_count": 1
-                    }          
+                    }
+                ]
+            },
+            {
+                "name": "Nobilia",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 720,
+                        "y": 250
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes"
+                ],
+                "sections": [
+                    {
+                        "name": "Jail Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 8
+                    },
+                    {
+                        "name": "Cure",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Atlas",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vigor",
+                        "hosted_item": "vigor"
+                    },
+                    {
+                        "name": "Aegis",
+                        "hosted_item": "aegis",
+                        "access_rules": [
+                            "diamond_eyes_2"
+                        ]
+                    },
+                    {
+                        "name": "Barrier",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "access_rules": [
+                            "aegis"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Desert of Doom",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 745,
+                        "y": 375
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes"
+                ],
+                "sections": [
+                    {
+                        "name": "Sting",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    }
                 ]
             },
             {
@@ -442,6 +521,12 @@
                         "item_count": 4
                     },
                     {
+                        "name": "Fireball",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
                         "name": "Mad Monk",
                         "hosted_item": "mad_monk"
                     },
@@ -494,7 +579,7 @@
                     {
                         "name": "Tiny",
                         "hosted_item": "tiny"
-                    }                  
+                    }
                 ]
             },
             {
@@ -502,8 +587,8 @@
                 "map_locations": [
                     {
                         "map": "overview",
-                        "x": 455,
-                        "y": 545
+                        "x": 300,
+                        "y": 560
                     }
                 ],
                 "access_rules": [
@@ -520,6 +605,282 @@
                     {
                         "name": "Aquagoth",
                         "hosted_item": "aquagoth"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Act 3",
+        "children": [
+            {
+                "name": "Ebon Keep",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 270,
+                        "y": 300
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes"
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 34
+                    },
+                    {
+                        "name": "Slow Burn",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Explosion",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nitro",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "access_rules": [
+                            "diamond_eyes_2, wheel, gauge"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Super Heal",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lance",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Regrowth",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Verminator",
+                        "hosted_item": "verminator"
+                    }
+                ]
+            },
+            {
+                "name": "Dark Forest",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 210,
+                        "y": 330
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes"
+                ],
+                "sections": [                                                           
+                    {
+                        "name": "Timberdrake",
+                        "hosted_item": "timberdrake"
+                    },
+                    {
+                        "name": "Bad Boys",
+                        "hosted_item": "bad_boys"
+                    },
+                    {
+                        "name": "One Up",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gomi Tower Goruds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "axe_3"
+                        ],
+                        "item_count": 4
+                    }, 
+                    {
+                        "name": "Sterling",
+                        "hosted_item": "sterling",
+                        "access_rules": [
+                            "axe_3"
+                        ]
+                    },
+                    {
+                        "name": "Lightning Storm",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "access_rules": [
+                            "sterling"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chessboard",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 210,
+                        "y": 285
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes"
+                ],
+                "sections": [  
+                    {
+                        "name": "Energy Core",
+                        "hosted_item": "energy_core",
+                        "access_rules": [
+                            "diamond_eyes_2, wheel, gauge"
+                        ]                        
+                    },                   
+                    {
+                        "name": "Force Field",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "access_rules": [
+                            "diamond_eyes_2, wheel, gauge"
+                        ],
+                        "item_count": 1
+                    },                    
+                    {
+                        "name": "Stop",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "access_rules": [
+                            "diamond_eyes_2, wheel, gauge"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ivor Tower",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 145,
+                        "y": 300
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes"
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 40
+                    },
+                    {
+                        "name": "Queen's Key",
+                        "hosted_item": "queens_key"
+                    },
+                    {
+                        "name": "Gourds behind Queen's Key",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "queens_key"
+                        ],
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Corrosion",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },                    
+                    {
+                        "name": "Fire Power",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "access_rules": [
+                            "queens_key"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mungola",
+                        "hosted_item": "mungola"
+                    }
+                ]
+            }
+        ]
+    },    
+    {
+        "name": "Act 4",
+        "children": [
+            {
+                "name": "Omnitopia",
+                "map_locations": [
+                    {
+                        "map": "overview",
+                        "x": 370,
+                        "y": 260
+                    }
+                ],
+                "access_rules": [
+                    "$canCutBushes, diamond_eyes_2, wheel, gauge"
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 11
+                    },
+                    {
+                        "name": "Reflect",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },                    
+                    {
+                        "name": "Call Up",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aeroglider",
+                        "hosted_item": "aeroglider"
+                    },
+                    {
+                        "name": "Energize",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "access_rules": [
+                            "energy_core"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Carltron's Robot",
+                        "hosted_item": "carltrons_robot"
                     }
                 ]
             }

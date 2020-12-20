@@ -4,8 +4,7 @@
         "type": "toggle",
         "capturable": true,
         "img": "images/items/bosses/aegis.png",
-        "codes": "aegis",
-        "size": 8
+        "codes": "aegis"        
     },
     {
         "name": "Aquagoth",
@@ -20,6 +19,13 @@
         "capturable": true,
         "img": "images/items/bosses/bad_boys.png",
         "codes": "bad_boys"
+    },
+    {
+        "name": "Carltron's Robot",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/carltrons_robot.png",
+        "codes": "carltrons_robot"
     },
     {
         "name": "Coleoptera",

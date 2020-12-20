@@ -127,7 +127,7 @@
     },
     "items_bosses": {
         "type": "itemgrid",
-        "h_alignment": "center",
+        "h_alignment": "center",        
         "item_margin": "1,2",
         "item_size": "4,4",
         "rows": [
@@ -155,7 +155,8 @@
                 "timberdrake",
                 "bad_boys",
                 "sterling",
-                "mungola"
+                "mungola",
+                "carltrons_robot"
             ]
         ]
     },
