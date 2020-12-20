@@ -1,4 +1,6 @@
 # Evermizer Tracker Package for EmoTracker
+**THIS IS STILL WIP!**
+
 Evermizer Item and Map Tracker for EmoTracker or other comapible programms.
 
 The Evermizer can be found [here](https://evermizer.com).
