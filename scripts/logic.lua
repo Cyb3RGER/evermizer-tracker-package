@@ -79,3 +79,20 @@ function hasKnightBasherOrHigher()
     
 	return 0
 end
+
+function hasBronzeSpearOrHigher()
+    local value = 
+        Tracker:ProviderCountForCode("spear_2") +
+        Tracker:ProviderCountForCode("spear_3") +
+        Tracker:ProviderCountForCode("spear_4") 
+
+    if debug then
+        print("hasBronzeSpearOrHigher: value: "..value)
+    end
+
+	if (value > 0) then
+		return 1
+    end
+    
+	return 0
+end

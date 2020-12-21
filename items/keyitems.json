@@ -4,10 +4,15 @@
         "type": "progressive",
         "capturable": false,
         "loop": true,
-        "allow_disabled": true,
+        "allow_disabled": false,        
         "stages": [
             {
-                "img": "images/items/keyitems/diamond_eyes_1.png",
+                "img": "images/items/keyitems/diamond_eyes_0.png",                
+                "codes": "diamond_eyes, diamond_eyes_0",
+                "secondary_codes": "diamond_eyes_0"
+            },
+            {
+                "img": "images/items/keyitems/diamond_eyes_1.png",                
                 "codes": "diamond_eyes, diamond_eyes_1",
                 "secondary_codes": "diamond_eyes_1"
             },

@@ -33,6 +33,7 @@
                         "name": "Miracle Cure",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
                             "$canCutBushes"
                         ],
@@ -61,12 +62,17 @@
                         "name": "Flash",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
                         "name": "Defend",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "access_rules": [
+                            "thraxx"
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -86,12 +92,28 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 12
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Gourds behind Thraxx or Bushes",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "thraxx",
+                            "$canCutBushes"
+                        ],
+                        "item_count": 7
                     },
                     {
                         "name": "Acid Rain",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "access_rules": [
+                            "thraxx",
+                            "$canCutBushes"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -115,12 +137,24 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 11
+                        "item_count": 9
+                    },
+                    {
+                        "name": "Gourds behind Thraxx or Bushes",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "thraxx",
+                            "$canCutBushes"
+                        ],
+                        "item_count": 2
                     },
                     {
                         "name": "Hardball",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
@@ -129,7 +163,10 @@
                     },
                     {
                         "name": "Coleoptera",
-                        "hosted_item": "coleoptera"
+                        "hosted_item": "coleoptera",
+                        "access_rules": [
+                            "thraxx"
+                        ]
                     }
                 ]
             },
@@ -161,6 +198,10 @@
                         "name": "Heal",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "access_rules": [
+                            "viper_commander_1"
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -186,15 +227,25 @@
                         "item_count": 5
                     },
                     {
-                        "name": "Gourds behind non-sword",
+                        "name": "Gourd behind non-sword",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "access_rules": [
                             "$hasNonSword"
                         ],
-                        "item_count": 2
-                    },                    
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vanilla Gauge Gourd",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "$hasNonSword, magmar"                            
+                        ],
+                        "item_count": 1
+                    },
                     {
                         "name": "Raptor Cave",
                         "hosted_item": "raptors"
@@ -203,6 +254,10 @@
                         "name": "Levitate",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "access_rules": [
+                            "$hasNonSword"
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -257,6 +312,7 @@
                         "name": "Speed",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
@@ -318,14 +374,16 @@
                         "name": "Cursh",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
                         "name": "Revive",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
-                            "diamond_eyes_1"
+                            "vigor"
                         ],
                         "item_count": 1
                     },
@@ -333,6 +391,7 @@
                         "name": "Drain",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
                             "$hasBronzeAxeOrHigher"
                         ],
@@ -342,6 +401,7 @@
                         "name": "Double Drain",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
                             "$hasBronzeAxeOrHigher, diamond_eyes_2"
                         ],
@@ -351,12 +411,14 @@
                         "name": "Revealer",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
                         "name": "Escape",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
                             "[revealer], rimsala",
                             "[revealer], megataur"
@@ -379,23 +441,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Jail Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 8
-                    },
-                    {
                         "name": "Cure",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
                         "name": "Atlas",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Jail Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 8
                     },
                     {
                         "name": "Vigor",
@@ -412,6 +476,7 @@
                         "name": "Barrier",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
                             "aegis"
                         ],
@@ -436,6 +501,7 @@
                         "name": "Sting",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     }
                 ]
@@ -476,7 +542,10 @@
                     },
                     {
                         "name": "Rimsala",
-                        "hosted_item": "rimsala"
+                        "hosted_item": "rimsala",
+                        "access_rules": [
+                            "axe_2"
+                        ]
                     }
                 ]
             },
@@ -506,7 +575,7 @@
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "access_rules": [
-                            "axe_2"
+                            "$hasBronzeAxeOrHigher"
                         ],
                         "item_count": 1
                     },
@@ -524,6 +593,7 @@
                         "name": "Fireball",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
@@ -532,7 +602,10 @@
                     },
                     {
                         "name": "Megataur",
-                        "hosted_item": "megataur"
+                        "hosted_item": "megataur",
+                        "access_rules": [
+                            "$hasBronzeSpearOrHigher"
+                        ]
                     }
                 ]
             },
@@ -578,7 +651,10 @@
                     },
                     {
                         "name": "Tiny",
-                        "hosted_item": "tiny"
+                        "hosted_item": "tiny",
+                        "access_rules": [
+                            "levitate"
+                        ]
                     }
                 ]
             },
@@ -637,20 +713,23 @@
                         "name": "Slow Burn",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
                         "name": "Explosion",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
                         "name": "Nitro",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
-                            "diamond_eyes_2, wheel, gauge"
+                            "aeroglider"
                         ],
                         "item_count": 1
                     },
@@ -658,18 +737,18 @@
                         "name": "Super Heal",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
                         "name": "Lance",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "item_count": 1
+                        "hosted_item": "lance_npc"
                     },
                     {
                         "name": "Regrowth",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
@@ -690,7 +769,7 @@
                 "access_rules": [
                     "$canCutBushes"
                 ],
-                "sections": [                                                           
+                "sections": [
                     {
                         "name": "Timberdrake",
                         "hosted_item": "timberdrake"
@@ -703,6 +782,7 @@
                         "name": "One Up",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
@@ -714,7 +794,7 @@
                             "axe_3"
                         ],
                         "item_count": 4
-                    }, 
+                    },
                     {
                         "name": "Sterling",
                         "hosted_item": "sterling",
@@ -726,6 +806,7 @@
                         "name": "Lightning Storm",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
                             "sterling"
                         ],
@@ -745,29 +826,32 @@
                 "access_rules": [
                     "$canCutBushes"
                 ],
-                "sections": [  
+                "sections": [
                     {
                         "name": "Energy Core",
                         "hosted_item": "energy_core",
                         "access_rules": [
-                            "diamond_eyes_2, wheel, gauge"
-                        ]                        
-                    },                   
+                            "aeroglider"
+                        ]
+                    },
                     {
                         "name": "Force Field",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
-                            "diamond_eyes_2, wheel, gauge"
+                            "aeroglider"
                         ],
                         "item_count": 1
-                    },                    
+                    },
                     {
                         "name": "Stop",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
-                            "diamond_eyes_2, wheel, gauge"
+                            "aeroglider",
+                            "oracle_bone"
                         ],
                         "item_count": 1
                     }
@@ -794,6 +878,10 @@
                         "item_count": 40
                     },
                     {
+                        "name": "Lance",
+                        "hosted_item": "lance_npc"
+                    },
+                    {
                         "name": "Queen's Key",
                         "hosted_item": "queens_key"
                     },
@@ -811,12 +899,14 @@
                         "name": "Corrosion",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
-                    },                    
+                    },
                     {
                         "name": "Fire Power",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
                             "queens_key"
                         ],
@@ -824,12 +914,15 @@
                     },
                     {
                         "name": "Mungola",
-                        "hosted_item": "mungola"
+                        "hosted_item": "mungola",
+                        "access_rules": [
+                            "sterling"
+                        ]
                     }
                 ]
             }
         ]
-    },    
+    },
     {
         "name": "Act 4",
         "children": [
@@ -857,12 +950,14 @@
                         "name": "Reflect",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
-                    },                    
+                    },
                     {
                         "name": "Call Up",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     },
                     {
@@ -873,6 +968,7 @@
                         "name": "Energize",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
                             "energy_core"
                         ],
@@ -880,7 +976,10 @@
                     },
                     {
                         "name": "Carltron's Robot",
-                        "hosted_item": "carltrons_robot"
+                        "hosted_item": "carltrons_robot",
+                        "access_rules": [
+                            "energy_core"
+                        ]
                     }
                 ]
             }

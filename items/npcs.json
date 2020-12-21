@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Lance (NPC)",
+        "type": "toggle",
+        "capturable": false,
+        "img": "images/locations/alchemy_open.png",
+        "disabled_img": "images/locations/alchemy.png",
+        "disabled_img_mods": "none",
+        "codes": "lance_npc"
+    }
+]
