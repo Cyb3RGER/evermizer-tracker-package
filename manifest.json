@@ -9,8 +9,14 @@
     "standard": {
       "display_name": "Map Tracker"
     },
+    "var_detailed": {
+      "display_name": "Map Tracker - Detailed"
+    },
     "var_itemsonly": {
       "display_name": "Items Only"
+    },
+    "var_itemsonly_simplyfied": {
+      "display_name": "Items Only - Simplyfied"
     }
   }
 }

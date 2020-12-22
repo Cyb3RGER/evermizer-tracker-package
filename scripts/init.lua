@@ -1,9 +1,12 @@
 local variant = Tracker.ActiveVariantUID
 local items_only = variant:find("itemsonly")
+local simplyfied = variant:find("itemsonly_simplyfied")
+local detailed = variant:find("detailed")
 debug = false
 
+--scripts
 ScriptHost:LoadScript("scripts/logic.lua")
-
+--items
 Tracker:AddItems("items/weapons.json")
 Tracker:AddItems("items/magic.json")
 Tracker:AddItems("items/keyitems.json")
@@ -11,9 +14,19 @@ Tracker:AddItems("items/charms.json")
 Tracker:AddItems("items/bosses.json")
 Tracker:AddItems("items/npcs.json")
 if not items_only then
-    Tracker:AddMaps("maps/maps.json")       
-    Tracker:AddLocations("locations/locations.json")
+    --maps
+    Tracker:AddMaps("maps/maps.json")   
+    --locations
+    if detailed then
+        Tracker:AddLocations("locations/prehistoria.json")
+        Tracker:AddLocations("locations/antiqua.json")
+        Tracker:AddLocations("locations/gothica.json")
+        Tracker:AddLocations("locations/omnitopia.json")
+    else
+        Tracker:AddLocations("locations/locations.json")
+    end    
 end
+--layouts
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")

@@ -1,0 +1,56 @@
+[
+    {
+        "name": "southern_jungle",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/southern_jungle.png"
+    },
+    {
+        "name": "fe_village",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/fe_village.png"
+    },
+    {
+        "name": "quick_sand_fields",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/quick_sand_fields.png"
+    },
+    {
+        "name": "bugmuck",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/bugmuck.png"
+    },
+    {
+        "name": "northern_jungle",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/northern_jungle.png"
+    },
+    {
+        "name": "volcano_path",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/volcano_path.png"
+    },
+    {
+        "name": "swamp",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/swamp.png"
+    },
+    {
+        "name": "volcano_core",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/volcano_core.png"
+    },
+    {
+        "name": "volcano_sewers",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/volcano_sewers.png"
+    }
+]

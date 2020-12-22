@@ -1,0 +1,164 @@
+{
+	"settings_popup": {},
+	"tracker_default": {
+		"type": "container",
+		"background": "#877373",
+		"content": {
+			"type": "dock",
+			"dropshadow": true,
+			"content": [
+				{
+					"type": "dock",
+					"dock": "bottom",
+					"v_alignment": "stretch",
+					"margin": "0,0,3,0",
+					"content": [
+						{
+							"type": "group",
+							"header": "Items",
+							"dock": "left",
+							"content": {
+								"type": "layout",
+								"key": "shared_item_grid"
+							}
+						},
+						{
+							"type": "group",
+							"header": "Pinned Locations",
+							"dock": "left",
+							"content": {
+								"type": "recentpins",
+								"style": "wrap",
+								"h_alignment": "stretch",
+								"v_alignment": "stretch",
+								"orientation": "vertical",
+								"compact": true
+							}
+						}
+					]
+				},
+				{
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Perhistoria",
+							"content": {
+								"type": "tabbed",
+								"tabs": [
+									{
+										"title": "Southern Jungle",
+										"content": {
+											"type": "map",
+											"maps": [
+												"southern_jungle"
+											]
+										}
+									},
+									{
+										"title": "Fire Eyes' Village",
+										"content": {
+											"type": "map",
+											"maps": [
+												"fe_village"
+											]
+										}
+									},
+									{
+										"title": "Quick Sand Fields",
+										"content": {
+											"type": "map",
+											"maps": [
+												"quick_sand_fields"
+											]
+										}
+									},
+									{
+										"title": "Bugmuck",
+										"content": {
+											"type": "map",
+											"maps": [
+												"bugmuck"
+											]
+										}
+									},
+									{
+										"title": "Northern Jungle",
+										"content": {
+											"type": "map",
+											"maps": [
+												"northern_jungle"
+											]
+										}
+									},
+									{
+										"title": "Volcano Path",
+										"content": {
+											"type": "map",
+											"maps": [
+												"volcano_path"
+											]
+										}
+									},
+									{
+										"title": "Swamp",
+										"content": {
+											"type": "map",
+											"maps": [
+												"swamp"
+											]
+										}
+									},
+									{
+										"title": "Volcano Core",
+										"content": {
+											"type": "map",
+											"maps": [
+												"volcano_core"
+											]
+										}
+									},
+									{
+										"title": "Volcano Sewers",
+										"content": {
+											"type": "map",
+											"maps": [
+												"volcano_sewers"
+											]
+										}
+									}
+								]
+							}							
+						},
+						{
+							"title": "Antiqua",
+							"content": {
+								"type": "tabbed",
+								"tabs": [
+
+								]
+							}
+						},
+						{
+							"title": "Gothica",
+							"content": {
+								"type": "tabbed",
+								"tabs": [
+									
+								]
+							}
+						},
+						{
+							"title": "Omnitopia",
+							"content": {
+								"type": "tabbed",
+								"tabs": [
+									
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

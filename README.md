@@ -13,5 +13,7 @@ EmoTracker can be found [here](https://emotracker.net).
 
 Just download the source or lastest build and put in your packs folder ("Documents/EmoTracker/packs/" for EmoTracker) (as a zip or unpacked, both works).
 
+# Credits
 
+Maps by Grizzly from [VGMaps](https://www.vgmaps.com).
 
