@@ -15,5 +15,5 @@ Just download the source or lastest build and put in your packs folder ("Documen
 
 # Credits
 
-Maps by Grizzly from [VGMaps](https://www.vgmaps.com).
+Maps by Grizzly from [VGMaps](https://www.vgmaps.com/Atlas/SuperNES/index.htm#SecretOfEvermore).
 

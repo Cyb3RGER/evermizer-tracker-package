@@ -134,7 +134,114 @@
 							"content": {
 								"type": "tabbed",
 								"tabs": [
-
+									{
+										"title": "Eastern Beach",
+										"content": {
+											"type": "map",
+											"maps": [
+												"eastern_beach"
+											]
+										}
+									},
+									{
+										"title": "Crustacia",
+										"content": {
+											"type": "map",
+											"maps": [
+												"crustacia"
+											]
+										}
+									},
+									{
+										"title": "Nobilia",
+										"content": {
+											"type": "map",
+											"maps": [
+												"nobilia"
+											]
+										}
+									},
+									{
+										"title": "River",
+										"content": {
+											"type": "map",
+											"maps": [
+												"river"
+											]
+										}
+									},
+									{
+										"title": "Western Beach",
+										"content": {
+											"type": "map",
+											"maps": [
+												"western_beach"
+											]
+										}
+									},
+									{
+										"title": "Pyramid (lower)",
+										"content": {
+											"type": "map",
+											"maps": [
+												"pyramid_lower"
+											]
+										}
+									},
+									{
+										"title": "Pyramid (upper)",
+										"content": {
+											"type": "map",
+											"maps": [
+												"pyramid_upper"
+											]
+										}
+									},
+									{
+										"title": "Halls of Collosia 1",
+										"content": {
+											"type": "map",
+											"maps": [
+												"halls_of_collosia_1"
+											]
+										}
+									},
+									{
+										"title": "Halls of Collosia 2",
+										"content": {
+											"type": "map",
+											"maps": [
+												"halls_of_collosia_2"
+											]
+										}
+									},
+									{
+										"title": "Halls of Collosia 3",
+										"content": {
+											"type": "map",
+											"maps": [
+												"halls_of_collosia_3"
+											]
+										}
+									},
+									{
+										"title": "Halls of Collosia 4",
+										"content": {
+											"type": "map",
+											"maps": [
+												"halls_of_collosia_4"
+											]
+										}
+									},
+									{
+										"title": "Tiny's Hideout",
+										"content": {
+											"type": "map",
+											"maps": [
+												"tinys_hideout"
+											]
+										}
+									}
 								]
 							}
 						},
@@ -143,7 +250,12 @@
 							"content": {
 								"type": "tabbed",
 								"tabs": [
-									
+									{
+										"title": "Soon™",
+										"content": {
+											"type": "container"
+										}
+									}
 								]
 							}
 						},
@@ -152,7 +264,12 @@
 							"content": {
 								"type": "tabbed",
 								"tabs": [
-									
+									{
+										"title": "Soon™",
+										"content": {
+											"type": "container"
+										}
+									}
 								]
 							}
 						}

@@ -1,0 +1,1769 @@
+[
+    {
+        "name": "Eastern Beach",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "200 Jewels Gourd",
+                "map_locations": [
+                    {
+                        "map": "eastern_beach",
+                        "x": 480,
+                        "y": 385
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Call Bead Gourd",
+                "map_locations": [
+                    {
+                        "map": "eastern_beach",
+                        "x": 447,
+                        "y": 337
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Blimp's Cave",
+                "map_locations": [
+                    {
+                        "map": "eastern_beach",
+                        "x": 167,
+                        "y": 195
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crush",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Revive",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "access_rules": [
+                            "vigor"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Desert of Doom",
+                "map_locations": [
+                    {
+                        "map": "eastern_beach",
+                        "x": 330,
+                        "y": 0
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Sting",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Crustacia",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "crustacia",
+                        "x": 395,
+                        "y": 493
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Item Shop House",
+                "map_locations": [
+                    {
+                        "map": "crustacia",
+                        "x": 710,
+                        "y": 345
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "crustacia",
+                        "x": 597,
+                        "y": 83
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Armor Shop House",
+                "map_locations": [
+                    {
+                        "map": "crustacia",
+                        "x": 383,
+                        "y": 273
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Inn House",
+                "map_locations": [
+                    {
+                        "map": "crustacia",
+                        "x": 150,
+                        "y": 83
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "River",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "Drain Cave",
+                "map_locations": [
+                    {
+                        "map": "river",
+                        "x": 520,
+                        "y": 85
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Drain",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "access_rules": [
+                            "$hasBronzeAxeOrHigher"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Double Drain",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "access_rules": [
+                            "$hasBronzeAxeOrHigher, diamond_eyes_2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Western Beach",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "Horace Camp",
+                "map_locations": [
+                    {
+                        "map": "western_beach",
+                        "x": 0,
+                        "y": 375
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Revealer",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Escape",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "access_rules": [
+                            "[revealer], rimsala",
+                            "[revealer], megataur"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Oglin Tunnel Gourd",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "aegis"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aquagoth",
+                        "hosted_item": "aquagoth",
+                        "access_rules": [
+                            "aegis"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Water Gourd",
+                "map_locations": [
+                    {
+                        "map": "western_beach",
+                        "x": 530,
+                        "y": 705
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "$hasBronzeAxeOrHigher"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Water Gourd",
+                "map_locations": [
+                    {
+                        "map": "western_beach",
+                        "x": 575,
+                        "y": 350
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "$hasBronzeAxeOrHigher"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Limestone Gourd",
+                "map_locations": [
+                    {
+                        "map": "western_beach",
+                        "x": 605,
+                        "y": 380
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "$hasBronzeAxeOrHigher"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wax Gourd",
+                "map_locations": [
+                    {
+                        "map": "western_beach",
+                        "x": 655,
+                        "y": 435
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "access_rules": [
+                            "$hasBronzeAxeOrHigher"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pyramid (lower)",
+        "access_rules": [
+            "$canCutBushes, [revealer]",
+            "$canCutBushes, aegis"
+        ],
+        "children": [
+            {
+                "name": "Nectar Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 225,
+                        "y": 340
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dry Ice Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 50,
+                        "y": 100
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wings Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 50,
+                        "y": 515
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wings Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 50,
+                        "y": 560
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dog Biscuit Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 288,
+                        "y": 945
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pixie Dust Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 303,
+                        "y": 755
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bone Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 365,
+                        "y": 755
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wax Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 430,
+                        "y": 755
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dog Biscuit Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 895,
+                        "y": 640
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Petal Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 735,
+                        "y": 640
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sons of Anhur",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 675,
+                        "y": 285
+                    }
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "sons_of_anhur"
+                    }
+                ]
+            },
+            {
+                "name": "Vinegar Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 1245,
+                        "y": 100
+                    }
+                ],
+                "access_rules": [
+                    "axe_2"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Limestone Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 1280,
+                        "y": 100
+                    }
+                ],
+                "access_rules": [
+                    "axe_2"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Honey Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 1310,
+                        "y": 100
+                    }
+                ],
+                "access_rules": [
+                    "axe_2"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ash Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 1345,
+                        "y": 100
+                    }
+                ],
+                "access_rules": [
+                    "axe_2"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Root Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 1375,
+                        "y": 100
+                    }
+                ],
+                "access_rules": [
+                    "axe_2"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Regenerate Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 1648,
+                        "y": 210
+                    }
+                ],
+                "access_rules": [
+                    "axe_2"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Call Bead Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 1490,
+                        "y": 785
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Essence Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_lower",
+                        "x": 1200,
+                        "y": 1090
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pyramid (upper)",
+        "access_rules": [
+            "$canCutBushes, [revealer]",
+            "$canCutBushes, aegis"
+        ],
+        "children": [
+            {
+                "name": "Limestone Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 1455,
+                        "y": 100
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 1345,
+                        "y": 100
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Call Bead Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 1025,
+                        "y": 100
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Petal Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 925,
+                        "y": 125
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Iron Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 895,
+                        "y": 125
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Nectar Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 830,
+                        "y": 750
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Feather Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 560,
+                        "y": 800
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dog Biscuit Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 560,
+                        "y": 705
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Essence Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 560,
+                        "y": 610
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Acorn Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 400,
+                        "y": 800
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meteorite Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 400,
+                        "y": 705
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Clay Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 400,
+                        "y": 610
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gunpowder Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 335,
+                        "y": 800
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Grease Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 335,
+                        "y": 705
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wings Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 335,
+                        "y": 610
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ethanol Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 175,
+                        "y": 800
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dry Ice Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 175,
+                        "y": 705
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Nectar Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 175,
+                        "y": 610
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Limestone Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 110,
+                        "y": 800
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Essence Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 110,
+                        "y": 705
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Water Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 110,
+                        "y": 610
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Petal Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 175,
+                        "y": 225
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Honey Gourd",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 895,
+                        "y": 435
+                    }
+                ],
+                "access_rules": [
+                    "axe_2"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rimsala",
+                "map_locations": [
+                    {
+                        "map": "pyramid_upper",
+                        "x": 1120,
+                        "y": 510
+                    }
+                ],
+                "access_rules": [
+                    "axe_2"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "rimsala"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tiny's Hideout",
+        "access_rules": [
+            "$canCutBushes, aegis"
+        ],
+        "children": [
+            {
+                "name": "Call Bead Gourd",
+                "map_locations": [
+                    {
+                        "map": "tinys_hideout",
+                        "x": 625,
+                        "y": 785
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Honey Gourd",
+                "map_locations": [
+                    {
+                        "map": "tinys_hideout",
+                        "x": 95,
+                        "y": 225
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Essence Gourd",
+                "map_locations": [
+                    {
+                        "map": "tinys_hideout",
+                        "x": 175,
+                        "y": 255
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pixie Dust Gourd",
+                "map_locations": [
+                    {
+                        "map": "tinys_hideout",
+                        "x": 625,
+                        "y": 175
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dog Biscuit Gourd",
+                "map_locations": [
+                    {
+                        "map": "tinys_hideout",
+                        "x": 1535,
+                        "y": 480
+                    }
+                ],
+                "access_rules": [
+                    "$hasBronzeAxeOrHigher"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wings Gourd",
+                "map_locations": [
+                    {
+                        "map": "tinys_hideout",
+                        "x": 625,
+                        "y": 480
+                    }
+                ],
+                "access_rules": [
+                    "$hasKnightBasherOrHigher"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ethanol Gourd",
+                "map_locations": [
+                    {
+                        "map": "tinys_hideout",
+                        "x": 625,
+                        "y": 365
+                    }
+                ],
+                "access_rules": [
+                    "$hasKnightBasherOrHigher"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Tiny",
+                "map_locations": [
+                    {
+                        "map": "tinys_hideout",
+                        "x": 1000,
+                        "y": 215
+                    }
+                ],
+                "access_rules": [
+                    "levitate"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "tiny"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Halls of Collosia 1",
+        "access_rules": [
+            "$canCutBushes, [revealer]"
+        ],
+        "children": [
+            {
+                "name": "Vinegar Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_1",
+                        "x": 225,
+                        "y": 80
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Nectar Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_1",
+                        "x": 465,
+                        "y": 80
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Megataur",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_1",
+                        "x": 335,
+                        "y": 0
+                    }
+                ],
+                "access_rules": [
+                    "$hasBronzeSpearOrHigher"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "megataur"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Halls of Collosia 2",
+        "access_rules": [
+            "$canCutBushes, [revealer]"
+        ],
+        "children": [
+            {
+                "name": "Ash Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_2",
+                        "x": 750,
+                        "y": 560
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Brimstone Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_2",
+                        "x": 465,
+                        "y": 995
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pixie Dust Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_2",
+                        "x": 95,
+                        "y": 1265
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Call Bead Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_2",
+                        "x": 385,
+                        "y": 1395
+                    }
+                ],
+                "access_rules": [
+                    "$hasBronzeAxeOrHigher"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Halls of Collosia 3",
+        "access_rules": [
+            "$canCutBushes, [revealer]"
+        ],
+        "children": [
+            {
+                "name": "Wings Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_3",
+                        "x": 115,
+                        "y": 975
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Nectar Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_3",
+                        "x": 190,
+                        "y": 975
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Brimstone Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_3",
+                        "x": 400,
+                        "y": 815
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Honey Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_3",
+                        "x": 560,
+                        "y": 930
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Halls of Collosia 4",
+        "access_rules": [
+            "$canCutBushes, [revealer], jaguar_ring"
+        ],
+        "children": [
+            {
+                "name": "Wax Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_4",
+                        "x": 225,
+                        "y": 130
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ash Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_4",
+                        "x": 385,
+                        "y": 515
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wax Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_4",
+                        "x": 1535,
+                        "y": 1135
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Brimstone Gourd",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_4",
+                        "x": 1505,
+                        "y": 1135
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fireball",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_4",
+                        "x": 1445,
+                        "y": 1325
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Mad Monk",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_4",
+                        "x": 635,
+                        "y": 1015
+                    }
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "mad_monk"
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "name": "Nobilia",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "Heal",
+                "map_locations": [
+                    {
+                        "map": "nobilia",
+                        "x": 475,
+                        "y": 100
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Colosseum",
+                "map_locations": [
+                    {
+                        "map": "nobilia",
+                        "x": 385,
+                        "y": 0
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Jail Gourds",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 8
+                    },
+                    {            
+                        "name": "Vigor",
+                        "hosted_item": "vigor"
+                    }
+                ]
+            },
+            {
+                "name": "Aegis",
+                "map_locations": [
+                    {
+                        "map": "nobilia",
+                        "x": 1120,
+                        "y": 345
+                    }
+                ],
+                "access_rules": [
+                    "vigor, diamond_eyes_2"
+                ],
+                "sections": [
+                    {                        
+                        "hosted_item": "aegis"
+                    }
+                ]
+            },
+            {
+                "name": "Barrier",
+                "map_locations": [
+                    {
+                        "map": "nobilia",
+                        "x": 1125,
+                        "y": 32
+                    }
+                ],
+                "access_rules": [
+                    "aegis"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

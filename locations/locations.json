@@ -469,7 +469,7 @@
                         "name": "Aegis",
                         "hosted_item": "aegis",
                         "access_rules": [
-                            "diamond_eyes_2"
+                            "vigor, diamond_eyes_2"
                         ]
                     },
                     {
@@ -516,7 +516,8 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes, [revealer]"
+                    "$canCutBushes, [revealer]",
+                    "$canCutBushes, aegis"
                 ],
                 "sections": [
                     {
@@ -594,11 +595,17 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",
+                        "access_rules": [
+                            "jaguar_ring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mad Monk",
-                        "hosted_item": "mad_monk"
+                        "hosted_item": "mad_monk",
+                        "access_rules": [
+                            "jaguar_ring"
+                        ]
                     },
                     {
                         "name": "Megataur",
@@ -619,7 +626,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes, [revealer], aegis"
+                    "$canCutBushes, aegis"
                 ],
                 "sections": [
                     {
@@ -668,7 +675,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes, [revealer], aegis"
+                    "$canCutBushes, aegis"
                 ],
                 "sections": [
                     {

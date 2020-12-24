@@ -52,5 +52,77 @@
         "location_size": 48,
         "location_border_thickness": 4,
         "img": "images/maps/volcano_sewers.png"
-    }
+    },
+    {
+        "name": "eastern_beach",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/eastern_beach.png"
+    },
+    {
+        "name": "crustacia",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/crustacia.png"
+    },
+    {
+        "name": "nobilia",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/nobilia.png"
+    },
+    {
+        "name": "river",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/river.png"
+    },
+    {
+        "name": "western_beach",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/western_beach.png"
+    },
+    {
+        "name": "pyramid_lower",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/pyramid_lower.png"
+    },
+    {
+        "name": "pyramid_upper",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/pyramid_upper.png"
+    },
+    {
+        "name": "halls_of_collosia_1",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/halls_of_collosia_1.png"
+    },
+    {
+        "name": "halls_of_collosia_2",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/halls_of_collosia_2.png"
+    },
+    {
+        "name": "halls_of_collosia_3",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/halls_of_collosia_3.png"
+    },
+    {
+        "name": "halls_of_collosia_4",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/halls_of_collosia_4.png"
+    },
+    {
+        "name": "tinys_hideout",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/tinys_hideout.png"
+    }    
 ]
