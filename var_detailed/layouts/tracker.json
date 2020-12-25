@@ -251,9 +251,93 @@
 								"type": "tabbed",
 								"tabs": [
 									{
-										"title": "Soon™",
+										"title": "Ebon Keep Interiors",
 										"content": {
-											"type": "container"
+											"type": "map",
+											"maps": [
+												"ebon_keep_interiors"
+											]
+										}
+									},
+									{
+										"title": "Ebon Keep",
+										"content": {
+											"type": "map",
+											"maps": [
+												"ebon_keep"
+											]
+										}
+									},									
+									{
+										"title": "Ebon Keep Sewers",
+										"content": {
+											"type": "map",
+											"maps": [
+												"ebon_keep_sewers"
+											]
+										}
+									},
+									{
+										"title": "Dark Forest 1",
+										"content": {
+											"type": "map",
+											"maps": [
+												"dark_forest_1"
+											]
+										}
+									},
+									{
+										"title": "Dark Forest 2",
+										"content": {
+											"type": "map",
+											"maps": [
+												"dark_forest_2"
+											]
+										}
+									},
+									{
+										"title": "Chessboard",
+										"content": {
+											"type": "map",
+											"maps": [
+												"chessboard"
+											]
+										}
+									},	
+									{
+										"title": "Ivor Tower Interiors",
+										"content": {
+											"type": "map",
+											"maps": [
+												"ivor_tower_interiors"
+											]
+										}
+									},								
+									{
+										"title": "Ivor Tower",
+										"content": {
+											"type": "map",
+											"maps": [
+												"ivor_tower"
+											]
+										}
+									},									
+									{
+										"title": "Ivor Tower Sewers",
+										"content": {
+											"type": "map",
+											"maps": [
+												"ivor_tower_sewers"
+											]
+										}
+									},
+									{
+										"title": "Gomi Tower",
+										"content": {
+											"type": "map",
+											"maps": [
+												"gomi_tower"
+											]
 										}
 									}
 								]

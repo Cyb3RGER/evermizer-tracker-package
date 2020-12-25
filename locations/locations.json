@@ -403,7 +403,7 @@
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
-                            "$hasBronzeAxeOrHigher, diamond_eyes_2"
+                            "$hasBronzeAxeOrHigher, aegis"
                         ],
                         "item_count": 1
                     },
@@ -857,8 +857,7 @@
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
-                            "aeroglider",
-                            "oracle_bone"
+                            "aeroglider, oracle_bone"
                         ],
                         "item_count": 1
                     }

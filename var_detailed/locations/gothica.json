@@ -1,0 +1,1329 @@
+[
+    {
+        "name": "Ebon Keep Interiors",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "Slow Burn",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 2270,
+                        "y": 270
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Explosion / Nitro",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 2295,
+                        "y": 520
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Explosion",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nitro",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "access_rules": [
+                            "aeroglider"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Knight Basher / Atom Smasher Gourd",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 2240,
+                        "y": 500
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Call Bead Gourd",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 945,
+                        "y": 1315
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Super Heal",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 815,
+                        "y": 1110
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gold Coins Gourd",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 175,
+                        "y": 1060
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oil Gourd",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 225,
+                        "y": 580
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Acorn Gourd",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 2095,
+                        "y": 1555
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Feather Gourd",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 1885,
+                        "y": 1505
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Brimstone Gourd",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 1935,
+                        "y": 1505
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Verminator",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 2370,
+                        "y": 975
+                    }
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "verminator"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ebon Keep",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep",
+                        "x": 1200,
+                        "y": 1540
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep",
+                        "x": 1280,
+                        "y": 1125
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep",
+                        "x": 880,
+                        "y": 1125
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep",
+                        "x": 480,
+                        "y": 1125
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Inn / Shop House",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep",
+                        "x": 450,
+                        "y": 790
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep",
+                        "x": 925,
+                        "y": 790
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 3
+                    }
+                ]
+            },
+            {
+                "name": "Lance' House",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep",
+                        "x": 1295,
+                        "y": 790
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lance",
+                        "hosted_item": "lance"
+                    },
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 3
+                    }
+                ]
+            },
+            {
+                "name": "Regrowth Lady's hidden room",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep",
+                        "x": 1435,
+                        "y": 245
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Regrowth",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep",
+                        "x": 1135,
+                        "y": 325
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ebon Keep Sewers",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "Ash Gourd",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_sewers",
+                        "x": 785,
+                        "y": 855
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pixie Dust Gourd",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_sewers",
+                        "x": 815,
+                        "y": 855
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Acorn Gourd",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_sewers",
+                        "x": 1455,
+                        "y": 1205
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Water Gourd",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_sewers",
+                        "x": 1487,
+                        "y": 1205
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ethanol Gourd",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_sewers",
+                        "x": 1520,
+                        "y": 1205
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dark Forest 1",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "One Up",
+                "map_locations": [
+                    {
+                        "map": "dark_forest_1",
+                        "x": 2550,
+                        "y": 4695
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bad Boys",
+                "map_locations": [
+                    {
+                        "map": "dark_forest_1",
+                        "x": 4080,
+                        "y": 5435
+                    }
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "bad_boys"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dark Forest 2",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "Timberdrake",
+                "map_locations": [
+                    {
+                        "map": "dark_forest_2",
+                        "x": 2825,
+                        "y": 215
+                    }
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "timberdrake"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Chessboard",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "Below the Chessboard",
+                "map_locations": [
+                    {
+                        "map": "chessboard",
+                        "x": 755,
+                        "y": 600
+                    }
+                ],
+                "access_rules": [
+                    "aeroglider"
+                ],
+                "sections": [
+                    {
+                        "name": "Force Field",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stop",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "access_rules": [
+                            "oracle_bone"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Energy Core",
+                        "hosted_item": "energy_core"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ivor Tower Interiors",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "Wings Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 2575,
+                        "y": 1045
+                    }
+                ],
+                "access_rules":[
+                    "queens_key"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dog Biscuit Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 1810,
+                        "y": 1080
+                    }
+                ],
+                "access_rules":[
+                    "queens_key"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 2975,
+                        "y": 675
+                    }
+                ],
+                "access_rules":[
+                    "queens_key"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Honey Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 2895,
+                        "y": 275
+                    }
+                ],
+                "access_rules":[
+                    "queens_key"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Iron Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 2670,
+                        "y": 275
+                    }
+                ],
+                "access_rules":[
+                    "queens_key"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Acorn Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 2080,
+                        "y": 275
+                    }
+                ],
+                "access_rules":[
+                    "queens_key"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fire Power",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 1825,
+                        "y": 705
+                    }
+                ],
+                "access_rules":[
+                    "queens_key"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wax Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 1165,
+                        "y": 275
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Root Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 3710,
+                        "y": 820
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wax Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 925,
+                        "y": 355
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Water Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 575,
+                        "y": 355
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Mungola",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 32,
+                        "y": 375
+                    }
+                ],
+                "access_rules":[
+                    "queens_key"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "mungola"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ivor Tower",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower",
+                        "x": 1200,
+                        "y": 1540
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower",
+                        "x": 1280,
+                        "y": 1125
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower",
+                        "x": 880,
+                        "y": 1125
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower",
+                        "x": 480,
+                        "y": 1125
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Inn / Shop House",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower",
+                        "x": 450,
+                        "y": 790
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower",
+                        "x": 925,
+                        "y": 790
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 3
+                    }
+                ]
+            },
+            {
+                "name": "Lance' House",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower",
+                        "x": 1295,
+                        "y": 790
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lance",
+                        "hosted_item": "lance"
+                    },
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 3
+                    }
+                ]
+            },
+            {
+                "name": "Hidden room",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower",
+                        "x": 1435,
+                        "y": 245
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Hidden room",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower",
+                        "x": 1175,
+                        "y": 595
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 3
+                    }
+                ]
+            },
+            {
+                "name": "House",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower",
+                        "x": 1135,
+                        "y": 325
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ivor Tower Sewers",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [
+            {
+                "name": "Water Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_sewers",
+                        "x": 271,
+                        "y": 1205
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Acorn Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_sewers",
+                        "x": 303,
+                        "y": 1205
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Iron Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_sewers",
+                        "x": 335,
+                        "y": 1205
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Honey Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_sewers",
+                        "x": 975,
+                        "y": 850
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_sewers",
+                        "x": 1010,
+                        "y": 850
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oil Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_sewers",
+                        "x": 1265,
+                        "y": 1330
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dog Biscuit Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_sewers",
+                        "x": 1645,
+                        "y": 180
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Call Bead Gourd",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_sewers",
+                        "x": 1710,
+                        "y": 180
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Corrosion",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_sewers",
+                        "x": 1680,
+                        "y": 250
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gomi Tower",
+        "access_rules": [
+            "$canCutBushes, axe_3"
+        ],
+        "children": [
+            {
+                "name": "Ash Gourd",
+                "map_locations": [
+                    {
+                        "map": "gomi_tower",
+                        "x": 460,
+                        "y": 1125
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Acorn Gourd",
+                "map_locations": [
+                    {
+                        "map": "gomi_tower",
+                        "x": 815,
+                        "y": 1255
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Feather Gourd",
+                "map_locations": [
+                    {
+                        "map": "gomi_tower",
+                        "x": 225,
+                        "y": 615
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ethanol Gourd",
+                "map_locations": [
+                    {
+                        "map": "gomi_tower",
+                        "x": 780,
+                        "y": 1120
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sterling",
+                "map_locations": [
+                    {
+                        "map": "gomi_tower",
+                        "x": 520,
+                        "y": 100
+                    }
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "sterling"
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Storm",
+                "map_locations": [
+                    {
+                        "map": "gomi_tower",
+                        "x": 400,
+                        "y": 175
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1
+                    }
+                ]
+            }
+            
+        ]
+    }
+]

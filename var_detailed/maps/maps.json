@@ -67,8 +67,8 @@
     },
     {
         "name": "nobilia",
-        "location_size": 24,
-        "location_border_thickness": 2,
+        "location_size": 48,
+        "location_border_thickness": 4,
         "img": "images/maps/nobilia.png"
     },
     {
@@ -79,50 +79,110 @@
     },
     {
         "name": "western_beach",
-        "location_size": 24,
-        "location_border_thickness": 2,
+        "location_size": 32,
+        "location_border_thickness": 3,
         "img": "images/maps/western_beach.png"
     },
     {
         "name": "pyramid_lower",
-        "location_size": 24,
-        "location_border_thickness": 2,
+        "location_size": 32,
+        "location_border_thickness": 3,
         "img": "images/maps/pyramid_lower.png"
     },
     {
         "name": "pyramid_upper",
-        "location_size": 24,
-        "location_border_thickness": 2,
+        "location_size": 32,
+        "location_border_thickness": 3,
         "img": "images/maps/pyramid_upper.png"
     },
     {
         "name": "halls_of_collosia_1",
-        "location_size": 24,
-        "location_border_thickness": 2,
+        "location_size": 32,
+        "location_border_thickness": 3,
         "img": "images/maps/halls_of_collosia_1.png"
     },
     {
         "name": "halls_of_collosia_2",
-        "location_size": 24,
-        "location_border_thickness": 2,
+        "location_size": 48,
+        "location_border_thickness": 4,
         "img": "images/maps/halls_of_collosia_2.png"
     },
     {
         "name": "halls_of_collosia_3",
-        "location_size": 24,
-        "location_border_thickness": 2,
+        "location_size": 48,
+        "location_border_thickness": 4,
         "img": "images/maps/halls_of_collosia_3.png"
     },
     {
         "name": "halls_of_collosia_4",
-        "location_size": 24,
-        "location_border_thickness": 2,
+        "location_size": 48,
+        "location_border_thickness": 4,
         "img": "images/maps/halls_of_collosia_4.png"
     },
     {
         "name": "tinys_hideout",
-        "location_size": 24,
-        "location_border_thickness": 2,
+        "location_size": 32,
+        "location_border_thickness": 3,
         "img": "images/maps/tinys_hideout.png"
-    }    
+    },
+    {
+        "name": "ebon_keep_interiors",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/ebon_keep_interiors.png"
+    },
+    {
+        "name": "ebon_keep",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/ebon_keep.png"
+    },
+    {
+        "name": "ebon_keep_sewers",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/ebon_keep_sewers.png"
+    },
+    {
+        "name": "dark_forest_1",
+        "location_size": 128,
+        "location_border_thickness": 12,
+        "img": "images/maps/dark_forest_1.png"
+    },
+    {
+        "name": "dark_forest_2",
+        "location_size": 64,
+        "location_border_thickness": 6,
+        "img": "images/maps/dark_forest_2.png"
+    },
+    {
+        "name": "chessboard",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/chessboard.png"
+    },
+    {
+        "name": "ivor_tower_interiors",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/ivor_tower_interiors.png"
+    },
+    {
+        "name": "ivor_tower",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/ivor_tower.png"
+    },
+    {
+        "name": "ivor_tower_sewers",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/ivor_tower_sewers.png"
+    },
+    {
+        "name": "gomi_tower",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/gomi_tower.png"
+    }
 ]
