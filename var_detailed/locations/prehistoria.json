@@ -696,7 +696,7 @@
                 ]
             },
             {
-                "name": "Thraxx",
+                "name": "Thraxx / Coleoptra",
                 "map_locations": [
                     {
                         "map": "bugmuck",
@@ -706,7 +706,15 @@
                 ],
                 "sections": [
                     {
+                        "name": "Thraxx",
                         "hosted_item": "thraxx"
+                    },
+                    {
+                        "name": "Coleoptera",
+                        "hosted_item": "coleoptera",
+                        "access_rules": [
+                            "thraxx"
+                        ]
                     }
                 ]
             },

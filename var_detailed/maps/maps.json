@@ -126,6 +126,12 @@
         "img": "images/maps/tinys_hideout.png"
     },
     {
+        "name": "oglin_tunnel",
+        "location_size": 64,
+        "location_border_thickness": 6,
+        "img": "images/maps/oglin_tunnel.png"
+    },
+    {
         "name": "ebon_keep_interiors",
         "location_size": 48,
         "location_border_thickness": 4,
@@ -172,6 +178,12 @@
         "location_size": 48,
         "location_border_thickness": 4,
         "img": "images/maps/ivor_tower.png"
+    },
+    {
+        "name": "ivor_tower_south",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/ivor_tower_south.png"
     },
     {
         "name": "ivor_tower_sewers",

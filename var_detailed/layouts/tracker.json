@@ -241,6 +241,15 @@
 												"tinys_hideout"
 											]
 										}
+									},
+									{
+										"title": "Oglin Tunnel",
+										"content": {
+											"type": "map",
+											"maps": [
+												"oglin_tunnel"
+											]
+										}
 									}
 								]
 							}
@@ -319,6 +328,15 @@
 											"type": "map",
 											"maps": [
 												"ivor_tower"
+											]
+										}
+									},
+									{
+										"title": "Ivor Tower South",
+										"content": {
+											"type": "map",
+											"maps": [
+												"ivor_tower_south"
 											]
 										}
 									},									
