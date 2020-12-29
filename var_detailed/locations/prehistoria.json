@@ -57,7 +57,7 @@
                 ]
             },
             {
-                "name": "Petal Gourd",
+                "name": "Petal Gourd 2",
                 "map_locations": [
                     {
                         "map": "southern_jungle",
@@ -461,7 +461,7 @@
                 ]
             },
             {
-                "name": "Clay Gourd",
+                "name": "Clay Gourd 2",
                 "map_locations": [
                     {
                         "map": "quick_sand_fields",
@@ -634,7 +634,7 @@
                 ]
             },
             {
-                "name": "Petal Gourd",
+                "name": "Petal Gourd 2",
                 "map_locations": [
                     {
                         "map": "bugmuck",
@@ -719,7 +719,7 @@
                 ]
             },
             {
-                "name": "Crystal Gourd",
+                "name": "Crystal Gourd 2",
                 "map_locations": [
                     {
                         "map": "bugmuck",
@@ -1032,7 +1032,7 @@
                 ]
             },
             {
-                "name": "Water Gourd",
+                "name": "Water Gourd 2",
                 "map_locations": [
                     {
                         "map": "swamp",
@@ -1187,6 +1187,13 @@
                 "sections": [
                     {
                         "hosted_item": "salabog"
+                    },
+                    {
+                        "name": "Gourds in Blimps House",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 3
                     }
                 ]
             }
@@ -1307,7 +1314,7 @@
                 ]
             },
             {
-                "name": "Mud Pepper Gourd",
+                "name": "Mud Pepper Gourd 2",
                 "map_locations": [
                     {
                         "map": "volcano_core",
@@ -1343,7 +1350,7 @@
                 ]
             },
             {
-                "name": "Root Gourd",
+                "name": "Root Gourd 2",
                 "map_locations": [
                     {
                         "map": "volcano_core",
@@ -1379,7 +1386,7 @@
                 ]
             },
             {
-                "name": "Water Gourd",
+                "name": "Water Gourd 2",
                 "map_locations": [
                     {
                         "map": "volcano_core",
@@ -1397,7 +1404,7 @@
                 ]
             },
             {
-                "name": "Water Gourd",
+                "name": "Water Gourd 3",
                 "map_locations": [
                     {
                         "map": "volcano_core",
@@ -1451,7 +1458,7 @@
                 ]
             },
             {
-                "name": "Ash Gourd",
+                "name": "Ash Gourd 2",
                 "map_locations": [
                     {
                         "map": "volcano_core",
@@ -1469,7 +1476,7 @@
                 ]
             },
             {
-                "name": "Wax Gourd",
+                "name": "Wax Gourd 2",
                 "map_locations": [
                     {
                         "map": "volcano_core",
@@ -1487,7 +1494,7 @@
                 ]
             },
             {
-                "name": "Ash Gourd",
+                "name": "Ash Gourd 3",
                 "map_locations": [
                     {
                         "map": "volcano_core",
@@ -1564,7 +1571,7 @@
                 ]
             },
             {
-                "name": "Wax Gourd",
+                "name": "Wax Gourd 2",
                 "map_locations": [
                     {
                         "map": "volcano_sewers",
@@ -1582,7 +1589,7 @@
                 ]
             },
             {
-                "name": "Clay Gourd",
+                "name": "Clay Gourd 2",
                 "map_locations": [
                     {
                         "map": "volcano_sewers",

@@ -58,6 +58,13 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    },
+                    {
                         "name": "Crush",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/alchemy.png",
@@ -210,15 +217,22 @@
                         "y": 85
                     }
                 ],
+                "access_rules": [
+                    "$hasBronzeAxeOrHigher"
+                ],
                 "sections": [
+                    {
+                        "name": "Gourds",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
+                    },
                     {
                         "name": "Drain",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "access_rules": [
-                            "$hasBronzeAxeOrHigher"
-                        ],
+                        "chest_opened_img": "images/locations/alchemy_open.png",                        
                         "item_count": 1
                     },
                     {
@@ -227,7 +241,7 @@
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
-                            "$hasBronzeAxeOrHigher, aegis"
+                            "aegis"
                         ],
                         "item_count": 1
                     }
@@ -293,7 +307,7 @@
                 ]
             },
             {
-                "name": "Water Gourd",
+                "name": "Water Gourd 2",
                 "map_locations": [
                     {
                         "map": "western_beach",
@@ -419,7 +433,7 @@
                 ]
             },
             {
-                "name": "Wings Gourd",
+                "name": "Wings Gourd 2",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -491,7 +505,7 @@
                 ]
             },
             {
-                "name": "Wax Gourd",
+                "name": "Wax Gourd 2",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -509,7 +523,7 @@
                 ]
             },
             {
-                "name": "Dog Biscuit Gourd",
+                "name": "Dog Biscuit Gourd 2",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -581,7 +595,7 @@
                 ]
             },
             {
-                "name": "Limestone Gourd",
+                "name": "Limestone Gourd 2",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -1037,7 +1051,7 @@
                 ]
             },
             {
-                "name": "Nectar Gourd",
+                "name": "Nectar Gourd 2",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1055,7 +1069,7 @@
                 ]
             },
             {
-                "name": "Limestone Gourd",
+                "name": "Limestone Gourd 2",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1073,7 +1087,7 @@
                 ]
             },
             {
-                "name": "Essence Gourd",
+                "name": "Essence Gourd 2",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1109,7 +1123,7 @@
                 ]
             },
             {
-                "name": "Petal Gourd",
+                "name": "Petal Gourd 2",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1596,7 +1610,7 @@
                 ]
             },
             {
-                "name": "Wax Gourd",
+                "name": "Wax Gourd 2",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_4",
