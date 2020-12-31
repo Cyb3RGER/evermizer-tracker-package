@@ -90,9 +90,12 @@
                 "wheel"
             ],
             [
-                "queens_key",
-                "energy_core",
-                "aeroglider"
+                "rocket",                
+                "aeroglider",
+                "energy_core"
+            ],
+            [
+                "queens_key"
             ]
         ]
     },
@@ -141,7 +144,7 @@
                 "magmar",
                 "vigor"
             ],
-            [                
+            [
                 "aegis",
                 "sons_of_anhur",
                 "rimsala",
@@ -195,7 +198,7 @@
                 "spear_4"
             ],
             [
-                "bazooka",                
+                "bazooka",
                 "levitate",
                 "revealer"
             ],
@@ -211,40 +214,59 @@
         "orientation": "vertical",
         "content": [
             {
-                "type": "array",
-                "orientation": "vertical",
+                "type": "dock",
+                "orientation": "horizontal",
                 "content": [
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "content": [
-                            {
-                                "type": "layout",
-                                "key": "items_weapons"
-                            },
-                            {
-                                "type": "layout",
-                                "key": "items_magic"
-                            }
-                        ]
+                        "type": "group",
+                        "header": "Weapons",
+                        "dock": "left",
+                        "content": {
+                            "type": "layout",
+                            "key": "items_weapons"
+                        }
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "content": [
-                            {
-                                "type": "layout",
-                                "key": "items_keyitems"
-                            },
-                            {
-                                "type": "layout",
-                                "key": "items_charms"
-                            },
-                            {
-                                "type": "layout",
-                                "key": "items_bosses"
-                            }
-                        ]
+                        "type": "group",
+                        "header": "Key Items",
+                        "dock": "left",
+                        "content": {
+                            "type": "layout",
+                            "key": "items_keyitems"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Alchemy",
+                        "dock": "right",
+                        "content": {
+                            "type": "layout",
+                            "key": "items_magic"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "dock",
+                "orientation": "horizontal",
+                "content": [
+                    
+                    {
+                        "type": "group",
+                        "header": "Charms",
+                        "content": {
+                            "type": "layout",
+                            "key": "items_charms"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Bosses",
+                        "dock": "right",
+                        "content": {
+                            "type": "layout",
+                            "key": "items_bosses"
+                        }
                     }
                 ]
             }

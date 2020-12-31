@@ -210,6 +210,24 @@
                         "hosted_item": "verminator"
                     }
                 ]
+            },
+            {
+                "name": "Rocket",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 2355,
+                        "y": 200
+                    }
+                ],
+                "access_rules": [
+                    "diamond_eyes_2, gauge, wheel"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "rocket"
+                    }
+                ]
             }
         ]
     },
@@ -631,7 +649,7 @@
                         "x": 2715,
                         "y": 1095
                     }
-                ],                
+                ],
                 "sections": [
                     {
                         "hosted_item": "queens_key"
@@ -647,7 +665,7 @@
                         "y": 1045
                     }
                 ],
-                "access_rules":[
+                "access_rules": [
                     "queens_key"
                 ],
                 "sections": [
@@ -668,7 +686,7 @@
                         "y": 1080
                     }
                 ],
-                "access_rules":[
+                "access_rules": [
                     "queens_key"
                 ],
                 "sections": [
@@ -689,7 +707,7 @@
                         "y": 675
                     }
                 ],
-                "access_rules":[
+                "access_rules": [
                     "queens_key"
                 ],
                 "sections": [
@@ -710,7 +728,7 @@
                         "y": 275
                     }
                 ],
-                "access_rules":[
+                "access_rules": [
                     "queens_key"
                 ],
                 "sections": [
@@ -731,7 +749,7 @@
                         "y": 275
                     }
                 ],
-                "access_rules":[
+                "access_rules": [
                     "queens_key"
                 ],
                 "sections": [
@@ -752,7 +770,7 @@
                         "y": 275
                     }
                 ],
-                "access_rules":[
+                "access_rules": [
                     "queens_key"
                 ],
                 "sections": [
@@ -773,7 +791,7 @@
                         "y": 705
                     }
                 ],
-                "access_rules":[
+                "access_rules": [
                     "queens_key"
                 ],
                 "sections": [
@@ -866,7 +884,7 @@
                         "y": 375
                     }
                 ],
-                "access_rules":[
+                "access_rules": [
                     "sterling"
                 ],
                 "sections": [
@@ -1077,7 +1095,7 @@
         "access_rules": [
             "$canCutBushes"
         ],
-        "children":[
+        "children": [
             {
                 "name": "Aura Gourd",
                 "map_locations": [
@@ -1436,7 +1454,6 @@
                     }
                 ]
             }
-            
         ]
     }
 ]

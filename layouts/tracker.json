@@ -11,16 +11,11 @@
 					"type": "dock",
 					"dock": "bottom",
 					"v_alignment": "stretch",
-					"margin": "0,0,3,0",
+					"margin": "0,0,0,0",
 					"content": [
 						{
-							"type": "group",
-							"header": "Items",
-							"dock": "left",
-							"content": {
-								"type": "layout",
-								"key": "shared_item_grid"
-							}
+							"type": "layout",
+							"key": "shared_item_grid"
 						},
 						{
 							"type": "group",
