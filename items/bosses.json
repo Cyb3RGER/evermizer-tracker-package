@@ -147,5 +147,26 @@
         "img": "images/items/bosses/viper_commander.png",
         "img_mods": "overlay|images/items/bosses/overlay_2.png",
         "codes": "viper_commander_2"
+    },
+    {
+        "name": "Face",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/face.png",        
+        "codes": "face"
+    },
+    {
+        "name": "Mini-Taur",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/mini_taur.png",        
+        "codes": "mini_taur"
+    },
+    {
+        "name": "FootKnight",
+        "type": "toggle",
+        "capturable": true,
+        "img": "images/items/bosses/footknight.png",        
+        "codes": "footknight"
     }
 ]

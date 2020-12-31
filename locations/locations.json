@@ -601,6 +601,10 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Mini-Taur",
+                        "hosted_item": "mini_taur"
+                    },
+                    {
                         "name": "Mad Monk",
                         "hosted_item": "mad_monk",
                         "access_rules": [
@@ -835,6 +839,10 @@
                 ],
                 "sections": [
                     {
+                        "name": "FootKnight",
+                        "hosted_item": "footknight"
+                    },
+                    {
                         "name": "Energy Core",
                         "hosted_item": "energy_core",
                         "access_rules": [
@@ -979,6 +987,10 @@
                             "energy_core"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Face",
+                        "hosted_item": "face"
                     },
                     {
                         "name": "Carltron's Robot",

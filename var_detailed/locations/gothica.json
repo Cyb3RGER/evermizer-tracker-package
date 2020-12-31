@@ -565,6 +565,21 @@
         ],
         "children": [
             {
+                "name": "FootKnight",
+                "map_locations": [
+                    {
+                        "map": "chessboard",
+                        "x": 600,
+                        "y": 505
+                    }
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "footknight"
+                    }
+                ]
+            },
+            {
                 "name": "Below the Chessboard",
                 "map_locations": [
                     {

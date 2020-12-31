@@ -1385,6 +1385,24 @@
                 ]
             },
             {
+                "name": "Mini-Taur",
+                "map_locations": [
+                    {
+                        "map": "halls_of_collosia_1",
+                        "x": 610,
+                        "y": 725
+                    }
+                ],
+                "access_rules": [
+                    "$hasBronzeSpearOrHigher"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "mini_taur"
+                    }
+                ]
+            },
+            {
                 "name": "Megataur",
                 "map_locations": [
                     {

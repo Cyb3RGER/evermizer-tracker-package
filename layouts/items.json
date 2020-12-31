@@ -127,24 +127,25 @@
     },
     "items_bosses": {
         "type": "itemgrid",
-        "h_alignment": "center",        
+        "h_alignment": "center",
         "item_margin": "1,2",
         "item_size": "4,4",
         "rows": [
             [
                 "thraxx",
-                "coleoptera",                
+                "coleoptera",
                 "viper_commander_1",
                 "raptors",
-                "salabog",            
+                "salabog",
                 "viper_commander_2",
-                "magmar"
+                "magmar",
+                "vigor"
             ],
-            [
-                "vigor",
+            [                
                 "aegis",
                 "sons_of_anhur",
                 "rimsala",
+                "mini_taur",
                 "mad_monk",
                 "megataur",
                 "tiny",
@@ -154,9 +155,54 @@
                 "verminator",
                 "timberdrake",
                 "bad_boys",
+                "footknight",
                 "sterling",
                 "mungola",
+                "face",
                 "carltrons_robot"
+            ]
+        ]
+    },
+    "items_compact": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "item_size": "4,4",
+        "rows": [
+            [
+                "diamond_eyes",
+                "gauge",
+                "wheel",
+                "energy_core",
+                "aeroglider"
+            ],
+            [
+                "sword_1",
+                "sword_2",
+                "sword_3",
+                "sword_4"
+            ],
+            [
+                "axe_1",
+                "axe_2",
+                "axe_3",
+                "axe_4"
+            ],
+            [
+                "spear_1",
+                "spear_2",
+                "spear_3",
+                "spear_4"
+            ],
+            [
+                "bazooka",                
+                "levitate",
+                "revealer"
+            ],
+            [
+                "queens_key",
+                "jaguar_ring",
+                "oracle_bone"
             ]
         ]
     },
@@ -201,6 +247,16 @@
                         ]
                     }
                 ]
+            }
+        ]
+    },
+    "compact_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "layout",
+                "key": "items_compact"
             }
         ]
     }

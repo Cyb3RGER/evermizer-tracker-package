@@ -127,7 +127,7 @@
 										}
 									}
 								]
-							}							
+							}
 						},
 						{
 							"title": "Antiqua",
@@ -276,7 +276,7 @@
 												"ebon_keep"
 											]
 										}
-									},									
+									},
 									{
 										"title": "Ebon Keep Sewers",
 										"content": {
@@ -312,7 +312,7 @@
 												"chessboard"
 											]
 										}
-									},	
+									},
 									{
 										"title": "Ivor Tower Interiors",
 										"content": {
@@ -321,7 +321,7 @@
 												"ivor_tower_interiors"
 											]
 										}
-									},								
+									},
 									{
 										"title": "Ivor Tower",
 										"content": {
@@ -339,7 +339,7 @@
 												"ivor_tower_south"
 											]
 										}
-									},									
+									},
 									{
 										"title": "Ivor Tower Sewers",
 										"content": {
@@ -364,14 +364,9 @@
 						{
 							"title": "Omnitopia",
 							"content": {
-								"type": "tabbed",
-								"tabs": [
-									{
-										"title": "Soon™",
-										"content": {
-											"type": "container"
-										}
-									}
+								"type": "map",
+								"maps": [
+									"main_district"
 								]
 							}
 						}

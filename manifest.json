@@ -15,8 +15,8 @@
     "var_itemsonly": {
       "display_name": "Items Only"
     },
-    "var_itemsonly_simplyfied": {
-      "display_name": "Items Only - Simplyfied"
+    "var_itemsonly_compact": {
+      "display_name": "Items Only - Compact"
     }
   }
 }

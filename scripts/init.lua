@@ -1,6 +1,6 @@
 local variant = Tracker.ActiveVariantUID
 local items_only = variant:find("itemsonly")
-local simplyfied = variant:find("itemsonly_simplyfied")
+local compact = variant:find("itemsonly_compact")
 local detailed = variant:find("detailed")
 debug = false
 

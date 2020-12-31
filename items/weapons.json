@@ -1,8 +1,8 @@
 [
-    //swords    
+    //swords
     {
         "name": "Bone Crusher",
-        "type": "toggle",
+        "type": "static",        
         "capturable": true,
         "img": "images/items/weapons/sword_1.png",
         "codes": "sword_1"

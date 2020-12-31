@@ -196,5 +196,11 @@
         "location_size": 48,
         "location_border_thickness": 4,
         "img": "images/maps/gomi_tower.png"
+    },
+    {
+        "name": "main_district",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/main_district.png"
     }
 ]
