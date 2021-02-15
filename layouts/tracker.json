@@ -15,7 +15,8 @@
 					"content": [
 						{
 							"type": "layout",
-							"key": "shared_item_grid"
+							"dock": "left",
+							"key": "shared_item_grid"							
 						},
 						{
 							"type": "group",

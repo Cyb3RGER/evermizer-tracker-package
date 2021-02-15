@@ -6,7 +6,7 @@
         ],
         "children": [
             {
-                "name": "200 Jewels Gourd",
+                "name": "Gourd #108",
                 "map_locations": [
                     {
                         "map": "eastern_beach",
@@ -27,7 +27,7 @@
                 ]
             },
             {
-                "name": "Call Bead Gourd",
+                "name": "Gourd #107",
                 "map_locations": [
                     {
                         "map": "eastern_beach",
@@ -58,7 +58,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Gourds",
+                        "name": "Gourds #109-110",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -121,6 +121,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourd #115",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -139,6 +140,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourd #114",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -157,6 +159,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #112-113",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -175,6 +178,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourd #116",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -193,6 +197,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourd #111",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -222,7 +227,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Gourds",
+                        "name": "Gourds #180-181",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -286,7 +291,7 @@
                 ]
             },
             {
-                "name": "Water Gourd",
+                "name": "Gourd #103",
                 "map_locations": [
                     {
                         "map": "western_beach",
@@ -307,7 +312,7 @@
                 ]
             },
             {
-                "name": "Water Gourd 2",
+                "name": "Gourd #104",
                 "map_locations": [
                     {
                         "map": "western_beach",
@@ -328,7 +333,7 @@
                 ]
             },
             {
-                "name": "Limestone Gourd",
+                "name": "Gourd #105",
                 "map_locations": [
                     {
                         "map": "western_beach",
@@ -349,7 +354,7 @@
                 ]
             },
             {
-                "name": "Wax Gourd",
+                "name": "Gourd #106",
                 "map_locations": [
                     {
                         "map": "western_beach",
@@ -379,7 +384,7 @@
         ],
         "children": [
             {
-                "name": "Nectar Gourd",
+                "name": "Gourd #130",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -397,7 +402,7 @@
                 ]
             },
             {
-                "name": "Dry Ice Gourd",
+                "name": "Gourd #133",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -415,7 +420,7 @@
                 ]
             },
             {
-                "name": "Wings Gourd",
+                "name": "Gourd #132",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -433,7 +438,7 @@
                 ]
             },
             {
-                "name": "Wings Gourd 2",
+                "name": "Gourd #131",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -451,7 +456,7 @@
                 ]
             },
             {
-                "name": "Dog Biscuit Gourd",
+                "name": "Gourd #134",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -469,7 +474,7 @@
                 ]
             },
             {
-                "name": "Pixie Dust Gourd",
+                "name": "Gourd #129",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -487,7 +492,7 @@
                 ]
             },
             {
-                "name": "Bone Gourd",
+                "name": "Gourd #117",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -505,7 +510,7 @@
                 ]
             },
             {
-                "name": "Wax Gourd 2",
+                "name": "Gourd #128",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -523,7 +528,7 @@
                 ]
             },
             {
-                "name": "Dog Biscuit Gourd 2",
+                "name": "Gourd #126",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -541,7 +546,7 @@
                 ]
             },
             {
-                "name": "Petal Gourd",
+                "name": "Gourd #127",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -574,7 +579,7 @@
                 ]
             },
             {
-                "name": "Vinegar Gourd",
+                "name": "Gourd #125",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -595,7 +600,7 @@
                 ]
             },
             {
-                "name": "Limestone Gourd 2",
+                "name": "Gourd #123",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -616,7 +621,7 @@
                 ]
             },
             {
-                "name": "Honey Gourd",
+                "name": "Gourd #121",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -637,7 +642,7 @@
                 ]
             },
             {
-                "name": "Ash Gourd",
+                "name": "Gourd #122",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -658,7 +663,7 @@
                 ]
             },
             {
-                "name": "Root Gourd",
+                "name": "Gourd #124",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -679,7 +684,7 @@
                 ]
             },
             {
-                "name": "Regenerate Gourd",
+                "name": "Gourd #118",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -700,7 +705,7 @@
                 ]
             },
             {
-                "name": "Call Bead Gourd",
+                "name": "Gourd #119",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -718,7 +723,7 @@
                 ]
             },
             {
-                "name": "Essence Gourd",
+                "name": "Gourd #120",
                 "map_locations": [
                     {
                         "map": "pyramid_lower",
@@ -745,7 +750,7 @@
         ],
         "children": [
             {
-                "name": "Limestone Gourd",
+                "name": "Gourd #135",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -763,7 +768,7 @@
                 ]
             },
             {
-                "name": "Mushroom Gourd",
+                "name": "Gourd #136",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -781,7 +786,7 @@
                 ]
             },
             {
-                "name": "Call Bead Gourd",
+                "name": "Gourd #137",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -799,7 +804,7 @@
                 ]
             },
             {
-                "name": "Petal Gourd",
+                "name": "Gourd #138",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -817,7 +822,7 @@
                 ]
             },
             {
-                "name": "Iron Gourd",
+                "name": "Gourd #139",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -835,7 +840,7 @@
                 ]
             },
             {
-                "name": "Nectar Gourd",
+                "name": "Gourd #141",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -853,7 +858,7 @@
                 ]
             },
             {
-                "name": "Feather Gourd",
+                "name": "Gourd #142",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -871,7 +876,7 @@
                 ]
             },
             {
-                "name": "Dog Biscuit Gourd",
+                "name": "Gourd #143",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -889,7 +894,7 @@
                 ]
             },
             {
-                "name": "Essence Gourd",
+                "name": "Gourd #144",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -907,7 +912,7 @@
                 ]
             },
             {
-                "name": "Acorn Gourd",
+                "name": "Gourd #145",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -925,7 +930,7 @@
                 ]
             },
             {
-                "name": "Meteorite Gourd",
+                "name": "Gourd #146",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -943,7 +948,7 @@
                 ]
             },
             {
-                "name": "Clay Gourd",
+                "name": "Gourd #147",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -961,7 +966,7 @@
                 ]
             },
             {
-                "name": "Gunpowder Gourd",
+                "name": "Gourd #148",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -979,7 +984,7 @@
                 ]
             },
             {
-                "name": "Grease Gourd",
+                "name": "Gourd #149",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -997,7 +1002,7 @@
                 ]
             },
             {
-                "name": "Wings Gourd",
+                "name": "Gourd #150",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1015,7 +1020,7 @@
                 ]
             },
             {
-                "name": "Ethanol Gourd",
+                "name": "Gourd #151",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1033,7 +1038,7 @@
                 ]
             },
             {
-                "name": "Dry Ice Gourd",
+                "name": "Gourd #152",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1051,7 +1056,7 @@
                 ]
             },
             {
-                "name": "Nectar Gourd 2",
+                "name": "Gourd #153",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1069,7 +1074,7 @@
                 ]
             },
             {
-                "name": "Limestone Gourd 2",
+                "name": "Gourd #154",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1087,7 +1092,7 @@
                 ]
             },
             {
-                "name": "Essence Gourd 2",
+                "name": "Gourd #155",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1105,7 +1110,7 @@
                 ]
             },
             {
-                "name": "Water Gourd",
+                "name": "Gourd #156",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1123,7 +1128,7 @@
                 ]
             },
             {
-                "name": "Petal Gourd 2",
+                "name": "Gourd #157",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1141,7 +1146,7 @@
                 ]
             },
             {
-                "name": "Honey Gourd",
+                "name": "Gourd #140",
                 "map_locations": [
                     {
                         "map": "pyramid_upper",
@@ -1188,7 +1193,7 @@
         ],
         "children": [
             {
-                "name": "Call Bead Gourd",
+                "name": "Gourd #159",
                 "map_locations": [
                     {
                         "map": "tinys_hideout",
@@ -1206,7 +1211,7 @@
                 ]
             },
             {
-                "name": "Honey Gourd",
+                "name": "Gourd #164",
                 "map_locations": [
                     {
                         "map": "tinys_hideout",
@@ -1224,7 +1229,7 @@
                 ]
             },
             {
-                "name": "Essence Gourd",
+                "name": "Gourd #163",
                 "map_locations": [
                     {
                         "map": "tinys_hideout",
@@ -1242,7 +1247,7 @@
                 ]
             },
             {
-                "name": "Pixie Dust Gourd",
+                "name": "Gourd #162",
                 "map_locations": [
                     {
                         "map": "tinys_hideout",
@@ -1260,7 +1265,7 @@
                 ]
             },
             {
-                "name": "Dog Biscuit Gourd",
+                "name": "Gourd #158",
                 "map_locations": [
                     {
                         "map": "tinys_hideout",
@@ -1281,7 +1286,7 @@
                 ]
             },
             {
-                "name": "Wings Gourd",
+                "name": "Gourd #160",
                 "map_locations": [
                     {
                         "map": "tinys_hideout",
@@ -1302,7 +1307,7 @@
                 ]
             },
             {
-                "name": "Ethanol Gourd",
+                "name": "Gourd #161",
                 "map_locations": [
                     {
                         "map": "tinys_hideout",
@@ -1349,7 +1354,7 @@
         ],
         "children": [
             {
-                "name": "Vinegar Gourd",
+                "name": "Gourd #165",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_1",
@@ -1367,7 +1372,7 @@
                 ]
             },
             {
-                "name": "Nectar Gourd",
+                "name": "Gourd #166",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_1",
@@ -1429,7 +1434,7 @@
         ],
         "children": [
             {
-                "name": "Ash Gourd",
+                "name": "Gourd #173",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_2",
@@ -1447,7 +1452,7 @@
                 ]
             },
             {
-                "name": "Brimstone Gourd",
+                "name": "Gourd #172",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_2",
@@ -1465,7 +1470,7 @@
                 ]
             },
             {
-                "name": "Pixie Dust Gourd",
+                "name": "Gourd #170",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_2",
@@ -1483,7 +1488,7 @@
                 ]
             },
             {
-                "name": "Call Bead Gourd",
+                "name": "Gourd #171",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_2",
@@ -1512,7 +1517,7 @@
         ],
         "children": [
             {
-                "name": "Wings Gourd",
+                "name": "Gourd #169",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_3",
@@ -1530,7 +1535,7 @@
                 ]
             },
             {
-                "name": "Nectar Gourd",
+                "name": "Gourd #168",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_3",
@@ -1548,7 +1553,7 @@
                 ]
             },
             {
-                "name": "Brimstone Gourd",
+                "name": "Gourd #167",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_3",
@@ -1566,7 +1571,7 @@
                 ]
             },
             {
-                "name": "Honey Gourd",
+                "name": "Gourd #178",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_3",
@@ -1592,7 +1597,7 @@
         ],
         "children": [
             {
-                "name": "Wax Gourd",
+                "name": "Gourd #174",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_4",
@@ -1610,7 +1615,7 @@
                 ]
             },
             {
-                "name": "Ash Gourd",
+                "name": "Gourd #175",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_4",
@@ -1628,7 +1633,7 @@
                 ]
             },
             {
-                "name": "Wax Gourd 2",
+                "name": "Gourd #176",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_4",
@@ -1646,7 +1651,7 @@
                 ]
             },
             {
-                "name": "Brimstone Gourd",
+                "name": "Gourd #177",
                 "map_locations": [
                     {
                         "map": "halls_of_collosia_4",
@@ -1751,7 +1756,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Jail Gourds",
+                        "name": "Gourds #95-102",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -1811,7 +1816,7 @@
         ],
         "children": [
             {
-                "name": "Oglin Tunnel Gourd",
+                "name": "Gourd #179",
                 "map_locations": [
                     {
                         "map": "oglin_tunnel",

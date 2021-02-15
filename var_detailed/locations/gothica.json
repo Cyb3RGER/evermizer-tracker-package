@@ -53,7 +53,7 @@
                 ]
             },
             {
-                "name": "Knight Basher / Atom Smasher Gourd",
+                "name": "Gourd #251",
                 "map_locations": [
                     {
                         "map": "ebon_keep_interiors",
@@ -71,7 +71,7 @@
                 ]
             },
             {
-                "name": "Call Bead Gourd",
+                "name": "Gourd #252",
                 "map_locations": [
                     {
                         "map": "ebon_keep_interiors",
@@ -107,7 +107,7 @@
                 ]
             },
             {
-                "name": "Gold Coins Gourd",
+                "name": "Gourd #250",
                 "map_locations": [
                     {
                         "map": "ebon_keep_interiors",
@@ -125,7 +125,7 @@
                 ]
             },
             {
-                "name": "Oil Gourd",
+                "name": "Gourd #249",
                 "map_locations": [
                     {
                         "map": "ebon_keep_interiors",
@@ -143,7 +143,7 @@
                 ]
             },
             {
-                "name": "Acorn Gourd",
+                "name": "Gourd #273",
                 "map_locations": [
                     {
                         "map": "ebon_keep_interiors",
@@ -161,7 +161,7 @@
                 ]
             },
             {
-                "name": "Feather Gourd",
+                "name": "Gourd #271",
                 "map_locations": [
                     {
                         "map": "ebon_keep_interiors",
@@ -179,7 +179,7 @@
                 ]
             },
             {
-                "name": "Brimstone Gourd",
+                "name": "Gourd #272",
                 "map_locations": [
                     {
                         "map": "ebon_keep_interiors",
@@ -238,7 +238,7 @@
         ],
         "children": [
             {
-                "name": "House",
+                "name": "House 1",
                 "map_locations": [
                     {
                         "map": "ebon_keep",
@@ -248,6 +248,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #231 & #239",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -256,7 +257,7 @@
                 ]
             },
             {
-                "name": "House",
+                "name": "House 2",
                 "map_locations": [
                     {
                         "map": "ebon_keep",
@@ -266,6 +267,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #233 & #241",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -274,7 +276,7 @@
                 ]
             },
             {
-                "name": "House",
+                "name": "House 3",
                 "map_locations": [
                     {
                         "map": "ebon_keep",
@@ -284,6 +286,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #235 & #243",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -292,7 +295,7 @@
                 ]
             },
             {
-                "name": "House",
+                "name": "House 4",
                 "map_locations": [
                     {
                         "map": "ebon_keep",
@@ -302,6 +305,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #237 & #245",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -320,6 +324,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourd #247",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -328,7 +333,7 @@
                 ]
             },
             {
-                "name": "House",
+                "name": "House 5",
                 "map_locations": [
                     {
                         "map": "ebon_keep",
@@ -338,6 +343,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #207 & #219 & #225",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -360,7 +366,7 @@
                         "hosted_item": "lance_npc"
                     },
                     {
-                        "name": "Gourds",
+                        "name": "Gourds #209 & #221 & #227",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -386,7 +392,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Gourds",
+                        "name": "Gourds #215 & #217",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -395,7 +401,7 @@
                 ]
             },
             {
-                "name": "House",
+                "name": "House 6",
                 "map_locations": [
                     {
                         "map": "ebon_keep",
@@ -405,6 +411,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #211 & #213 & #223 & #229 & #248",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -421,7 +428,7 @@
         ],
         "children": [
             {
-                "name": "Ash Gourd",
+                "name": "Gourd #190",
                 "map_locations": [
                     {
                         "map": "ebon_keep_sewers",
@@ -439,7 +446,7 @@
                 ]
             },
             {
-                "name": "Pixie Dust Gourd",
+                "name": "Gourd #191",
                 "map_locations": [
                     {
                         "map": "ebon_keep_sewers",
@@ -457,7 +464,7 @@
                 ]
             },
             {
-                "name": "Acorn Gourd",
+                "name": "Gourd #192",
                 "map_locations": [
                     {
                         "map": "ebon_keep_sewers",
@@ -475,7 +482,7 @@
                 ]
             },
             {
-                "name": "Water Gourd",
+                "name": "Gourd #193",
                 "map_locations": [
                     {
                         "map": "ebon_keep_sewers",
@@ -493,7 +500,7 @@
                 ]
             },
             {
-                "name": "Ethanol Gourd",
+                "name": "Gourd #194",
                 "map_locations": [
                     {
                         "map": "ebon_keep_sewers",
@@ -657,7 +664,7 @@
                 ]
             },
             {
-                "name": "Wings Gourd",
+                "name": "Gourd #256",
                 "map_locations": [
                     {
                         "map": "ivor_tower_interiors",
@@ -678,7 +685,7 @@
                 ]
             },
             {
-                "name": "Dog Biscuit Gourd",
+                "name": "Gourd #255",
                 "map_locations": [
                     {
                         "map": "ivor_tower_interiors",
@@ -699,7 +706,7 @@
                 ]
             },
             {
-                "name": "Mushroom Gourd",
+                "name": "Gourd #257",
                 "map_locations": [
                     {
                         "map": "ivor_tower_interiors",
@@ -720,7 +727,7 @@
                 ]
             },
             {
-                "name": "Honey Gourd",
+                "name": "Gourd #260",
                 "map_locations": [
                     {
                         "map": "ivor_tower_interiors",
@@ -741,7 +748,7 @@
                 ]
             },
             {
-                "name": "Iron Gourd",
+                "name": "Gourd #259",
                 "map_locations": [
                     {
                         "map": "ivor_tower_interiors",
@@ -762,7 +769,7 @@
                 ]
             },
             {
-                "name": "Acorn Gourd",
+                "name": "Gourd #258",
                 "map_locations": [
                     {
                         "map": "ivor_tower_interiors",
@@ -804,7 +811,7 @@
                 ]
             },
             {
-                "name": "Wax Gourd",
+                "name": "Gourd #261",
                 "map_locations": [
                     {
                         "map": "ivor_tower_interiors",
@@ -822,7 +829,7 @@
                 ]
             },
             {
-                "name": "Root Gourd",
+                "name": "Gourd #262",
                 "map_locations": [
                     {
                         "map": "ivor_tower_interiors",
@@ -840,7 +847,7 @@
                 ]
             },
             {
-                "name": "Wax Gourd 2",
+                "name": "Gourd #254",
                 "map_locations": [
                     {
                         "map": "ivor_tower_interiors",
@@ -858,7 +865,7 @@
                 ]
             },
             {
-                "name": "Water Gourd",
+                "name": "Gourd #253",
                 "map_locations": [
                     {
                         "map": "ivor_tower_interiors",
@@ -902,7 +909,7 @@
         ],
         "children": [
             {
-                "name": "House",
+                "name": "House 1",
                 "map_locations": [
                     {
                         "map": "ivor_tower",
@@ -912,6 +919,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #232 & #240",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -920,7 +928,7 @@
                 ]
             },
             {
-                "name": "House",
+                "name": "House 2",
                 "map_locations": [
                     {
                         "map": "ivor_tower",
@@ -930,6 +938,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #234 & #242",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -938,7 +947,7 @@
                 ]
             },
             {
-                "name": "House",
+                "name": "House 3",
                 "map_locations": [
                     {
                         "map": "ivor_tower",
@@ -948,6 +957,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #236 & #244",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -956,7 +966,7 @@
                 ]
             },
             {
-                "name": "House",
+                "name": "House 4",
                 "map_locations": [
                     {
                         "map": "ivor_tower",
@@ -966,6 +976,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #238 & #246",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -984,6 +995,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourd #206",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -992,7 +1004,7 @@
                 ]
             },
             {
-                "name": "House",
+                "name": "House 5",
                 "map_locations": [
                     {
                         "map": "ivor_tower",
@@ -1002,6 +1014,7 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #208 & #220 & #226",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -1024,35 +1037,16 @@
                         "hosted_item": "lance_npc"
                     },
                     {
-                        "name": "Gourds",
+                        "name": "Gourds #210 & #222 & #228",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 3
                     }
                 ]
-            },
+            },            
             {
-                "name": "Hidden room",
-                "map_locations": [
-                    {
-                        "map": "ivor_tower",
-                        "x": 1435,
-                        "y": 245
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2
-                    }
-                ]
-            },
-            {
-                "name": "Hidden room",
+                "name": "Hidden room behind Lance' House",
                 "map_locations": [
                     {
                         "map": "ivor_tower",
@@ -1062,7 +1056,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Gourds",
+                        "name": "Gourds #203-#205",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -1071,7 +1065,7 @@
                 ]
             },
             {
-                "name": "House",
+                "name": "House 6",
                 "map_locations": [
                     {
                         "map": "ivor_tower",
@@ -1081,10 +1075,30 @@
                 ],
                 "sections": [
                     {
+                        "name": "Gourds #212 & #214 & #224 & #230",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 4
+                    }
+                ]
+            },
+            {
+                "name": "Hidden room behind House 6",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower",
+                        "x": 1435,
+                        "y": 245
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gourds #216 & #218 ",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2
                     }
                 ]
             }
@@ -1097,7 +1111,7 @@
         ],
         "children": [
             {
-                "name": "Aura Gourd",
+                "name": "Gourd #199",
                 "map_locations": [
                     {
                         "map": "ivor_tower_south",
@@ -1115,7 +1129,7 @@
                 ]
             },
             {
-                "name": "Annihilation Amulet Gourd",
+                "name": "Gourd #200",
                 "map_locations": [
                     {
                         "map": "ivor_tower_south",
@@ -1133,7 +1147,7 @@
                 ]
             },
             {
-                "name": "Ash Gourd",
+                "name": "Gourd #201",
                 "map_locations": [
                     {
                         "map": "ivor_tower_south",
@@ -1151,7 +1165,7 @@
                 ]
             },
             {
-                "name": "Atlas Amulet Gourd",
+                "name": "Gourd #202",
                 "map_locations": [
                     {
                         "map": "ivor_tower_south",
@@ -1177,7 +1191,7 @@
         ],
         "children": [
             {
-                "name": "Water Gourd",
+                "name": "Gourd #267",
                 "map_locations": [
                     {
                         "map": "ivor_tower_sewers",
@@ -1195,7 +1209,7 @@
                 ]
             },
             {
-                "name": "Acorn Gourd",
+                "name": "Gourd #268",
                 "map_locations": [
                     {
                         "map": "ivor_tower_sewers",
@@ -1213,7 +1227,7 @@
                 ]
             },
             {
-                "name": "Iron Gourd",
+                "name": "Gourd #269",
                 "map_locations": [
                     {
                         "map": "ivor_tower_sewers",
@@ -1231,7 +1245,7 @@
                 ]
             },
             {
-                "name": "Honey Gourd",
+                "name": "Gourd #265",
                 "map_locations": [
                     {
                         "map": "ivor_tower_sewers",
@@ -1249,7 +1263,7 @@
                 ]
             },
             {
-                "name": "Mushroom Gourd",
+                "name": "Gourd #266",
                 "map_locations": [
                     {
                         "map": "ivor_tower_sewers",
@@ -1267,7 +1281,7 @@
                 ]
             },
             {
-                "name": "Oil Gourd",
+                "name": "Gourd #270",
                 "map_locations": [
                     {
                         "map": "ivor_tower_sewers",
@@ -1285,7 +1299,7 @@
                 ]
             },
             {
-                "name": "Dog Biscuit Gourd",
+                "name": "Gourd #264",
                 "map_locations": [
                     {
                         "map": "ivor_tower_sewers",
@@ -1303,7 +1317,7 @@
                 ]
             },
             {
-                "name": "Call Bead Gourd",
+                "name": "Gourd #263",
                 "map_locations": [
                     {
                         "map": "ivor_tower_sewers",
@@ -1347,7 +1361,7 @@
         ],
         "children": [
             {
-                "name": "Ash Gourd",
+                "name": "Gourd #197",
                 "map_locations": [
                     {
                         "map": "gomi_tower",
@@ -1365,7 +1379,7 @@
                 ]
             },
             {
-                "name": "Acorn Gourd",
+                "name": "Gourd #196",
                 "map_locations": [
                     {
                         "map": "gomi_tower",
@@ -1383,7 +1397,7 @@
                 ]
             },
             {
-                "name": "Feather Gourd",
+                "name": "Gourd #195",
                 "map_locations": [
                     {
                         "map": "gomi_tower",
@@ -1401,7 +1415,7 @@
                 ]
             },
             {
-                "name": "Ethanol Gourd",
+                "name": "Gourd #198",
                 "map_locations": [
                     {
                         "map": "gomi_tower",

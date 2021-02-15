@@ -1,7 +1,7 @@
 {
     "broadcast_item_grid": {
         "type": "layout",
-        "key": "shared_item_grid"
+        "key": "compact_item_grid"
     },
     "tracker_broadcast": {
         "type": "array",

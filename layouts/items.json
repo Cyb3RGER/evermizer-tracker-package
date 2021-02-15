@@ -90,7 +90,7 @@
                 "wheel"
             ],
             [
-                "rocket",                
+                "rocket",
                 "aeroglider",
                 "energy_core"
             ],
@@ -215,7 +215,6 @@
         "content": [
             {
                 "type": "dock",
-                "orientation": "horizontal",
                 "content": [
                     {
                         "type": "group",
@@ -248,9 +247,7 @@
             },
             {
                 "type": "dock",
-                "orientation": "horizontal",
                 "content": [
-                    
                     {
                         "type": "group",
                         "header": "Charms",
@@ -277,8 +274,18 @@
         "orientation": "vertical",
         "content": [
             {
-                "type": "layout",
-                "key": "items_compact"
+                "type": "dock",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Items",
+                        "dock": "left",
+                        "content": {
+                            "type": "layout",
+                            "key": "items_compact"
+                        }
+                    }
+                ]
             }
         ]
     }

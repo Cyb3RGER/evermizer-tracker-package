@@ -1,14 +1,12 @@
 {
-	"settings_popup": {        
-    },    
+	"settings_popup": {},
 	"tracker_default": {
 		"type": "container",
 		"background": "#877373",
-		"content": 
-		{
+		"content": {
 			"type": "dock",
 			"dropshadow": true,
-			"content": [				
+			"content": [
 				{
 					"type": "dock",
 					"dock": "bottom",
@@ -16,16 +14,11 @@
 					"margin": "0,0,0,0",
 					"content": [
 						{
-							"type": "group",
-							"header": "Items",
-							"dock": "left",							
-							"content": {
-								"type": "layout",
-								"key": "compact_item_grid"
-							}
+							"type": "layout",
+							"key": "compact_item_grid"
 						}
 					]
-				}				
+				}
 			]
 		}
 	}
