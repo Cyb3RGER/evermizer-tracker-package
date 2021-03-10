@@ -1,0 +1,20 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "margin": "5",
+        "content": [
+            {
+                "type": "group",
+                "header": "Fix Sequence",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "fix_seq"
+                    }
+                ]
+            }
+        ]
+    }
+}

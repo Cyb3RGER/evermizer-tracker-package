@@ -238,6 +238,12 @@
                         "type": "group",
                         "header": "Alchemy",
                         "dock": "right",
+                        "header_content": {
+                            "type": "button_popup",
+                            "style": "settings",
+                            "popup_background": "#55212121",
+                            "layout": "settings_popup"
+                        },
                         "content": {
                             "type": "layout",
                             "key": "items_magic"

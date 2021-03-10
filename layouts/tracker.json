@@ -1,5 +1,4 @@
 {
-	"settings_popup": {},
 	"tracker_default": {
 		"type": "container",
 		"background": "#877373",
@@ -16,7 +15,7 @@
 						{
 							"type": "layout",
 							"dock": "left",
-							"key": "shared_item_grid"							
+							"key": "shared_item_grid"
 						},
 						{
 							"type": "group",

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Fix Sequence",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/items/settings/Off.png",
+                "inherit_codes": false,
+                "codes": "fix_seq, fix_seq_off"
+            },
+            {
+                "img": "images/items/settings/On.png",
+                "inherit_codes": false,
+                "codes": "fix_seq, fix_seq_on"
+            }
+        ]
+    }
+]

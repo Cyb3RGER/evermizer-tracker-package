@@ -4,15 +4,15 @@
         "type": "progressive",
         "capturable": false,
         "loop": true,
-        "allow_disabled": false,        
+        "allow_disabled": false,
         "stages": [
             {
-                "img": "images/items/keyitems/diamond_eyes_0.png",                
+                "img": "images/items/keyitems/diamond_eyes_0.png",
                 "codes": "diamond_eyes, diamond_eyes_0",
                 "secondary_codes": "diamond_eyes_0"
             },
             {
-                "img": "images/items/keyitems/diamond_eyes_1.png",                
+                "img": "images/items/keyitems/diamond_eyes_1.png",
                 "codes": "diamond_eyes, diamond_eyes_1",
                 "secondary_codes": "diamond_eyes_1"
             },
@@ -69,7 +69,7 @@
         "capturable": true,
         "img": "images/items/keyitems/aeroglider.png",
         "codes": "aeroglider"
-    }/*,
+    } /*,
     {
         "name": "Market Timer",
         "type": "timer",

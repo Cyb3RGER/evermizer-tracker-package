@@ -242,7 +242,7 @@
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "access_rules": [
-                            "$hasNonSword, magmar"                            
+                            "$hasNonSword, magmar"
                         ],
                         "item_count": 1
                     },
@@ -298,7 +298,8 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes, levitate"
+                    "$canCutBushes, levitate, fix_seq_on",
+                    "$canCutBushes, fix_seq_off"
                 ],
                 "sections": [
                     {
@@ -1003,7 +1004,8 @@
                         "name": "Carltron's Robot",
                         "hosted_item": "carltrons_robot",
                         "access_rules": [
-                            "energy_core"
+                            "energy_core, fix_seq_on",
+                            "fix_seq_off"
                         ]
                     }
                 ]

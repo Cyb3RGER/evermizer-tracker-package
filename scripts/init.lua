@@ -13,6 +13,7 @@ Tracker:AddItems("items/keyitems.json")
 Tracker:AddItems("items/charms.json")
 Tracker:AddItems("items/bosses.json")
 Tracker:AddItems("items/npcs.json")
+Tracker:AddItems("items/settings.json")
 if not items_only then
     --maps
     Tracker:AddMaps("maps/maps.json")   
@@ -27,6 +28,7 @@ if not items_only then
     end    
 end
 --layouts
+Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
