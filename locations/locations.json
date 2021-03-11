@@ -299,7 +299,7 @@
                 ],
                 "access_rules": [
                     "$canCutBushes, levitate, fix_seq_on",
-                    "$canCutBushes, fix_seq_off"
+                    "$canCutBushes, [levitate], fix_seq_off"
                 ],
                 "sections": [
                     {
@@ -1005,7 +1005,7 @@
                         "hosted_item": "carltrons_robot",
                         "access_rules": [
                             "energy_core, fix_seq_on",
-                            "fix_seq_off"
+                            "[energy_core], fix_seq_off"
                         ]
                     }
                 ]

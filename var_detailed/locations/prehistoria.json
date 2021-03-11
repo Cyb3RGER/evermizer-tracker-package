@@ -1212,7 +1212,7 @@
         "name": "Volcano Core",
         "access_rules": [
             "$canCutBushes, levitate, fix_seq_on",
-            "$canCutBushes, fix_seq_off"
+            "$canCutBushes, [levitate], fix_seq_off"
         ],
         "children": [
             {

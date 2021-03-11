@@ -185,7 +185,7 @@
                 ],
                 "access_rules": [
                     "energy_core, fix_seq_on",
-                    "fix_seq_off"
+                    "[energy_core], fix_seq_off"
                 ],
                 "sections": [
                     {
