@@ -16,7 +16,7 @@ Tracker:AddItems("items/npcs.json")
 Tracker:AddItems("items/settings.json")
 if not items_only then
     --maps
-    Tracker:AddMaps("maps/maps.json")   
+    Tracker:AddMaps("maps/maps.json")
     --locations
     if detailed then
         Tracker:AddLocations("locations/prehistoria.json")
@@ -33,4 +33,6 @@ Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 
-ScriptHost:LoadScript("scripts/autotracking.lua")
+if PopVersion then
+    ScriptHost:LoadScript("scripts/autotracking.lua")
+end

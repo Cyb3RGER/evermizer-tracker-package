@@ -507,6 +507,9 @@ function updateTimerObj()
             if hasStarted then
                 if isDone then
                     market_timer.CurrentStage = 1
+                    if market_timer.SetOverlay then
+                        market_timer:SetOverlay("")
+                    end
                 else
                     local diff = (MARKET_TIMER.FRAME_COUNTER - MARKET_TIMER.TIMER) % 2^16
                     local val = MARKET_TIMER.TIMER_GOAL - diff
@@ -515,6 +518,9 @@ function updateTimerObj()
                     end
                     if val <= 0 then
                         market_timer.CurrentStage = 1
+                        if market_timer.SetOverlay then
+                            market_timer:SetOverlay("")
+                        end
                     else
                         market_timer.CurrentStage = 0
                         if market_timer.SetOverlay then
@@ -524,10 +530,13 @@ function updateTimerObj()
                             if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
                                 print(string.format("Updating market_timer overlay to %s",string.format("%d:%02d",mins,secs)))
                             end
-                            market_timer.SetOverlay(string.format("%d:%02d",mins,secs))
+                            market_timer:SetOverlay(string.format("%d:%02d",mins,secs))
                         end
                     end
                 end
+            else
+                market_timer.CurrentStage = 0
+                market_timer:SetOverlay("")
             end
         end
     end
@@ -572,7 +581,7 @@ if AUTOTRACKER_ENABLE_ITEM_TRACKING then
     ScriptHost:AddMemoryWatch("Carltron", CARLTRON_ADDR , 0x2, updateCarltron)
     ScriptHost:AddMemoryWatch("Timer", MARKET_TIMER.TIMER_ADDR , 0x2, updateTimer)
     ScriptHost:AddMemoryWatch("FrameCounter", MARKET_TIMER.FRAME_COUNTER_ADDR , 0x2, updateFrameCounter)
-    ScriptHost:AddMemoryWatch("TimerDoneOverride",MARKET_TIMER.OVERRIDE_FLAG_ADDR, 0x1, updateTimerOverride )
+    ScriptHost:AddMemoryWatch("TimerDoneOverride",MARKET_TIMER.OVERRIDE_FLAG_ADDR, 0x1, updateTimerOverride)
 end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     --ToDo
