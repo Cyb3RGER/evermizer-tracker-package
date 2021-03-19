@@ -95,7 +95,8 @@
                 "energy_core"
             ],
             [
-                "queens_key"
+                "queens_key",
+                "market_timer"
             ]
         ]
     },

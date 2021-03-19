@@ -69,37 +69,23 @@
         "capturable": true,
         "img": "images/items/keyitems/aeroglider.png",
         "codes": "aeroglider"
-    } /*,
+    },
     {
         "name": "Market Timer",
-        "type": "timer",
+        "type": "progressive",
         "capturable": false,
-        "img": "images/items/keyitems/market_timer.png",
-        "codes": "market_timer",
-        "allow_disabled": false,
+        "allow_disabled": true,
         "stages": [
             {
-                //always off
-                "time": -1,
-                "codes": "market_timer_off"
+                "img": "images/items/keyitems/market_timer.png",
+                "codes": "market_timer, market_timer_running",
+                "secondary_codes": "market_timer_running"
             },
             {
-                //on for x seconds then to stage 2 (0-based)
-                "time": x,
-                "codes": "market_timer_on",
-                "next_stage": 2
-            },
-            {
-                //off for y seconds then to stage 1 (0-based)
-                "time": y,
-                "codes": "market_timer_off",
-                "next_stage": 1
-            },
-            {
-                //always on (2 DEs)
-                "time": -1,
-                "codes": "market_timer_on"
+                "img": "images/items/keyitems/market_timer_done.png",
+                "codes": "market_timer, market_timer_done",
+                "secondary_codes": "market_timer_done"
             }
         ]
-    }*/
+    }
 ]

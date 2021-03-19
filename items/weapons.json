@@ -2,7 +2,7 @@
     //swords
     {
         "name": "Bone Crusher",
-        "type": "static",        
+        "type": "static",
         "capturable": true,
         "img": "images/items/weapons/sword_1.png",
         "codes": "sword_1"
@@ -97,23 +97,26 @@
     //ammo
     {
         "name": "Thunderball",
-        "type": "toggle",
+        "type": "consumable",
         "capturable": true,
         "img": "images/items/weapons/ammo_1.png",
-        "codes": "ammo_1"
+        "codes": "ammo_1",
+        "max_quantity": 99
     },
     {
         "name": "Particle Bomb",
-        "type": "toggle",
+        "type": "consumable",
         "capturable": true,
         "img": "images/items/weapons/ammo_2.png",
-        "codes": "ammo_2"
+        "codes": "ammo_2",
+        "max_quantity": 99
     },
     {
         "name": "Cryo-Blast",
-        "type": "toggle",
+        "type": "consumable",
         "capturable": true,
         "img": "images/items/weapons/ammo_3.png",
-        "codes": "ammo_3"
+        "codes": "ammo_3",
+        "max_quantity": 99
     }
 ]
