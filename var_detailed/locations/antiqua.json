@@ -111,7 +111,7 @@
         ],
         "children": [
             {
-                "name": "House",
+                "name": "Ship",
                 "map_locations": [
                     {
                         "map": "crustacia",
