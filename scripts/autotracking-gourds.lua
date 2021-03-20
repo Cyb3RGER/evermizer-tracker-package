@@ -338,7 +338,7 @@ GOURDS_DETAILED = {
     [0x04]="@Ivor Tower Sewers/Gourd #270/"
   },
   [0x7e2287]={
-    [0x40]="@Halls of Collosia 3/Gourd #179/",
+    [0x40]="@Oglin Tunnel/Gourd #179/",
     [0x01]="@Ebon Keep Sewers/Gourd #190/",
     [0x02]="@Ebon Keep Sewers/Gourd #191/",
     [0x80]="@Ebon Keep Interiors/Gourd #249/",
