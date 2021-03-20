@@ -569,9 +569,9 @@ end
 function updateGourds(segment)
     if not IS_GAME_RUNNING then return end
     local vals = {}
-    for i=1,#GOURDS do
-        local b = segment:ReadUInt8(GOURDS_ADDR + (i-1))
-        for mask,code in pairs(GOURDS[i]) do
+    for addr,gourds in pairs(GOURDS) do
+        local b = AutoTracker:ReadU8(addr) -- FIXME: this may be slow in emo
+        for mask,code in pairs(gourds) do
             if b&mask>0 then
                 if vals[code] then vals[code] = vals[code] + 1
                 else vals[code] = 1; end
@@ -610,6 +610,8 @@ if AUTOTRACKER_ENABLE_ITEM_TRACKING then
     ScriptHost:AddMemoryWatch("TimerDoneOverride",MARKET_TIMER.OVERRIDE_FLAG_ADDR, 0x1, updateTimerOverride)
 end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
-    ScriptHost:AddMemoryWatch("Gourds", GOURDS_ADDR, #GOURDS, updateGourds)
+    for i=1,#GOURDS_WATCHES do
+        ScriptHost:AddMemoryWatch("Gourds "..i, GOURDS_WATCHES[i].addr, GOURDS_WATCHES[i].len, updateGourds)
+    end
 end
 -------------------------------------------------------
