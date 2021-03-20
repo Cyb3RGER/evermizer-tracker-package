@@ -1,7 +1,7 @@
 -- Configuration --------------------------------------
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
-AUTOTRACKER_ENABLE_LOCATION_TRACKING = false
+AUTOTRACKER_ENABLE_LOCATION_TRACKING = true
 -------------------------------------------------------
 
 -- Globals --------------------------------------------
@@ -271,7 +271,12 @@ if AUTOTRACKER_ENABLE_ITEM_TRACKING then
     }
 end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
-    --ToDo
+    ScriptHost:LoadScript("scripts/autotracking-gourds.lua")
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING and GOURDS then
+        print(#GOURDS .. " bytes for gourds")
+    elseif not GOURDS then
+        print("GOURDS is nil")
+    end
 end
 -------------------------------------------------------
 
@@ -560,6 +565,27 @@ function updateTimerOverride(segment)
         updateTimerObj()
     end
 end
+
+function updateGourds(segment)
+    if not IS_GAME_RUNNING then return end
+    local vals = {}
+    for i=1,#GOURDS do
+        local b = segment:ReadUInt8(GOURDS_ADDR + (i-1))
+        for mask,code in pairs(GOURDS[i]) do
+            if b&mask>0 then
+                if vals[code] then vals[code] = vals[code] + 1
+                else vals[code] = 1; end
+            end
+        end
+    end
+    for code,count in pairs(vals) do
+        local o = Tracker:FindObjectForCode(code)
+        if o then
+            o.AvailableChestCount = o.ChestCount - count
+        end
+    end
+end
+
 -------------------------------------------------------
 -- Memory Watches -------------------------------------
 --ScriptHost:AddMemoryWatch("CheckGameState",  , , updateGameState)
@@ -584,6 +610,6 @@ if AUTOTRACKER_ENABLE_ITEM_TRACKING then
     ScriptHost:AddMemoryWatch("TimerDoneOverride",MARKET_TIMER.OVERRIDE_FLAG_ADDR, 0x1, updateTimerOverride)
 end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
-    --ToDo
+    ScriptHost:AddMemoryWatch("Gourds", GOURDS_ADDR, #GOURDS, updateGourds)
 end
 -------------------------------------------------------

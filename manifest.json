@@ -4,7 +4,7 @@
 	"platform": "snes",
   "package_version": "0.1.0.0",
   "package_uid": "evermizer",
-  "author": "Cyb3R",
+  "author": "Cyb3R, black-sliver",
   "variants": {
     "standard": {
       "display_name": "Map Tracker"
