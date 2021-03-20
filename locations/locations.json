@@ -652,7 +652,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Gourds behind Knight Basher or higher ",
+                        "name": "Gourds behind Knight Basher or higher",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
