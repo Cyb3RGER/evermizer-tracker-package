@@ -380,7 +380,381 @@ GOURDS_DETAILED = {
     [0x02]="@Ebon Keep Interiors/Gourd #251/"
   }
 }
-GOURDS_OVERWORLD = {} -- TODO
+GOURDS_OVERWORLD = {
+  [0x7e2264]={
+    [0x80]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x40]="@Act 1/Fire Eyes' Village/Gourds"
+  },
+  [0x7e2265]={
+    [0x80]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x40]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x20]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x10]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x08]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x04]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x02]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x01]="@Act 1/Fire Eyes' Village/Gourds"
+  },
+  [0x7e2266]={
+    [0x80]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x40]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x20]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x04]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x08]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x02]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x01]="@Act 1/Fire Eyes' Village/Gourds"
+  },
+  [0x7e2267]={
+    [0x40]="@Act 1/Swamp/Gourds",
+    [0x20]="@Act 1/Swamp/Gourds",
+    [0x10]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x08]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x02]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x04]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x01]="@Act 1/Fire Eyes' Village/Gourds"
+  },
+  [0x7e2268]={
+    [0x40]="@Act 1/Southern Jungle/Gourds",
+    [0x80]="@Act 1/Southern Jungle/Gourds",
+    [0x01]="@Act 1/Swamp/Gourds",
+    [0x02]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x04]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x08]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x20]="@Act 1/Northern Jungle/Gourds",
+    [0x10]="@Act 1/Northern Jungle/Gourds"
+  },
+  [0x7e2269]={
+    [0x08]="@Act 1/Southern Jungle/Gourds",
+    [0x01]="@Act 1/Southern Jungle/Gourds behind bushes",
+    [0x04]="@Act 1/Southern Jungle/Gourds behind bushes",
+    [0x02]="@Act 1/Southern Jungle/Gourds behind bushes",
+    [0x10]="@Act 1/Fire Eyes' Village/Gourds",
+    [0x40]="@Act 1/Volcano Path/Gourds",
+    [0x20]="@Act 1/Volcano Path/Gourds",
+    [0x80]="@Act 1/Volcano Path/Gourds"
+  },
+  [0x7e226a]={
+    [0x01]="@Act 1/Volcano Path/Gourd behind non-sword",
+    [0x02]="@Act 1/Volcano Core/Gourds",
+    [0x80]="@Act 1/Volcano Core/Gourds",
+    [0x04]="@Act 1/Volcano Core/Gourds",
+    [0x08]="@Act 1/Volcano Core/Gourds",
+    [0x40]="@Act 1/Volcano Core/Gourds",
+    [0x10]="@Act 1/Volcano Core/Gourds"
+  },
+  [0x7e226b]={
+    [0x01]="@Act 2/Crustacia/Gourds behind Levitate",
+    [0x02]="@Act 2/Crustacia/Gourds behind Levitate",
+    [0x04]="@Act 2/Crustacia/Gourds",
+    [0x80]="@Act 2/Crustacia/Gourds",
+    [0x08]="@Act 2/Crustacia/Gourds",
+    [0x40]="@Act 2/Crustacia/Gourds",
+    [0x10]="@Act 2/Crustacia/Gourds",
+    [0x20]="@Act 2/Crustacia/Gourds"
+  },
+  [0x7e226c]={
+    [0x04]="@Act 1/Quick Sand Field/Gourds",
+    [0x20]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes",
+    [0x40]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes",
+    [0x10]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes",
+    [0x08]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes",
+    [0x01]="@Act 1/Quick Sand Field/Gourds",
+    [0x02]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes",
+    [0x80]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes"
+  },
+  [0x7e226d]={
+    [0x01]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes",
+    [0x80]="@Act 1/Volcano Core/Gourds",
+    [0x08]="@Act 1/Quick Sand Field/Gourds",
+    [0x02]="@Act 1/Quick Sand Field/Gourds",
+    [0x04]="@Act 1/Quick Sand Field/Gourds",
+    [0x10]="@Act 1/Bugmuck/Gourds",
+    [0x20]="@Act 1/Bugmuck/Gourds",
+    [0x40]="@Act 1/Bugmuck/Gourds"
+  },
+  [0x7e226e]={
+    [0x80]="@Act 1/Volcano Core/Gourds",
+    [0x20]="@Act 1/Volcano Core/Gourds",
+    [0x40]="@Act 1/Volcano Core/Gourds",
+    [0x10]="@Act 1/Volcano Core/Gourds",
+    [0x08]="@Act 1/Volcano Core/Gourds",
+    [0x04]="@Act 1/Volcano Core/Gourds",
+    [0x01]="@Act 1/Volcano Core/Gourds",
+    [0x02]="@Act 1/Volcano Core/Gourds"
+  },
+  [0x7e226f]={
+    [0x80]="@Act 1/Bugmuck/Gourds",
+    [0x10]="@Act 1/Volcano Core/Gourds",
+    [0x08]="@Act 1/Volcano Core/Gourds",
+    [0x04]="@Act 1/Volcano Core/Gourds",
+    [0x02]="@Act 1/Volcano Core/Gourds",
+    [0x01]="@Act 1/Volcano Core/Gourds",
+    [0x20]="@Act 1/Volcano Core/Gourds",
+    [0x40]="@Act 1/Volcano Core/Gourds"
+  },
+  [0x7e2270]={
+    [0x40]="@Act 1/Bugmuck/Gourds behind Thraxx or Bushes",
+    [0x20]="@Act 1/Bugmuck/Gourds behind Thraxx or Bushes",
+    [0x10]="@Act 1/Bugmuck/Gourds",
+    [0x04]="@Act 1/Bugmuck/Gourds",
+    [0x08]="@Act 1/Bugmuck/Gourds",
+    [0x01]="@Act 1/Bugmuck/Gourds",
+    [0x02]="@Act 1/Bugmuck/Gourds"
+  },
+  [0x7e2271]={
+    [0x02]="@Act 2/Nobilia/Jail Gourds",
+    [0x04]="@Act 2/Nobilia/Jail Gourds",
+    [0x08]="@Act 2/Nobilia/Jail Gourds",
+    [0x20]="@Act 2/Nobilia/Jail Gourds",
+    [0x40]="@Act 2/Nobilia/Jail Gourds",
+    [0x01]="@Act 2/Nobilia/Jail Gourds",
+    [0x10]="@Act 2/Nobilia/Jail Gourds",
+    [0x80]="@Act 2/Nobilia/Jail Gourds"
+  },
+  [0x7e2272]={
+    [0x04]="@Act 2/Crustacia/Gourds behind Bronze Axe or higher",
+    [0x08]="@Act 2/Crustacia/Gourds behind Bronze Axe or higher",
+    [0x10]="@Act 2/Crustacia/Gourds behind Bronze Axe or higher",
+    [0x20]="@Act 2/Crustacia/Gourds behind Bronze Axe or higher"
+  },
+  [0x7e2273]={
+    [0x01]="@Act 1/Southern Jungle/Gourds behind bushes",
+    [0x04]="@Act 1/Southern Jungle/Gourds behind bushes",
+    [0x02]="@Act 1/Southern Jungle/Gourds behind bushes",
+    [0x08]="@Act 2/Crustacia/Gourds",
+    [0x10]="@Act 2/Crustacia/Gourds",
+    [0x80]="@Act 3/Dark Forest/Gomi Tower Gourds",
+    [0x40]="@Act 3/Dark Forest/Gomi Tower Gourds"
+  },
+  [0x7e2274]={
+    [0x80]="@Act 1/Swamp/Gourds",
+    [0x40]="@Act 1/Swamp/Gourds",
+    [0x04]="@Act 2/Halls of Collosia/Gourds behind Jaguar Ring",
+    [0x08]="@Act 2/Halls of Collosia/Gourds behind Jaguar Ring",
+    [0x20]="@Act 2/Halls of Collosia/Gourds behind Jaguar Ring",
+    [0x10]="@Act 2/Halls of Collosia/Gourds behind Jaguar Ring",
+    [0x02]="@Act 3/Dark Forest/Gomi Tower Gourds",
+    [0x01]="@Act 3/Dark Forest/Gomi Tower Gourds"
+  },
+  [0x7e2275]={
+    [0x10]="@Act 1/Swamp/Gourds",
+    [0x08]="@Act 1/Swamp/Gourds",
+    [0x04]="@Act 1/Swamp/Gourds",
+    [0x02]="@Act 1/Swamp/Gourds",
+    [0x01]="@Act 1/Swamp/Gourds",
+    [0x40]="@Act 3/Ivor Tower/Gourds",
+    [0x20]="@Act 3/Ivor Tower/Gourds",
+    [0x80]="@Act 3/Ivor Tower/Gourds"
+  },
+  [0x7e2276]={
+    [0x20]="@Act 3/Ivor Tower/Gourds",
+    [0x40]="@Act 3/Ivor Tower/Gourds",
+    [0x80]="@Act 3/Ivor Tower/Gourds",
+    [0x01]="@Act 3/Ivor Tower/Gourds",
+    [0x04]="@Act 3/Ivor Tower/Gourds",
+    [0x10]="@Act 3/Ivor Tower/Gourds",
+    [0x02]="@Act 3/Ivor Tower/Gourds",
+    [0x08]="@Act 3/Ivor Tower/Gourds"
+  },
+  [0x7e2277]={
+    [0x01]="@Act 3/Ivor Tower/Gourds",
+    [0x08]="@Act 3/Ivor Tower/Gourds",
+    [0x10]="@Act 3/Ivor Tower/Gourds",
+    [0x40]="@Act 3/Ivor Tower/Gourds",
+    [0x20]="@Act 3/Ivor Tower/Gourds",
+    [0x02]="@Act 3/Ivor Tower/Gourds",
+    [0x80]="@Act 3/Ivor Tower/Gourds",
+    [0x04]="@Act 3/Ivor Tower/Gourds"
+  },
+  [0x7e2278]={
+    [0x10]="@Act 3/Ivor Tower/Gourds",
+    [0x08]="@Act 3/Ivor Tower/Gourds",
+    [0x04]="@Act 3/Ivor Tower/Gourds",
+    [0x02]="@Act 3/Ivor Tower/Gourds",
+    [0x01]="@Act 3/Ivor Tower/Gourds",
+    [0x40]="@Act 3/Ebon Keep/Gourds",
+    [0x20]="@Act 3/Ebon Keep/Gourds",
+    [0x80]="@Act 3/Ebon Keep/Gourds"
+  },
+  [0x7e2279]={
+    [0x40]="@Act 3/Ebon Keep/Gourds",
+    [0x80]="@Act 3/Ebon Keep/Gourds",
+    [0x01]="@Act 3/Ebon Keep/Gourds",
+    [0x04]="@Act 3/Ebon Keep/Gourds",
+    [0x10]="@Act 3/Ebon Keep/Gourds",
+    [0x02]="@Act 3/Ebon Keep/Gourds",
+    [0x08]="@Act 3/Ebon Keep/Gourds"
+  },
+  [0x7e227a]={
+    [0x01]="@Act 3/Ebon Keep/Gourds",
+    [0x08]="@Act 3/Ebon Keep/Gourds",
+    [0x10]="@Act 3/Ebon Keep/Gourds",
+    [0x40]="@Act 3/Ebon Keep/Gourds",
+    [0x20]="@Act 3/Ebon Keep/Gourds",
+    [0x02]="@Act 3/Ebon Keep/Gourds",
+    [0x80]="@Act 3/Ebon Keep/Gourds",
+    [0x04]="@Act 3/Ebon Keep/Gourds"
+  },
+  [0x7e227b]={
+    [0x80]="@Act 3/Ivor Tower/Gourds",
+    [0x02]="@Act 3/Ebon Keep/Gourds",
+    [0x01]="@Act 3/Ebon Keep/Gourds",
+    [0x20]="@Act 3/Ebon Keep/Gourds",
+    [0x40]="@Act 3/Ebon Keep/Gourds"
+  },
+  [0x7e227c]={
+    [0x08]="@Act 1/Swamp/Gourds",
+    [0x10]="@Act 1/Swamp/Gourds",
+    [0x80]="@Act 2/Pyramid/Gourds",
+    [0x40]="@Act 2/Pyramid/Gourds",
+    [0x20]="@Act 2/Pyramid/Gourds",
+    [0x01]="@Act 3/Ivor Tower/Gourds",
+    [0x02]="@Act 3/Ivor Tower/Gourds",
+    [0x04]="@Act 3/Ivor Tower/Gourds"
+  },
+  [0x7e227d]={
+    [0x02]="@Act 2/Pyramid/Gourds",
+    [0x80]="@Act 2/Pyramid/Gourds behind Bronze Axe",
+    [0x40]="@Act 2/Pyramid/Gourds behind Bronze Axe",
+    [0x20]="@Act 2/Pyramid/Gourds",
+    [0x10]="@Act 2/Pyramid/Gourds",
+    [0x04]="@Act 2/Pyramid/Gourds",
+    [0x01]="@Act 2/Pyramid/Gourds",
+    [0x08]="@Act 2/Pyramid/Gourds"
+  },
+  [0x7e227e]={
+    [0x20]="@Act 2/Pyramid/Gourds behind Bronze Axe",
+    [0x10]="@Act 2/Pyramid/Gourds",
+    [0x08]="@Act 2/Pyramid/Gourds",
+    [0x01]="@Act 2/Pyramid/Gourds behind Bronze Axe",
+    [0x02]="@Act 2/Pyramid/Gourds behind Bronze Axe",
+    [0x04]="@Act 2/Pyramid/Gourds behind Bronze Axe",
+    [0x40]="@Act 2/Pyramid/Gourds",
+    [0x80]="@Act 2/Pyramid/Gourds"
+  },
+  [0x7e227f]={
+    [0x80]="@Act 2/Pyramid/Gourds",
+    [0x40]="@Act 2/Pyramid/Gourds",
+    [0x20]="@Act 2/Pyramid/Gourds",
+    [0x10]="@Act 2/Pyramid/Gourds",
+    [0x08]="@Act 2/Pyramid/Gourds",
+    [0x04]="@Act 2/Pyramid/Gourds",
+    [0x02]="@Act 2/Pyramid/Gourds",
+    [0x01]="@Act 2/Pyramid/Gourds"
+  },
+  [0x7e2280]={
+    [0x80]="@Act 2/Pyramid/Gourds",
+    [0x40]="@Act 2/Pyramid/Gourds",
+    [0x20]="@Act 2/Pyramid/Gourds",
+    [0x10]="@Act 2/Pyramid/Gourds",
+    [0x08]="@Act 2/Pyramid/Gourds",
+    [0x04]="@Act 2/Pyramid/Gourds",
+    [0x02]="@Act 2/Pyramid/Gourds",
+    [0x01]="@Act 2/Pyramid/Gourds"
+  },
+  [0x7e2281]={
+    [0x20]="@Act 2/Pyramid/Gourds",
+    [0x10]="@Act 2/Pyramid/Gourds",
+    [0x08]="@Act 2/Pyramid/Gourds",
+    [0x04]="@Act 2/Pyramid/Gourds",
+    [0x02]="@Act 2/Pyramid/Gourds",
+    [0x01]="@Act 2/Pyramid/Gourds behind Bronze Axe",
+    [0x80]="@Act 2/Tiny's Hideout/Gourds",
+    [0x40]="@Act 2/Tiny's Hideout/Gourds"
+  },
+  [0x7e2282]={
+    [0x10]="@Act 2/Tiny's Hideout/Gourds behind Bronze Axe or higher",
+    [0x08]="@Act 2/Tiny's Hideout/Gourds",
+    [0x04]="@Act 2/Tiny's Hideout/Gourds behind Knight Basher or higher",
+    [0x02]="@Act 2/Tiny's Hideout/Gourds behind Knight Basher or higher",
+    [0x01]="@Act 2/Tiny's Hideout/Gourds",
+    [0x20]="@Act 3/Ivor Tower/Gourds behind Queen's Key",
+    [0x40]="@Act 3/Ivor Tower/Gourds behind Queen's Key",
+    [0x80]="@Act 3/Ivor Tower/Gourds behind Queen's Key"
+  },
+  [0x7e2283]={
+    [0x10]="@Act 2/Halls of Collosia/Gourds",
+    [0x08]="@Act 2/Halls of Collosia/Gourds",
+    [0x80]="@Act 2/Halls of Collosia/Gourds",
+    [0x40]="@Act 2/Halls of Collosia/Gourds",
+    [0x20]="@Act 2/Halls of Collosia/Gourds",
+    [0x01]="@Act 3/Ivor Tower/Gourds behind Queen's Key",
+    [0x02]="@Act 3/Ivor Tower/Gourds behind Queen's Key",
+    [0x04]="@Act 3/Ivor Tower/Gourds behind Queen's Key"
+  },
+  [0x7e2284]={
+    [0x01]="@Act 2/Halls of Collosia/Gourds",
+    [0x02]="@Act 4/Omnitopia/Gourds",
+    [0x80]="@Act 4/Omnitopia/Gourds",
+    [0x40]="@Act 4/Omnitopia/Gourds",
+    [0x20]="@Act 4/Omnitopia/Gourds",
+    [0x10]="@Act 4/Omnitopia/Gourds",
+    [0x08]="@Act 4/Omnitopia/Gourds",
+    [0x04]="@Act 4/Omnitopia/Gourds"
+  },
+  [0x7e2285]={
+    [0x02]="@Act 2/Halls of Collosia/Gourds",
+    [0x04]="@Act 2/Halls of Collosia/Gourds behind Bronze Axe or higher",
+    [0x08]="@Act 2/Halls of Collosia/Gourds",
+    [0x10]="@Act 2/Halls of Collosia/Gourds",
+    [0x20]="@Act 3/Ivor Tower/Gourds",
+    [0x40]="@Act 3/Ivor Tower/Gourds",
+    [0x80]="@Act 3/Ivor Tower/Gourds",
+    [0x01]="@Act 4/Omnitopia/Gourds"
+  },
+  [0x7e2286]={
+    [0x20]="@Act 3/Ebon Keep/Gourds",
+    [0x40]="@Act 3/Ebon Keep/Gourds",
+    [0x80]="@Act 3/Ebon Keep/Gourds",
+    [0x10]="@Act 3/Ivor Tower/Gourds",
+    [0x08]="@Act 3/Ivor Tower/Gourds",
+    [0x01]="@Act 3/Ivor Tower/Gourds",
+    [0x02]="@Act 3/Ivor Tower/Gourds",
+    [0x04]="@Act 3/Ivor Tower/Gourds"
+  },
+  [0x7e2287]={
+    [0x40]="@Act 2/Oglin Tunnel/Gourds",
+    [0x01]="@Act 3/Ebon Keep/Gourds",
+    [0x02]="@Act 3/Ebon Keep/Gourds",
+    [0x80]="@Act 3/Ebon Keep/Gourds",
+    [0x04]="@Act 3/Ebon Keep/Gourds",
+    [0x08]="@Act 3/Ebon Keep/Gourds",
+    [0x10]="@Act 3/Ebon Keep/Gourds",
+    [0x20]="@Act 4/Omnitopia/Gourds"
+  },
+  [0x7e2288]={
+    [0x01]="@Act 3/Ebon Keep/Gourds",
+    [0x02]="@Act 3/Ebon Keep/Gourds"
+  },
+  [0x7e22b1]={
+    [0x80]="@Act 1/Northern Jungle/Gourds"
+  },
+  [0x7e22b2]={
+    [0x01]="@Act 1/Northern Jungle/Gourds"
+  },
+  [0x7e22d7]={
+    [0x80]="@Act 3/Ivor Tower/Gourds",
+    [0x40]="@Act 3/Ivor Tower/Gourds"
+  },
+  [0x7e22d8]={
+    [0x10]="@Act 1/Volcano Path/Gourds",
+    [0x08]="@Act 1/Volcano Path/Gourds",
+    [0x01]="@Act 3/Ivor Tower/Gourds",
+    [0x02]="@Act 3/Ivor Tower/Gourds"
+  },
+  [0x7e22d9]={
+    [0x04]="@Act 2/Crustacia/Gourds behind Bronze Axe or higher",
+    [0x02]="@Act 2/Crustacia/Gourds behind Bronze Axe or higher"
+  },
+  [0x7e22e9]={
+    [0x01]="@Act 4/Omnitopia/Gourds",
+    [0x02]="@Act 4/Omnitopia/Gourds"
+  },
+  [0x7e2353]={
+    [0x01]="@Act 1/Volcano Path/Vanilla Gauge Gourd",
+    [0x02]="@Act 3/Ebon Keep/Gourds"
+  }
+}
 
 if Tracker.ActiveVariantUID:find('detailed') then GOURDS = GOURDS_DETAILED
 else GOURDS = GOURDS_OVERWORLD
