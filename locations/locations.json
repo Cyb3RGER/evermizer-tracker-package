@@ -78,7 +78,7 @@
                 ]
             },
             {
-                "name": "Quick Sand Field",
+                "name": "Quick Sand Fields",
                 "map_locations": [
                     {
                         "map": "overview",
@@ -151,7 +151,7 @@
                         "item_count": 2
                     },
                     {
-                        "name": "Hardball",
+                        "name": "Hard Ball",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",
@@ -372,7 +372,7 @@
                         "item_count": 2
                     },
                     {
-                        "name": "Cursh",
+                        "name": "Crush",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",

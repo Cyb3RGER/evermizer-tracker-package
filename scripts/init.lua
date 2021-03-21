@@ -1,8 +1,8 @@
 local variant = Tracker.ActiveVariantUID
-local items_only = variant:find("itemsonly")
-local compact = variant:find("itemsonly_compact")
-local detailed = variant:find("detailed")
-debug = false
+IS_ITEMS_ONLY = variant:find("itemsonly")
+IS_COMPACT = variant:find("itemsonly_compact")
+IS_DETAILED = variant:find("detailed")
+ENABLE_DEBUG_LOG = false
 
 --scripts
 ScriptHost:LoadScript("scripts/logic.lua")
@@ -14,11 +14,11 @@ Tracker:AddItems("items/charms.json")
 Tracker:AddItems("items/bosses.json")
 Tracker:AddItems("items/npcs.json")
 Tracker:AddItems("items/settings.json")
-if not items_only then
+if not IS_ITEMS_ONLY then
     --maps
     Tracker:AddMaps("maps/maps.json")
     --locations
-    if detailed then
+    if IS_DETAILED then
         Tracker:AddLocations("locations/prehistoria.json")
         Tracker:AddLocations("locations/antiqua.json")
         Tracker:AddLocations("locations/gothica.json")

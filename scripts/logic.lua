@@ -14,7 +14,7 @@ function canCutBushes()
         Tracker:ProviderCountForCode("spear_3") +
         Tracker:ProviderCountForCode("spear_4")
 
-    if debug then
+    if ENABLE_DEBUG_LOG then
         print("canCutBushes: value: "..value)
     end
 
@@ -36,7 +36,7 @@ function hasNonSword()
         Tracker:ProviderCountForCode("spear_3") +
         Tracker:ProviderCountForCode("spear_4")
 
-    if debug then
+    if ENABLE_DEBUG_LOG then
         print("hasNonSword: value: "..value)
     end
 
@@ -53,7 +53,7 @@ function hasBronzeAxeOrHigher()
         Tracker:ProviderCountForCode("axe_3") +
         Tracker:ProviderCountForCode("axe_4") 
 
-    if debug then
+    if ENABLE_DEBUG_LOG then
         print("hasBronzeAxeOrHigher: value: "..value)
     end
 
@@ -69,7 +69,7 @@ function hasKnightBasherOrHigher()
         Tracker:ProviderCountForCode("axe_3") +
         Tracker:ProviderCountForCode("axe_4") 
 
-    if debug then
+    if ENABLE_DEBUG_LOG then
         print("hasKnightBasherOrHigher: value: "..value)
     end
 
@@ -86,7 +86,7 @@ function hasBronzeSpearOrHigher()
         Tracker:ProviderCountForCode("spear_3") +
         Tracker:ProviderCountForCode("spear_4") 
 
-    if debug then
+    if ENABLE_DEBUG_LOG then
         print("hasBronzeSpearOrHigher: value: "..value)
     end
 

@@ -1707,7 +1707,7 @@
         ],
         "children": [
             {
-                "name": "Heal",
+                "name": "Cure",
                 "map_locations": [
                     {
                         "map": "nobilia",

@@ -352,10 +352,10 @@ GOURDS_DETAILED = {
     [0x02]="@Ebon Keep Interiors/Gourd #252/"
   },
   [0x7e22b1]={
-    [0x80]="@Northern Jungle/Armor Shop Cave/Gourds #71-72/"
+    [0x80]="@Northern Jungle/Armor Shop Cave/Gourds #71-72"
   },
   [0x7e22b2]={
-    [0x01]="@Northern Jungle/Armor Shop Cave/Gourds #71-72/"
+    [0x01]="@Northern Jungle/Armor Shop Cave/Gourds #71-72"
   },
   [0x7e22d7]={
     [0x80]="@Ivor Tower Interiors/Gourd #261/",
@@ -453,21 +453,21 @@ GOURDS_OVERWORLD = {
     [0x20]="@Act 2/Crustacia/Gourds"
   },
   [0x7e226c]={
-    [0x04]="@Act 1/Quick Sand Field/Gourds",
-    [0x20]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes",
-    [0x40]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes",
-    [0x10]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes",
-    [0x08]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes",
-    [0x01]="@Act 1/Quick Sand Field/Gourds",
-    [0x02]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes",
-    [0x80]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes"
+    [0x04]="@Act 1/Quick Sand Fields/Gourds",
+    [0x20]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes",
+    [0x40]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes",
+    [0x10]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes",
+    [0x08]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes",
+    [0x01]="@Act 1/Quick Sand Fields/Gourds",
+    [0x02]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes",
+    [0x80]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes"
   },
   [0x7e226d]={
-    [0x01]="@Act 1/Quick Sand Field/Gourds behind Thraxx or Bushes",
+    [0x01]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes",
     [0x80]="@Act 1/Volcano Core/Gourds",
-    [0x08]="@Act 1/Quick Sand Field/Gourds",
-    [0x02]="@Act 1/Quick Sand Field/Gourds",
-    [0x04]="@Act 1/Quick Sand Field/Gourds",
+    [0x08]="@Act 1/Quick Sand Fields/Gourds",
+    [0x02]="@Act 1/Quick Sand Fields/Gourds",
+    [0x04]="@Act 1/Quick Sand Fields/Gourds",
     [0x10]="@Act 1/Bugmuck/Gourds",
     [0x20]="@Act 1/Bugmuck/Gourds",
     [0x40]="@Act 1/Bugmuck/Gourds"
@@ -756,6 +756,9 @@ GOURDS_OVERWORLD = {
   }
 }
 
-if Tracker.ActiveVariantUID:find('detailed') then GOURDS = GOURDS_DETAILED
+if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+  print(string.format("IS_DETAILED: %s",IS_DETAILED))
+end
+if IS_DETAILED then GOURDS = GOURDS_DETAILED
 else GOURDS = GOURDS_OVERWORLD
 end

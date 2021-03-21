@@ -815,8 +815,8 @@
                 "map_locations": [
                     {
                         "map": "ivor_tower_interiors",
-                        "x": 1165,
-                        "y": 275
+                        "x": 3710,
+                        "y": 820
                     }
                 ],
                 "sections": [
@@ -833,8 +833,8 @@
                 "map_locations": [
                     {
                         "map": "ivor_tower_interiors",
-                        "x": 3710,
-                        "y": 820
+                        "x": 1165,
+                        "y": 275
                     }
                 ],
                 "sections": [
@@ -1044,7 +1044,7 @@
                         "item_count": 3
                     }
                 ]
-            },            
+            },
             {
                 "name": "Hidden room behind Lance' House",
                 "map_locations": [
