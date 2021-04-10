@@ -1,6 +1,42 @@
 function updateGameState()
     --ToDo
-    IS_GAME_RUNNING = true
+    IS_GAME_RUNNING = CURRENT_ROOM and CURRENT_ROOM ~= 0x61 and CURRENT_ROOM ~= 0x31 and CURRENT_ROOM ~= 0x32 and CURRENT_ROOM ~= 0x02 and CURRENT_ROOM ~= 0x03
+end
+
+function updateCurrentRoom(segment)
+    CURRENT_ROOM = segment:ReadUInt8(CURRENT_ROOM_ADDR)
+    print(string.format("CURRENT_ROOM is now %x", CURRENT_ROOM))
+    updateGameState()
+    updateUI()
+end
+
+function updateUI()
+    if not IS_GAME_RUNNING then return end
+    if CURRENT_ROOM >= 0x7b and CURRENT_ROOM <= 0x7d then
+        if EBON_KEEP_FLAG then
+            print(string.format("Setting ActivateTab to %s", "Ebon Keep"))
+            Tracker:UiHint("ActivateTab","Ebon Keep")
+        else
+            print(string.format("Setting ActivateTab to %s", "Ivor Tower"))
+            Tracker:UiHint("ActivateTab","Ivor Tower")
+        end
+    elseif ROOM_MAPPING[CURRENT_ROOM] then
+        if #ROOM_MAPPING[CURRENT_ROOM] == 2 then
+            print(string.format("Setting ActivateTab to %s", ROOM_MAPPING[CURRENT_ROOM][2]))
+            Tracker:UiHint("ActivateTab",ROOM_MAPPING[CURRENT_ROOM][2])
+        end
+        print(string.format("Setting ActivateTab to %s", ROOM_MAPPING[CURRENT_ROOM][1]))
+        Tracker:UiHint("ActivateTab",ROOM_MAPPING[CURRENT_ROOM][1])
+    else
+        print(string.format("In unmapped room %x",CURRENT_ROOM))
+    end
+end
+
+function updateEbonKeepFlag(segment)
+    if not IS_GAME_RUNNING then return end
+    EBON_KEEP_FLAG = segment:ReadUInt8(EBON_KEEP_FLAG_ADDR) & 0x40 > 0
+    print(string.format("EBON_KEEP_FLAG is now %x", CURRENT_ROOM))
+    updateUI()
 end
 
 function updateWeapons(segment)
@@ -17,7 +53,14 @@ end
 
 function updateAlchemy(segment)
     if IS_GAME_RUNNING then
+        ALCHEMY_SPELLS_TURDO_FOUND = {}
         checkFlagsInSegmentUsingTable(segment, ALCHEMY_SPELLS, 2)
+        for k,v in pairs(ALCHEMY_SPELLS_TURDO_FOUND) do
+            local obj = Tracker:FindObjectForCode(k)
+            if obj then
+                obj.AcquiredCount = v
+            end
+        end
     end
 end
 
@@ -148,7 +191,7 @@ function updateRocket(segment)
         local readResult = segment:ReadUInt8(ROCKET_ADDR)
         local rocket = Tracker:FindObjectForCode("rocket")
         if rocket then
-            rocket.Active = readResult & 0x70 > 0
+            rocket.Active = readResult & 0x70 == 0x70
         end
     end
 end
@@ -229,7 +272,20 @@ end
 function updateGourds(segment)
     if not IS_GAME_RUNNING then return end
     local vals = {}
-    for addr,gourds in pairs(GOURDS) do
+    addGourdValsFromTable(vals, GOURDS_OVERWORLD)
+    if IS_DETAILED then
+        addGourdValsFromTable(vals, GOURDS_DETAILED) 
+    end
+    for code,count in pairs(vals) do
+        local o = Tracker:FindObjectForCode(code)
+        if o then
+            o.AvailableChestCount = o.ChestCount - count
+        end
+    end
+end
+
+function addGourdValsFromTable(vals, table)
+    for addr,gourds in pairs(table) do
         local b = AutoTracker:ReadU8(addr) -- FIXME: this may be slow in emo
         for mask,code in pairs(gourds) do
             if b&mask>0 then
@@ -238,12 +294,7 @@ function updateGourds(segment)
             end
         end
     end
-    for code,count in pairs(vals) do
-        local o = Tracker:FindObjectForCode(code)
-        if o then
-            o.AvailableChestCount = o.ChestCount - count
-        end
-    end
+    return vals
 end
 
 function updateAlchemyLocations()
@@ -258,12 +309,18 @@ end
 
 function updateAlchemyLocation(name, state)
     if not IS_GAME_RUNNING or not ALCHEMY_LOCATION_MAPPING then return end
-    local code = ALCHEMY_LOCATIONS[ALCHEMY_LOCATION_MAPPING[name]]
+    getAndUpdateAlchemyLocation(ALCHEMY_LOCATIONS_OVERWORLD[ALCHEMY_LOCATION_MAPPING[name]], state)
+    if IS_DETAILED then
+        getAndUpdateAlchemyLocation(ALCHEMY_LOCATIONS_DETAILED[ALCHEMY_LOCATION_MAPPING[name]], state) 
+    end
+end
+
+function getAndUpdateAlchemyLocation(code, state)
     if code then
         local obj = Tracker:FindObjectForCode(code)
         if obj then
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-                print(string.format("Updating alchemy location %s with state %s",name,not state and 1 or 0))
+                print(string.format("Updating alchemy location %s with state %s",code,not state and 1 or 0))
             end
             if string.find(code,"@") then
                 obj.AvailableChestCount = not state and 1 or 0
@@ -296,4 +353,10 @@ function updateAlchemyMappings(segment)
         ALCHEMY_LOCATION_MAPPING[name] = k
     end
     updateAlchemyLocations()
+end
+
+function updateCallBeadChars(segment)
+    if IS_GAME_RUNNING then
+        checkFlagsInSegmentUsingTable(segment, CALL_BEAD_CHARS_AUTOTRACKING, 3)
+    end
 end

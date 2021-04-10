@@ -19,7 +19,7 @@
 						{
 							"type": "group",
 							"header": "Pinned Locations",
-							"dock": "left",
+							"dock": "right",
 							"content": {
 								"type": "recentpins",
 								"style": "wrap",
@@ -34,6 +34,15 @@
 				{
 					"type": "tabbed",
 					"tabs": [
+						{
+							"title": "Overview",
+							"content": {
+								"type": "map",
+								"maps": [
+									"overview"
+								]
+							}
+						},
 						{
 							"title": "Prehistoria",
 							"content": {

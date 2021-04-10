@@ -460,11 +460,17 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 8
+                        "item_count": 8,
+                        "access_rules": [
+                            "market_timer_done"
+                        ]
                     },
                     {
                         "name": "Vigor",
-                        "hosted_item": "vigor"
+                        "hosted_item": "vigor",
+                        "access_rules": [
+                            "market_timer_done"
+                        ]
                     },
                     {
                         "name": "Aegis",

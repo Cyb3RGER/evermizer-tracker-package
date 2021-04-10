@@ -34,7 +34,7 @@ ALCHEMY_LOCATION_MAPPING = nil
         [0x1f] = "speed",
         [0x20] = "sting",
         [0x21] = "stop",
-        [0x22] = "super_heal"       
+        [0x22] = "super_heal"
     }
     ALCHEMY_LOCATIONS_FLAGS = {
         [0x00] = 0x13af2a + 2,
@@ -146,7 +146,4 @@ ALCHEMY_LOCATION_MAPPING = nil
         [0x20] = "@Act 2/Desert of Doom/Sting",
         [0x21] = "@Act 3/Chessboard/Stop",
         [0x22] = "@Act 3/Ebon Keep/Super Heal",
-    }
-    if IS_DETAILED then ALCHEMY_LOCATIONS = ALCHEMY_LOCATIONS_DETAILED
-    else ALCHEMY_LOCATIONS = ALCHEMY_LOCATIONS_OVERWORLD
-    end
+    }    

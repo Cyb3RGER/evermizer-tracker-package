@@ -1744,6 +1744,9 @@
             },
             {
                 "name": "Colosseum",
+                "access_rules": [
+                    "market_timer_done"
+                ],
                 "map_locations": [
                     {
                         "map": "nobilia",

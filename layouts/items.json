@@ -79,6 +79,43 @@
             ]
         ]
     },
+    "items_magic_turdo": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            [
+                "atlas",
+                "barrier",
+                "call_up",
+                "cure",
+                "defend",
+                "energize",
+                "escape"
+            ],
+            [
+                "force_field",
+                "heal",
+                "levitate",
+                "miracle_cure",
+                "one_up",
+                "reflect"
+            ],
+            [
+                "regrowth",
+                "revealer",
+                "revive",
+                "speed",
+                "stop",
+                "super_heal"
+            ],
+            [
+                "turd_ball_1",
+                "turd_ball_2",
+                "turd_ball_3"
+            ]
+        ]
+    },
     "items_keyitems": {
         "type": "itemgrid",
         "h_alignment": "center",
@@ -167,6 +204,49 @@
             ]
         ]
     },
+    "items_call_beads": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            [
+                "call_bead_char_1",
+                "call_bead_char_2",
+                "call_bead_char_3",
+                "call_bead_char_4",
+            ],
+            [
+                "call_bead_spell_1_1",
+                "call_bead_spell_2_1",
+                "call_bead_spell_3_1",
+                "call_bead_spell_4_1",
+            ],
+            [
+                "call_bead_spell_1_2",
+                "call_bead_spell_2_2",
+                "call_bead_spell_3_2",
+                "call_bead_spell_4_2",
+            ],
+            [
+                "call_bead_spell_1_3",
+                "call_bead_spell_2_3",
+                "call_bead_spell_3_3",
+                "call_bead_spell_4_3",
+            ],
+            [
+                "call_bead_spell_1_4",
+                "call_bead_spell_2_4",
+                "call_bead_spell_3_4",
+                "call_bead_spell_4_4",
+            ],
+            [
+                "call_bead_spell_1_5",
+                "call_bead_spell_2_5",
+                "call_bead_spell_3_5",
+                "call_bead_spell_4_5",
+            ],
+        ]
+    },
     "items_compact": {
         "type": "itemgrid",
         "h_alignment": "center",
@@ -228,17 +308,17 @@
                     },
                     {
                         "type": "group",
-                        "header": "Key Items",
-                        "dock": "left",
+                        "header": "Call Beads",
+                        "dock": "left",                        
                         "content": {
                             "type": "layout",
-                            "key": "items_keyitems"
+                            "key": "items_call_beads"
                         }
                     },
                     {
                         "type": "group",
                         "header": "Alchemy",
-                        "dock": "right",
+                        "dock": "left",
                         "header_content": {
                             "type": "button_popup",
                             "style": "settings",
@@ -257,7 +337,17 @@
                 "content": [
                     {
                         "type": "group",
+                        "header": "Key Items",
+                        "dock": "left",
+                        "content": {
+                            "type": "layout",
+                            "key": "items_keyitems"
+                        }
+                    },
+                    {
+                        "type": "group",
                         "header": "Charms",
+                        "dock": "left",
                         "content": {
                             "type": "layout",
                             "key": "items_charms"
@@ -266,7 +356,7 @@
                     {
                         "type": "group",
                         "header": "Bosses",
-                        "dock": "right",
+                        "dock": "left",
                         "content": {
                             "type": "layout",
                             "key": "items_bosses"

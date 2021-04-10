@@ -96,3 +96,4 @@ function hasBronzeSpearOrHigher()
     
 	return 0
 end
+

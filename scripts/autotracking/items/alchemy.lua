@@ -53,12 +53,12 @@ ALCHEMY_SPELLS = {
         --["unused_2"] = 0x10,
         --["unused_3"] = 0x20,
         --["unused_4"] = 0x40,
-        --["horace"] = 0x80,
+        --["call_bead_char_2"] = 0x80,
     },
     --BYTE 6
     [5] = {
-        --["camellia"] = 0x01,
-        --["sidney"] = 0x02,
+        --["call_bead_char_3"] = 0x01,
+        --["call_bead_char_4"] = 0x02,
         --["unused_5"] = 0x04,
         --["unused_6"] = 0x08,
         --["unused_7"] = 0x10,
@@ -67,3 +67,29 @@ ALCHEMY_SPELLS = {
         --["unused_10"] = 0x80
     },
 }
+
+ALCHEMY_SPELLS_TURDO = {
+    ["turd_ball_1"] = {
+        "acid_rain",
+        "corrosion",
+        "drain",
+        "flash",
+        "hard_ball",
+        "slow_burn"
+    },
+    ["turd_ball_2"] = {
+        "crush",
+        "double_drain",
+        "fireball",
+        "lance",
+        "sting",
+    },
+    ["turd_ball_3"] = {
+        "explosion",
+        "fire_power",
+        "lightning_storm",
+        "nitro"
+    }
+}
+
+ALCHEMY_SPELLS_TURDO_FOUND = {}

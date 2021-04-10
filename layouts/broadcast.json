@@ -1,5 +1,5 @@
 {
-    "broadcast_item_grid": {
+    "broadcast_item_grid": { //Replace with your desired layout here (examples can be found in layout/items.jsons)
         "type": "layout",
         "key": "shared_item_grid"
     },

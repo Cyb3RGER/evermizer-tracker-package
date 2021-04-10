@@ -18,5 +18,50 @@
                 "codes": "fix_seq, fix_seq_on"
             }
         ]
+    },
+    {
+        "name": "Trudo Mode",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/settings/Off.png",
+                "inherit_codes": false,
+                "codes": "turdo, turdo_off"
+            },
+            {
+                "img": "images/items/settings/On.png",
+                "inherit_codes": false,
+                "codes": "turdo, turdo_on"
+            }
+        ]
+    },
+    {
+        "name": "Callbeadamizer",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/settings/Off.png",
+                "inherit_codes": false,
+                "codes": "callbeadamizer, callbeadamizer_off"
+            },
+            {
+                "img": "images/items/settings/On.png",
+                "inherit_codes": false,
+                "codes": "callbeadamizer, callbeadamizer_on"
+            },
+            {
+                "img": "images/items/settings/Chaos.png",
+                "inherit_codes": false,
+                "codes": "callbeadamizer, callbeadamizer_on, callbeadamizer_chaos"
+            }
+        ]
     }
 ]

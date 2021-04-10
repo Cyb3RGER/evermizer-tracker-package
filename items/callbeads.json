@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Elizabeth's Call Bead Spells",
+        "type": "progressive",
+        "capturable": false,
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/items/call_bead/elizabeth.png",
+                "codes": "elizabeth"
+            },
+            {
+                "img": "images/items/call_bead/horace.png",
+                "codes": "horace"
+            },
+            {
+                "img": "images/items/call_bead/cameilla.png",
+                "codes": "cameilla"
+            },
+            {
+                "img": "images/items/call_bead/sidney.png",
+                "codes": "sidney"
+            }
+        ]
+    }
+]
