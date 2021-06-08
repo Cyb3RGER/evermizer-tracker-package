@@ -2,6 +2,7 @@ local variant = Tracker.ActiveVariantUID
 IS_ITEMS_ONLY = variant:find("itemsonly")
 IS_COMPACT = variant:find("itemsonly_compact")
 IS_DETAILED = variant:find("detailed")
+CALLBEADMIZER_MODE = 0
 ENABLE_DEBUG_LOG = false
 
 if PopVersion and ENABLE_DEBUG_LOG then
@@ -122,7 +123,7 @@ CALL_BEAD_SPELLS = {
         disabled = false
     },
 }
-CALL_BEAD_CHILD_PROESSION_STATES = {
+CALL_BEAD_CHILD_PROGRESSION_STATES = {
     [0] = {
         [0] = 0,
         [1] = 0,
@@ -176,25 +177,25 @@ CB_CHARS[0] = ProgressiveTogglePlus("Elizabeth's Call Bead Spells","call_bead_ch
 { CB_SPELLS[0],CB_SPELLS[1],CB_SPELLS[2],CB_SPELLS[3],CB_SPELLS[4] },true,
 {
     children = {[0] = CB_SPELLS[0],CB_SPELLS[1],CB_SPELLS[2],CB_SPELLS[3],CB_SPELLS[4]},
-    states = CALL_BEAD_CHILD_PROESSION_STATES
+    states = CALL_BEAD_CHILD_PROGRESSION_STATES
 }, true)
 CB_CHARS[1] = ProgressiveTogglePlus("Horace's Call Bead Spells","call_bead_char_2",CALL_BEAD_CHARS,true,false,false,0,false,
 { CB_SPELLS[5],CB_SPELLS[6],CB_SPELLS[7] },true,
 {
     children = {[0] = CB_SPELLS[5],CB_SPELLS[6],CB_SPELLS[7],CB_SPELLS[8],CB_SPELLS[9]},
-    states = CALL_BEAD_CHILD_PROESSION_STATES
+    states = CALL_BEAD_CHILD_PROGRESSION_STATES
 }, true)
 CB_CHARS[2] = ProgressiveTogglePlus("Camellia's Call Bead Spells","call_bead_char_3",CALL_BEAD_CHARS,true,false,false,0,false,
 { CB_SPELLS[10],CB_SPELLS[11],CB_SPELLS[12],CB_SPELLS[13],CB_SPELLS[14] },true,
 {
     children = {[0] = CB_SPELLS[10],CB_SPELLS[11],CB_SPELLS[12],CB_SPELLS[13],CB_SPELLS[14]},
-    states = CALL_BEAD_CHILD_PROESSION_STATES
+    states = CALL_BEAD_CHILD_PROGRESSION_STATES
 }, true)
 CB_CHARS[3] = ProgressiveTogglePlus("Sidney's Call Bead Spells","call_bead_char_4",CALL_BEAD_CHARS,true,false,false,0,false,
 { CB_SPELLS[15],CB_SPELLS[16],CB_SPELLS[17],CB_SPELLS[18],CB_SPELLS[19] },true,
 {
     children = {[0] = CB_SPELLS[15],CB_SPELLS[16],CB_SPELLS[17],CB_SPELLS[18],CB_SPELLS[19]},
-    states = CALL_BEAD_CHILD_PROESSION_STATES
+    states = CALL_BEAD_CHILD_PROGRESSION_STATES
 }, true)
 
 

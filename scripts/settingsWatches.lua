@@ -13,6 +13,7 @@ end
 
 function updateCallbeadamizer(code)
     local val = Tracker:ProviderCountForCode("callbeadamizer_on") + Tracker:ProviderCountForCode("callbeadamizer_chaos")
+    CALLBEADMIZER_MODE = val
     for i = 0,3 do
         CB_CHARS[i]:setProperty("enableChildToggle", val == 0)
         CB_CHARS[i]:setProperty("enableChildProgression", val < 2)

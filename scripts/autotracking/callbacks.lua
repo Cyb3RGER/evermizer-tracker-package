@@ -360,3 +360,59 @@ function updateCallBeadChars(segment)
         checkFlagsInSegmentUsingTable(segment, CALL_BEAD_CHARS_AUTOTRACKING, 3)
     end
 end
+
+function updateActiveRingMenu(segment)
+    if not IS_GAME_RUNNING then return end
+    local readResult = segment:ReadUInt16(ACTIVE_RING_MENU_ADDR)
+    IS_CALL_BEAD_SPELLS_MENU = readResult+0x7e0000 == CALL_BEAD_SPELLS_MENU_ADDR
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("IS_CALL_BEAD_SPELLS_MENU set to %s", IS_CALL_BEAD_SPELLS_MENU))
+    end    
+    updateCurrentCallBeadChar(nil)
+    updateCallBeadSpells(nil)
+end
+
+function updateCurrentCallBeadChar(segment)
+    if not IS_GAME_RUNNING or not IS_CALL_BEAD_SPELLS_MENU then return end
+    local currentSelection = AutoTracker:ReadUInt16(CALL_BEAD_CHARS_MENU_ADDR+2)
+    local readResult = AutoTracker:ReadUInt16(CALL_BEAD_CHARS_MENU_ADDR+4+currentSelection*2)
+    CURRENT_CALL_BEAD_CHAR = CALL_BEAD_MENU_ITEM_OFFSETS[readResult]
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("CURRENT_CALL_BEAD_CHAR set to %s", CURRENT_CALL_BEAD_CHAR))
+    end
+end
+
+function updateCallBeadSpells(segment)
+    if not IS_GAME_RUNNING or not IS_CALL_BEAD_SPELLS_MENU or not CURRENT_CALL_BEAD_CHAR or CALLBEADMIZER_MODE ~= 2 then return end
+    local ringMenuSize = AutoTracker:ReadUInt16(CALL_BEAD_SPELLS_MENU_ADDR)
+    if ringMenuSize < 3 or ringMenuSize > 5 then return end
+    for i = 0, 4 do
+        local obj = CB_SPELLS[(CURRENT_CALL_BEAD_CHAR-1)*5+i]
+        if obj then        
+            if i > ringMenuSize-1 then
+                if obj:getState() ~= 0 then
+                    obj:setState(0)
+                    obj:setActive(false)
+                end
+            else
+                local readResult = AutoTracker:ReadUInt16(CALL_BEAD_SPELLS_MENU_ADDR+4+i*2)
+                if CALL_BEAD_MENU_ITEM_OFFSETS[readResult] then                
+                    if obj:getState() ~= CALL_BEAD_MENU_ITEM_OFFSETS[readResult] then
+                        obj:setState(CALL_BEAD_MENU_ITEM_OFFSETS[readResult])
+                        obj:setActive(true)
+                    end
+                else
+                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                        print(string.format("Unknown index %s in CALL_BEAD_MENU_ITEM_OFFSETS", readResult))
+                    end
+                end
+            end
+        else
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                print(string.format("Unknown index %s in CB_SPELLS", (CURRENT_CALL_BEAD_CHAR-1)*5+i))
+            end
+        end
+        
+    end
+    CURRENT_CALL_BEAD_CHAR = nil
+end

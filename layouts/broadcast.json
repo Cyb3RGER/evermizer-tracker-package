@@ -1,7 +1,44 @@
 {
-    "broadcast_item_grid": { //Replace with your desired layout here (examples can be found in layout/items.jsons)
+    "items_broadcast": { //Replace with your desired layout here (examples can be found in layout/items.jsons) or...
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "item_size": "4,4",
+        "rows": [
+            [
+                "diamond_eyes",
+                "gauge",
+                "wheel",
+                "energy_core",
+                "aeroglider",
+                "queens_key"
+            ],
+            [
+                "sword_1",
+                "sword_2",
+                "sword_3",
+                "sword_4",
+                "levitate"
+            ],
+            [
+                "axe_1",
+                "axe_2",
+                "axe_3",
+                "axe_4",
+                "revealer"
+            ],
+            [
+                "spear_1",
+                "spear_2",
+                "spear_3",
+                "spear_4",
+                "bazooka"
+            ]
+        ]
+    },    
+    "broadcast_item_grid": { //...replace with your desired layout here 
         "type": "layout",
-        "key": "shared_item_grid"
+        "key": "items_broadcast"
     },
     "tracker_broadcast": {
         "type": "array",
