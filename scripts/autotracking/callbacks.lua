@@ -1,6 +1,9 @@
-function updateGameState(segment)  
+function updateGameState(segment)
     local readResult = segment:ReadUInt8(GAME_STATE.addr)
-    IS_GAME_RUNNING = readResult & GAME_STATE.value
+    IS_GAME_RUNNING = readResult & GAME_STATE.value > 0
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("readResult: %x, Game State is %s. Enabled Watches is %s.",readResult, IS_GAME_RUNNING, ENABLED_WATCHES))
+    end
     if (IS_GAME_RUNNING and not ENABLED_WATCHES)  then
         enableWatches()
     elseif (not IS_GAME_RUNNING and ENABLED_WATCHES) then
