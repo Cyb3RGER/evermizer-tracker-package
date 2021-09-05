@@ -1,12 +1,17 @@
-function updateGameState()
-    --ToDo
-    IS_GAME_RUNNING = CURRENT_ROOM and CURRENT_ROOM ~= 0x61 and CURRENT_ROOM ~= 0x31 and CURRENT_ROOM ~= 0x32 and CURRENT_ROOM ~= 0x02 and CURRENT_ROOM ~= 0x03
+function updateGameState(segment)  
+    local readResult = segment:ReadUInt8(GAME_STATE.addr)
+    IS_GAME_RUNNING = readResult & GAME_STATE.value
+    if (IS_GAME_RUNNING and not ENABLED_WATCHES)  then
+        enableWatches()
+    elseif (not IS_GAME_RUNNING and ENABLED_WATCHES) then
+        disableWatches()
+    end
+
 end
 
 function updateCurrentRoom(segment)
     CURRENT_ROOM = segment:ReadUInt8(CURRENT_ROOM_ADDR)
     print(string.format("CURRENT_ROOM is now %x", CURRENT_ROOM))
-    updateGameState()
     updateUI()
 end
 
