@@ -18,7 +18,7 @@ if AUTOTRACKER_ENABLE_ITEM_TRACKING then
     ScriptHost:LoadScript("scripts/autotracking/items/bosses.lua")
     ScriptHost:LoadScript("scripts/autotracking/items/keyitems.lua")
     ScriptHost:LoadScript("scripts/autotracking/items/market_timer.lua")
-    ScriptHost:LoadScript("scripts/autotracking/items/call_beads.lua")
+    --ScriptHost:LoadScript("scripts/autotracking/items/call_beads.lua")
 end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     ScriptHost:LoadScript("scripts/autotracking/locations/gourds.lua")
@@ -68,10 +68,10 @@ function enableWatches()
         ScriptHost:AddMemoryWatch("Timer", MARKET_TIMER.TIMER_ADDR , 0x2, updateTimer)
         ScriptHost:AddMemoryWatch("FrameCounter", MARKET_TIMER.FRAME_COUNTER_ADDR , 0x2, updateFrameCounter)
         ScriptHost:AddMemoryWatch("TimerDoneOverride",MARKET_TIMER.OVERRIDE_FLAG_ADDR, 0x1, updateTimerOverride)
-        ScriptHost:AddMemoryWatch("CallBeadChars", CALL_BEAD_CHARS_AUTOTRACKING.addr,0x2,updateCallBeadChars)
-        ScriptHost:AddMemoryWatch("ActiveRingMenu",ACTIVE_RING_MENU_ADDR, 0x2, updateActiveRingMenu)
-        ScriptHost:AddMemoryWatch("CurrentCallBeadChar",CALL_BEAD_CHARS_MENU_ADDR, 0xc, updateCurrentCallBeadChar)
-        ScriptHost:AddMemoryWatch("CallBeadSpells",CALL_BEAD_SPELLS_MENU_ADDR, 0xe, updateCallBeadSpells)
+        --ScriptHost:AddMemoryWatch("CallBeadChars", CALL_BEAD_CHARS_AUTOTRACKING.addr,0x2,updateCallBeadChars)
+        --ScriptHost:AddMemoryWatch("ActiveRingMenu",ACTIVE_RING_MENU_ADDR, 0x2, updateActiveRingMenu)
+        --ScriptHost:AddMemoryWatch("CurrentCallBeadChar",CALL_BEAD_CHARS_MENU_ADDR, 0xc, updateCurrentCallBeadChar)
+        --ScriptHost:AddMemoryWatch("CallBeadSpells",CALL_BEAD_SPELLS_MENU_ADDR, 0xe, updateCallBeadSpells)
     end
     if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
@@ -109,10 +109,10 @@ function disableWatches()
         ScriptHost:RemoveMemoryWatch("Timer")
         ScriptHost:RemoveMemoryWatch("FrameCounter")
         ScriptHost:RemoveMemoryWatch("TimerDoneOverride")
-        ScriptHost:RemoveMemoryWatch("CallBeadChars")
-        ScriptHost:RemoveMemoryWatch("ActiveRingMenu")
-        ScriptHost:RemoveMemoryWatch("CurrentCallBeadChar")
-        ScriptHost:RemoveMemoryWatch("CallBeadSpells")
+        --ScriptHost:RemoveMemoryWatch("CallBeadChars")
+        --ScriptHost:RemoveMemoryWatch("ActiveRingMenu")
+        --ScriptHost:RemoveMemoryWatch("CurrentCallBeadChar")
+        --ScriptHost:RemoveMemoryWatch("CallBeadSpells")
     end
     if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
