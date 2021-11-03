@@ -80,9 +80,7 @@ function enableWatches()
         for i=1,#GOURDS_WATCHES do
             ScriptHost:AddMemoryWatch("Gourds "..i, GOURDS_WATCHES[i].addr, GOURDS_WATCHES[i].len, updateGourds)
         end
-        for k, v in pairs(ALCHEMY_LOCATIONS_FLAGS) do
-            ScriptHost:AddMemoryWatch("Alchemy Location Mapping "..k+1, v, 0x2, updateAlchemyMappings)
-        end
+        ScriptHost:AddMemoryWatch("Alchemy Locations", ALCHEMY_LOCATIONS_BASE_ADDR, 0x5, updateAlchemyLocations)
     end
     ENABLED_WATCHES = true
 end
@@ -121,9 +119,7 @@ function disableWatches()
         for i=1,#GOURDS_WATCHES do
             ScriptHost:RemoveMemoryWatch("Gourds "..i)
         end
-        for k, v in pairs(ALCHEMY_LOCATIONS_FLAGS) do
-            ScriptHost:RemoveMemoryWatch("Alchemy Location Mapping "..k+1)
-        end
+        ScriptHost:RemoveMemoryWatch("Alchemy Locations")
     end
     ENABLED_WATCHES = false
     Tracker:UiHint("ActivateTab","Overview")

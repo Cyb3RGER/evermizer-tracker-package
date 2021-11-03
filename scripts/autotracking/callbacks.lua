@@ -305,62 +305,33 @@ function addGourdValsFromTable(vals, table)
     return vals
 end
 
-function updateAlchemyLocations()
-    if not IS_GAME_RUNNING or not ALCHEMY_LOCATION_MAPPING then return end
-    for k,v in pairs(ALCHEMY_IDS) do
-        local obj = Tracker:FindObjectForCode(v)
-        if obj then
-            updateAlchemyLocation(v,obj.Active)
-        end
-    end
-end
-
-function updateAlchemyLocation(name, state)
-    if not IS_GAME_RUNNING or not ALCHEMY_LOCATION_MAPPING then return end
-    getAndUpdateAlchemyLocation(ALCHEMY_LOCATIONS_OVERWORLD[ALCHEMY_LOCATION_MAPPING[name]], state)
-    if IS_DETAILED then
-        getAndUpdateAlchemyLocation(ALCHEMY_LOCATIONS_DETAILED[ALCHEMY_LOCATION_MAPPING[name]], state) 
-    end
-end
-
-function getAndUpdateAlchemyLocation(code, state)
-    if code then
-        local obj = Tracker:FindObjectForCode(code)
-        if obj then
-            if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-                print(string.format("Updating alchemy location %s with state %s",code,not state and 1 or 0))
-            end
-            if string.find(code,"@") then
-                obj.AvailableChestCount = not state and 1 or 0
-            else
-                obj.Active = state
-            end
-        end
-    end
-end
-
-function updateAlchemyMappings(segment)
-    if not IS_GAME_RUNNING then return end
-    ALCHEMY_LOCATION_MAPPING = {}
+function updateAlchemyLocations(segment)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-        print("Alchemy mapping:")
+        print(string.format("updateAlchemyLocations"));
     end
-    for k, v in pairs(ALCHEMY_LOCATIONS_FLAGS) do
-        local readResult = AutoTracker:ReadU16(v) -- FIXME: this may be slow in emo (how cares really?)
-        local name = ALCHEMY_IDS[readResult]
-        if not name then
+    if not IS_GAME_RUNNING then return end
+    if IS_DETAILED then
+        for addr, locs in pairs(ALCHEMY_LOCATIONS_DETAILED) do
+            local readResult = segment:ReadUInt8(addr)
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-                print("",string.format("invalid id found %x at addr %x",readResult,0x80000+v))
+                print(string.format("updateAlchemyLocations: Checking addr %x, readResult %x",addr,readResult));
             end
-            ALCHEMY_LOCATION_MAPPING = nil
-            return
+            for mask, code in pairs(locs) do
+                local o = Tracker:FindObjectForCode(code)
+                if o then
+                    if code:sub(1, 1) == "@" then
+                        if readResult & mask > 0 then
+                            o.AvailableChestCount = 0;
+                        else
+                            o.AvailableChestCount = o.ChestCount
+                        end
+                    else
+                        o.Active = readResult & mask > 0;
+                    end
+                end
+            end
         end
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-            print("",string.format("%s is at %x",name,k))
-        end
-        ALCHEMY_LOCATION_MAPPING[name] = k
     end
-    updateAlchemyLocations()
 end
 
 function updateCallBeadChars(segment)

@@ -48,9 +48,6 @@ function checkFlagsInSegmentUsingTable(segment, table, checkmode)
                     local obj = Tracker:FindObjectForCode(k)
                     if obj then
                         obj.Active = readResult & v > 0
-                        if checkmode == 2 then
-                            updateAlchemyLocation(k,obj.Active)
-                        end
                     end
                 elseif checkmode == 1 then
                     local obj = Tracker:FindObjectForCode(k)
