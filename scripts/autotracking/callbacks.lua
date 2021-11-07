@@ -332,6 +332,26 @@ function updateAlchemyLocations(segment)
             end
         end
     end
+    for addr, locs in pairs(ALCHEMY_LOCATIONS_OVERWORLD) do
+        local readResult = segment:ReadUInt8(addr)
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+            print(string.format("updateAlchemyLocations: Checking addr %x, readResult %x",addr,readResult));
+        end
+        for mask, code in pairs(locs) do
+            local o = Tracker:FindObjectForCode(code)
+            if o then
+                if code:sub(1, 1) == "@" then
+                    if readResult & mask > 0 then
+                        o.AvailableChestCount = 0;
+                    else
+                        o.AvailableChestCount = o.ChestCount
+                    end
+                else
+                    o.Active = readResult & mask > 0;
+                end
+            end
+        end
+    end
 end
 
 function updateCallBeadChars(segment)
