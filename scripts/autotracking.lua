@@ -48,8 +48,10 @@ ScriptHost:AddMemoryWatch("CheckGameState", 0x7e22ab  , 0x1 , updateGameState)
 
 function enableWatches()
     if ENABLED_WATCHES then return end
-    ScriptHost:AddMemoryWatch("CurrentRoom", CURRENT_ROOM_ADDR, 0x1, updateCurrentRoom)
-    ScriptHost:AddMemoryWatch("EbonKeepFlag", EBON_KEEP_FLAG_ADDR, 0x1, updateEbonKeepFlag)
+    if not IS_ITEMS_ONLY then
+        ScriptHost:AddMemoryWatch("CurrentRoom", CURRENT_ROOM_ADDR, 0x1, updateCurrentRoom)
+        ScriptHost:AddMemoryWatch("EbonKeepFlag", EBON_KEEP_FLAG_ADDR, 0x1, updateEbonKeepFlag)
+    end
     if AUTOTRACKER_ENABLE_ITEM_TRACKING then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
             print("Adding item tracker watches")
@@ -87,8 +89,10 @@ end
 
 function disableWatches()
     if not ENABLED_WATCHES then return end
-    ScriptHost:RemoveMemoryWatch("CurrentRoom")
-    ScriptHost:RemoveMemoryWatch("EbonKeepFlag")
+    if not IS_ITEMS_ONLY then
+        ScriptHost:RemoveMemoryWatch("CurrentRoom")
+        ScriptHost:RemoveMemoryWatch("EbonKeepFlag")
+    end
     if AUTOTRACKER_ENABLE_ITEM_TRACKING then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
             print("Removing item tracker watches")
@@ -122,7 +126,9 @@ function disableWatches()
         ScriptHost:RemoveMemoryWatch("Alchemy Locations")
     end
     ENABLED_WATCHES = false
-    Tracker:UiHint("ActivateTab","Overview")
+    if not IS_ITEMS_ONLY then
+        Tracker:UiHint("ActivateTab","Overview")
+    end
 end
 
 -------------------------------------------------------
