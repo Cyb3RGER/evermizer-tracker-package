@@ -14,18 +14,25 @@ end
 
 function updateCurrentRoom(segment)
     CURRENT_ROOM = segment:ReadUInt8(CURRENT_ROOM_ADDR)
-    print(string.format("CURRENT_ROOM is now %x", CURRENT_ROOM))
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("CURRENT_ROOM is now %x", CURRENT_ROOM))
+    end
     updateUI()
 end
 
 function updateUI()
     if not IS_GAME_RUNNING then return end
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("updating UI with: CURRENT_ROOM: 0x%x, EBON_KEEP_FLAG: %s, ROOM_MAPPING[CURRENT_ROOM]: %s, isEbonKeepOrIvorTower: %s",CURRENT_ROOM, EBON_KEEP_FLAG, ROOM_MAPPING[CURRENT_ROOM], CURRENT_ROOM >= 0x7b and CURRENT_ROOM <= 0x7d))
+    end
     if CURRENT_ROOM >= 0x7b and CURRENT_ROOM <= 0x7d then
         if EBON_KEEP_FLAG then
             print(string.format("Setting ActivateTab to %s", "Ebon Keep"))
+            Tracker:UiHint("ActivateTab","Gothica")
             Tracker:UiHint("ActivateTab","Ebon Keep")
         else
             print(string.format("Setting ActivateTab to %s", "Ivor Tower"))
+            Tracker:UiHint("ActivateTab","Gothica")
             Tracker:UiHint("ActivateTab","Ivor Tower")
         end
     elseif ROOM_MAPPING[CURRENT_ROOM] then
