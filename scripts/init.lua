@@ -210,6 +210,7 @@ Tracker:AddItems("items/charms.json")
 Tracker:AddItems("items/bosses.json")
 Tracker:AddItems("items/npcs.json")
 Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/stats.json")
 if not IS_ITEMS_ONLY then
     --maps
     Tracker:AddMaps("maps/maps.json")

@@ -2,6 +2,7 @@
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = true or ENABLE_DEBUG_LOG
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
 AUTOTRACKER_ENABLE_LOCATION_TRACKING = true and not IS_ITEMS_ONLY
+AUTOTRACKER_ENABLE_STAT_TRACKING = true and AUTOTRACKER_ENABLE_ITEM_TRACKING
 -------------------------------------------------------
 
 -- Globals --------------------------------------------
@@ -19,12 +20,16 @@ if AUTOTRACKER_ENABLE_ITEM_TRACKING then
     ScriptHost:LoadScript("scripts/autotracking/items/keyitems.lua")
     ScriptHost:LoadScript("scripts/autotracking/items/market_timer.lua")
     --ScriptHost:LoadScript("scripts/autotracking/items/call_beads.lua")
+    if AUTOTRACKER_ENABLE_STAT_TRACKING then
+        ScriptHost:LoadScript("scripts/autotracking/items/stats.lua")
+    end
 end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     ScriptHost:LoadScript("scripts/autotracking/locations/gourds.lua")
     ScriptHost:LoadScript("scripts/autotracking/locations/alchemy.lua")
     ScriptHost:LoadScript("scripts/autotracking/locations/mapswitching.lua")
 end
+
 -------------------------------------------------------
 
 print("")
@@ -32,6 +37,7 @@ print("Active Auto-Tracker Configuration")
 print("---------------------------------------------------------------------")
 print("Enable Item Tracking:        ", AUTOTRACKER_ENABLE_ITEM_TRACKING)
 print("Enable Location Tracking:    ", AUTOTRACKER_ENABLE_LOCATION_TRACKING)
+print("Enable Stat Tracking:        ", AUTOTRACKER_ENABLE_STAT_TRACKING)
 if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
     print("Enable Debug Logging:        ", "true")
 end
@@ -69,7 +75,12 @@ function enableWatches()
         ScriptHost:AddMemoryWatch("Bosses2", BOSSES_2.addr , 0x20, updateBosses2)
         ScriptHost:AddMemoryWatch("Timer", MARKET_TIMER.TIMER_ADDR , 0x2, updateTimer)
         ScriptHost:AddMemoryWatch("FrameCounter", MARKET_TIMER.FRAME_COUNTER_ADDR , 0x2, updateFrameCounter)
-        ScriptHost:AddMemoryWatch("TimerDoneOverride",MARKET_TIMER.OVERRIDE_FLAG_ADDR, 0x1, updateTimerOverride)
+        ScriptHost:AddMemoryWatch("TimerDoneOverride",MARKET_TIMER.OVERRIDE_FLAG_ADDR, 0x1, updateTimerOverride)   
+        if AUTOTRACKER_ENABLE_STAT_TRACKING then
+            ScriptHost:AddMemoryWatch("WeaponLevels",WEAPON_LEVELS_START_ADDR, 0x1A, updateWeaponLevels)
+            ScriptHost:AddMemoryWatch("AlchemyLevels",ALCHEMY_LEVELS_START_ADDR, 0x8B, updateAlchemyLevels)
+            ScriptHost:AddMemoryWatch("Money",MONEY_START_ADDR, 0xB, updateMoney)
+        end
         --ScriptHost:AddMemoryWatch("CallBeadChars", CALL_BEAD_CHARS_AUTOTRACKING.addr,0x2,updateCallBeadChars)
         --ScriptHost:AddMemoryWatch("ActiveRingMenu",ACTIVE_RING_MENU_ADDR, 0x2, updateActiveRingMenu)
         --ScriptHost:AddMemoryWatch("CurrentCallBeadChar",CALL_BEAD_CHARS_MENU_ADDR, 0xc, updateCurrentCallBeadChar)
@@ -111,6 +122,11 @@ function disableWatches()
         ScriptHost:RemoveMemoryWatch("Timer")
         ScriptHost:RemoveMemoryWatch("FrameCounter")
         ScriptHost:RemoveMemoryWatch("TimerDoneOverride")
+        if AUTOTRACKER_ENABLE_STAT_TRACKING then
+            ScriptHost:RemoveMemoryWatch("WeaponLevels")
+            ScriptHost:RemoveMemoryWatch("AlchemyLevels")
+            ScriptHost:RemoveMemoryWatch("Money")
+        end
         --ScriptHost:RemoveMemoryWatch("CallBeadChars")
         --ScriptHost:RemoveMemoryWatch("ActiveRingMenu")
         --ScriptHost:RemoveMemoryWatch("CurrentCallBeadChar")

@@ -93,3 +93,42 @@ ALCHEMY_SPELLS_TURDO = {
 }
 
 ALCHEMY_SPELLS_TURDO_FOUND = {}
+
+ALCHEMY_LEVELS_START_ADDR = 0x7E2F52
+ALCHEMY_NAMES = {
+    "acid_rain",
+    "atlas",
+    "barrier",
+    "call_up",
+    "corrosion",
+    "crush",
+    "cure",
+    "defend",
+    "double_drain",
+    "drain",
+    "energize",
+    "escape",
+    "explosion",
+    "fireball",
+    "fire_power",
+    "flash",
+    "force_field",
+    "hard_ball",
+    "heal",
+    "lance",
+    "laser",
+    "levitate",
+    "lightning_storm",
+    "miracle_cure",
+    "nitro",
+    "one_up",
+    "reflect",
+    "regrowth",
+    "revealer",
+    "revive",
+    "slow_burn",
+    "speed",
+    "sting",
+    "stop",
+    "super_heal",
+}

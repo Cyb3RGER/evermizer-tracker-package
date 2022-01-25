@@ -29,3 +29,21 @@ AMMO = {
     ["ammo_2"] = 0x1,
     ["ammo_3"] = 0x2,
 }
+
+WEAPON_LEVELS_START_ADDR = 0x7E0ADF
+WEAPON_LEVELS = {
+    ["sword_1"]       = 0x7E0ADF,
+    ["sword_2"]       = 0x7E0AE1,
+    ["sword_3"]       = 0x7E0AE3,
+    ["sword_4"]       = 0x7E0AE5,
+    ["axe_1"]         = 0x7E0AE7,
+    ["axe_2"]         = 0x7E0AE9,
+    ["axe_3"]         = 0x7E0AEB,
+    ["axe_4"]         = 0x7E0AED,
+    ["spear_1"]       = 0x7E0AEF,
+    ["spear_2"]       = 0x7E0AF1,
+    ["spear_3"]       = 0x7E0AF3,
+    ["spear_4"]       = 0x7E0AF5,
+    ["bazooka"]       = 0x7E0AF7,
+}
+WEAPON_LEVEL_SIZE = 0x2

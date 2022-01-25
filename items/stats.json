@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Talons",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/talon.png",
+        "codes": "talons"
+    },
+    {
+        "name": "Jewels",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/jewel.png",
+        "codes": "jewels"
+    },
+    {
+        "name": "Gold",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/gold.png",
+        "codes": "gold"
+    },
+    {
+        "name": "Credits",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/credit.png",
+        "codes": "credits"
+    }
+]

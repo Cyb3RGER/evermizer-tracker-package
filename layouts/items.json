@@ -1,4 +1,29 @@
 {
+    "items_stats": {
+        "type": "dock",    
+        "dock":"left",
+        "h_alignment": "left",
+        "v_alignment": "strech",        
+        "content": [
+            {
+                "type": "item",           
+                "item": "talons",
+                "item_margin": "5"
+            },
+            {
+                "type": "item",
+                "item": "jewels"
+            },
+            {
+                "type": "item",
+                "item": "gold"
+            },
+            {
+                "type": "item",
+                "item": "credits"
+            }
+        ]
+    },
     "items_weapons": {
         "type": "itemgrid",
         "h_alignment": "center",
@@ -33,7 +58,7 @@
     "items_magic": {
         "type": "itemgrid",
         "h_alignment": "center",
-        "item_margin": "1,2",
+        "item_margin": "6,3",
         "rows": [
             [
                 "acid_rain",
@@ -309,7 +334,7 @@
                     {
                         "type": "group",
                         "header": "Call Beads",
-                        "dock": "left",                        
+                        "dock": "left",
                         "content": {
                             "type": "layout",
                             "key": "items_call_beads"
@@ -355,13 +380,26 @@
                     },
                     {
                         "type": "group",
+                        "header": "Money",
+                        "dock": "left",                        
+                        "content": {                                                        
+                            "type": "layout",
+                            "dock": "left",
+                            "h_alignment": "left",
+                            "v_alignment": "strech",                            
+                            "key": "items_stats"                            
+                        }
+                    },
+                    {
+                        "type": "group",
                         "header": "Bosses",
                         "dock": "left",
                         "content": {
                             "type": "layout",
                             "key": "items_bosses"
                         }
-                    }
+                    },
+                    
                 ]
             }
         ]
