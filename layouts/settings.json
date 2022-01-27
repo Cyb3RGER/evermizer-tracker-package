@@ -38,6 +38,18 @@
                         "item": "callbeadamizer"
                     }
                 ]
+            },
+            {
+                "type": "group",
+                "header": "Stats Autotracking",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "stats_tracking"
+                    }
+                ]
             }
         ]
     }

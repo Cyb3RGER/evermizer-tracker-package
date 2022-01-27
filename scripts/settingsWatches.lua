@@ -11,6 +11,15 @@ function updateTurdoMode(code)
     ScriptHost:LoadScript("scripts/autotracking/items/alchemy.lua")
 end
 
+function updateStatsTracking(code)
+    AUTOTRACKER_ENABLE_STAT_TRACKING = (Tracker:ProviderCountForCode("stats_tracking_on") > 0) and AUTOTRACKER_ENABLE_ITEM_TRACKING
+    if AUTOTRACKER_ENABLE_STAT_TRACKING then
+        Tracker:AddLayouts("layouts/items_stats.json")
+    else
+        Tracker:AddLayouts("layouts/items.json")
+    end    
+end
+
 function updateCallbeadamizer(code)
     local val = Tracker:ProviderCountForCode("callbeadamizer_on") + Tracker:ProviderCountForCode("callbeadamizer_chaos")
     CALLBEADMIZER_MODE = val
@@ -51,5 +60,6 @@ end
 updateCallbeadamizer("")
 if PopVersion > "0.1.0" then
     ScriptHost:AddWatchForCode("updateTurdoMode","turdo",updateTurdoMode)
+    ScriptHost:AddWatchForCode("updateStatsTracking","stats_tracking",updateStatsTracking)
     ScriptHost:AddWatchForCode("updateCallbeadamizer","callbeadamizer",updateCallbeadamizer)
 end

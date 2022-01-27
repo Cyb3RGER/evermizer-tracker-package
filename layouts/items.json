@@ -1,12 +1,12 @@
 {
-    "items_stats": {
-        "type": "dock",    
-        "dock":"left",
+    "items_money": {
+        "type": "dock",
+        "dock": "left",
         "h_alignment": "left",
-        "v_alignment": "strech",        
+        "v_alignment": "strech",
         "content": [
             {
-                "type": "item",           
+                "type": "item",
                 "item": "talons",
                 "item_margin": "5"
             },
@@ -22,6 +22,45 @@
                 "type": "item",
                 "item": "credits"
             }
+        ]
+    },
+    "items_stats": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            [
+                "",
+                "boy",
+                "",
+                "",
+                "dog",        
+                ""
+            ],
+            [
+                "",
+                "boy_lvl",
+                "",
+                "",
+                "dog_lvl",
+                ""
+            ],
+            [
+                "",
+                "boy_exp",
+                "",
+                "",
+                "dog_exp",
+                ""
+            ],
+            [
+                "",
+                "boy_exp_next_lvl",
+                "",
+                "",
+                "dog_exp_next_lvl",
+                ""
+            ]
         ]
     },
     "items_weapons": {
@@ -54,7 +93,7 @@
                 "ammo_3"
             ]
         ]
-    },
+    }, 
     "items_magic": {
         "type": "itemgrid",
         "h_alignment": "center",
@@ -269,7 +308,7 @@
                 "call_bead_spell_2_5",
                 "call_bead_spell_3_5",
                 "call_bead_spell_4_5",
-            ],
+            ]
         ]
     },
     "items_compact": {
@@ -377,19 +416,7 @@
                             "type": "layout",
                             "key": "items_charms"
                         }
-                    },
-                    {
-                        "type": "group",
-                        "header": "Money",
-                        "dock": "left",                        
-                        "content": {                                                        
-                            "type": "layout",
-                            "dock": "left",
-                            "h_alignment": "left",
-                            "v_alignment": "strech",                            
-                            "key": "items_stats"                            
-                        }
-                    },
+                    },                   
                     {
                         "type": "group",
                         "header": "Bosses",
@@ -398,8 +425,7 @@
                             "type": "layout",
                             "key": "items_bosses"
                         }
-                    },
-                    
+                    }
                 ]
             }
         ]

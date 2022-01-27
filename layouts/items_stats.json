@@ -1,0 +1,102 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "dock",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Weapons",
+                        "dock": "left",
+                        "content": {
+                            "type": "layout",
+                            "key": "items_weapons"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Call Beads",
+                        "dock": "left",
+                        "content": {
+                            "type": "layout",
+                            "key": "items_call_beads"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Alchemy",
+                        "dock": "left",
+                        "header_content": {
+                            "type": "button_popup",
+                            "style": "settings",
+                            "popup_background": "#55212121",
+                            "layout": "settings_popup"
+                        },
+                        "content": {
+                            "type": "layout",
+                            "key": "items_magic"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "dock",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Key Items",
+                        "dock": "left",
+                        "content": {
+                            "type": "layout",
+                            "key": "items_keyitems"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Charms",
+                        "dock": "left",
+                        "content": {
+                            "type": "layout",
+                            "key": "items_charms"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Money",
+                        "dock": "left",
+                        "content": {
+                            "type": "layout",
+                            "dock": "left",
+                            "h_alignment": "left",
+                            "v_alignment": "strech",
+                            "key": "items_money"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Stats",
+                        "dock": "left",
+                        "content": {
+                            "type": "layout",
+                            "dock": "left",
+                            "h_alignment": "left",
+                            "v_alignment": "strech",
+                            "key": "items_stats"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Bosses",
+                        "dock": "left",
+                        "content": {
+                            "type": "layout",
+                            "key": "items_bosses"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+}

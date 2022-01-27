@@ -26,5 +26,68 @@
         "capturable": true,
         "img": "images/items/stats/credit.png",
         "codes": "credits"
+    },
+    {
+        "name": "Boy",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/boy.png",
+        "codes": "boy"
+    },
+    {
+        "name": "Dog",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/dog.png",
+        "codes": "dog"
+    },
+    {
+        "name": "Dog Attack",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/dog.png",
+        "codes": "dog_attack"
+    },
+    {
+        "name": "Boy Exp",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/placeholder.png",
+        "codes": "boy_exp"
+    },
+    {
+        "name": "Dog Exp",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/placeholder.png",
+        "codes": "dog_exp"
+    },
+    {
+        "name": "Boy Exp to next Level",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/placeholder.png",
+        "codes": "boy_exp_next_lvl"
+    },
+    {
+        "name": "Dog Exp to next Level",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/placeholder.png",
+        "codes": "dog_exp_next_lvl"
+    },
+    {
+        "name": "Boy Level",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/placeholder.png",
+        "codes": "boy_lvl"
+    },
+    {
+        "name": "Dog Level",
+        "type": "static",
+        "capturable": true,
+        "img": "images/items/stats/placeholder.png",
+        "codes": "dog_lvl"
     }
 ]
