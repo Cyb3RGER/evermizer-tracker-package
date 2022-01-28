@@ -480,8 +480,7 @@ function updateDogAttackLevel(segment)
     local readResultLow = AutoTracker:ReadUInt8(DOG_ATTACK_LVL_ADDR)
     local readResultHigh = AutoTracker:ReadUInt8(DOG_ATTACK_LVL_ADDR + 1)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-        print(
-            string.format("read results for dog attack level: 0x%x high 0x%x low", readResultHigh, readResultLow))
+        print(string.format("read results for dog attack level: 0x%x high 0x%x low", readResultHigh, readResultLow))
     end
     local obj = Tracker:FindObjectForCode("dog")
     if obj then
@@ -492,7 +491,7 @@ function updateDogAttackLevel(segment)
         end
         local str = string.format("%d:%d", high, low)
         obj:SetOverlay(str)
-    end    
+    end
 end
 
 function updateAlchemyLevels(segment)
@@ -514,13 +513,24 @@ function updateAlchemyLevels(segment)
             local low = readResultLow
             local high = readResultHigh
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-                print(string.format("set weapon level for %s to %s:%00.f", ALCHEMY_NAMES[i], high, low))
+                print(string.format("set alchemy level for %s to %s:%00.f", ALCHEMY_NAMES[i], high, low))
             end
             local str = string.format("%d:%d", high, low)
-            if (string.len(str) > 5) then
-                obj:SetOverlayFontSize(math.floor(12 * (1 - (string.len(str) - 5) * 0.05)))
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                print(string.format("alchemy level: PopVersion: %s, PopVersion >= 0.18.0: %s", PopVersion,
+                    PopVersion >= "0.18.0"))
+            end
+            if PopVersion and PopVersion >= "0.18.0" then
+                if string.len(str) > 5 then
+                    str = string.format("%d\n:%d", high, low)
+                end
+                obj:SetOverlayFontSize(10)
             else
-                obj:SetOverlayFontSize(12)
+                if string.len(str) > 5 then
+                    obj:SetOverlayFontSize(math.floor(12 * (1 - (string.len(str) - 5) * 0.05)))
+                else
+                    obj:SetOverlayFontSize(10)
+                end
             end
             obj:SetOverlay(str)
         end
@@ -542,8 +552,16 @@ function updateMoney(segment)
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
                 print(string.format("set amount for %s to %i", MONEY_TYPES[i], amount))
             end
-            obj:SetOverlay(string.format("%i", amount))
-            obj:SetOverlayFontSize(12)
+            local str = string.format("%i", amount)
+            obj:SetOverlay(str)
+            if string.len(str) > 5 then
+                obj:SetOverlayFontSize(10)
+                if string.len(str) > 6 then
+                    obj:SetOverlayFontSize(9)
+                end
+            else
+                obj:SetOverlayFontSize(12)
+            end
         end
     end
 end
@@ -551,16 +569,16 @@ end
 function updateBoyExp(segment)
     local obj = Tracker:FindObjectForCode("boy_exp")
     local exp
-    if obj then   
+    if obj then
         local readResultLow = AutoTracker:ReadUInt16(BOY_EXP_ADDR)
-        local readResultHigh = AutoTracker:ReadUInt16(BOY_EXP_ADDR+2)
+        local readResultHigh = AutoTracker:ReadUInt16(BOY_EXP_ADDR + 2)
         exp = readResultLow + readResultHigh * 65536
         obj:SetOverlay(string.format("Exp: %i", exp))
     end
     local objNext = Tracker:FindObjectForCode("boy_exp_next_lvl")
     if objNext then
         local readResultLowNext = AutoTracker:ReadUInt16(BOY_EXP_NEXT_LVL_ADDR)
-        local readResultHighNext = AutoTracker:ReadUInt16(BOY_EXP_NEXT_LVL_ADDR+2)
+        local readResultHighNext = AutoTracker:ReadUInt16(BOY_EXP_NEXT_LVL_ADDR + 2)
         local nextExp = (readResultLowNext + readResultHighNext * 65536) - exp
         objNext:SetOverlay(string.format("to next: %i", nextExp))
     end
@@ -568,8 +586,8 @@ end
 
 function updateBoyLvl(segment)
     local obj = Tracker:FindObjectForCode("boy_lvl")
-    if obj then   
-        local readResult = AutoTracker:ReadUInt16(BOY_LVL_ADDR)        
+    if obj then
+        local readResult = AutoTracker:ReadUInt16(BOY_LVL_ADDR)
         obj:SetOverlay(string.format("Level: %i", readResult))
     end
 end
@@ -577,16 +595,16 @@ end
 function updateDogExp(segment)
     local obj = Tracker:FindObjectForCode("dog_exp")
     local exp
-    if obj then   
+    if obj then
         local readResultLow = AutoTracker:ReadUInt16(DOG_EXP_ADDR)
-        local readResultHigh = AutoTracker:ReadUInt16(DOG_EXP_ADDR+2)
+        local readResultHigh = AutoTracker:ReadUInt16(DOG_EXP_ADDR + 2)
         exp = readResultLow + readResultHigh * 65536
         obj:SetOverlay(string.format("Exp: %i", exp))
     end
     local objNext = Tracker:FindObjectForCode("dog_exp_next_lvl")
     if objNext then
         local readResultLowNext = AutoTracker:ReadUInt16(DOG_EXP_NEXT_LVL_ADDR)
-        local readResultHighNext = AutoTracker:ReadUInt16(DOG_EXP_NEXT_LVL_ADDR+2)
+        local readResultHighNext = AutoTracker:ReadUInt16(DOG_EXP_NEXT_LVL_ADDR + 2)
         local nextExp = (readResultLowNext + readResultHighNext * 65536) - exp
         objNext:SetOverlay(string.format("to next: %i", nextExp))
     end
@@ -594,8 +612,8 @@ end
 
 function updateDogLvl(segment)
     local obj = Tracker:FindObjectForCode("dog_lvl")
-    if obj then   
-        local readResult = AutoTracker:ReadUInt16(DOG_LVL_ADDR)        
+    if obj then
+        local readResult = AutoTracker:ReadUInt16(DOG_LVL_ADDR)
         obj:SetOverlay(string.format("Level: %i", readResult))
     end
 end
