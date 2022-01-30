@@ -1,8 +1,8 @@
 name: Discord webhook
 on:
-  # Triggers the workflow on release events for the main branch
+  # Triggers the workflow on release events
   release:
-    branches: [ main ]
+    types: [published, released, prereleased]
   # Allow manually running the action
   workflow_dispatch: 
 jobs:
