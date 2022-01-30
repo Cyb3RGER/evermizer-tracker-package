@@ -2,7 +2,6 @@ name: Discord webhook
 on:
   # Triggers the workflow on release events
   release:
-    types: [published, released, prereleased, edited]
   workflow_dispatch:
 jobs:
   discord_webhook:    
