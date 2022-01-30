@@ -12,4 +12,3 @@ jobs:
        with:
         webhookUrl: ${{ secrets.DISCORD_WEBHOOK_URL }}
         severity: info
-        color: '#ff9900'
