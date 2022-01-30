@@ -1,0 +1,15 @@
+name: Discord webhook
+on:
+  # Triggers the workflow on release events for the main branch
+  release:
+    branches: [ main ]
+  # Allow manually running the action
+  workflow_dispatch: 
+jobs:
+  discord_webhook:    
+    runs-on: ubuntu-latest    
+    steps:
+     - name: Discord Webhook Notify
+       uses: rjstone/discord-webhook-notify@v1
+       with:
+        webhookUrl: ${{ secrets.DISCORD_WEBHOOK_URL }}
