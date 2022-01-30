@@ -2,11 +2,7 @@ name: Discord webhook
 on:
   # Triggers the workflow on release events
   release:
-    types: 
-      - published
-      - released
-      - prereleased
-      - edited
+    types: [published, released, prereleased, edited]
 jobs:
   discord_webhook:    
     runs-on: ubuntu-latest    
