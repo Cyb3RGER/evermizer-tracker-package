@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest    
     steps:
      - name: Discord Webhook Notify
-       uses: Cyb3RGER/discord-webhook-notify@v1.0.4
+       uses: Cyb3RGER/discord-webhook-notify@dadd59b468f9f20e032bf6146e72e5c06bf89777
        with:
         webhookUrl: ${{ secrets.DISCORD_WEBHOOK_URL }}
