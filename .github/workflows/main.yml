@@ -1,7 +1,8 @@
 name: Discord webhook
 on:
-  - release
-  - workflow_dispatch
+  release: 
+    types: [publish, released, prereleased]
+
 jobs:
   discord_webhook:    
     runs-on: ubuntu-latest    
