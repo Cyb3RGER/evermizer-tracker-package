@@ -1,7 +1,7 @@
 name: Discord webhook
 on:
   release: 
-    types: [publish, released, prereleased]
+    types: [published]
 
 jobs:
   discord_webhook:    
