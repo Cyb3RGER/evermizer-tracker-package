@@ -1541,7 +1541,8 @@
     {
         "name": "Volcano Sewers",
         "access_rules": [
-            "$canCutBushes, levitate"
+            "$canCutBushes, levitate, fix_seq_on",
+            "$canCutBushes, [levitate], fix_seq_off"
         ],
         "children": [
             {
