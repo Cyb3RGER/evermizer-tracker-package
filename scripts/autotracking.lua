@@ -75,7 +75,9 @@ function enableWatches()
         ScriptHost:AddMemoryWatch("Bosses2", BOSSES_2.addr, 0x20, updateBosses2)
         ScriptHost:AddMemoryWatch("Timer", MARKET_TIMER.TIMER_ADDR, 0x2, updateTimer)
         ScriptHost:AddMemoryWatch("FrameCounter", MARKET_TIMER.FRAME_COUNTER_ADDR, 0x2, updateFrameCounter)
-        ScriptHost:AddMemoryWatch("TimerDoneOverride", MARKET_TIMER.OVERRIDE_FLAG_ADDR, 0x1, updateTimerOverride)
+        ScriptHost:AddMemoryWatch("TimerDoneOverride", MARKET_TIMER.OVERRIDE_FLAG_ADDR, 0x1, updateTimerOverride)  
+        --- we update the timer obj from vigor because we use the active state of vigor as an override flag
+        ScriptHost:AddWatchForCode("UpdateTimerFromVigor", "vigor", updateTimerObj) 
         if AUTOTRACKER_ENABLE_STAT_TRACKING then
             ScriptHost:AddMemoryWatch("WeaponLevels", WEAPON_LEVELS_START_ADDR, 0x1A, updateWeaponLevels)
             ScriptHost:AddMemoryWatch("DogAttackLevel", DOG_ATTACK_LVL_ADDR, 0x2, updateDogAttackLevel)

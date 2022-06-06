@@ -161,7 +161,7 @@ function updateKeyItems2(segment)
             if HAS_DE ~= diamond_eyes.CurrentStage then
                 diamond_eyes.CurrentStage = HAS_DE
             end
-            if HAS_DE <= 2 and GAVE_AWAY_DES then
+            if HAS_DE < 2 and GAVE_AWAY_DES then
                 diamond_eyes.CurrentStage = 2 + HAS_DE
             end
         end
@@ -234,10 +234,9 @@ function updateTimerObj()
         if market_timer then
             local isDone = vigor.Active or MARKET_TIMER.OVERRIDE_FLAG
             local hasStarted = MARKET_TIMER.TIMER > 0
-            market_timer.Active = hasStarted or isDone
             if hasStarted then
                 if isDone then
-                    market_timer.CurrentStage = 1
+                    market_timer.CurrentStage = 2
                     if market_timer.SetOverlay then
                         market_timer:SetOverlay("")
                     end
@@ -250,12 +249,12 @@ function updateTimerObj()
                             MARKET_TIMER.TIMER, MARKET_TIMER.FRAME_COUNTER, diff, val))
                     end
                     if val <= 0 then
-                        market_timer.CurrentStage = 1
+                        market_timer.CurrentStage = 2
                         if market_timer.SetOverlay then
                             market_timer:SetOverlay("")
                         end
                     else
-                        market_timer.CurrentStage = 0
+                        market_timer.CurrentStage = 1
                         if market_timer.SetOverlay then
                             local secs = math.floor(val / MARKET_TIMER.FPS)
                             local mins = math.floor(secs / 60)
