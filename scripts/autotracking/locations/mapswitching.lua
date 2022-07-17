@@ -109,8 +109,8 @@ ROOM_MAPPING =
     [0x63] = {"Gothica","Ivor Tower"},
     [0x6c] = {"Gothica","Ivor Tower South"},
     [0x76] = {"Gothica","Ivor Tower South"},
-    [0x37] = {"Gothica","Gomi's Tower"},
-    [0x40] = {"Gothica","Gomi's Tower"},
+    [0x37] = {"Gothica","Gomi Tower"},
+    [0x40] = {"Gothica","Gomi Tower"},
     --Omnitopia
     --[0x46] = {"Omnitopia"},
     [0x48] = {"Omnitopia"},
