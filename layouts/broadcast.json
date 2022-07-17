@@ -10,6 +10,7 @@
                 "gauge",
                 "wheel",
                 "energy_core",
+                "energy_core_fragments",
                 "aeroglider",
                 "queens_key"
             ],

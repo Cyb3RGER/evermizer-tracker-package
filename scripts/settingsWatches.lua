@@ -70,9 +70,16 @@ function updateCallbeadamizer(code)
     end
 end
 
+function updateEnergyCoreFragmentsSetting()
+    if Tracker:ProviderCountForCode("opt_energy_core_fragments") > 0 then
+        updateEnergyCoreFragments()
+    end
+end
+
 updateCallbeadamizer("")
 if PopVersion > "0.1.0" then
     ScriptHost:AddWatchForCode("updateTurdoMode", "turdo", updateTurdoMode)
     ScriptHost:AddWatchForCode("updateStatsTracking", "stats_tracking", updateStatsTracking)
     ScriptHost:AddWatchForCode("updateCallbeadamizer", "callbeadamizer", updateCallbeadamizer)
+    ScriptHost:AddWatchForCode("updateEnergyCoreFragments", "opt_energy_core_fragments", updateEnergyCoreFragmentsSetting)         
 end

@@ -192,8 +192,11 @@
             ],
             [
                 "rocket",
-                "aeroglider",
-                "energy_core"
+                "aeroglider"
+            ],
+            [            
+                "energy_core",
+                "energy_core_fragments"
             ],
             [
                 "queens_key",

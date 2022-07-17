@@ -616,3 +616,14 @@ function updateDogLvl(segment)
         obj:SetOverlay(string.format("Level: %i", readResult))
     end
 end
+
+function updateEnergyCoreFragments(segment)
+    if Tracker:ProviderCountForCode("opt_energy_core_fragments") <= 0 then
+        return
+    end
+    local obj = Tracker:FindObjectForCode("energy_core_fragments")
+    if obj then
+        local readResult = AutoTracker:ReadUInt16(ENERGY_CORE_FRAGMENTS_ADDR)
+        obj.AcquiredCount = readResult
+    end
+end

@@ -84,4 +84,29 @@
             }
         ]
     },
+    {
+        "name": "Energy Core",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/settings/Normal.png",
+                "inherit_codes": false,
+                "codes": "opt_energy_core, opt_energy_core_normal"
+            },
+            {
+                "img": "images/items/settings/Random.png",
+                "inherit_codes": false,
+                "codes": "opt_energy_core, opt_energy_core_random"
+            },
+            {
+                "img": "images/items/settings/Fragments.png",
+                "inherit_codes": false,
+                "codes": "opt_energy_core, opt_energy_core_fragments"
+            }
+        ]
+    }
 ]

@@ -45,7 +45,19 @@
                         "item": "stats_tracking"
                     }
                 ]
+            },
+            {
+                "type": "group",
+                "header": "Stats Autotracking",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "opt_energy_core"
+                    }
+                ]
             }
+
         ]
     }
 }
