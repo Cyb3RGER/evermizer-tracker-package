@@ -3,7 +3,8 @@ GOURDS_WATCHES = {
   {addr=0x7e22b1, len=2},
   {addr=0x7e22d7, len=3},
   {addr=0x7e22e9, len=1},
-  {addr=0x7e2353, len=1}
+  {addr=0x7e2353, len=1},
+  {addr=0x7e22e7, len=1}
 }
 GOURDS_DETAILED = {
   [0x7e2264]={
@@ -378,6 +379,9 @@ GOURDS_DETAILED = {
   [0x7e2353]={
     [0x01]="@Volcano Path/Gourd #57/",
     [0x02]="@Ebon Keep Interiors/Gourd #251/"
+  },
+  [0x7e22e7]= {
+    [0x40] ="@Chessboard/Below the Chessboard/Energy Core #285"
   }
 }
 GOURDS_OVERWORLD = {
@@ -753,6 +757,9 @@ GOURDS_OVERWORLD = {
   [0x7e2353]={
     [0x01]="@Act 1/Volcano Path/Vanilla Gauge Gourd",
     [0x02]="@Act 3/Ebon Keep/Gourds"
+  },
+  [0x7e22e7]= {
+    [0x40] ="@Act 3/Below the Chessboard/Energy Core #285"
   }
 }
 

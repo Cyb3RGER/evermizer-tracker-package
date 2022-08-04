@@ -163,6 +163,16 @@
                         "hosted_item": "aeroglider"
                     },
                     {
+                        "name": "Energy Core",
+                        "hosted_item": "energy_core",
+                        "visibility_rules": [
+                            "opt_energy_core_fragments"
+                        ],
+                        "access_rules": [
+                            "[energy_core]"
+                        ]
+                    },
+                    {
                         "name": "Energize",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/alchemy.png",

@@ -67,7 +67,7 @@
         "name": "Energy Core Fragments",
         "type": "consumable",
         "capturable": true,
-        "img": "images/items/keyitems/energy_core.png",
+        "img": "images/items/keyitems/energy_core_fragments.png",
         "codes": "energy_core_fragments",
         "max_quantity": 99
     },

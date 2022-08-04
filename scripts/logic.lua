@@ -97,3 +97,15 @@ function hasBronzeSpearOrHigher()
 	return 0
 end
 
+function _true()
+    return 1
+end
+
+function _false()
+    return 0
+end
+
+function hasAllEnergyCoreFragments()
+   --ToDo
+end
+
