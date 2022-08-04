@@ -2,8 +2,8 @@ KEY_ITEMS = {
     addr = 0x7E2264,
     --BYTE 1
     [0] = {
-        --["unused_1"] = 0x01,
-        --["unused_2"] = 0x02,
+        --["diamond_eyes"] = 0x01,
+        --["diamond_eyes"] = 0x02,
         --["gauge"] = 0x04,
         --["wheel"] = 0x08,
         ["queens_key"] =  0x10,
@@ -18,6 +18,7 @@ KEY_ITEMS_2 = { --used for given way keyitems
     [0x0] = {        
         ["gauge"] =  0x10,
         ["wheel"] = 0x20,
+        --["diamond_eyes"] = 0x40
     },
 }    
 KEY_ITEMS_3 = { --used for given way keyitems

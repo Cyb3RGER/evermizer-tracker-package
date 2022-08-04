@@ -114,7 +114,7 @@ function updateKeyItems(segment)
                 print(string.format("Updating diamond_eyes with value %i and gave away flag %s", HAS_DE, GAVE_AWAY_DES))
             end
             if GAVE_AWAY_DES then
-                diamond_eyes.CurrentStage = readResult & 0x01 + 2
+                diamond_eyes.CurrentStage = (readResult & 0x01) + 2
             else
                 diamond_eyes.CurrentStage = HAS_DE
             end
@@ -153,8 +153,8 @@ function updateKeyItems2(segment)
     if IS_GAME_RUNNING then
         local readResult = segment:ReadUInt8(KEY_ITEMS_2.addr)
         local diamond_eyes = Tracker:FindObjectForCode("diamond_eyes")
+        GAVE_AWAY_DES = readResult & 0x40 > 0
         if diamond_eyes then
-            GAVE_AWAY_DES = readResult & 0x40 > 0
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
                 print(string.format("Updating diamond_eyes with value %s and gave away flag %s", HAS_DE, GAVE_AWAY_DES))
             end
