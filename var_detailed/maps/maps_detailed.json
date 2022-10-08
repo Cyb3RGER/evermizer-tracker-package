@@ -180,6 +180,12 @@
         "img": "images/maps/ivor_tower_interiors.png"
     },
     {
+        "name": "ivor_tower_dogmaze",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/dogmaze.png"
+    },
+    {
         "name": "ivor_tower",
         "location_size": 48,
         "location_border_thickness": 4,

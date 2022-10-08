@@ -326,6 +326,15 @@
 										}
 									},
 									{
+										"title": "Dogmaze",
+										"content": {
+											"type": "map",
+											"maps": [
+												"ivor_tower_dogmaze"
+											]
+										}
+									},
+									{
 										"title": "Ivor Tower",
 										"content": {
 											"type": "map",
