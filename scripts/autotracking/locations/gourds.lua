@@ -759,7 +759,7 @@ GOURDS_OVERWORLD = {
     [0x02]="@Act 3/Ebon Keep/Gourds"
   },
   [0x7e22e7]= {
-    [0x40] ="@Act 3/Below the Chessboard/Energy Core #285"
+    [0x40] ="@Act 3/Chessboard/Energy Core #285"
   }
 }
 
