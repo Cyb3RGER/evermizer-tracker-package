@@ -11,11 +11,10 @@ function checkConsumablesInSegmentUsingTable(segment, table)
     end
 end
 
-function checkFlagsInSegmentUsingTable(segment, table)
-    checkFlagsInSegmentUsingTable(segment, table, 0)
-end
-
 function checkFlagsInSegmentUsingTable(segment, table, checkmode)
+    if not checkmode then
+        checkmode = 0
+    end
     local addr = table.addr
     for i, byte in pairs(table) do
         if i ~= "addr" then
@@ -25,7 +24,7 @@ function checkFlagsInSegmentUsingTable(segment, table, checkmode)
                     print(string.format("Updating obj %s with value %x from addr %x on %x using checkmode %s", k,
                         readResult, addr + i, v, checkmode))
                 end
-                if not checkmode or checkmode == 0 or checkmode == 2 then
+                if checkmode == 0 or checkmode == 2 then
                     if checkmode == 2 then
                         local found = false
                         for k2, v2 in pairs(ALCHEMY_SPELLS_TURDO) do
@@ -64,6 +63,8 @@ function checkFlagsInSegmentUsingTable(segment, table, checkmode)
                     if obj then
                         obj.ItemState:setActive(readResult & v > 0)
                     end
+                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                    print(string.format("Unknown checkmode %s", checkmode))                
                 end
             end
         end
