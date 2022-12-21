@@ -1,4 +1,4 @@
-{    
+{
     "items_magic": {
         "type": "itemgrid",
         "h_alignment": "center",
@@ -35,5 +35,5 @@
                 "turd_ball_3"
             ]
         ]
-    }    
+    }
 }

@@ -70,7 +70,7 @@
                             "type": "layout",
                             "dock": "left",
                             "h_alignment": "left",
-                            "v_alignment": "strech",
+                            "v_alignment": "stretch",
                             "key": "items_money"
                         }
                     },
@@ -82,7 +82,7 @@
                             "type": "layout",
                             "dock": "left",
                             "h_alignment": "left",
-                            "v_alignment": "strech",
+                            "v_alignment": "stretch",
                             "key": "items_stats"
                         }
                     },
@@ -98,5 +98,5 @@
                 ]
             }
         ]
-    },
+    }
 }

@@ -36,7 +36,7 @@
                 "bazooka"
             ]
         ]
-    },    
+    },
     "broadcast_item_grid": { //...replace with your desired layout here 
         "type": "layout",
         "key": "items_broadcast"
@@ -44,7 +44,7 @@
     "tracker_broadcast": {
         "type": "array",
         "dropshadow": false,
-        "margin": "0",
+        "margin": 0,
         "content": [
             {
                 "type": "layout",

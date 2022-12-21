@@ -636,7 +636,7 @@
                     },
                     {
                         "name": "Energy Core",
-                        "hosted_item": "energy_core",                        
+                        "hosted_item": "energy_core",
                         "visibility_rules": [
                             "opt_energy_core_normal"
                         ]

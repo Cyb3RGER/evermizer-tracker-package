@@ -3,7 +3,7 @@
         "name": "overview",
         "location_size": 24,
         "location_border_thickness": 2,
-        "img": "images/maps/evermore.png"        
+        "img": "images/maps/evermore.png"
     },
     {
         "name": "southern_jungle",

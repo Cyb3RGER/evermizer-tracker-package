@@ -3,12 +3,12 @@
         "type": "dock",
         "dock": "left",
         "h_alignment": "left",
-        "v_alignment": "strech",
+        "v_alignment": "stretch",
         "content": [
             {
                 "type": "item",
                 "item": "talons",
-                "item_margin": "5"
+                "item_margin": 5
             },
             {
                 "type": "item",
@@ -34,7 +34,7 @@
                 "boy",
                 "",
                 "",
-                "dog",        
+                "dog",
                 ""
             ],
             [
@@ -93,7 +93,7 @@
                 "ammo_3"
             ]
         ]
-    }, 
+    },
     "items_magic": {
         "type": "itemgrid",
         "h_alignment": "center",
@@ -194,7 +194,7 @@
                 "rocket",
                 "aeroglider"
             ],
-            [            
+            [
                 "energy_core",
                 "energy_core_fragments"
             ],
@@ -280,37 +280,37 @@
                 "call_bead_char_1",
                 "call_bead_char_2",
                 "call_bead_char_3",
-                "call_bead_char_4",
+                "call_bead_char_4"
             ],
             [
                 "call_bead_spell_1_1",
                 "call_bead_spell_2_1",
                 "call_bead_spell_3_1",
-                "call_bead_spell_4_1",
+                "call_bead_spell_4_1"
             ],
             [
                 "call_bead_spell_1_2",
                 "call_bead_spell_2_2",
                 "call_bead_spell_3_2",
-                "call_bead_spell_4_2",
+                "call_bead_spell_4_2"
             ],
             [
                 "call_bead_spell_1_3",
                 "call_bead_spell_2_3",
                 "call_bead_spell_3_3",
-                "call_bead_spell_4_3",
+                "call_bead_spell_4_3"
             ],
             [
                 "call_bead_spell_1_4",
                 "call_bead_spell_2_4",
                 "call_bead_spell_3_4",
-                "call_bead_spell_4_4",
+                "call_bead_spell_4_4"
             ],
             [
                 "call_bead_spell_1_5",
                 "call_bead_spell_2_5",
                 "call_bead_spell_3_5",
-                "call_bead_spell_4_5",
+                "call_bead_spell_4_5"
             ]
         ]
     },
@@ -419,7 +419,7 @@
                             "type": "layout",
                             "key": "items_charms"
                         }
-                    },                   
+                    },
                     {
                         "type": "group",
                         "header": "Bosses",
