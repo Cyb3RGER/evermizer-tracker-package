@@ -1,7 +1,11 @@
 name: Pack validation
 on:
-  push
-  
+  push:
+    paths:
+      - '*.json'
+  pull_request:
+    paths:
+      - '*.json'
 jobs:
   validation:
     runs-on: ubuntu-latest
