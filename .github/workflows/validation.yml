@@ -1,0 +1,14 @@
+on:
+  push
+  
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate pack (lax)
+        uses: PopTracker/pack-checker-action@v1
+      - name: Validate pack (strict)
+        uses: PopTracker/pack-checker-action@v1
+        with:
+          strict: true
+  
