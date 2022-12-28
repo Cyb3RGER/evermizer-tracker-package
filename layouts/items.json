@@ -385,6 +385,7 @@
                     {
                         "type": "group",
                         "header": "Alchemy",
+                        "v_alignment": "stretch",
                         "dock": "left",
                         "header_content": {
                             "type": "button_popup",
@@ -423,6 +424,7 @@
                     {
                         "type": "group",
                         "header": "Bosses",
+                        "v_alignment": "stretch",
                         "dock": "left",
                         "content": {
                             "type": "layout",

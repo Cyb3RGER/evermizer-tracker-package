@@ -36,6 +36,7 @@
                     "tabs": [
                         {
                             "title": "Overview",
+                            "icon": "images/items/keyitems/aeroglider.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -45,6 +46,7 @@
                         },
                         {
                             "title": "Prehistoria",
+                            "icon": "images/items/stats/talon_icon.png",
                             "content": {
                                 "type": "tabbed",
                                 "tabs": [
@@ -134,6 +136,7 @@
                         },
                         {
                             "title": "Antiqua",
+                            "icon": "images/items/stats/jewel_icon.png",
                             "content": {
                                 "type": "tabbed",
                                 "tabs": [
@@ -259,6 +262,7 @@
                         },
                         {
                             "title": "Gothica",
+                            "icon": "images/items/stats/gold_icon.png",
                             "content": {
                                 "type": "tabbed",
                                 "tabs": [
@@ -375,6 +379,7 @@
                         },
                         {
                             "title": "Omnitopia",
+                            "icon": "images/items/stats/credit_icon.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
