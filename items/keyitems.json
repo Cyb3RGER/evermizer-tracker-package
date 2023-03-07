@@ -12,16 +12,19 @@
                 "secondary_codes": "diamond_eyes_0"
             },
             {
+                "name": "1 Diamond Eye",
                 "img": "images/items/keyitems/diamond_eyes_1.png",
                 "codes": "diamond_eyes, diamond_eyes_1",
                 "secondary_codes": "diamond_eyes_1"
             },
             {
+                "name": "2 Diamond Eyes",
                 "img": "images/items/keyitems/diamond_eyes_2.png",
                 "codes": "diamond_eyes, diamond_eyes_2",
                 "secondary_codes": "diamond_eyes_2"
             },
             {
+                "name": "3 Diamond Eyes",
                 "img": "images/items/keyitems/diamond_eyes_3.png",
                 "codes": "diamond_eyes, diamond_eyes_3",
                 "secondary_codes": "diamond_eyes_3"

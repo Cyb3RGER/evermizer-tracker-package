@@ -15,20 +15,21 @@
                         {
                             "type": "layout",
                             "key": "shared_item_grid"
-                        },
-                        {
-                            "type": "group",
-                            "header": "Pinned Locations",
-                            "dock": "right",
-                            "content": {
-                                "type": "recentpins",
-                                "style": "wrap",
-                                "h_alignment": "stretch",
-                                "v_alignment": "stretch",
-                                "orientation": "vertical",
-                                "compact": true
-                            }
                         }
+                        // ,
+                        // {
+                        //     "type": "group",
+                        //     "header": "Pinned Locations",
+                        //     "dock": "right",
+                        //     "content": {
+                        //         "type": "recentpins",
+                        //         "style": "wrap",
+                        //         "h_alignment": "stretch",
+                        //         "v_alignment": "stretch",
+                        //         "orientation": "vertical",
+                        //         "compact": true
+                        //     }
+                        // }
                     ]
                 },
                 {

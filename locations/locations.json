@@ -863,7 +863,7 @@
                             "aeroglider"
                         ],
                         "visibility_rules": [
-                            "opt_energy_core_normal"
+                            "opt_energy_core_vanilla"
                         ]
                     },
                     {
@@ -876,7 +876,7 @@
                             "aeroglider"
                         ],
                         "visibility_rules": [
-                            "opt_energy_core_random",
+                            "opt_energy_core_shuffle",
                             "opt_energy_core_fragments"
                         ]
                     },

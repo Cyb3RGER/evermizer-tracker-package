@@ -314,6 +314,14 @@
             ]
         ]
     },
+    "items_pool": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            ["alchemy_keyitems", "boss_keyitems", "gourd_keyitems"]
+        ]
+    },
     "items_compact": {
         "type": "itemgrid",
         "h_alignment": "center",
@@ -368,6 +376,12 @@
                         "type": "group",
                         "header": "Weapons",
                         "dock": "left",
+                        "header_content": {
+                            "type": "button_popup",
+                            "style": "settings",
+                            "popup_background": "#55212121",
+                            "layout": "settings_popup"
+                        },
                         "content": {
                             "type": "layout",
                             "key": "items_weapons"
@@ -386,16 +400,20 @@
                         "type": "group",
                         "header": "Alchemy",
                         "v_alignment": "stretch",
-                        "dock": "left",
-                        "header_content": {
-                            "type": "button_popup",
-                            "style": "settings",
-                            "popup_background": "#55212121",
-                            "layout": "settings_popup"
-                        },
+                        "dock": "left",                        
                         "content": {
                             "type": "layout",
                             "key": "items_magic"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Pool Distribution",
+                        "v_alignment": "stretch",
+                        "dock": "left",                        
+                        "content": {
+                            "type": "layout",
+                            "key": "items_pool"
                         }
                     }
                 ]

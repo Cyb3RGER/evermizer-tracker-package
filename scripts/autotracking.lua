@@ -27,6 +27,9 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     ScriptHost:LoadScript("scripts/autotracking/locations/alchemy.lua")
     ScriptHost:LoadScript("scripts/autotracking/locations/mapswitching.lua")
 end
+--if AUTOTRACKER_ENABLE_ITEM_TRACKING and AUTOTRACKER_ENABLE_LOCATION_TRACKING then
+--    ScriptHost:LoadScript("scripts/autotracking/keyitem_counts.lua")
+--end
 
 -------------------------------------------------------
 

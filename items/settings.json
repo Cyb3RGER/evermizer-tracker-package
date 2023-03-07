@@ -84,8 +84,8 @@
             }
         ]
     },
-    {
-        "name": "Energy Core",
+    /*{
+        "name": "Keyitem Count Tracking",
         "type": "progressive",
         "loop": true,
         "capturable": false,
@@ -93,19 +93,139 @@
         "initial_stage_idx": 0,
         "stages": [
             {
-                "img": "images/items/settings/Normal.png",
+                "img": "images/items/settings/Off.png",
                 "inherit_codes": false,
-                "codes": "opt_energy_core, opt_energy_core_normal"
+                "codes": "keyitem_count_tracking, keyitem_count_tracking_off"
             },
             {
-                "img": "images/items/settings/Random.png",
+                "img": "images/items/settings/On.png",
                 "inherit_codes": false,
-                "codes": "opt_energy_core, opt_energy_core_random"
+                "codes": "keyitem_count_tracking, keyitem_count_tracking_on"
+            }
+        ]
+    },*/    
+    {
+        "name": "Energy Core",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/items/settings/Vanilla.png",
+                "inherit_codes": false,
+                "codes": "opt_energy_core, opt_energy_core_vanilla"
+            },
+            {
+                "img": "images/items/settings/Shuffle.png",
+                "inherit_codes": false,
+                "codes": "opt_energy_core, opt_energy_core_shuffle"
             },
             {
                 "img": "images/items/settings/Fragments.png",
                 "inherit_codes": false,
                 "codes": "opt_energy_core, opt_energy_core_fragments"
+            }
+        ]
+    },
+    {
+        "name": "Alchemizer",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/items/settings/Off.png",
+                "inherit_codes": false,
+                "codes": "opt_alchemizer, opt_alchemizer_off"
+            },
+            {
+                "img": "images/items/settings/On.png",
+                "inherit_codes": false,
+                "codes": "opt_alchemizer, opt_alchemizer_on"
+            },
+            {
+                "img": "images/items/settings/Pool.png",
+                "inherit_codes": false,
+                "codes": "opt_alchemizer, opt_alchemizer_pool"
+            }
+        ]
+    },
+    {
+        "name": "Boss dropamizer",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/items/settings/Off.png",
+                "inherit_codes": false,
+                "codes": "opt_boss_drops, opt_boss_drops_off"
+            },
+            {
+                "img": "images/items/settings/On.png",
+                "inherit_codes": false,
+                "codes": "opt_boss_drops, opt_boss_drops_on"
+            },
+            {
+                "img": "images/items/settings/Pool.png",
+                "inherit_codes": false,
+                "codes": "opt_boss_drops, opt_boss_drops_pool"
+            }
+        ]
+    },
+    {
+        "name": "Gourdomizer",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/items/settings/Off.png",
+                "inherit_codes": false,
+                "codes": "opt_gourdomizer, opt_gourdomizer_off"
+            },
+            {
+                "img": "images/items/settings/On.png",
+                "inherit_codes": false,
+                "codes": "opt_gourdomizer, opt_gourdomizer_on"
+            },
+            {
+                "img": "images/items/settings/Pool.png",
+                "inherit_codes": false,
+                "codes": "opt_gourdomizer, opt_gourdomizer_pool"
+            }
+        ]
+    },
+    {
+        "name": "Mixed Pool Strategy",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/settings/Balance.png",
+                "inherit_codes": false,
+                "codes": "opt_pool, opt_pool_balance"
+            },
+            {
+                "img": "images/items/settings/Random.png",
+                "inherit_codes": false,
+                "codes": "opt_pool, opt_pool_random"
+            },
+            {
+                "img": "images/items/settings/Bosses.png",
+                "inherit_codes": false,
+                "codes": "opt_pool, opt_pool_bosses"
             }
         ]
     }

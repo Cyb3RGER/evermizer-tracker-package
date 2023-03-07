@@ -38,6 +38,16 @@
                             "type": "layout",
                             "key": "items_magic"
                         }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Pool Distribution",
+                        "v_alignment": "stretch",
+                        "dock": "left",                        
+                        "content": {
+                            "type": "layout",
+                            "key": "items_pool"
+                        }
                     }
                 ]
             },

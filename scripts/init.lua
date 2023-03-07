@@ -201,7 +201,6 @@ CB_CHARS[3] = ProgressiveTogglePlus("Sidney's Call Bead Spells","call_bead_char_
 
 
 ScriptHost:LoadScript("scripts/logic.lua")
-ScriptHost:LoadScript("scripts/settingsWatches.lua")
 --items
 Tracker:AddItems("items/weapons.json")
 Tracker:AddItems("items/magic.json")
@@ -211,6 +210,7 @@ Tracker:AddItems("items/bosses.json")
 Tracker:AddItems("items/npcs.json")
 Tracker:AddItems("items/settings.json")
 Tracker:AddItems("items/stats.json")
+Tracker:AddItems("items/keyitem_counts.json")
 if not IS_ITEMS_ONLY then
     --maps
     Tracker:AddMaps("maps/maps.json")
@@ -232,6 +232,7 @@ Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 
+ScriptHost:LoadScript("scripts/settingsWatches.lua")
 if PopVersion then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end

@@ -4,39 +4,6 @@
         "content": [
             {
                 "type": "group",
-                "header": "Fix Sequence",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "fix_seq"
-                    }
-                ]
-            },
-            {
-                "type": "group",
-                "header": "Turdo Mode",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "turdo"
-                    }
-                ]
-            },
-            {
-                "type": "group",
-                "header": "Callbeadamizer",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "callbeadamizer"
-                    }
-                ]
-            },
-            {
-                "type": "group",
                 "header": "Stats Autotracking",
                 "header_background": "#3e4b57",
                 "content": [
@@ -54,6 +21,83 @@
                     {
                         "type": "item",
                         "item": "opt_energy_core"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "header": "Alchemizer",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "opt_alchemizer"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "header": "Boss dropamizer",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "opt_boss_drops"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "header": "Gourdomizer",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "opt_gourdomizer"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "header": "Mixed Pool Strategy",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "opt_pool"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "header": "Callbeadamizer",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "callbeadamizer"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "header": "Fix Sequence",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "fix_seq"
+                    }
+                ]
+            },            
+            {
+                "type": "group",
+                "header": "Turdo Mode",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "turdo"
                     }
                 ]
             }

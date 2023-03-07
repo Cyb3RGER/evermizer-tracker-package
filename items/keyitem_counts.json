@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Gourd Keyitems",
+        "type": "static",
+        "capturable": false,
+        "img": "images/locations/gourd.png",
+        "codes": "gourd_keyitems"
+    },
+    {
+        "name": "Alchemy Keyitems",
+        "type": "static",
+        "capturable": false,
+        "img": "images/locations/alchemy.png",
+        "codes": "alchemy_keyitems"
+    },
+    {
+        "name": "Boss Keyitems",
+        "type": "static",
+        "capturable": false,
+        "img": "images/items/bosses/thraxx.png",
+        "codes": "boss_keyitems"
+    }
+]

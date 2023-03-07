@@ -638,7 +638,7 @@
                         "name": "Energy Core",
                         "hosted_item": "energy_core",
                         "visibility_rules": [
-                            "opt_energy_core_normal"
+                            "opt_energy_core_vanilla"
                         ]
                     },
                     {
@@ -648,7 +648,7 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_energy_core_random",
+                            "opt_energy_core_shuffle",
                             "opt_energy_core_fragments"
                         ]
                     }
