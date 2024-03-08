@@ -21,6 +21,28 @@
                         "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$alchemyLocationVisible"
+                ]
+            },
+            {
+                "name": "Slow Burn (Vanilla)",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 2270,
+                        "y": 270
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "hosted_item": "slow_burn"
+                    }
+                ],
+                "visibility_rules": [
+                    "$alchemyVanillaLocationVisible"
                 ]
             },
             {
@@ -38,17 +60,46 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$alchemyLocationVisible"
+                        ]
                     },
                     {
                         "name": "Nitro",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1,
                         "access_rules": [
                             "aeroglider"
-                        ],
-                        "item_count": 1
+                        ],                        
+                        "visibility_rules": [
+                            "$alchemyLocationVisible"
+                        ]
+                    },
+                    {
+                        "name": "Explosion (Vanilla)",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$alchemyVanillaLocationVisible"
+                        ]
+                    },
+                    {
+                        "name": "Nitro (Vanilla)",
+                        "clear_as_group": true,
+                        "chest_unopened_img": "images/locations/alchemy.png",
+                        "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "aeroglider"
+                        ],                        
+                        "visibility_rules": [
+                            "$alchemyVanillaLocationVisible"
+                        ]
                     }
                 ]
             },

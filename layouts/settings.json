@@ -70,6 +70,17 @@
             },
             {
                 "type": "group",
+                "header": "Hide Junk Locations",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "opt_hide_junk"
+                    }
+                ]
+            },
+            {
+                "type": "group",
                 "header": "Callbeadamizer",
                 "header_background": "#3e4b57",
                 "content": [

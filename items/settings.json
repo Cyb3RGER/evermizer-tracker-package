@@ -228,5 +228,25 @@
                 "codes": "opt_pool, opt_pool_bosses"
             }
         ]
+    },
+    {
+        "name": "Hide Junk Locations",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/settings/Off.png",
+                "inherit_codes": false,
+                "codes": "opt_hide_junk, opt_hide_junk_off"
+            },
+            {
+                "img": "images/items/settings/On.png",
+                "inherit_codes": false,
+                "codes": "opt_hide_junk, opt_hide_junk_on"
+            }
+        ]
     }
 ]

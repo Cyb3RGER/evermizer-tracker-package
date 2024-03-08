@@ -314,12 +314,14 @@ end
 function addGourdValsFromTable(vals, table)
     for addr, gourds in pairs(table) do
         local b = AutoTracker:ReadU8(addr) -- FIXME: this may be slow in emo
-        for mask, code in pairs(gourds) do
+        for mask, codes in pairs(gourds) do
             if b & mask > 0 then
-                if vals[code] then
-                    vals[code] = vals[code] + 1
-                else
-                    vals[code] = 1;
+                for _, code in ipairs(codes) do
+                    if vals[code] then
+                        vals[code] = vals[code] + 1
+                    else
+                        vals[code] = 1;
+                    end
                 end
             end
         end
