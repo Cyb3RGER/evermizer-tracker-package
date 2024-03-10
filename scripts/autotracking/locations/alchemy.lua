@@ -17,7 +17,7 @@ ALCHEMY_LOCATIONS_DETAILED = {
         [0x08] = "@Western Beach/Horace Camp/Escape",
         [0x10] = "@Ebon Keep Interiors/Explosion / Nitro/Explosion",
         [0x20] = "@Halls of Collosia 4/Fireball/",
-        [0x40] = "@Ivor Tower Interiors/Fire Power/",    
+        [0x40] = "@Ivor Tower Interiors/Fire Power/",
         [0x80] = "@Fire Eyes' Village/Fire Eyes' Hut/Flash",
     },
     [ALCHEMY_LOCATIONS_BASE_ADDR + 2] = {
@@ -33,7 +33,7 @@ ALCHEMY_LOCATIONS_DETAILED = {
     [ALCHEMY_LOCATIONS_BASE_ADDR + 3] = {
         [0x01] = "@Ebon Keep Interiors/Explosion / Nitro/Nitro",
         [0x02] = "@Dark Forest 1/One Up/",
-        [0x04] = "@Main District/Junkyard / Boiler Room/Reflect",
+        [0x04] = "@Main District/Reflect/",
         [0x08] = "@Ebon Keep/Regrowth Lady's hidden room/Regrowth",
         [0x10] = "@Western Beach/Horace Camp/Revealer",
         [0x20] = "@Eastern Beach/Blimp's Cave/Revive",

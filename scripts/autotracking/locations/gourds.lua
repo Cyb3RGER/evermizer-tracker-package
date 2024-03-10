@@ -353,10 +353,10 @@ GOURDS_DETAILED = {
     [0x02]="@Ebon Keep Interiors/Gourd #252/"
   },
   [0x7e22b1]={
-    [0x80]="@Northern Jungle/Armor Shop Cave/Gourds #71-72"
+    [0x80]="@Northern Jungle/Gourd #71/"
   },
   [0x7e22b2]={
-    [0x01]="@Northern Jungle/Armor Shop Cave/Gourds #71-72"
+    [0x01]="@Northern Jungle/Gourd #72/"
   },
   [0x7e22d7]={
     [0x80]="@Ivor Tower Interiors/Gourd #261/",
@@ -424,8 +424,8 @@ GOURDS_OVERWORLD = {
     [0x02]="@Act 1/Fire Eyes' Village/Gourds",
     [0x04]="@Act 1/Fire Eyes' Village/Gourds",
     [0x08]="@Act 1/Fire Eyes' Village/Gourds",
-    [0x20]="@Act 1/Northern Jungle/Gourds",
-    [0x10]="@Act 1/Northern Jungle/Gourds"
+    [0x20]="@Act 1/Northern Jungle/Gourds behind bushes",
+    [0x10]="@Act 1/Northern Jungle/Gourds behind bushes"
   },
   [0x7e2269]={
     [0x08]="@Act 1/Southern Jungle/Gourds",
@@ -731,10 +731,10 @@ GOURDS_OVERWORLD = {
     [0x02]="@Act 3/Ebon Keep/Gourds"
   },
   [0x7e22b1]={
-    [0x80]="@Act 1/Northern Jungle/Gourds"
+    [0x80]="@Act 1/Northern Jungle/Gourds behind bushes"
   },
   [0x7e22b2]={
-    [0x01]="@Act 1/Northern Jungle/Gourds"
+    [0x01]="@Act 1/Northern Jungle/Gourds behind bushes"
   },
   [0x7e22d7]={
     [0x80]="@Act 3/Ivor Tower/Gourds",
