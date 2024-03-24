@@ -456,11 +456,6 @@
     },
     {
         "name": "Sniff Spot #20",
-        "access_rules": [
-            [
-                "axe_3"
-            ]
-        ],
         "chest_unopened_img": "images/locations/sniff.png",
         "chest_opened_img": "images/locations/sniff_open_gray.png",
         "map_locations": [
@@ -616,69 +611,6 @@
                 "x": 393,
                 "y": 169,
                 "size": 16,
-                "border_thickness": 2
-            }
-        ],
-        "sections": [
-            {
-                "name": "",
-                "clear_as_group": false,
-                "item_count": 1
-            }
-        ]
-    },
-    {
-        "name": "Sniff Spot #28",
-        "chest_unopened_img": "images/locations/sniff.png",
-        "chest_opened_img": "images/locations/sniff_open_gray.png",
-        "map_locations": [
-            {
-                "map": "fe_village",
-                "x": 510,
-                "y": 770,
-                "size": 20,
-                "border_thickness": 2
-            }
-        ],
-        "sections": [
-            {
-                "name": "",
-                "clear_as_group": false,
-                "item_count": 1
-            }
-        ]
-    },
-    {
-        "name": "Sniff Spot #29",
-        "chest_unopened_img": "images/locations/sniff.png",
-        "chest_opened_img": "images/locations/sniff_open_gray.png",
-        "map_locations": [
-            {
-                "map": "fe_village",
-                "x": 486,
-                "y": 754,
-                "size": 20,
-                "border_thickness": 2
-            }
-        ],
-        "sections": [
-            {
-                "name": "",
-                "clear_as_group": false,
-                "item_count": 1
-            }
-        ]
-    },
-    {
-        "name": "Sniff Spot #30",
-        "chest_unopened_img": "images/locations/sniff.png",
-        "chest_opened_img": "images/locations/sniff_open_gray.png",
-        "map_locations": [
-            {
-                "map": "fe_village",
-                "x": 534,
-                "y": 754,
-                "size": 20,
                 "border_thickness": 2
             }
         ],
@@ -5340,13 +5272,6 @@
                 "y": 1127,
                 "size": 24,
                 "border_thickness": 2
-            },
-            {
-                "map": "swamp",
-                "x": 491,
-                "y": 1247,
-                "size": 24,
-                "border_thickness": 2
             }
         ],
         "sections": [
@@ -5397,13 +5322,6 @@
                 "map": "swamp",
                 "x": 507,
                 "y": 1175,
-                "size": 24,
-                "border_thickness": 2
-            },
-            {
-                "map": "swamp",
-                "x": 507,
-                "y": 1375,
                 "size": 24,
                 "border_thickness": 2
             }
@@ -5458,13 +5376,6 @@
                 "y": 1407,
                 "size": 24,
                 "border_thickness": 2
-            },
-            {
-                "map": "swamp",
-                "x": 363,
-                "y": 1199,
-                "size": 24,
-                "border_thickness": 2
             }
         ],
         "sections": [
@@ -5489,13 +5400,6 @@
                 "map": "swamp",
                 "x": 299,
                 "y": 1311,
-                "size": 24,
-                "border_thickness": 2
-            },
-            {
-                "map": "swamp",
-                "x": 107,
-                "y": 1199,
                 "size": 24,
                 "border_thickness": 2
             }
