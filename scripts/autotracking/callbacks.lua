@@ -62,7 +62,7 @@ function updateBoyPos()
     if not IS_GAME_RUNNING then
         return
     end
-    if not CURRENT_ROOM == 0x3c then
+    if CURRENT_ROOM ~= 0x3c then
         return
     end
     local boy_x = AutoTracker:ReadU16(BOY_X_ADDR)
