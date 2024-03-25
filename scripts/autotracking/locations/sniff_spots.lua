@@ -1,6 +1,6 @@
 SNIFF_SPOT_WATCHES = {
     {addr=0x7e228c, len=0x26},
-    {addr=0x7e22b2, len=0x25},
+    {addr=0x7e22b2, len=0x26},
 }
 SNIFF_MAPPING_DETAILED = {
     [0x7E228F] = {
@@ -632,6 +632,7 @@ SNIFF_MAPPING_DETAILED = {
         [0x01] = "@Sniff Spot #506/",
     },
     [0x7E22C9] = {
+        [0x40] = "@Sniff Spot #493/",
         [0x02] = "@Sniff Spot #494/",
         [0x04] = "@Sniff Spot #496/",
         [0x80] = "@Sniff Spot #497/",
@@ -689,6 +690,9 @@ SNIFF_MAPPING_DETAILED = {
         [0x02] = "@Sniff Spot #539/",
         [0x01] = "@Sniff Spot #540/",
     },
+    [0x7E22D8] = {
+        [0x04] = "@Sniff Spot #541/",
+    },
     [0x7E22CE] = {
         [0x80] = "@Sniff Spot #546/",
         [0x40] = "@Sniff Spot #547/",
@@ -741,13 +745,13 @@ SNIFF_MAPPING_OVERWORLD = {
         [0x02] = "@Act 1/Swamp/Sniff Spots",
     },
     [0x7E2291] = {
-        [0x02] = "@Act 1/Southern Jungle/Sniff Spots",
+        [0x02] = "@Act 1/Southern Jungle/Sniff Spots behind bushes",
         [0x01] = "@Act 1/Southern Jungle/Sniff Spots",
         [0x80] = "@Act 1/Southern Jungle/Sniff Spots",
         [0x40] = "@Act 1/Southern Jungle/Sniff Spots",
         [0x20] = "@Act 1/Southern Jungle/Sniff Spots",
         [0x08] = "@Act 1/Southern Jungle/Sniff Spots",
-        [0x04] = "@Act 1/Southern Jungle/Sniff Spots behind bushes",
+        [0x04] = "@Act 1/Southern Jungle/Sniff Spots",
         [0x10] = "@Act 1/Southern Jungle/Sniff Spots",
     },
     [0x7E2290] = {
@@ -1124,17 +1128,17 @@ SNIFF_MAPPING_OVERWORLD = {
         [0x40] = "@Act 3/Ivor Tower/Sniff Spots",
     },
     [0x7E22D1] = {
-        [0x01] = "@Act 2/Nobilia/Sniff Spots behind Aegis",
-        [0x02] = "@Act 2/Nobilia/Sniff Spots behind Aegis",
-        [0x04] = "@Act 2/Nobilia/Sniff Spots behind Aegis",
-        [0x08] = "@Act 2/Nobilia/Sniff Spots behind Aegis",
+        [0x01] = "@Act 2/Nobilia/Sniff Spots",
+        [0x02] = "@Act 2/Nobilia/Sniff Spots",
+        [0x04] = "@Act 2/Nobilia/Sniff Spots",
+        [0x08] = "@Act 2/Nobilia/Sniff Spots",
         [0x10] = "@Act 2/Crustacia/Sniff Spots",
         [0x20] = "@Act 2/Crustacia/Sniff Spots",
         [0x40] = "@Act 2/Crustacia/Sniff Spots",
         [0x80] = "@Act 2/Crustacia/Sniff Spots",
     },
     [0x7E22D0] = {
-        [0x80] = "@Act 2/Nobilia/Sniff Spots behind Aegis",
+        [0x80] = "@Act 2/Nobilia/Sniff Spots",
         [0x40] = "@Act 2/Nobilia/Sniff Spots behind Aegis",
         [0x20] = "@Act 2/Nobilia/Sniff Spots behind Aegis",
         [0x10] = "@Act 2/Nobilia/Sniff Spots behind Aegis",
@@ -1360,6 +1364,7 @@ SNIFF_MAPPING_OVERWORLD = {
         [0x01] = "@Act 3/Ivor Tower/Sniff Spots",
     },
     [0x7E22C9] = {
+        [0x40] = "@Act 3/Dark Forest/Sniff Spots",
         [0x02] = "@Act 3/Dark Forest/Sniff Spots",
         [0x04] = "@Act 3/Dark Forest/Sniff Spots",
         [0x80] = "@Act 3/Dark Forest/Sniff Spots",
@@ -1416,6 +1421,9 @@ SNIFF_MAPPING_OVERWORLD = {
         [0x04] = "@Act 3/Chessboard/Sniff Spots",
         [0x02] = "@Act 3/Chessboard/Sniff Spots",
         [0x01] = "@Act 3/Chessboard/Sniff Spots",
+    },
+    [0x7E22D8] = {
+        [0x04] = "@Act 3/Ivor Tower/Sniff Spots",
     },
     [0x7E22CE] = {
         [0x80] = "@Act 3/Ivor Tower/Sniff Spots behind Queen's Key",

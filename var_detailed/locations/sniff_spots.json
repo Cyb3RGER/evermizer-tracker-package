@@ -4930,7 +4930,7 @@
         "map_locations": [
             {
                 "map": "volcano_path",
-                "x": 349,
+                "x": 333,
                 "y": 203,
                 "size": 24,
                 "border_thickness": 2
@@ -5190,7 +5190,7 @@
         "map_locations": [
             {
                 "map": "volcano_path",
-                "x": 269,
+                "x": 253,
                 "y": 331,
                 "size": 24,
                 "border_thickness": 2
@@ -7554,8 +7554,7 @@
         "name": "Sniff Spot #317",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "$canCutBushes"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7581,8 +7580,7 @@
         "name": "Sniff Spot #318",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "$canCutBushes"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7608,8 +7606,7 @@
         "name": "Sniff Spot #319",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "$canCutBushes"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7635,8 +7632,7 @@
         "name": "Sniff Spot #320",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "$canCutBushes"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7662,8 +7658,7 @@
         "name": "Sniff Spot #321",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "$canCutBushes"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12299,6 +12294,32 @@
         ]
     },
     {
+        "name": "Sniff Spot #493",
+        "access_rules": [
+            [
+                "$canCutBushes"
+            ]
+        ],
+        "chest_unopened_img": "images/locations/sniff.png",
+        "chest_opened_img": "images/locations/sniff_open_gray.png",
+        "map_locations": [
+            {
+                "map": "dark_forest_1",
+                "x": 3381,
+                "y": 2773,
+                "size": 72,
+                "border_thickness": 2
+            }
+        ],
+        "sections": [
+            {
+                "name": "",
+                "clear_as_group": false,
+                "item_count": 1
+            }
+        ]
+    },
+    {
         "name": "Sniff Spot #494",
         "access_rules": [
             [
@@ -12336,8 +12357,8 @@
         "map_locations": [
             {
                 "map": "dark_forest_1",
-                "x": 933,
-                "y": 3877,
+                "x": 709,
+                "y": 3253,
                 "size": 72,
                 "border_thickness": 2
             }
@@ -12388,8 +12409,8 @@
         "map_locations": [
             {
                 "map": "dark_forest_1",
-                "x": 3381,
-                "y": 2773,
+                "x": 3989,
+                "y": 3829,
                 "size": 72,
                 "border_thickness": 2
             }
@@ -13509,6 +13530,32 @@
                 "x": 189,
                 "y": 285,
                 "size": 24,
+                "border_thickness": 2
+            }
+        ],
+        "sections": [
+            {
+                "name": "",
+                "clear_as_group": false,
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sniff Spot #541",
+        "access_rules": [
+            [
+                "$canCutBushes"
+            ]
+        ],
+        "chest_unopened_img": "images/locations/sniff.png",
+        "chest_opened_img": "images/locations/sniff_open_gray.png",
+        "map_locations": [
+            {
+                "map": "ivor_tower_interiors",
+                "x": 3217,
+                "y": 437,
+                "size": 32,
                 "border_thickness": 2
             }
         ],

@@ -325,7 +325,7 @@ function updateLocWithVals(overworld_mapping, detailed_mapping)
     if IS_DETAILED then
         addValsFromTable(vals, detailed_mapping)
     end
-    for code, count in pairs(vals) do        
+    for code, count in pairs(vals) do
         local o = Tracker:FindObjectForCode(code)
         if o then
             o.AvailableChestCount = o.ChestCount - count

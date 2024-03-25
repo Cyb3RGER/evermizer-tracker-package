@@ -1,6 +1,6 @@
 id,map,map_name,x1,y1,x2,y2,item,address,bit,logic,script,,difficulty,other notes,pop_overview_parent,pop_postfix,pop_x1,pop_y1,pop_x2,pop_y2,pop_map_override,pop_existing_section,pop_logic,pop_pos_mode
 0,56,Prehistoria - South jungle / Start,51,19,52,20,528,8847,4,weapon,2034,7F2,,,Southern Jungle,behind bushes,,,,,,,,
-1,56,Prehistoria - South jungle / Start,25,29,27,30,532,8849,1,weapon,2037,7F5,,,Southern Jungle,,,,,,,,,
+1,56,Prehistoria - South jungle / Start,25,29,27,30,532,8849,1,weapon,2037,7F5,,,Southern Jungle,behind bushes,,,,,,,,
 2,56,Prehistoria - South jungle / Start,30,37,31,38,515,8848,4,weapon,2040,7F8,dumb,,Southern Jungle,behind bushes,,,,,,,,
 3,56,Prehistoria - South jungle / Start,24,42,26,43,513,8850,3,weapon,2043,7FB,dumb,,Southern Jungle,behind bushes,,,,,,,,
 4,56,Prehistoria - South jungle / Start,25,48,28,49,532,8849,0,,2046,7FE,early,,Southern Jungle,,,,,,,,,
@@ -19,7 +19,7 @@ id,map,map_name,x1,y1,x2,y2,item,address,bit,logic,script,,difficulty,other note
 17,56,Prehistoria - South jungle / Start,41,78,42,79,515,8847,5,weapon,2085,825,dumb,,Southern Jungle,behind bushes,,,,,,,,
 18,56,Prehistoria - South jungle / Start,54,41,56,42,515,8847,7,weapon,2094,82E,,,Southern Jungle,behind bushes,,,,,,,,
 19,56,Prehistoria - South jungle / Start,29,35,30,36,532,8848,6,weapon,2097,831,dumb,,Southern Jungle,behind bushes,,,,,,,,
-20,56,Prehistoria - South jungle / Start,20,56,23,57,513,8849,2,,2100,834,early,,Southern Jungle,behind bushes,,,,,,,,
+20,56,Prehistoria - South jungle / Start,20,56,23,57,513,8849,2,,2100,834,early,,Southern Jungle,,,,,,,,,
 21,56,Prehistoria - South jungle / Start,79,71,80,73,515,8848,0,,2103,837,early,,Southern Jungle,,,,,,,,,
 22,56,Prehistoria - South jungle / Start,50,82,51,83,513,8849,4,,2106,83A,early,,Southern Jungle,,,,,,,,,
 23,56,Prehistoria - South jungle / Start,53,73,54,74,515,8847,6,,2109,83D,early,,Southern Jungle,,,,,,,,,
@@ -215,7 +215,7 @@ id,map,map_name,x1,y1,x2,y2,item,address,bit,logic,script,,difficulty,other note
 213,105,Prehistoria - Volcano path,52,66,53,67,528,8873,4,weapon,4773,12A5,,,Volcano Path,,,,,,,,,
 214,105,Prehistoria - Volcano path,54,39,55,40,528,8873,6,weapon,4776,12A8,,,Volcano Path,,,,,,,,,
 215,105,Prehistoria - Volcano path,30,54,31,55,528,8873,5,weapon,4779,12AB,,,Volcano Path,,,,,,,,,
-216,105,Prehistoria - Volcano path,37,21,38,22,528,8873,7,weapon,4782,12AE,,,Volcano Path,,,,,,,,,
+216,105,Prehistoria - Volcano path,37,21,38,22,528,8873,7,weapon,4782,12AE,,,Volcano Path,,36,21,,,,,,overwrite
 217,105,Prehistoria - Volcano path,59,15,60,16,528,8874,0,weapon,4785,12B1,,,Volcano Path,,,,,,,,,
 218,105,Prehistoria - Volcano path,49,19,50,20,515,8874,7,weapon,4788,12B4,,,Volcano Path,,,,,,,,,
 219,105,Prehistoria - Volcano path,54,26,55,27,515,8874,6,weapon,4791,12B7,,,Volcano Path,,,,,,,,,
@@ -225,7 +225,7 @@ id,map,map_name,x1,y1,x2,y2,item,address,bit,logic,script,,difficulty,other note
 223,105,Prehistoria - Volcano path,17,70,18,71,515,8874,2,weapon,4803,12C3,,,Volcano Path,,,,,,,,,
 224,105,Prehistoria - Volcano path,34,82,35,83,515,8874,1,weapon,4806,12C6,,,Volcano Path,,,,,,,,,
 225,105,Prehistoria - Volcano path,35,40,36,41,516,8875,0,weapon,4809,12C9,,,Volcano Path,,,,,,,,,
-226,105,Prehistoria - Volcano path,32,29,33,30,516,8875,1,non-sword,4812,12CC,,,Volcano Path,behind non-sword,,,,,,,,
+226,105,Prehistoria - Volcano path,32,29,33,30,516,8875,1,non-sword,4812,12CC,,,Volcano Path,behind non-sword,31,29,,,,,,overwrite
 227,105,Prehistoria - Volcano path,24,55,25,56,532,8875,2,weapon,4815,12CF,,,Volcano Path,,,,,,,,,
 228,105,Prehistoria - Volcano path,43,41,44,42,532,8875,3,weapon,4818,12D2,,,Volcano Path,,,,,,,,,
 229,102,Prehistoria - West of swamp,31,21,33,23,513,8883,0,weapon,4413,113D,,"same event as 42, 29 but that’s broken",Swamp,,,,,,,,,
@@ -316,11 +316,11 @@ id,map,map_name,x1,y1,x2,y2,item,address,bit,logic,script,,difficulty,other note
 314,54,Prehistoria - Both fire pits (one room),30,41,31,42,532,8915,2,weapon,1917,77D,,,Quick Sand Fields,behind bushes,,,,,,,,
 315,54,Prehistoria - Both fire pits (one room),35,32,36,33,516,8915,5,weapon,1920,780,,,Quick Sand Fields,behind bushes,,,,,,,,
 316,54,Prehistoria - Both fire pits (one room),46,40,47,41,516,8915,4,weapon,1923,783,,,Quick Sand Fields,behind bushes,,,,,,,,
-317,76,"Antiqua - Nobilia, Fountain and snake statues",20,24,21,35,513,8913,0,"weapon, aegis",3252,CB4,,,Nobilia,behind Aegis,,,,,,,,
-318,76,"Antiqua - Nobilia, Fountain and snake statues",11,24,12,35,513,8913,1,"weapon, aegis",3255,CB7,,,Nobilia,behind Aegis,,,,,,,,
-319,76,"Antiqua - Nobilia, Fountain and snake statues",8,12,9,13,520,8913,2,"weapon, aegis",3258,CBA,,,Nobilia,behind Aegis,,,,,,,,
-320,76,"Antiqua - Nobilia, Fountain and snake statues",23,12,24,13,520,8913,3,"weapon, aegis",3261,CBD,,,Nobilia,behind Aegis,,,,,,,,
-321,76,"Antiqua - Nobilia, Fountain and snake statues",12,21,13,22,514,8912,7,"weapon, aegis",3264,CC0,,,Nobilia,behind Aegis,,,,,,,,
+317,76,"Antiqua - Nobilia, Fountain and snake statues",20,24,21,35,513,8913,0,weapon,3252,CB4,,,Nobilia,,,,,,,,,
+318,76,"Antiqua - Nobilia, Fountain and snake statues",11,24,12,35,513,8913,1,weapon,3255,CB7,,,Nobilia,,,,,,,,,
+319,76,"Antiqua - Nobilia, Fountain and snake statues",8,12,9,13,520,8913,2,weapon,3258,CBA,,,Nobilia,,,,,,,,,
+320,76,"Antiqua - Nobilia, Fountain and snake statues",23,12,24,13,520,8913,3,weapon,3261,CBD,,,Nobilia,,,,,,,,,
+321,76,"Antiqua - Nobilia, Fountain and snake statues",12,21,13,22,514,8912,7,weapon,3264,CC0,,,Nobilia,,,,,,,,,
 322,11,"Antiqua - Nobilia, Palace grounds",84,21,85,22,520,8912,6,"weapon, aegis",510,1FE,,,Nobilia,behind Aegis,,,,,,,,
 323,11,"Antiqua - Nobilia, Palace grounds",3,23,4,24,530,8912,5,"weapon, aegis",513,201,,,Nobilia,behind Aegis,,,,,,,,
 324,11,"Antiqua - Nobilia, Palace grounds",25,18,26,19,530,8912,4,"weapon, aegis",516,204,,,Nobilia,behind Aegis,,,,,,,,
@@ -492,11 +492,11 @@ id,map,map_name,x1,y1,x2,y2,item,address,bit,logic,script,,difficulty,other note
 490,55,Gothica - Gomi's Tower,37,27,38,28,525,8917,4,knight basher,2001,7D1,dumb,,Dark Forest,behind Knight Basher,,,,,,,,
 491,34,Gothica - Dark Forest,25,30,26,31,518,8904,1,weapon,1176,498,dumb,,Dark Forest,,16,41,,,34l,,,overwrite
 492,34,Gothica - Dark Forest,25,30,26,31,521,8904,4,weapon,1176,498,dumb,,Dark Forest,,15,8,,,34m,,,overwrite
-493,34,Gothica - Dark Forest,25,30,26,31,529,8905,6,weapon,1176,498,dumb,,Dark Forest,,55,34,,,32o,,,overwrite
+493,34,Gothica - Dark Forest,25,30,26,31,529,8905,6,weapon,1176,498,dumb,,Dark Forest,,46,16,,,34n,,,overwrite
 494,34,Gothica - Dark Forest,25,30,26,31,515,8905,1,weapon,1176,498,dumb,,Dark Forest,,16,41,,,34i,,,overwrite
 495,34,Gothica - Dark Forest,25,30,26,31,524,8904,6,weapon,1176,498,dumb,,Dark Forest,,16,41,,,34j,,,overwrite
 496,34,Gothica - Dark Forest,25,30,26,31,515,8905,2,weapon,1176,498,dumb,,Dark Forest,,55,34,,,34h,,,overwrite
-497,34,Gothica - Dark Forest,25,30,26,31,529,8905,7,weapon,1176,498,dumb,,Dark Forest,,46,16,,,34n,,,overwrite
+497,34,Gothica - Dark Forest,25,30,26,31,529,8905,7,weapon,1176,498,dumb,,Dark Forest,,55,34,,,34o,,,overwrite
 498,34,Gothica - Dark Forest,25,30,26,31,518,8904,2,weapon,1176,498,dumb,,Dark Forest,,16,41,,,34e,,,overwrite
 499,34,Gothica - Dark Forest,25,30,26,31,521,8904,5,weapon,1176,498,dumb,,Dark Forest,,15,8,,,34k,,,overwrite
 500,34,Gothica - Dark Forest,25,30,26,31,532,8905,5,weapon,1176,498,dumb,,Dark Forest,,16,41,,,34d,,,overwrite

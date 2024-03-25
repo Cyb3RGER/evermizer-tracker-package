@@ -80,7 +80,7 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 18
+                        "item_count": 15
                     },
                     {
                         "name": "Flash",
@@ -398,7 +398,7 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 36
+                        "item_count": 35
                     },
                     {
                         "name": "Salabog",
@@ -598,14 +598,14 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 14
+                        "item_count": 19
                     },
                     {
                         "name": "Sniff Spots behind Aegis",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 15,
+                        "item_count": 10,
                         "access_rules": [
                             "aegis"
                         ]
