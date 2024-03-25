@@ -1,6 +1,6 @@
 map_id,name,offset_x,offset_y,map_offset_x,map_offset_y,map_scale_x,map_scale_y,loc_size,,offset calc,real_pos,trig_pos,map_offset,calc_pos,offset
-56,southern_jungle,-1,-59,17,11,,,20,,x,3200,42,0,672,2528
-37,fe_village,-5,-9,33,4,,,20,,y,430,27,11,256,174
+56,southern_jungle,-1,-59,17,11,,,20,,x,416,32,5,432,-16
+37,fe_village,-5,-9,33,4,,,20,,y,1200,35,2,528,672
 92,raptor_attack,0,0,9,21,,,,,,,,,,
 91,eastern_jungle,400,-48,16,9,,,,,,,,,,
 54,eastern_jungle,0,0,25,23,,,,,,,,,,
@@ -35,10 +35,10 @@ map_id,name,offset_x,offset_y,map_offset_x,map_offset_y,map_scale_x,map_scale_y,
 47,horace_camp,0,0,16,14,,,,,,,,,,
 6,pyramid_outside,0,0,24,22,,,24,,,,,,,
 43,halls_of_collosia_outside,0,0,0,0,,,,,,,,,,
-75,oglin_tunnel,-32,2256,5,2,,,32,,,,,,,
+75,oglin_tunnel,-32,496,5,2,,,32,,,,,,,
 75a,oglin_tunnel,0,544,5,2,,,32,,,,,,,
 75b,oglin_tunnel,-80,640,5,2,,,32,,,,,,,
-75c,oglin_tunnel,-16,772,5,2,,,32,,,,,,,
+75c,oglin_tunnel,-16,672,5,2,,,32,,,,,,,
 75d,oglin_tunnel,-80,672,5,2,,,32,,,,,,,
 75e,oglin_tunnel,-96,624,5,2,,,32,,,,,,,
 75f,oglin_tunnel,-32,496,5,2,,,32,,,,,,,
@@ -65,4 +65,4 @@ map_id,name,offset_x,offset_y,map_offset_x,map_offset_y,map_scale_x,map_scale_y,
 34o,dark_forest_1,3104,3280,2,2,,,72,,,,,,,
 25,chessboard,0,0,6,1,,,24,,,,,,,
 126,boiler_room,0,0,2,3,,,,,,,,,,
-116,ivor_tower_interiors,2528,174,0,11,,,32,,,,,,,
+116,ivor_tower_interiors,2516,154,0,11,,,32,,,,,,,

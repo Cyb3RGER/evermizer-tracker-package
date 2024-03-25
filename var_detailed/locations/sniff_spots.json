@@ -11031,7 +11031,7 @@
             {
                 "map": "oglin_tunnel",
                 "x": 537,
-                "y": 4065,
+                "y": 2305,
                 "size": 32,
                 "border_thickness": 2
             }
@@ -11166,7 +11166,7 @@
             {
                 "map": "oglin_tunnel",
                 "x": 705,
-                "y": 4081,
+                "y": 2321,
                 "size": 32,
                 "border_thickness": 2
             }
@@ -11355,7 +11355,7 @@
             {
                 "map": "oglin_tunnel",
                 "x": 353,
-                "y": 4193,
+                "y": 2433,
                 "size": 32,
                 "border_thickness": 2
             }
@@ -11571,7 +11571,7 @@
             {
                 "map": "oglin_tunnel",
                 "x": 433,
-                "y": 1317,
+                "y": 1217,
                 "size": 32,
                 "border_thickness": 2
             }
@@ -11598,7 +11598,7 @@
             {
                 "map": "oglin_tunnel",
                 "x": 433,
-                "y": 837,
+                "y": 737,
                 "size": 32,
                 "border_thickness": 2
             }
@@ -11760,7 +11760,7 @@
             {
                 "map": "oglin_tunnel",
                 "x": 145,
-                "y": 1109,
+                "y": 1009,
                 "size": 32,
                 "border_thickness": 2
             }
@@ -13553,8 +13553,8 @@
         "map_locations": [
             {
                 "map": "ivor_tower_interiors",
-                "x": 3217,
-                "y": 437,
+                "x": 3205,
+                "y": 427,
                 "size": 32,
                 "border_thickness": 2
             }
