@@ -230,14 +230,14 @@ def main():
     _len = 0
     print(sorted(addrs), len(addrs))
     for addr in sorted(addrs):
-        _len += 1
-        print(_len)
         if last and addr != last + 1:
-            watches.append(Watch(addr-_len, _len))
+            watches.append(Watch(last + 1 - _len, _len))
             _len = 0
+        _len += 1
+        print(_len, f'{addr:x}')
         last = addr
-    watches.append(Watch(addr - _len, _len))
-    print([(w.addr, w.len) for w in watches])
+    watches.append(Watch(addr + 1 - _len, _len))
+    print([(f'0x{w.addr:x}-0x{w.addr+w.len:x}', f'0x{w.len:x}') for w in watches])
     print(overworld_mapping)
     print(detailed_mapping)
 

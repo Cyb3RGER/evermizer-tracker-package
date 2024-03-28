@@ -10,7 +10,6 @@ function updateGameState(segment)
     elseif (not IS_GAME_RUNNING and ENABLED_WATCHES) then
         disableWatches()
     end
-
 end
 
 function updateCurrentRoom(segment)
@@ -47,7 +46,7 @@ function updateUI()
             print("has mapping func. result: ", mapping[1]())
             mapping = mapping[mapping[1]()]
         end
-        for _,v in ipairs(mapping) do
+        for _, v in ipairs(mapping) do
             if type(v) == "string" then
                 print(string.format("Setting ActivateTab to %s", v))
                 Tracker:UiHint("ActivateTab", v)
@@ -67,10 +66,10 @@ function updateBoyPos()
     end
     local boy_x = AutoTracker:ReadU16(BOY_X_ADDR)
     local boy_y = AutoTracker:ReadU16(BOY_Y_ADDR)
-    --Check if we are in Volcano Shop    
+    --Check if we are in Volcano Shop
     if boy_x >= 590 and boy_x <= 770 and boy_y >= 1160 and boy_y <= 1420 then
-        Tracker:UiHint("ActivateTab","Prehistoria")
-        Tracker:UiHint("ActivateTab","Northern Jungle")
+        Tracker:UiHint("ActivateTab", "Prehistoria")
+        Tracker:UiHint("ActivateTab", "Northern Jungle")
     end
 end
 
@@ -140,7 +139,6 @@ function updateKeyItems(segment)
             else
                 diamond_eyes.CurrentStage = HAS_DE
             end
-
         end
         local gauge = Tracker:FindObjectForCode("gauge")
         if gauge then
@@ -342,9 +340,9 @@ function updateSniffSpots(segment)
 end
 
 function addValsFromTable(vals, table)
-    for addr, gourds in pairs(table) do
+    for addr, codes in pairs(table) do
         local b = AutoTracker:ReadU8(addr) -- FIXME: this may be slow in emo
-        for mask, code in pairs(gourds) do
+        for mask, code in pairs(codes) do
             if b & mask > 0 then
                 if vals[code] then
                     vals[code] = vals[code] + 1
@@ -473,7 +471,6 @@ function updateCallBeadSpells(segment)
                 print(string.format("Unknown index %s in CB_SPELLS", (CURRENT_CALL_BEAD_CHAR - 1) * 5 + i))
             end
         end
-
     end
     CURRENT_CALL_BEAD_CHAR = nil
 end

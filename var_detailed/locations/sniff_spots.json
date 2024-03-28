@@ -3513,14 +3513,6 @@
     },
     {
         "name": "Sniff Spot #162",
-        "access_rules": [
-            [
-                "$canCutBushes"
-            ],
-            [
-                "thraxx"
-            ]
-        ],
         "chest_unopened_img": "images/locations/sniff.png",
         "chest_opened_img": "images/locations/sniff_open_gray.png",
         "map_locations": [

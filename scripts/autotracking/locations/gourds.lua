@@ -458,16 +458,16 @@ GOURDS_OVERWORLD = {
   },
   [0x7e226c]={
     [0x04]="@Act 1/Quick Sand Fields/Gourds",
-    [0x20]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes",
-    [0x40]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes",
-    [0x10]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes",
-    [0x08]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes",
+    [0x20]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or bushes",
+    [0x40]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or bushes",
+    [0x10]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or bushes",
+    [0x08]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or bushes",
     [0x01]="@Act 1/Quick Sand Fields/Gourds",
-    [0x02]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes",
-    [0x80]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes"
+    [0x02]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or bushes",
+    [0x80]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or bushes"
   },
   [0x7e226d]={
-    [0x01]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or Bushes",
+    [0x01]="@Act 1/Quick Sand Fields/Gourds behind Thraxx or bushes",
     [0x80]="@Act 1/Volcano Core/Gourds",
     [0x08]="@Act 1/Quick Sand Fields/Gourds",
     [0x02]="@Act 1/Quick Sand Fields/Gourds",
@@ -497,8 +497,8 @@ GOURDS_OVERWORLD = {
     [0x40]="@Act 1/Volcano Core/Gourds"
   },
   [0x7e2270]={
-    [0x40]="@Act 1/Bugmuck/Gourds behind Thraxx or Bushes",
-    [0x20]="@Act 1/Bugmuck/Gourds behind Thraxx or Bushes",
+    [0x40]="@Act 1/Bugmuck/Gourds behind Thraxx or bushes",
+    [0x20]="@Act 1/Bugmuck/Gourds behind Thraxx or bushes",
     [0x10]="@Act 1/Bugmuck/Gourds",
     [0x04]="@Act 1/Bugmuck/Gourds",
     [0x08]="@Act 1/Bugmuck/Gourds",

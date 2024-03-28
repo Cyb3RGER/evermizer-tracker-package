@@ -1,6 +1,6 @@
 SNIFF_SPOT_WATCHES = {
-    {addr=0x7e228c, len=0x26},
-    {addr=0x7e22b2, len=0x26},
+    {addr=0x7e228c, len=0x25},
+    {addr=0x7e22b2, len=0x27},
 }
 SNIFF_MAPPING_DETAILED = {
     [0x7E228F] = {
@@ -805,10 +805,10 @@ SNIFF_MAPPING_OVERWORLD = {
         [0x04] = "@Act 1/Quick Sand Fields/Sniff Spots",
         [0x02] = "@Act 1/Quick Sand Fields/Sniff Spots",
         [0x01] = "@Act 1/Quick Sand Fields/Sniff Spots",
-        [0x08] = "@Act 1/Quick Sand Fields/Sniff Spots behind thraxx or bushes",
+        [0x08] = "@Act 1/Quick Sand Fields/Sniff Spots behind Thraxx or bushes",
         [0x10] = "@Act 1/Quick Sand Fields/Sniff Spots",
         [0x20] = "@Act 1/Quick Sand Fields/Sniff Spots",
-        [0x40] = "@Act 1/Quick Sand Fields/Sniff Spots behind thraxx or bushes",
+        [0x40] = "@Act 1/Quick Sand Fields/Sniff Spots behind Thraxx or bushes",
         [0x80] = "@Act 1/Quick Sand Fields/Sniff Spots",
     },
     [0x7E2295] = {
@@ -823,8 +823,8 @@ SNIFF_MAPPING_OVERWORLD = {
     },
     [0x7E2297] = {
         [0x20] = "@Act 1/Quick Sand Fields/Sniff Spots",
-        [0x10] = "@Act 1/Quick Sand Fields/Sniff Spots behind thraxx or bushes",
-        [0x08] = "@Act 1/Quick Sand Fields/Sniff Spots behind thraxx or bushes",
+        [0x10] = "@Act 1/Quick Sand Fields/Sniff Spots behind Thraxx or bushes",
+        [0x08] = "@Act 1/Quick Sand Fields/Sniff Spots behind Thraxx or bushes",
         [0x04] = "@Act 1/Quick Sand Fields/Sniff Spots",
         [0x01] = "@Act 1/Quick Sand Fields/Sniff Spots",
         [0x02] = "@Act 1/Quick Sand Fields/Sniff Spots",
@@ -835,9 +835,9 @@ SNIFF_MAPPING_OVERWORLD = {
         [0x01] = "@Act 1/Quick Sand Fields/Sniff Spots",
         [0x02] = "@Act 1/Quick Sand Fields/Sniff Spots",
         [0x04] = "@Act 1/Quick Sand Fields/Sniff Spots",
-        [0x08] = "@Act 1/Quick Sand Fields/Sniff Spots behind thraxx or bushes",
+        [0x08] = "@Act 1/Quick Sand Fields/Sniff Spots behind Thraxx or bushes",
         [0x10] = "@Act 1/Quick Sand Fields/Sniff Spots",
-        [0x20] = "@Act 1/Quick Sand Fields/Sniff Spots behind thraxx or bushes",
+        [0x20] = "@Act 1/Quick Sand Fields/Sniff Spots behind Thraxx or bushes",
         [0x80] = "@Act 1/Quick Sand Fields/Sniff Spots",
     },
     [0x7E2299] = {
@@ -848,7 +848,7 @@ SNIFF_MAPPING_OVERWORLD = {
         [0x10] = "@Act 1/Bugmuck/Sniff Spots",
         [0x20] = "@Act 1/Bugmuck/Sniff Spots",
         [0x40] = "@Act 1/Bugmuck/Sniff Spots",
-        [0x80] = "@Act 1/Bugmuck/Sniff Spots behind thraxx or bushes",
+        [0x80] = "@Act 1/Bugmuck/Sniff Spots behind Thraxx or bushes",
     },
     [0x7E229A] = {
         [0x01] = "@Act 1/Bugmuck/Sniff Spots",
@@ -858,7 +858,7 @@ SNIFF_MAPPING_OVERWORLD = {
         [0x10] = "@Act 1/Bugmuck/Sniff Spots",
         [0x20] = "@Act 1/Bugmuck/Sniff Spots",
         [0x40] = "@Act 1/Bugmuck/Sniff Spots",
-        [0x80] = "@Act 1/Bugmuck/Sniff Spots behind thraxx or bushes",
+        [0x80] = "@Act 1/Bugmuck/Sniff Spots behind Thraxx or bushes",
     },
     [0x7E229B] = {
         [0x01] = "@Act 1/Bugmuck/Sniff Spots",
@@ -867,7 +867,7 @@ SNIFF_MAPPING_OVERWORLD = {
         [0x08] = "@Act 1/Bugmuck/Sniff Spots",
         [0x10] = "@Act 1/Bugmuck/Sniff Spots",
         [0x20] = "@Act 1/Bugmuck/Sniff Spots",
-        [0x40] = "@Act 1/Bugmuck/Sniff Spots behind thraxx or bushes",
+        [0x40] = "@Act 1/Bugmuck/Sniff Spots behind Thraxx or bushes",
         [0x80] = "@Act 1/Bugmuck/Sniff Spots",
     },
     [0x7E229C] = {
@@ -942,7 +942,7 @@ SNIFF_MAPPING_OVERWORLD = {
     },
     [0x7E22A3] = {
         [0x01] = "@Act 1/Northern Jungle/Sniff Spots behind bushes",
-        [0x02] = "@Act 1/Northern Jungle/Sniff Spots behind thraxx or bushes",
+        [0x02] = "@Act 1/Northern Jungle/Sniff Spots",
         [0x04] = "@Act 1/Northern Jungle/Sniff Spots behind bushes",
         [0x08] = "@Act 1/Northern Jungle/Sniff Spots behind bushes",
         [0x10] = "@Act 1/Northern Jungle/Sniff Spots behind bushes",
