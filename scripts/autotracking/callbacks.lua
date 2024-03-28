@@ -70,6 +70,9 @@ function updateBoyPos()
     if boy_x >= 590 and boy_x <= 770 and boy_y >= 1160 and boy_y <= 1420 then
         Tracker:UiHint("ActivateTab", "Prehistoria")
         Tracker:UiHint("ActivateTab", "Northern Jungle")
+    else
+        -- make sure we show the right map if not
+        updateUI()
     end
 end
 
