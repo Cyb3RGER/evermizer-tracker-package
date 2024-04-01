@@ -10,6 +10,15 @@
                 "Item groups will have a different background with the new PopTracker Version",
                 "Added tab icon for acts in detailed variant"
             ]
+        },
+        {
+            "package_version": "0.3.1.0",
+            "download_url": "https://github.com/Cyb3RGER/evermizer-tracker-package/releases/download/v0.3.1.0/evermizer-tracker-package-v0_3_1_0.zip",
+            "sha256": "6eeeb5404bc03ec767a72d9c71ab066fbcf510772187c8970df6d7770073e800",
+            "changelog": [
+                "Added Sniff Spots",
+                "Added Keyitem Pool Distribution"
+            ]
         }
     ]
 }
