@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.3.1.0",
+            "download_url": "https://github.com/Cyb3RGER/evermizer-tracker-package/releases/download/v0.3.1.0/evermizer-tracker-package-v0_3_1_0.zip",
+            "sha256": "6eeeb5404bc03ec767a72d9c71ab066fbcf510772187c8970df6d7770073e800",
+            "changelog": [
+                "Added Sniff Spots",
+                "Added Keyitem Pool Distribution"
+            ]
+        },
+        {
             "package_version": "0.3.0.10",
             "download_url": "https://github.com/Cyb3RGER/evermizer-tracker-package/releases/download/v0.3.0.10/evermizer-tracker-package-0_3_0_10.zip",
             "sha256": "7B665C8FB88117FB6440CF2338F381CF02D4A74C25192ED07534B1DD4626FDE0",
@@ -10,15 +19,6 @@
                 "Item groups will have a different background with the new PopTracker Version",
                 "Added tab icon for acts in detailed variant"
             ]
-        },
-        {
-            "package_version": "0.3.1.0",
-            "download_url": "https://github.com/Cyb3RGER/evermizer-tracker-package/releases/download/v0.3.1.0/evermizer-tracker-package-v0_3_1_0.zip",
-            "sha256": "6eeeb5404bc03ec767a72d9c71ab066fbcf510772187c8970df6d7770073e800",
-            "changelog": [
-                "Added Sniff Spots",
-                "Added Keyitem Pool Distribution"
-            ]
-        }
+        }        
     ]
 }
