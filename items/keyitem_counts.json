@@ -19,5 +19,12 @@
         "capturable": false,
         "img": "images/items/bosses/thraxx.png",
         "codes": "boss_keyitems"
+    },
+    {
+        "name": "Sniff Spot Keyitems",
+        "type": "static",
+        "capturable": false,
+        "img": "images/locations/sniff.png",
+        "codes": "sniff_keyitems"
     }
 ]
