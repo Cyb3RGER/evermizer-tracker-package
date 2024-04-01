@@ -12,6 +12,9 @@ GAME_STATE = {
     addr = 0x7e22ab,
     value = 0x40
 }
+BOY_X_ADDR = 0x7E4EA3
+BOY_Y_ADDR = 0x7E4EA5
+
 if AUTOTRACKER_ENABLE_ITEM_TRACKING then
     ScriptHost:LoadScript("scripts/autotracking/items/weapons.lua")
     ScriptHost:LoadScript("scripts/autotracking/items/alchemy.lua")
@@ -25,6 +28,7 @@ end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     ScriptHost:LoadScript("scripts/autotracking/locations/gourds.lua")
     ScriptHost:LoadScript("scripts/autotracking/locations/alchemy.lua")
+    ScriptHost:LoadScript("scripts/autotracking/locations/sniff_spots.lua")
     ScriptHost:LoadScript("scripts/autotracking/locations/mapswitching.lua")
 end
 --if AUTOTRACKER_ENABLE_ITEM_TRACKING and AUTOTRACKER_ENABLE_LOCATION_TRACKING then
@@ -59,6 +63,7 @@ function enableWatches()
     end
     if not IS_ITEMS_ONLY then
         ScriptHost:AddMemoryWatch("CurrentRoom", CURRENT_ROOM_ADDR, 0x1, updateCurrentRoom)
+        ScriptHost:AddMemoryWatch("Boy Position", BOY_X_ADDR, 0x4, updateBoyPos)
         ScriptHost:AddMemoryWatch("EbonKeepFlag", EBON_KEEP_FLAG_ADDR, 0x1, updateEbonKeepFlag)
     end
     if AUTOTRACKER_ENABLE_ITEM_TRACKING then
@@ -78,8 +83,8 @@ function enableWatches()
         ScriptHost:AddMemoryWatch("Bosses2", BOSSES_2.addr, 0x20, updateBosses2)
         ScriptHost:AddMemoryWatch("Timer", MARKET_TIMER.TIMER_ADDR, 0x2, updateTimer)
         ScriptHost:AddMemoryWatch("FrameCounter", MARKET_TIMER.FRAME_COUNTER_ADDR, 0x2, updateFrameCounter)
-        ScriptHost:AddMemoryWatch("TimerDoneOverride", MARKET_TIMER.OVERRIDE_FLAG_ADDR, 0x1, updateTimerOverride)  
-        ScriptHost:AddMemoryWatch("EnergyCoreFragments", ENERGY_CORE_FRAGMENTS_ADDR, 0x2, updateEnergyCoreFragments) 
+        ScriptHost:AddMemoryWatch("TimerDoneOverride", MARKET_TIMER.OVERRIDE_FLAG_ADDR, 0x1, updateTimerOverride)
+        ScriptHost:AddMemoryWatch("EnergyCoreFragments", ENERGY_CORE_FRAGMENTS_ADDR, 0x2, updateEnergyCoreFragments)
         --- we update the timer obj from vigor because we use the active state of vigor as an override flag
         ScriptHost:AddWatchForCode("UpdateTimerFromVigor", "vigor", updateTimerObj)
         if AUTOTRACKER_ENABLE_STAT_TRACKING then
@@ -106,6 +111,9 @@ function enableWatches()
         for i = 1, #GOURDS_WATCHES do
             ScriptHost:AddMemoryWatch("Gourds " .. i, GOURDS_WATCHES[i].addr, GOURDS_WATCHES[i].len, updateGourds)
         end
+        for i = 1, #SNIFF_SPOT_WATCHES do
+            ScriptHost:AddMemoryWatch("Sniff Spots " .. i, SNIFF_SPOT_WATCHES[i].addr, SNIFF_SPOT_WATCHES[i].len, updateSniffSpots)
+        end
         ScriptHost:AddMemoryWatch("Alchemy Locations", ALCHEMY_LOCATIONS_BASE_ADDR, 0x5, updateAlchemyLocations)
     end
     ENABLED_WATCHES = true
@@ -117,6 +125,7 @@ function disableWatches()
     end
     if not IS_ITEMS_ONLY then
         ScriptHost:RemoveMemoryWatch("CurrentRoom")
+        ScriptHost:RemoveMemoryWatch("Boy Position")
         ScriptHost:RemoveMemoryWatch("EbonKeepFlag")
     end
     if AUTOTRACKER_ENABLE_ITEM_TRACKING then
@@ -159,6 +168,9 @@ function disableWatches()
         end
         for i = 1, #GOURDS_WATCHES do
             ScriptHost:RemoveMemoryWatch("Gourds " .. i)
+        end
+        for i = 1, #SNIFF_SPOT_WATCHES do
+            ScriptHost:RemoveMemoryWatch("Sniff Spots " .. i)
         end
         ScriptHost:RemoveMemoryWatch("Alchemy Locations")
     end

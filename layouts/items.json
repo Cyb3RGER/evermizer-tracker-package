@@ -319,7 +319,7 @@
         "h_alignment": "center",
         "item_margin": "1,2",
         "rows": [
-            ["alchemy_keyitems", "boss_keyitems", "gourd_keyitems"]
+            ["alchemy_keyitems", "boss_keyitems", "gourd_keyitems", "sniff_keyitems"]
         ]
     },
     "items_compact": {

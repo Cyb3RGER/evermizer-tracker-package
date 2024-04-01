@@ -12,10 +12,22 @@
         "img": "images/maps/southern_jungle.png"
     },
     {
+        "name": "raptor_attack",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/raptor_attack.png"
+    },
+    {
         "name": "fe_village",
         "location_size": 24,
         "location_border_thickness": 2,
         "img": "images/maps/fe_village.png"
+    },
+    {
+        "name": "eastern_jungle",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/eastern_jungle.png"
     },
     {
         "name": "quick_sand_fields",
@@ -30,10 +42,28 @@
         "img": "images/maps/bugmuck.png"
     },
     {
+        "name": "bugmaze",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/bugmaze.png"
+    },
+    {
+        "name": "bugroom2",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/bugroom2.png"
+    },
+    {
         "name": "northern_jungle",
         "location_size": 24,
         "location_border_thickness": 2,
         "img": "images/maps/northern_jungle.png"
+    },
+    {
+        "name": "mammoth_graveyard",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/mammoth_graveyard.png"
     },
     {
         "name": "volcano_path",
@@ -43,8 +73,8 @@
     },
     {
         "name": "swamp",
-        "location_size": 48,
-        "location_border_thickness": 4,
+        "location_size": 32,
+        "location_border_thickness": 3,
         "img": "images/maps/swamp.png"
     },
     {
@@ -78,6 +108,18 @@
         "img": "images/maps/nobilia.png"
     },
     {
+        "name": "nobilia_colosseum",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/nobilia_colosseum.png"
+    },
+    {
+        "name": "nobilia_palace",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/nobilia_palace.png"
+    },
+    {
         "name": "river",
         "location_size": 24,
         "location_border_thickness": 2,
@@ -90,6 +132,18 @@
         "img": "images/maps/western_beach.png"
     },
     {
+        "name": "horace_camp",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/horace_camp.png"
+    },
+    {
+        "name": "pyramid_outside",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/pyramid_outside.png"
+    },
+    {
         "name": "pyramid_lower",
         "location_size": 32,
         "location_border_thickness": 3,
@@ -100,6 +154,12 @@
         "location_size": 32,
         "location_border_thickness": 3,
         "img": "images/maps/pyramid_upper.png"
+    },
+    {
+        "name": "halls_of_collosia_outside",
+        "location_size": 32,
+        "location_border_thickness": 3,
+        "img": "images/maps/halls_of_collosia_outside.png"
     },
     {
         "name": "halls_of_collosia_1",
@@ -214,5 +274,11 @@
         "location_size": 32,
         "location_border_thickness": 3,
         "img": "images/maps/main_district.png"
+    },
+    {
+        "name": "boiler_room",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/boiler_room.png"
     }
 ]

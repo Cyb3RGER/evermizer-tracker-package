@@ -224,6 +224,7 @@ if not IS_ITEMS_ONLY then
         Tracker:AddLocations("locations/antiqua.json")
         Tracker:AddLocations("locations/gothica.json")
         Tracker:AddLocations("locations/omnitopia.json")
+        Tracker:AddLocations("locations/sniff_spots.json")
     end
 end
 --layouts

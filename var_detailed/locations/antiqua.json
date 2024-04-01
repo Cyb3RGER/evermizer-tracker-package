@@ -255,18 +255,18 @@
         ]
     },
     {
-        "name": "Western Beach",
+        "name": "Horace Camp",
         "access_rules": [
             "$canCutBushes"
         ],
         "children": [
             {
-                "name": "Horace Camp",
+                "name": "Madronius",
                 "map_locations": [
                     {
-                        "map": "western_beach",
-                        "x": 0,
-                        "y": 375
+                        "map": "horace_camp",
+                        "x": 512,
+                        "y": 310
                     }
                 ],
                 "sections": [
@@ -289,7 +289,15 @@
                         "item_count": 1
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Western Beach",
+        "access_rules": [
+            "$canCutBushes"
+        ],
+        "children": [            
             {
                 "name": "Gourd #103",
                 "map_locations": [
@@ -1170,9 +1178,9 @@
                 "name": "Rimsala",
                 "map_locations": [
                     {
-                        "map": "pyramid_upper",
-                        "x": 1120,
-                        "y": 510
+                        "map": "pyramid_outside",
+                        "x": 656,
+                        "y": 428
                     }
                 ],
                 "access_rules": [
@@ -1749,9 +1757,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "nobilia",
-                        "x": 385,
-                        "y": 0
+                        "map": "nobilia_colosseum",
+                        "x": 510,
+                        "y": 69
                     }
                 ],
                 "sections": [
@@ -1790,9 +1798,9 @@
                 "name": "Barrier",
                 "map_locations": [
                     {
-                        "map": "nobilia",
-                        "x": 1125,
-                        "y": 32
+                        "map": "nobilia_palace",
+                        "x": 688,
+                        "y": 254
                     }
                 ],
                 "access_rules": [

@@ -30,6 +30,23 @@
                         "item_count": 6
                     },
                     {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 21
+                    },
+                    {
+                        "name": "Sniff Spots behind bushes",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 7,
+                        "access_rules": [
+                            "$canCutBushes"
+                        ]
+                    },
+                    {
                         "name": "Miracle Cure",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
@@ -57,6 +74,13 @@
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 26
+                    },
+                    {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 15
                     },
                     {
                         "name": "Flash",
@@ -95,7 +119,7 @@
                         "item_count": 5
                     },
                     {
-                        "name": "Gourds behind Thraxx or Bushes",
+                        "name": "Gourds behind Thraxx or bushes",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -104,6 +128,34 @@
                             "$canCutBushes"
                         ],
                         "item_count": 7
+                    },
+                    {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 23
+                    },
+                    {
+                        "name": "Sniff Spots behind bushes",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 9,
+                        "access_rules": [
+                            "$canCutBushes"
+                        ]
+                    },
+                    {
+                        "name": "Sniff Spots behind Thraxx or bushes",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 6,
+                        "access_rules": [
+                            "thraxx",
+                            "$canCutBushes"
+                        ]
                     },
                     {
                         "name": "Acid Rain",
@@ -140,7 +192,7 @@
                         "item_count": 9
                     },
                     {
-                        "name": "Gourds behind Thraxx or Bushes",
+                        "name": "Gourds behind Thraxx or bushes",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -149,6 +201,24 @@
                             "$canCutBushes"
                         ],
                         "item_count": 2
+                    },
+                    {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 67
+                    },                    
+                    {
+                        "name": "Sniff Spots behind Thraxx or bushes",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 3,
+                        "access_rules": [
+                            "thraxx",
+                            "$canCutBushes"
+                        ]
                     },
                     {
                         "name": "Hard Ball",
@@ -178,21 +248,41 @@
                         "x": 465,
                         "y": 340
                     }
-                ],
-                "access_rules": [
-                    "$canCutBushes"
-                ],
+                ],                
                 "sections": [
                     {
-                        "name": "Gourds",
+                        "name": "Gourds behind bushes",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 4
+                        "item_count": 4,
+                        "access_rules": [
+                            "$canCutBushes"
+                        ]
+                    },
+                    {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 1                        
+                    },
+                    {
+                        "name": "Sniff Spots behind bushes",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 51,
+                        "access_rules": [
+                            "$canCutBushes"
+                        ]
                     },
                     {
                         "name": "Mammoth Graveyard Vipers",
-                        "hosted_item": "viper_commander_1"
+                        "hosted_item": "viper_commander_1",
+                        "access_rules": [
+                            "$canCutBushes"
+                        ]
                     },
                     {
                         "name": "Heal",
@@ -200,7 +290,7 @@
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",
                         "access_rules": [
-                            "viper_commander_1"
+                            "$canCutBushes, viper_commander_1"
                         ],
                         "item_count": 1
                     }
@@ -235,6 +325,23 @@
                             "$hasNonSword"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 25
+                    },
+                    {
+                        "name": "Sniff Spots behind non-sword",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 2,
+                        "access_rules": [
+                            "$hasNonSword"
+                        ]
                     },
                     {
                         "name": "Vanilla Gauge Gourd",
@@ -283,6 +390,13 @@
                         "item_count": 12
                     },
                     {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 35
+                    },
+                    {
                         "name": "Salabog",
                         "hosted_item": "salabog"
                     }
@@ -308,6 +422,13 @@
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 22
+                    },
+                    {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 38
                     },
                     {
                         "name": "Speed",
@@ -370,6 +491,33 @@
                             "levitate"
                         ],
                         "item_count": 2
+                    },
+                    {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 53
+                    },
+                    {
+                        "name": "Sniff Spots behind Bronze Axe or higher",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 4,
+                        "access_rules": [
+                            "$hasBronzeAxeOrHigher"
+                        ]
+                    },
+                    {
+                        "name": "Sniff Spots behind Levitate",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 2,
+                        "access_rules": [
+                            "levitate"
+                        ]
                     },
                     {
                         "name": "Crush",
@@ -441,6 +589,23 @@
                     "$canCutBushes"
                 ],
                 "sections": [
+                    {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 19
+                    },
+                    {
+                        "name": "Sniff Spots behind Aegis",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 10,
+                        "access_rules": [
+                            "aegis"
+                        ]
+                    },
                     {
                         "name": "Cure",
                         "clear_as_group": false,
@@ -545,6 +710,13 @@
                         "item_count": 7
                     },
                     {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 19
+                    },
+                    {
                         "name": "Sons Of Anhur",
                         "hosted_item": "sons_of_anhur"
                     },
@@ -596,6 +768,13 @@
                             "jaguar_ring"
                         ],
                         "item_count": 4
+                    },
+                    {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 17
                     },
                     {
                         "name": "Fireball",
@@ -697,6 +876,13 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 31
+                    },
+                    {
                         "name": "Aquagoth",
                         "hosted_item": "aquagoth"
                     }
@@ -796,6 +982,24 @@
                 ],
                 "sections": [
                     {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 15
+                    },
+                    {
+                        "name": "Sniff Spots behind Knight Basher",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 18,
+                        "access_rules": [
+                            "axe_3"
+                        ]
+
+                    },
+                    {
                         "name": "Timberdrake",
                         "hosted_item": "timberdrake"
                     },
@@ -852,6 +1056,13 @@
                     "$canCutBushes"
                 ],
                 "sections": [
+                    {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 19
+                    },
                     {
                         "name": "FootKnight",
                         "hosted_item": "footknight"
@@ -923,6 +1134,13 @@
                         "item_count": 40
                     },
                     {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 37
+                    },
+                    {
                         "name": "Lance",
                         "hosted_item": "lance_npc"
                     },
@@ -939,6 +1157,16 @@
                             "queens_key"
                         ],
                         "item_count": 6
+                    },
+                    {
+                        "name": "Sniff Spots behind Queen's Key",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 19,
+                        "access_rules": [
+                            "queens_key"
+                        ]
                     },
                     {
                         "name": "Corrosion",
@@ -990,6 +1218,13 @@
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 11
+                    },
+                    {
+                        "name": "Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 12
                     },
                     {
                         "name": "Reflect",

@@ -61,11 +61,29 @@
                                         }
                                     },
                                     {
+                                        "title": "Raptor Attack",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "raptor_attack"
+                                            ]
+                                        }
+                                    },
+                                    {
                                         "title": "Fire Eyes' Village",
                                         "content": {
                                             "type": "map",
                                             "maps": [
                                                 "fe_village"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Eastern Jungle",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "eastern_jungle"
                                             ]
                                         }
                                     },
@@ -81,9 +99,35 @@
                                     {
                                         "title": "Bugmuck",
                                         "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "bugmuck"
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Outside",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "bugmuck"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Bugmaze",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "bugmaze"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Room 2",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "bugroom2"
+                                                        ]
+                                                    }
+                                                }
                                             ]
                                         }
                                     },
@@ -93,6 +137,15 @@
                                             "type": "map",
                                             "maps": [
                                                 "northern_jungle"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Mammoth Graveyard",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mammoth_graveyard"
                                             ]
                                         }
                                     },
@@ -162,9 +215,35 @@
                                     {
                                         "title": "Nobilia",
                                         "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "nobilia"
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Market",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "nobilia"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Colosseum",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "nobilia_colosseum"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Palace",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "nobilia_palace"
+                                                        ]
+                                                    }
+                                                }
                                             ]
                                         }
                                     },
@@ -187,59 +266,102 @@
                                         }
                                     },
                                     {
-                                        "title": "Pyramid (lower)",
+                                        "title": "Horace Camp",
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "pyramid_lower"
+                                                "horace_camp"
                                             ]
                                         }
                                     },
                                     {
-                                        "title": "Pyramid (upper)",
+                                        "title": "Pyramid",
                                         "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "pyramid_upper"
-                                            ]
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Outside",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "pyramid_outside"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Lower",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "pyramid_lower"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Upper",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "pyramid_upper"
+                                                        ]
+                                                    }
+                                                }
+                                            ]                                            
                                         }
                                     },
                                     {
-                                        "title": "Halls of Collosia 1",
+                                        "title": "Halls of Collosia",
                                         "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "halls_of_collosia_1"
-                                            ]
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Outside",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "halls_of_collosia_outside"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Room 1",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "halls_of_collosia_1"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Room 2",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "halls_of_collosia_2"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Room 3",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "halls_of_collosia_3"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Room 4",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "halls_of_collosia_4"
+                                                        ]
+                                                    }
+                                                }
+                                            ]                                            
                                         }
-                                    },
-                                    {
-                                        "title": "Halls of Collosia 2",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "halls_of_collosia_2"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Halls of Collosia 3",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "halls_of_collosia_3"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Halls of Collosia 4",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "halls_of_collosia_4"
-                                            ]
-                                        }
-                                    },
+                                    },                                    
                                     {
                                         "title": "Tiny's Hideout",
                                         "content": {
@@ -382,9 +504,26 @@
                             "title": "Omnitopia",
                             "icon": "images/items/stats/credit_icon.png",
                             "content": {
-                                "type": "map",
-                                "maps": [
-                                    "main_district"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Boiler Room",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "boiler_room"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Main District",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "main_district"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         }
