@@ -2,7 +2,7 @@
     "name": "Evermizer - Map and Item Tracker",
     "game_name": "Evermizer",
     "platform": "snes",
-    "package_version": "0.3.0.10",
+    "package_version": "0.3.1.0",
     "package_uid": "evermizer",
     "author": "Cyb3R, black-sliver",
     "variants": {
@@ -18,5 +18,6 @@
         "var_itemsonly_compact": {
             "display_name": "Items Only - Compact"
         }
-    }
+    },
+    "versions_url": "https://raw.githubusercontent.com/Cyb3RGER/evermizer-tracker-package/main/versions.json"
 }

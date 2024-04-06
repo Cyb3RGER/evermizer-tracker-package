@@ -59,6 +59,17 @@
             },
             {
                 "type": "group",
+                "header": "Sniffamizer",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "opt_sniffamizer"
+                    }
+                ]
+            },
+            {
+                "type": "group",
                 "header": "Mixed Pool Strategy",
                 "header_background": "#3e4b57",
                 "content": [

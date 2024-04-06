@@ -10,7 +10,6 @@ function updateGameState(segment)
     elseif (not IS_GAME_RUNNING and ENABLED_WATCHES) then
         disableWatches()
     end
-
 end
 
 function updateCurrentRoom(segment)
@@ -41,14 +40,39 @@ function updateUI()
             Tracker:UiHint("ActivateTab", "Ivor Tower")
         end
     elseif ROOM_MAPPING[CURRENT_ROOM] then
-        if #ROOM_MAPPING[CURRENT_ROOM] == 2 then
-            print(string.format("Setting ActivateTab to %s", ROOM_MAPPING[CURRENT_ROOM][2]))
-            Tracker:UiHint("ActivateTab", ROOM_MAPPING[CURRENT_ROOM][2])
+        local mapping = ROOM_MAPPING[CURRENT_ROOM]
+        print(type(mapping[1]))
+        if type(mapping[1]) == "function" then
+            print("has mapping func. result: ", mapping[1]())
+            mapping = mapping[mapping[1]()]
         end
-        print(string.format("Setting ActivateTab to %s", ROOM_MAPPING[CURRENT_ROOM][1]))
-        Tracker:UiHint("ActivateTab", ROOM_MAPPING[CURRENT_ROOM][1])
+        for _, v in ipairs(mapping) do
+            if type(v) == "string" then
+                print(string.format("Setting ActivateTab to %s", v))
+                Tracker:UiHint("ActivateTab", v)
+            end
+        end
     else
         print(string.format("In unmapped room %x", CURRENT_ROOM))
+    end
+end
+
+function updateBoyPos()
+    if not IS_GAME_RUNNING then
+        return
+    end
+    if CURRENT_ROOM ~= 0x3c then
+        return
+    end
+    local boy_x = AutoTracker:ReadU16(BOY_X_ADDR)
+    local boy_y = AutoTracker:ReadU16(BOY_Y_ADDR)
+    --Check if we are in Volcano Shop
+    if boy_x >= 590 and boy_x <= 770 and boy_y >= 1160 and boy_y <= 1420 then
+        Tracker:UiHint("ActivateTab", "Prehistoria")
+        Tracker:UiHint("ActivateTab", "Northern Jungle")
+    else
+        -- make sure we show the right map if not
+        updateUI()
     end
 end
 
@@ -118,7 +142,6 @@ function updateKeyItems(segment)
             else
                 diamond_eyes.CurrentStage = HAS_DE
             end
-
         end
         local gauge = Tracker:FindObjectForCode("gauge")
         if gauge then
@@ -294,14 +317,14 @@ function updateTimerOverride(segment)
     end
 end
 
-function updateGourds(segment)
+function updateLocWithVals(overworld_mapping, detailed_mapping)
     if not IS_GAME_RUNNING then
         return
     end
     local vals = {}
-    addGourdValsFromTable(vals, GOURDS_OVERWORLD)
+    addValsFromTable(vals, overworld_mapping)
     if IS_DETAILED then
-        addGourdValsFromTable(vals, GOURDS_DETAILED)
+        addValsFromTable(vals, detailed_mapping)
     end
     for code, count in pairs(vals) do
         local o = Tracker:FindObjectForCode(code)
@@ -311,8 +334,16 @@ function updateGourds(segment)
     end
 end
 
-function addGourdValsFromTable(vals, table)
-    for addr, gourds in pairs(table) do
+function updateGourds(segment)
+    updateLocWithVals(GOURDS_OVERWORLD, GOURDS_DETAILED)
+end
+
+function updateSniffSpots(segment)
+    updateLocWithVals(SNIFF_MAPPING_OVERWORLD, SNIFF_MAPPING_DETAILED)
+end
+
+function addValsFromTable(vals, table)
+    for addr, codes in pairs(table) do
         local b = AutoTracker:ReadU8(addr) -- FIXME: this may be slow in emo
         for mask, codes in pairs(gourds) do
             if b & mask > 0 then
@@ -445,7 +476,6 @@ function updateCallBeadSpells(segment)
                 print(string.format("Unknown index %s in CB_SPELLS", (CURRENT_CALL_BEAD_CHAR - 1) * 5 + i))
             end
         end
-
     end
     CURRENT_CALL_BEAD_CHAR = nil
 end
