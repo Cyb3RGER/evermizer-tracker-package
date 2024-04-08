@@ -81,9 +81,7 @@
                     {
                         "name": "Explosion (Vanilla)",
                         "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
+                        "hosted_item": "explosion",
                         "visibility_rules": [
                             "$alchemyVanillaLocationVisible"
                         ]
@@ -91,9 +89,7 @@
                     {
                         "name": "Nitro (Vanilla)",
                         "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
+                        "hosted_item": "nitro",
                         "access_rules": [
                             "aeroglider"
                         ],                        
@@ -117,7 +113,24 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible"                            
+                        ]
+                    },
+                    {
+                        "name": "Knight Basher",
+                        "hosted_item": "axe_3",                        
+                        "visibility_rules": [
+                            "$gourdVanillaLocationVisible|1"                            
+                        ]
+                    },
+                    {
+                        "name": "Atom Smasher",
+                        "hosted_item": "axe_4",                        
+                        "visibility_rules": [
+                            "$gourdVanillaLocationVisible|1"                            
+                        ]
                     }
                 ]
             },
@@ -137,6 +150,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -155,6 +172,28 @@
                         "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$alchemyLocationVisible"
+                ]
+            },
+            {
+                "name": "Super Heal (Vanilla)",
+                "map_locations": [
+                    {
+                        "map": "ebon_keep_interiors",
+                        "x": 815,
+                        "y": 1110
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "hosted_item": "super_heal"
+                    }
+                ],
+                "visibility_rules": [
+                    "$alchemyVanillaLocationVisible"
                 ]
             },
             {
@@ -173,6 +212,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -191,6 +234,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -209,6 +256,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -227,6 +278,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -245,6 +300,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -258,7 +317,10 @@
                 ],
                 "sections": [
                     {
-                        "hosted_item": "verminator"
+                        "hosted_item": "verminator",
+                        "visibility_rules": [
+                            "$bossLocationVisible"
+                        ]
                     }
                 ]
             },
@@ -305,6 +367,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 2
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -324,6 +390,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 2
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -343,6 +413,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 2
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -362,6 +436,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 2
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -381,6 +459,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -400,6 +482,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 3
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -414,7 +500,17 @@
                 "sections": [
                     {
                         "name": "Lance",
-                        "hosted_item": "lance_npc"
+                        "hosted_item": "lance_npc",
+                        "visibility_rules": [
+                            "$alchemyLocationVisible"
+                        ]
+                    },
+                    {
+                        "name": "Lance (Vanilla)",
+                        "hosted_item": "lance",
+                        "visibility_rules": [
+                            "$alchemyLocationVisible"
+                        ]
                     },
                     {
                         "name": "Gourds #209 & #221 & #227",
@@ -423,6 +519,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 3
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -440,7 +540,18 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$alchemyLocationVisible"
+                        ]
+                    },
+                    {
+                        "name": "Regrowth (Vanilla)",
+                        "clear_as_group": true,
+                        "hosted_item": "regrowth",
+                        "visibility_rules": [
+                            "$alchemyVanillaLocationVisible"
+                        ]
                     },
                     {
                         "name": "Gourds #215 & #217",
@@ -449,6 +560,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 2
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -468,6 +583,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 5
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             }
         ]
@@ -494,6 +613,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -512,6 +635,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -530,6 +657,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -548,6 +679,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             },
             {
@@ -566,6 +701,10 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$gourdLocationVisible",
+                    "$gourdVanillaLocationVisible|0"
                 ]
             }
         ]
@@ -592,6 +731,28 @@
                         "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$alchemyLocationVisible"
+                ]
+            },
+            {
+                "name": "One Up (Vanilla)",
+                "map_locations": [
+                    {
+                        "map": "dark_forest_1",
+                        "x": 2550,
+                        "y": 4695
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "hosted_item": "one_up"
+                    }
+                ],
+                "visibility_rules": [
+                    "$alchemyVanillaLocationVisible"
                 ]
             },
             {
@@ -605,7 +766,10 @@
                 ],
                 "sections": [
                     {
-                        "hosted_item": "bad_boys"
+                        "hosted_item": "bad_boys",
+                        "visibility_rules": [
+                            "$bossLocationVisible|1"
+                        ]
                     }
                 ]
             }
@@ -628,7 +792,10 @@
                 ],
                 "sections": [
                     {
-                        "hosted_item": "timberdrake"
+                        "hosted_item": "timberdrake",
+                        "visibility_rules": [
+                            "$bossLocationVisible|1"
+                        ]
                     }
                 ]
             }
@@ -651,7 +818,10 @@
                 ],
                 "sections": [
                     {
-                        "hosted_item": "footknight"
+                        "hosted_item": "footknight",
+                        "visibility_rules": [
+                            "$bossLocationVisible"
+                        ]
                     }
                 ]
             },
@@ -673,22 +843,48 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$alchemyLocationVisible"
+                        ]
                     },
                     {
                         "name": "Stop",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",
+                        "item_count": 1,
                         "access_rules": [
                             "oracle_bone"
                         ],
-                        "item_count": 1
+                        "visibility_rules": [
+                            "$alchemyLocationVisible"
+                        ]
+                    },
+                    {
+                        "name": "Force Field (Vanilla)",
+                        "clear_as_group": true,
+                        "hosted_item": "force_field",
+                        "visibility_rules": [
+                            "$alchemyVanillaLocationVisible"
+                        ]
+                    },
+                    {
+                        "name": "Stop (Vanilla)",
+                        "clear_as_group": true,
+                        "hosted_item": "stop",
+                        "access_rules": [
+                            "oracle_bone"
+                        ],
+                        "visibility_rules": [
+                            "$alchemyVanillaLocationVisible"
+                        ]
                     },
                     {
                         "name": "Energy Core",
                         "hosted_item": "energy_core",
-                        "visibility_rules": [
+                        "visibility_rules": [                            
+                            "$gourdVanillaLocationVisible|1, opt_energy_core_shuffle",
                             "opt_energy_core_vanilla"
                         ]
                     },
@@ -699,7 +895,7 @@
                         "chest_opened_img": "images/locations/gourd_open.png",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_energy_core_shuffle",
+                            "$gourdLocationVisible, opt_energy_core_shuffle",
                             "opt_energy_core_fragments"
                         ]
                     }
@@ -745,7 +941,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -766,7 +966,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -787,7 +991,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -808,7 +1016,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -829,7 +1041,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -850,7 +1066,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -873,6 +1093,31 @@
                         "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$alchemyLocationVisible"
+                ]
+            },
+            {
+                "name": "Fire Power (Vanilla)",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_interiors",
+                        "x": 1825,
+                        "y": 705
+                    }
+                ],
+                "access_rules": [
+                    "queens_key"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "hosted_item": "fire_power"
+                    }
+                ],
+                "visibility_rules": [
+                    "$alchemyVanillaLocationVisible"
                 ]
             },
             {
@@ -889,7 +1134,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -907,7 +1156,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -925,7 +1178,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -943,7 +1200,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -961,7 +1222,10 @@
                 ],
                 "sections": [
                     {
-                        "hosted_item": "mungola"
+                        "hosted_item": "mungola",
+                        "visibility_rules": [
+                            "$bossLocationVisible"
+                        ]
                     }
                 ]
             }
@@ -988,7 +1252,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1007,7 +1275,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1026,7 +1298,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1045,7 +1321,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1064,7 +1344,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1083,7 +1367,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 3
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1099,14 +1387,28 @@
                 "sections": [
                     {
                         "name": "Lance",
-                        "hosted_item": "lance_npc"
+                        "hosted_item": "lance_npc",
+                        "visibility_rules": [
+                            "$alchemyLocationVisible"
+                        ]
+                    },
+                    {
+                        "name": "Lance (Vanilla)",
+                        "hosted_item": "lance",
+                        "visibility_rules": [
+                            "$alchemyVanillaLocationVisible"
+                        ]
                     },
                     {
                         "name": "Gourds #210 & #222 & #228",
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 3
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1125,7 +1427,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 3
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1144,7 +1450,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 4
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1163,7 +1473,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             }
@@ -1189,7 +1503,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1207,7 +1525,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1225,7 +1547,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1243,7 +1569,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             }
@@ -1269,7 +1599,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1287,7 +1621,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1305,7 +1643,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1323,7 +1665,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1341,7 +1687,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1359,7 +1709,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1377,7 +1731,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1395,7 +1753,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1415,6 +1777,28 @@
                         "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$alchemyLocationVisible"
+                ]
+            },
+            {
+                "name": "Corrosion (Vanilla)",
+                "map_locations": [
+                    {
+                        "map": "ivor_tower_sewers",
+                        "x": 1680,
+                        "y": 250
+                    }
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "hosted_item": "corrosion"
+                    }
+                ],
+                "visibility_rules": [
+                    "$alchemyVanillaLocationVisible"
                 ]
             }
         ]
@@ -1439,7 +1823,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1457,7 +1845,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1475,7 +1867,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1493,7 +1889,11 @@
                         "clear_as_group": true,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     }
                 ]
             },
@@ -1508,7 +1908,10 @@
                 ],
                 "sections": [
                     {
-                        "hosted_item": "sterling"
+                        "hosted_item": "sterling",
+                        "visibility_rules": [
+                            "$bossLocationVisible"
+                        ]
                     }
                 ]
             },
@@ -1531,6 +1934,31 @@
                         "chest_opened_img": "images/locations/alchemy_open.png",
                         "item_count": 1
                     }
+                ],
+                "visibility_rules": [
+                    "$alchemyLocationVisible"
+                ]
+            },
+            {
+                "name": "Lightning Storm (Vanilla)",
+                "map_locations": [
+                    {
+                        "map": "gomi_tower",
+                        "x": 400,
+                        "y": 175
+                    }
+                ],
+                "access_rules": [
+                    "sterling"
+                ],
+                "sections": [
+                    {
+                        "clear_as_group": true,
+                        "hosted_item": "lightning_storm"
+                    }
+                ],
+                "visibility_rules": [
+                    "$alchemyVanillaLocationVisible"
                 ]
             }
         ]

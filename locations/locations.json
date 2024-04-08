@@ -42,7 +42,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 21
+                        "item_count": 17,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Sniff Spots behind bushes",
@@ -52,6 +55,9 @@
                         "item_count": 7,
                         "access_rules": [
                             "$canCutBushes"
+                        ],
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
                         ]
                     },
                     {
@@ -105,7 +111,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 15
+                        "item_count": 15,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Flash",
@@ -190,7 +199,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 23
+                        "item_count": 23,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Sniff Spots behind bushes",
@@ -200,6 +212,9 @@
                         "item_count": 9,
                         "access_rules": [
                             "$canCutBushes"
+                        ],
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
                         ]
                     },
                     {
@@ -211,6 +226,9 @@
                         "access_rules": [
                             "thraxx",
                             "$canCutBushes"
+                        ],
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
                         ]
                     },
                     {
@@ -285,7 +303,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 67
+                        "item_count": 67,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Sniff Spots behind Thraxx or bushes",
@@ -296,6 +317,9 @@
                         "access_rules": [
                             "thraxx",
                             "$canCutBushes"
+                        ],
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
                         ]
                     },
                     {
@@ -363,7 +387,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Sniff Spots behind bushes",
@@ -373,6 +400,9 @@
                         "item_count": 51,
                         "access_rules": [
                             "$canCutBushes"
+                        ],
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
                         ]
                     },
                     {
@@ -428,7 +458,11 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 5
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$gourdLocationVisible",
+                            "$gourdVanillaLocationVisible|0"
+                        ]
                     },
                     {
                         "name": "Gourd behind non-sword",
@@ -449,7 +483,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 25
+                        "item_count": 25,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Sniff Spots behind non-sword",
@@ -459,6 +496,9 @@
                         "item_count": 2,
                         "access_rules": [
                             "$hasNonSword"
+                        ],
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
                         ]
                     },
                     {
@@ -545,7 +585,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 35
+                        "item_count": 35,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Salabog",
@@ -586,7 +629,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 38
+                        "item_count": 38,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Speed",
@@ -602,7 +648,7 @@
                         "name": "Speed (Vanilla)",
                         "hosted_item": "speed",
                         "visibility_rules": [
-                            "$alchemyVanillaocationVisible"
+                            "$alchemyVanillaLocationVisible"
                         ]
                     },
                     {
@@ -616,7 +662,7 @@
                         "name": "Magmar",
                         "hosted_item": "magmar",
                         "visibility_rules": [
-                            "$bossLocationVisible"
+                            "$bossLocationVisible|1"
                         ]
                     }
                 ]
@@ -684,7 +730,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 53
+                        "item_count": 53,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Sniff Spots behind Bronze Axe or higher",
@@ -694,6 +743,9 @@
                         "item_count": 4,
                         "access_rules": [
                             "$hasBronzeAxeOrHigher"
+                        ],
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
                         ]
                     },
                     {
@@ -704,6 +756,9 @@
                         "item_count": 2,
                         "access_rules": [
                             "levitate"
+                        ],
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
                         ]
                     },
                     {
@@ -854,7 +909,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 19
+                        "item_count": 19,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Sniff Spots behind Aegis",
@@ -864,6 +922,9 @@
                         "item_count": 10,
                         "access_rules": [
                             "aegis"
+                        ],
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
                         ]
                     },
                     {
@@ -931,7 +992,7 @@
                             "vigor, diamond_eyes_2"
                         ],
                         "visibility_rules": [
-                            "$bossLocationVisible"
+                            "$bossLocationVisible|1"
                         ]
                     },
                     {
@@ -1035,7 +1096,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 19
+                        "item_count": 19,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Sons Of Anhur",
@@ -1113,7 +1177,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 17
+                        "item_count": 17,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Fireball",
@@ -1260,7 +1327,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 31
+                        "item_count": 31,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Aquagoth",
@@ -1317,6 +1387,13 @@
                         ]
                     },
                     {
+                        "name": "Atom Smasher",
+                        "hosted_item": "axe_4",
+                        "visibility_rules": [
+                            "$gourdVanillaLocationVisible|1"
+                        ]
+                    },
+                    {
                         "name": "Slow Burn",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
@@ -1338,7 +1415,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/alchemy.png",
                         "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$alchemyLocationVisible"
+                        ]
                     },
                     {
                         "name": "Explosion (Vanilla)",
@@ -1389,7 +1469,17 @@
                     },
                     {
                         "name": "Lance",
-                        "hosted_item": "lance_npc"
+                        "hosted_item": "lance_npc",
+                        "visibility_rules": [
+                            "$alchemyLocationVisible"
+                        ]
+                    },
+                    {
+                        "name": "Lance",
+                        "hosted_item": "lance",
+                        "visibility_rules": [
+                            "$alchemyVanillaLocationVisible"
+                        ]                
                     },
                     {
                         "name": "Regrowth",
@@ -1442,7 +1532,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 15
+                        "item_count": 15,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Sniff Spots behind Knight Basher",
@@ -1452,6 +1545,9 @@
                         "item_count": 18,
                         "access_rules": [
                             "axe_3"
+                        ],
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
                         ]
 
                     },
@@ -1459,7 +1555,7 @@
                         "name": "Timberdrake",
                         "hosted_item": "timberdrake",
                         "visibility_rules": [
-                            "$bossLocationVisible"
+                            "$bossLocationVisible|1"
                         ]
                     },
                     {
@@ -1553,7 +1649,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 19
+                        "item_count": 19,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "FootKnight",
@@ -1568,8 +1667,8 @@
                         "access_rules": [
                             "aeroglider"
                         ],
-                        "visibility_rules": [
-                            "$gourdVanillaLocationVisible|1",
+                        "visibility_rules": [                            
+                            "$gourdVanillaLocationVisible|1, opt_energy_core_shuffle",
                             "opt_energy_core_vanilla"
                         ]
                     },
@@ -1584,7 +1683,7 @@
                         ],
                         "visibility_rules": [
                             "$gourdLocationVisible, opt_energy_core_shuffle",
-                            "$gourdLocationVisible, opt_energy_core_fragments"
+                            "opt_energy_core_fragments"
                         ]
                     },
                     {
@@ -1664,7 +1763,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 37
+                        "item_count": 37,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Lance",
@@ -1706,6 +1808,9 @@
                         "item_count": 19,
                         "access_rules": [
                             "queens_key"
+                        ],
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
                         ]
                     },
                     {
@@ -1799,8 +1904,8 @@
                         ]
                     },
                     {
-                        "name": "Atom Smasher",
-                        "hosted_item": "axe_4",
+                        "name": "Laser Lance",
+                        "hosted_item": "spear_4",
                         "visibility_rules": [
                             "$gourdVanillaLocationVisible|1"
                         ]
@@ -1810,7 +1915,10 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 12
+                        "item_count": 12,
+                        "visibility_rules": [
+                            "$sniffLocationVisible"
+                        ]
                     },
                     {
                         "name": "Reflect",
@@ -1898,7 +2006,7 @@
                             "[energy_core], fix_seq_off"
                         ],
                         "visibility_rules": [
-                            "$bossLocationVisible"
+                            "$bossLocationVisible|1"
                         ]
                     }
                 ]

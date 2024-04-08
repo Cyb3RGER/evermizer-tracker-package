@@ -756,7 +756,7 @@
                     {
                         "hosted_item": "sons_of_anhur",
                         "visibility_rules": [
-                            "$bossLocationVisible"
+                            "$bossLocationVisible|1"
                         ]
                     }
                 ]
@@ -1489,7 +1489,7 @@
                     {
                         "hosted_item": "rimsala",
                         "visibility_rules": [
-                            "$bossLocationVisible"
+                            "$bossLocationVisible|1"
                         ]
                     }
                 ]
@@ -1681,7 +1681,7 @@
                     {
                         "hosted_item": "tiny",
                         "visibility_rules": [
-                            "$bossLocationVisible"
+                            "$bossLocationVisible|1"
                         ]
                     }
                 ]
@@ -1772,7 +1772,7 @@
                     {
                         "hosted_item": "megataur",
                         "visibility_rules": [
-                            "$bossLocationVisible"
+                            "$bossLocationVisible|1"
                         ]
                     }
                 ]
@@ -2109,7 +2109,7 @@
                     {
                         "hosted_item": "mad_monk",
                         "visibility_rules": [
-                            "$bossLocationVisible"
+                            "$bossLocationVisible|1"
                         ]
                     }
                 ]
@@ -2206,7 +2206,7 @@
                         "name": "Vigor",
                         "hosted_item": "vigor",
                         "visibility_rules": [
-                            "$bossLocationVisible"
+                            "$bossLocationVisible|1"
                         ]
                     }
                 ]
@@ -2227,7 +2227,7 @@
                     {
                         "hosted_item": "aegis",
                         "visibility_rules": [
-                            "$bossLocationVisible"
+                            "$bossLocationVisible|1"
                         ]
                     }
                 ]

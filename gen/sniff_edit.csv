@@ -23,10 +23,10 @@ id,map,map_name,x1,y1,x2,y2,item,address,bit,logic,script,,difficulty,other note
 21,56,Prehistoria - South jungle / Start,79,71,80,73,515,8848,0,,2103,837,early,,Southern Jungle,,,,,,,,,
 22,56,Prehistoria - South jungle / Start,50,82,51,83,513,8849,4,,2106,83A,early,,Southern Jungle,,,,,,,,,
 23,56,Prehistoria - South jungle / Start,53,73,54,74,515,8847,6,,2109,83D,early,,Southern Jungle,,,,,,,,,
-24,92,Prehistoria - Raptors,37,36,38,37,527,8884,4,,4116,1014,early,missable,Southern Jungle,,,,,,,,,
-25,92,Prehistoria - Raptors,14,28,15,29,516,8884,2,,4119,1017,early,missable,Southern Jungle,,,,,,,,,
-26,92,Prehistoria - Raptors,11,38,12,39,527,8884,3,,4122,101A,early,missable,Southern Jungle,,,,,,,,,
-27,92,Prehistoria - Raptors,33,31,34,32,513,8884,1,,4125,101D,early,missable,Southern Jungle,,,,,,,,,
+24,92,Prehistoria - Raptors,37,36,38,37,527,8884,4,,4116,1014,early,missable,Southern Jungle,,,,,,,,,ignore
+25,92,Prehistoria - Raptors,14,28,15,29,516,8884,2,,4119,1017,early,missable,Southern Jungle,,,,,,,,,ignore
+26,92,Prehistoria - Raptors,11,38,12,39,527,8884,3,,4122,101A,early,missable,Southern Jungle,,,,,,,,,ignore
+27,92,Prehistoria - Raptors,33,31,34,32,513,8884,1,,4125,101D,early,missable,Southern Jungle,,,,,,,,,ignore
 28,37,Prehistoria - Fire Eyes' Village,64,52,66,53,532,8850,4,,1293,50D,early,unreachable,Fire Eyes' Village,,,,,,,,,ignore
 29,37,Prehistoria - Fire Eyes' Village,63,50,64,53,532,8850,4,,1296,510,early,unreachable,Fire Eyes' Village,,,,,,,,,ignore
 30,37,Prehistoria - Fire Eyes' Village,66,50,67,53,532,8850,4,,1299,513,early,unreachable,Fire Eyes' Village,,,,,,,,,ignore
