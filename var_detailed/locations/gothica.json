@@ -509,7 +509,7 @@
                         "name": "Lance (Vanilla)",
                         "hosted_item": "lance",
                         "visibility_rules": [
-                            "$alchemyLocationVisible"
+                            "$alchemyVanillaLocationVisible"
                         ]
                     },
                     {
