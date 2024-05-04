@@ -422,7 +422,7 @@
                             "thraxx"
                         ],                        
                         "visibility_rules": [
-                            "$alchemyLocationVisible"
+                            "$alchemyVanillaLocationVisible"
                         ]
                     },
                     {
