@@ -1468,7 +1468,7 @@
                         ]
                     },
                     {
-                        "name": "Lance",
+                        "name": "Lance (NPC)",
                         "hosted_item": "lance_npc",
                         "visibility_rules": [
                             "$alchemyLocationVisible"
