@@ -1,6 +1,6 @@
 map_id,name,offset_x,offset_y,map_offset_x,map_offset_y,map_scale_x,map_scale_y,loc_size,,offset calc,real_pos,trig_pos,map_offset,calc_pos,offset
-56,southern_jungle,-1,-59,17,11,,,20,,x,416,32,5,432,-16
-37,fe_village,-5,-9,33,4,,,20,,y,1200,35,2,528,672
+56,southern_jungle,-1,-59,17,11,,,20,,x,144,42,33,144,0
+37,fe_village,-5,-9,33,4,,,20,,y,256,27,11,256,0
 92,raptor_attack,0,0,9,21,,,,,,,,,,
 91,eastern_jungle,400,-48,16,9,,,,,,,,,,
 54,eastern_jungle,0,0,25,23,,,,,,,,,,
@@ -65,4 +65,4 @@ map_id,name,offset_x,offset_y,map_offset_x,map_offset_y,map_scale_x,map_scale_y,
 34o,dark_forest_1,3104,3280,2,2,,,72,,,,,,,
 25,chessboard,0,0,6,1,,,24,,,,,,,
 126,boiler_room,0,0,2,3,,,,,,,,,,
-116,ivor_tower_interiors,2516,154,0,11,,,32,,,,,,,
+116,ivor_tower_dungeon,0,0,33,11,,,32,,,,,,,

@@ -16075,9 +16075,9 @@
         "chest_opened_img": "images/locations/sniff_open_gray.png",
         "map_locations": [
             {
-                "map": "ivor_tower_interiors",
-                "x": 3205,
-                "y": 427,
+                "map": "ivor_tower_dungeon",
+                "x": 161,
+                "y": 273,
                 "size": 32,
                 "border_thickness": 2
             }

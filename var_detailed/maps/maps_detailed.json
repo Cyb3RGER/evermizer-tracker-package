@@ -240,6 +240,12 @@
         "img": "images/maps/ivor_tower_interiors.png"
     },
     {
+        "name": "ivor_tower_dungeon",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/ivor_tower_dungeon.png"
+    },
+    {
         "name": "ivor_tower_dogmaze",
         "location_size": 48,
         "location_border_thickness": 4,

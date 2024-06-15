@@ -390,32 +390,40 @@
                                 "type": "tabbed",
                                 "tabs": [
                                     {
-                                        "title": "Ebon Keep Interiors",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "ebon_keep_interiors"
-                                            ]
-                                        }
-                                    },
-                                    {
                                         "title": "Ebon Keep",
                                         "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "ebon_keep"
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Interiors",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "ebon_keep_interiors"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "City",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "ebon_keep"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Sewers",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "ebon_keep_sewers"
+                                                        ]
+                                                    }
+                                                }
                                             ]
                                         }
-                                    },
-                                    {
-                                        "title": "Ebon Keep Sewers",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "ebon_keep_sewers"
-                                            ]
-                                        }
-                                    },
+                                    },                    
                                     {
                                         "title": "Dark Forest 1",
                                         "content": {
@@ -444,50 +452,67 @@
                                         }
                                     },
                                     {
-                                        "title": "Ivor Tower Interiors",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "ivor_tower_interiors"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Dogmaze",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "ivor_tower_dogmaze"
-                                            ]
-                                        }
-                                    },
-                                    {
                                         "title": "Ivor Tower",
                                         "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "ivor_tower"
+                                            "type": "tabbed",
+                                            "tabs": [
+                                                {
+                                                    "title": "Interiors",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "ivor_tower_interiors"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Dungeon",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "ivor_tower_dungeon"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Dogmaze",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "ivor_tower_dogmaze"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "City",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "ivor_tower"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "South",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "ivor_tower_south"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Sewers",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "ivor_tower_sewers"
+                                                        ]
+                                                    }
+                                                }
                                             ]
                                         }
-                                    },
-                                    {
-                                        "title": "Ivor Tower South",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "ivor_tower_south"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Ivor Tower Sewers",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "ivor_tower_sewers"
-                                            ]
-                                        }
-                                    },
+                                    },                                    
                                     {
                                         "title": "Gomi Tower",
                                         "content": {

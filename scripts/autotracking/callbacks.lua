@@ -29,23 +29,32 @@ function updateUI()
             "updating UI with: CURRENT_ROOM: 0x%x, EBON_KEEP_FLAG: %s, ROOM_MAPPING[CURRENT_ROOM]: %s, isEbonKeepOrIvorTower: %s",
             CURRENT_ROOM, EBON_KEEP_FLAG, ROOM_MAPPING[CURRENT_ROOM], CURRENT_ROOM >= 0x7b and CURRENT_ROOM <= 0x7d))
     end
-    if CURRENT_ROOM >= 0x7b and CURRENT_ROOM <= 0x7d then
+    if CURRENT_ROOM == 0x74 then
         if EBON_KEEP_FLAG then
-            print(string.format("Setting ActivateTab to %s", "Ebon Keep"))
+            print(string.format("Setting ActivateTab to %s", "Ebon Keep Int"))
             Tracker:UiHint("ActivateTab", "Gothica")
             Tracker:UiHint("ActivateTab", "Ebon Keep")
+            Tracker:UiHint("ActivateTab", "Interiors")
         else
-            print(string.format("Setting ActivateTab to %s", "Ivor Tower"))
+            print(string.format("Setting ActivateTab to %s", "Ivor Tower Dungeon"))
             Tracker:UiHint("ActivateTab", "Gothica")
             Tracker:UiHint("ActivateTab", "Ivor Tower")
+            Tracker:UiHint("ActivateTab", "Dungeon")
         end
-    elseif ROOM_MAPPING[CURRENT_ROOM] then
+    elseif CURRENT_ROOM >= 0x7b and CURRENT_ROOM <= 0x7d then
+        if EBON_KEEP_FLAG then
+            print(string.format("Setting ActivateTab to %s", "Ebon Keep City"))
+            Tracker:UiHint("ActivateTab", "Gothica")
+            Tracker:UiHint("ActivateTab", "Ebon Keep")
+            Tracker:UiHint("ActivateTab", "City")
+        else
+            print(string.format("Setting ActivateTab to %s", "Ivor Tower City"))
+            Tracker:UiHint("ActivateTab", "Gothica")
+            Tracker:UiHint("ActivateTab", "Ivor Tower")
+            Tracker:UiHint("ActivateTab", "City")
+        end
+    elseif ROOM_MAPPING[CURRENT_ROOM] then        
         local mapping = ROOM_MAPPING[CURRENT_ROOM]
-        print(type(mapping[1]))
-        if type(mapping[1]) == "function" then
-            print("has mapping func. result: ", mapping[1]())
-            mapping = mapping[mapping[1]()]
-        end
         for _, v in ipairs(mapping) do
             if type(v) == "string" then
                 print(string.format("Setting ActivateTab to %s", v))
