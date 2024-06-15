@@ -94,8 +94,7 @@ def get_access_rules(logic_val, override_logic):
 
 
 def get_visibility_rules():
-    # ToDo: for hide junk locations
-    return None
+    return [["$sniffLocationVisible"]]
 
 
 def get_offset(offsets: dict[str, MapOffsets], row: dict):
@@ -172,7 +171,10 @@ def write_mapping(outf, name, mapping):
     for k, v in mapping.items():
         outf.write(f"    [0x{k+0x7e0000:X}] = {{\n")
         for k2, v2 in v.items():
-            outf.write(f"        [0x{1<<k2:02X}] = \"{v2}\",\n")
+            outf.write(f"        [0x{1<<k2:02X}] = {{ ")
+            for v3 in v2:
+                outf.write(f"\"{v3}\"")
+            outf.write(" },\n")
         outf.write("    },\n")
     outf.write("}\n")
 
@@ -180,15 +182,15 @@ def write_mapping(outf, name, mapping):
 def write_watches(outf, watches):
     outf.write('SNIFF_SPOT_WATCHES = {\n')
     for watch in watches:
-        outf.write(f'    {{addr=0x{0x7e0000+watch.addr:x}, len=0x{watch.len:x}}},\n')
+        outf.write(f'    {{ addr=0x{0x7e0000+watch.addr:x}, len=0x{watch.len:x} }},\n')
     outf.write('}\n')
 
 
 def main():
     locs: list[PopTrackerLocation] = []
     offsets: dict[str, MapOffsets] = {}
-    detailed_mapping: dict[int, [int, str]] = {}
-    overworld_mapping: dict[int, [int, str]] = {}
+    detailed_mapping: dict[int, [int, list[str]]] = {}
+    overworld_mapping: dict[int, [int, list[str]]] = {}
     watches: list[Watch] = []
     addrs: list[int] = []
     with open('offsets.csv') as offsets_file:
@@ -218,13 +220,17 @@ def main():
                 addrs.append(addr)
             if addr not in detailed_mapping:
                 detailed_mapping[addr] = {}
-            detailed_mapping[addr][int(row['bit'])] = f'@Sniff Spot #{row["id"]}/'
+            if int(row['bit']) not in detailed_mapping[addr]:
+                detailed_mapping[addr][int(row['bit'])] = []
+            detailed_mapping[addr][int(row['bit'])].append(f'@Sniff Spot #{row["id"]}/')
             overview_name = f'@{translate_act(row["map_name"])}/{row["pop_overview_parent"]}/Sniff Spots'
             if row['pop_postfix']:
                 overview_name += f' {row["pop_postfix"]}'
             if addr not in overworld_mapping:
                 overworld_mapping[addr] = {}
-            overworld_mapping[addr][int(row['bit'])] = overview_name
+            if int(row['bit']) not in overworld_mapping[addr]:
+                overworld_mapping[addr][int(row['bit'])] = []
+            overworld_mapping[addr][int(row['bit'])].append(overview_name)
 
     last = None
     _len = 0

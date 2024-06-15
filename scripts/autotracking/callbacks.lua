@@ -343,14 +343,16 @@ function updateSniffSpots(segment)
 end
 
 function addValsFromTable(vals, table)
-    for addr, codes in pairs(table) do
+    for addr, masks in pairs(table) do
         local b = AutoTracker:ReadU8(addr) -- FIXME: this may be slow in emo
-        for mask, code in pairs(codes) do
+        for mask, codes in pairs(masks) do
             if b & mask > 0 then
-                if vals[code] then
-                    vals[code] = vals[code] + 1
-                else
-                    vals[code] = 1;
+                for _, code in ipairs(codes) do
+                    if vals[code] then
+                        vals[code] = vals[code] + 1
+                    else
+                        vals[code] = 1;
+                    end
                 end
             end
         end
