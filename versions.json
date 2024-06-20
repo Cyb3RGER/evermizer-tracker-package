@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.3.2.0",
+            "download_url": "https://github.com/Cyb3RGER/evermizer-tracker-package/releases/download/v0.3.2.0/evermizer-tracker-package-v0_3_2_0.zip",
+            "sha256": "d11143ee4399eb1f1f9acad7197976d618de7daf783f67e324b3efc63fa94583",
+            "changelog": [
+                "Added options to hide known junk locations based on settings",
+                "Added separate Ivor Tower Dungeon map",
+                "Grouped Ebon Keep and Ivor Tower map tabs"
+            ]
+        },
+        {
             "package_version": "0.3.1.0",
             "download_url": "https://github.com/Cyb3RGER/evermizer-tracker-package/releases/download/v0.3.1.0/evermizer-tracker-package-v0_3_1_0.zip",
             "sha256": "6eeeb5404bc03ec767a72d9c71ab066fbcf510772187c8970df6d7770073e800",
