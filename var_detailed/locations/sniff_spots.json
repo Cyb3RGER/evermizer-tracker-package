@@ -8,7 +8,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -39,7 +39,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -70,7 +70,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -101,7 +101,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -127,7 +127,7 @@
         "name": "Sniff Spot #4",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -153,7 +153,7 @@
         "name": "Sniff Spot #5",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -179,7 +179,7 @@
         "name": "Sniff Spot #6",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -205,7 +205,7 @@
         "name": "Sniff Spot #7",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -231,7 +231,7 @@
         "name": "Sniff Spot #8",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -257,7 +257,7 @@
         "name": "Sniff Spot #9",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -283,7 +283,7 @@
         "name": "Sniff Spot #10",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -309,7 +309,7 @@
         "name": "Sniff Spot #11",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -335,7 +335,7 @@
         "name": "Sniff Spot #12",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -361,7 +361,7 @@
         "name": "Sniff Spot #13",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -387,7 +387,7 @@
         "name": "Sniff Spot #14",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -413,7 +413,7 @@
         "name": "Sniff Spot #15",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -439,7 +439,7 @@
         "name": "Sniff Spot #16",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -470,7 +470,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -501,7 +501,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -532,7 +532,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -558,7 +558,7 @@
         "name": "Sniff Spot #20",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -584,7 +584,7 @@
         "name": "Sniff Spot #21",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -610,7 +610,7 @@
         "name": "Sniff Spot #22",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -636,7 +636,7 @@
         "name": "Sniff Spot #23",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -662,7 +662,7 @@
         "name": "Sniff Spot #31",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -688,7 +688,7 @@
         "name": "Sniff Spot #32",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -714,7 +714,7 @@
         "name": "Sniff Spot #33",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -740,7 +740,7 @@
         "name": "Sniff Spot #34",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -766,7 +766,7 @@
         "name": "Sniff Spot #35",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -792,7 +792,7 @@
         "name": "Sniff Spot #36",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -818,7 +818,7 @@
         "name": "Sniff Spot #37",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -844,7 +844,7 @@
         "name": "Sniff Spot #38",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -870,7 +870,7 @@
         "name": "Sniff Spot #39",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -896,7 +896,7 @@
         "name": "Sniff Spot #40",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -922,7 +922,7 @@
         "name": "Sniff Spot #41",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -948,7 +948,7 @@
         "name": "Sniff Spot #42",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -974,7 +974,7 @@
         "name": "Sniff Spot #43",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1000,7 +1000,7 @@
         "name": "Sniff Spot #44",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1026,7 +1026,7 @@
         "name": "Sniff Spot #45",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1052,7 +1052,7 @@
         "name": "Sniff Spot #47",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1078,7 +1078,7 @@
         "name": "Sniff Spot #48",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1104,7 +1104,7 @@
         "name": "Sniff Spot #49",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1135,7 +1135,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1161,7 +1161,7 @@
         "name": "Sniff Spot #51",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1187,7 +1187,7 @@
         "name": "Sniff Spot #52",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1213,7 +1213,7 @@
         "name": "Sniff Spot #53",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1244,7 +1244,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1275,7 +1275,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1306,7 +1306,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1337,7 +1337,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1363,7 +1363,7 @@
         "name": "Sniff Spot #58",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1389,7 +1389,7 @@
         "name": "Sniff Spot #59",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1415,7 +1415,7 @@
         "name": "Sniff Spot #60",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1441,7 +1441,7 @@
         "name": "Sniff Spot #61",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1475,7 +1475,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1509,7 +1509,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1535,7 +1535,7 @@
         "name": "Sniff Spot #64",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1576,7 +1576,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1602,7 +1602,7 @@
         "name": "Sniff Spot #66",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1628,7 +1628,7 @@
         "name": "Sniff Spot #67",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1662,7 +1662,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1688,7 +1688,7 @@
         "name": "Sniff Spot #69",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1714,7 +1714,7 @@
         "name": "Sniff Spot #70",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1740,7 +1740,7 @@
         "name": "Sniff Spot #71",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1766,7 +1766,7 @@
         "name": "Sniff Spot #72",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1792,7 +1792,7 @@
         "name": "Sniff Spot #73",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1818,7 +1818,7 @@
         "name": "Sniff Spot #74",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1844,7 +1844,7 @@
         "name": "Sniff Spot #75",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1870,7 +1870,7 @@
         "name": "Sniff Spot #76",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1904,7 +1904,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1930,7 +1930,7 @@
         "name": "Sniff Spot #78",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1964,7 +1964,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -1990,7 +1990,7 @@
         "name": "Sniff Spot #80",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2016,7 +2016,7 @@
         "name": "Sniff Spot #81",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2042,7 +2042,7 @@
         "name": "Sniff Spot #82",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2068,7 +2068,7 @@
         "name": "Sniff Spot #83",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2094,7 +2094,7 @@
         "name": "Sniff Spot #84",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2120,7 +2120,7 @@
         "name": "Sniff Spot #85",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2146,7 +2146,7 @@
         "name": "Sniff Spot #86",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2172,7 +2172,7 @@
         "name": "Sniff Spot #87",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2198,7 +2198,7 @@
         "name": "Sniff Spot #88",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2224,7 +2224,7 @@
         "name": "Sniff Spot #89",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2250,7 +2250,7 @@
         "name": "Sniff Spot #90",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2276,7 +2276,7 @@
         "name": "Sniff Spot #91",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2302,7 +2302,7 @@
         "name": "Sniff Spot #92",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2336,7 +2336,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2362,7 +2362,7 @@
         "name": "Sniff Spot #94",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2388,7 +2388,7 @@
         "name": "Sniff Spot #95",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2422,7 +2422,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2448,7 +2448,7 @@
         "name": "Sniff Spot #97",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2474,7 +2474,7 @@
         "name": "Sniff Spot #98",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2500,7 +2500,7 @@
         "name": "Sniff Spot #99",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2526,7 +2526,7 @@
         "name": "Sniff Spot #100",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2552,7 +2552,7 @@
         "name": "Sniff Spot #101",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2578,7 +2578,7 @@
         "name": "Sniff Spot #102",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2604,7 +2604,7 @@
         "name": "Sniff Spot #103",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2638,7 +2638,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2664,7 +2664,7 @@
         "name": "Sniff Spot #105",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2690,7 +2690,7 @@
         "name": "Sniff Spot #106",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2716,7 +2716,7 @@
         "name": "Sniff Spot #107",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2742,7 +2742,7 @@
         "name": "Sniff Spot #108",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2768,7 +2768,7 @@
         "name": "Sniff Spot #109",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2794,7 +2794,7 @@
         "name": "Sniff Spot #110",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2820,7 +2820,7 @@
         "name": "Sniff Spot #111",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2846,7 +2846,7 @@
         "name": "Sniff Spot #112",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2872,7 +2872,7 @@
         "name": "Sniff Spot #113",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2898,7 +2898,7 @@
         "name": "Sniff Spot #114",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2924,7 +2924,7 @@
         "name": "Sniff Spot #115",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2950,7 +2950,7 @@
         "name": "Sniff Spot #116",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -2976,7 +2976,7 @@
         "name": "Sniff Spot #117",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3002,7 +3002,7 @@
         "name": "Sniff Spot #118",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3028,7 +3028,7 @@
         "name": "Sniff Spot #119",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3054,7 +3054,7 @@
         "name": "Sniff Spot #120",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3080,7 +3080,7 @@
         "name": "Sniff Spot #121",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3106,7 +3106,7 @@
         "name": "Sniff Spot #122",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3132,7 +3132,7 @@
         "name": "Sniff Spot #123",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3158,7 +3158,7 @@
         "name": "Sniff Spot #124",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3184,7 +3184,7 @@
         "name": "Sniff Spot #125",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3210,7 +3210,7 @@
         "name": "Sniff Spot #126",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3236,7 +3236,7 @@
         "name": "Sniff Spot #127",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3262,7 +3262,7 @@
         "name": "Sniff Spot #128",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3288,7 +3288,7 @@
         "name": "Sniff Spot #129",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3314,7 +3314,7 @@
         "name": "Sniff Spot #130",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3340,7 +3340,7 @@
         "name": "Sniff Spot #131",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3366,7 +3366,7 @@
         "name": "Sniff Spot #132",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3392,7 +3392,7 @@
         "name": "Sniff Spot #133",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3418,7 +3418,7 @@
         "name": "Sniff Spot #134",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3444,7 +3444,7 @@
         "name": "Sniff Spot #135",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3470,7 +3470,7 @@
         "name": "Sniff Spot #136",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3496,7 +3496,7 @@
         "name": "Sniff Spot #137",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3522,7 +3522,7 @@
         "name": "Sniff Spot #138",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3548,7 +3548,7 @@
         "name": "Sniff Spot #139",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3574,7 +3574,7 @@
         "name": "Sniff Spot #140",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3600,7 +3600,7 @@
         "name": "Sniff Spot #141",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3626,7 +3626,7 @@
         "name": "Sniff Spot #142",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3652,7 +3652,7 @@
         "name": "Sniff Spot #143",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3678,7 +3678,7 @@
         "name": "Sniff Spot #144",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3704,7 +3704,7 @@
         "name": "Sniff Spot #145",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3730,7 +3730,7 @@
         "name": "Sniff Spot #146",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3756,7 +3756,7 @@
         "name": "Sniff Spot #147",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3782,7 +3782,7 @@
         "name": "Sniff Spot #148",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3808,7 +3808,7 @@
         "name": "Sniff Spot #149",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3834,7 +3834,7 @@
         "name": "Sniff Spot #150",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3865,7 +3865,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3896,7 +3896,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3927,7 +3927,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3958,7 +3958,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -3989,7 +3989,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4020,7 +4020,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4051,7 +4051,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4082,7 +4082,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4113,7 +4113,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4144,7 +4144,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4175,7 +4175,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4201,7 +4201,7 @@
         "name": "Sniff Spot #162",
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4232,7 +4232,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4263,7 +4263,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4294,7 +4294,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4325,7 +4325,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4356,7 +4356,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4387,7 +4387,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4418,7 +4418,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4449,7 +4449,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4480,7 +4480,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4511,7 +4511,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4542,7 +4542,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4573,7 +4573,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4604,7 +4604,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4635,7 +4635,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4666,7 +4666,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4697,7 +4697,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4728,7 +4728,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4759,7 +4759,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4790,7 +4790,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4821,7 +4821,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4852,7 +4852,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4883,7 +4883,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4914,7 +4914,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4945,7 +4945,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -4976,7 +4976,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5007,7 +5007,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5038,7 +5038,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5069,7 +5069,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5100,7 +5100,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5131,7 +5131,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5162,7 +5162,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5193,7 +5193,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5224,7 +5224,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5255,7 +5255,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5286,7 +5286,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5317,7 +5317,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5348,7 +5348,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5379,7 +5379,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5410,7 +5410,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5441,7 +5441,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5472,7 +5472,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5503,7 +5503,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5534,7 +5534,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5565,7 +5565,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5596,7 +5596,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5627,7 +5627,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5658,7 +5658,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5689,7 +5689,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5720,7 +5720,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5751,7 +5751,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5782,7 +5782,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5813,7 +5813,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5844,7 +5844,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5875,7 +5875,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5906,7 +5906,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5937,7 +5937,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5968,7 +5968,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -5999,7 +5999,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6030,7 +6030,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6061,7 +6061,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6092,7 +6092,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6123,7 +6123,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6154,7 +6154,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6185,7 +6185,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6216,7 +6216,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6247,7 +6247,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6278,7 +6278,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6309,7 +6309,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6340,7 +6340,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6371,7 +6371,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6402,7 +6402,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6433,7 +6433,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6464,7 +6464,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6495,7 +6495,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6526,7 +6526,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6557,7 +6557,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6588,7 +6588,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6619,7 +6619,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6650,7 +6650,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6681,7 +6681,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6712,7 +6712,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6743,7 +6743,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6774,7 +6774,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6805,7 +6805,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6836,7 +6836,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6867,7 +6867,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6898,7 +6898,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6929,7 +6929,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6960,7 +6960,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -6991,7 +6991,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7022,7 +7022,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7053,7 +7053,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7084,7 +7084,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7115,7 +7115,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7146,7 +7146,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7177,7 +7177,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7208,7 +7208,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7239,7 +7239,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7270,7 +7270,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7301,7 +7301,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7332,7 +7332,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7370,7 +7370,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7408,7 +7408,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7446,7 +7446,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7484,7 +7484,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7522,7 +7522,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7560,7 +7560,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7598,7 +7598,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7629,7 +7629,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7667,7 +7667,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7705,7 +7705,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7743,7 +7743,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7781,7 +7781,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7819,7 +7819,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7857,7 +7857,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7895,7 +7895,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7933,7 +7933,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -7971,7 +7971,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8009,7 +8009,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8047,7 +8047,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8085,7 +8085,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8123,7 +8123,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8161,7 +8161,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8199,7 +8199,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8237,7 +8237,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8275,7 +8275,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8313,7 +8313,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8351,7 +8351,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8389,7 +8389,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8427,7 +8427,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8465,7 +8465,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8503,7 +8503,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8541,7 +8541,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8579,7 +8579,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8617,7 +8617,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8655,7 +8655,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8693,7 +8693,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8731,7 +8731,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8769,7 +8769,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8807,7 +8807,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8838,7 +8838,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8869,7 +8869,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8900,7 +8900,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8931,7 +8931,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8962,7 +8962,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -8993,7 +8993,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9024,7 +9024,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9055,7 +9055,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9086,7 +9086,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9118,7 +9118,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9150,7 +9150,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9182,7 +9182,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9214,7 +9214,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9246,7 +9246,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9278,7 +9278,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9310,7 +9310,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9342,7 +9342,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9374,7 +9374,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9406,7 +9406,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9437,7 +9437,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9468,7 +9468,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9499,7 +9499,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9530,7 +9530,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9561,7 +9561,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9592,7 +9592,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9623,7 +9623,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9654,7 +9654,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9685,7 +9685,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9716,7 +9716,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9747,7 +9747,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9778,7 +9778,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9809,7 +9809,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9840,7 +9840,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9871,7 +9871,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9902,7 +9902,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9933,7 +9933,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9964,7 +9964,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -9996,7 +9996,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10027,7 +10027,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10058,7 +10058,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10089,7 +10089,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10120,7 +10120,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10151,7 +10151,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10182,7 +10182,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10213,7 +10213,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10244,7 +10244,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10275,7 +10275,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10306,7 +10306,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10337,7 +10337,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10368,7 +10368,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10399,7 +10399,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10430,7 +10430,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10461,7 +10461,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10492,7 +10492,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10523,7 +10523,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10554,7 +10554,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10585,7 +10585,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10616,7 +10616,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10647,7 +10647,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10679,7 +10679,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|1"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10710,7 +10710,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10741,7 +10741,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10772,7 +10772,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10803,7 +10803,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10834,7 +10834,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10865,7 +10865,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10896,7 +10896,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10927,7 +10927,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10958,7 +10958,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -10989,7 +10989,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11020,7 +11020,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11051,7 +11051,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11083,7 +11083,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|1"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11114,7 +11114,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|1"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11145,7 +11145,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11176,7 +11176,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|1"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11207,7 +11207,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11238,7 +11238,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11269,7 +11269,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11300,7 +11300,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11331,7 +11331,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11362,7 +11362,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11393,7 +11393,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11424,7 +11424,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11455,7 +11455,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11486,7 +11486,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11517,7 +11517,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11548,7 +11548,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11579,7 +11579,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11610,7 +11610,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11641,7 +11641,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|1"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11672,7 +11672,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|1"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11703,7 +11703,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|1"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11741,7 +11741,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11779,7 +11779,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11817,7 +11817,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11855,7 +11855,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11893,7 +11893,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11931,7 +11931,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -11969,7 +11969,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12007,7 +12007,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12045,7 +12045,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12083,7 +12083,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12121,7 +12121,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12159,7 +12159,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12197,7 +12197,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12235,7 +12235,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12273,7 +12273,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12311,7 +12311,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12349,7 +12349,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12387,7 +12387,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12425,7 +12425,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12457,7 +12457,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12489,7 +12489,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12521,7 +12521,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12553,7 +12553,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12585,7 +12585,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12617,7 +12617,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12649,7 +12649,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12681,7 +12681,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12713,7 +12713,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12745,7 +12745,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12777,7 +12777,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12809,7 +12809,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12841,7 +12841,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12873,7 +12873,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12905,7 +12905,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12937,7 +12937,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -12969,7 +12969,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13001,7 +13001,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13033,7 +13033,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13065,7 +13065,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13097,7 +13097,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13129,7 +13129,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13161,7 +13161,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13193,7 +13193,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13225,7 +13225,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13257,7 +13257,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13289,7 +13289,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13321,7 +13321,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13353,7 +13353,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13385,7 +13385,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13417,7 +13417,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13449,7 +13449,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13481,7 +13481,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13513,7 +13513,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13545,7 +13545,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13577,7 +13577,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13609,7 +13609,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13641,7 +13641,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13673,7 +13673,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13705,7 +13705,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13737,7 +13737,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13769,7 +13769,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13801,7 +13801,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13833,7 +13833,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13865,7 +13865,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13897,7 +13897,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13929,7 +13929,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13960,7 +13960,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -13991,7 +13991,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14022,7 +14022,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14053,7 +14053,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14084,7 +14084,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14115,7 +14115,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14146,7 +14146,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14177,7 +14177,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14208,7 +14208,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14239,7 +14239,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14270,7 +14270,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14301,7 +14301,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14332,7 +14332,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14363,7 +14363,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14394,7 +14394,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14425,7 +14425,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14456,7 +14456,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14487,7 +14487,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14518,7 +14518,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14549,7 +14549,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14580,7 +14580,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14611,7 +14611,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14642,7 +14642,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14673,7 +14673,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14704,7 +14704,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14735,7 +14735,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14766,7 +14766,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14797,7 +14797,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14828,7 +14828,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14859,7 +14859,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14890,7 +14890,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14921,7 +14921,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14952,7 +14952,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -14983,7 +14983,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15014,7 +15014,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15045,7 +15045,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|1"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15076,7 +15076,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|1"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15107,7 +15107,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15138,7 +15138,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15169,7 +15169,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15200,7 +15200,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15231,7 +15231,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15262,7 +15262,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|1"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15293,7 +15293,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|1"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15324,7 +15324,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15355,7 +15355,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15386,7 +15386,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15417,7 +15417,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15448,7 +15448,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15479,7 +15479,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15510,7 +15510,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15541,7 +15541,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15572,7 +15572,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15603,7 +15603,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15634,7 +15634,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15665,7 +15665,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15696,7 +15696,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15727,7 +15727,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15758,7 +15758,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15789,7 +15789,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15820,7 +15820,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15851,7 +15851,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15882,7 +15882,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15913,7 +15913,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15944,7 +15944,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -15975,7 +15975,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16006,7 +16006,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16037,7 +16037,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16068,7 +16068,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16099,7 +16099,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16130,7 +16130,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16162,7 +16162,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16193,7 +16193,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16225,7 +16225,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16257,7 +16257,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16288,7 +16288,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16319,7 +16319,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16351,7 +16351,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16383,7 +16383,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16415,7 +16415,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16447,7 +16447,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16479,7 +16479,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16511,7 +16511,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16543,7 +16543,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16575,7 +16575,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16607,7 +16607,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16639,7 +16639,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16671,7 +16671,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16703,7 +16703,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16734,7 +16734,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16766,7 +16766,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16798,7 +16798,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16830,7 +16830,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16862,7 +16862,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16893,7 +16893,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16924,7 +16924,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16955,7 +16955,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -16986,7 +16986,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17017,7 +17017,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17048,7 +17048,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17079,7 +17079,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17110,7 +17110,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17141,7 +17141,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17172,7 +17172,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17203,7 +17203,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17234,7 +17234,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17265,7 +17265,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17296,7 +17296,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17328,7 +17328,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17360,7 +17360,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17392,7 +17392,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17424,7 +17424,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17456,7 +17456,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17488,7 +17488,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17520,7 +17520,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17552,7 +17552,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17584,7 +17584,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17616,7 +17616,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17648,7 +17648,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",
@@ -17680,7 +17680,7 @@
         ],
         "visibility_rules": [
             [
-                "$sniffLocationVisible"
+                "$sniffLocationVisible|0"
             ]
         ],
         "chest_unopened_img": "images/locations/sniff.png",

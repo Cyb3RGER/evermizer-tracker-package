@@ -288,7 +288,7 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2,
+                        "item_count": 1,
                         "access_rules": [
                             "thraxx",
                             "$canCutBushes"
@@ -296,6 +296,21 @@
                         "visibility_rules": [
                             "$gourdLocationVisible",
                             "$gourdVanillaLocationVisible|0"
+                        ]
+                    },
+                    {
+                        "name": "hidden Gourds behind Thraxx or bushes",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "thraxx",
+                            "$canCutBushes"
+                        ],
+                        "visibility_rules": [
+                            "$gourdLocationVisible|1",
+                            "$gourdVanillaLocationVisible|0|1"
                         ]
                     },
                     {
@@ -618,10 +633,21 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 22,
+                        "item_count": 16,
                         "visibility_rules": [
                             "$gourdLocationVisible",
                             "$gourdVanillaLocationVisible|0"
+                        ]
+                    },
+                    {
+                        "name": "hidden Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 6,
+                        "visibility_rules": [
+                            "$gourdLocationVisible|1",
+                            "$gourdVanillaLocationVisible|0|1"
                         ]
                     },
                     {
@@ -712,7 +738,7 @@
 
                     },
                     {
-                        "name": "Gourds behind Levitate",
+                        "name": "hidden Gourds behind Levitate",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
@@ -721,8 +747,8 @@
                             "levitate"
                         ],
                         "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
+                            "$gourdLocationVisible|1",
+                            "$gourdVanillaLocationVisible|0|1"
                         ]
                     },
                     {
@@ -730,9 +756,19 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 53,
+                        "item_count": 48,
                         "visibility_rules": [
                             "$sniffLocationVisible"
+                        ]
+                    },
+                    {
+                        "name": "hidden Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$sniffLocationVisible|1"
                         ]
                     },
                     {
@@ -749,7 +785,7 @@
                         ]
                     },
                     {
-                        "name": "Sniff Spots behind Levitate",
+                        "name": "hidden Sniff Spots behind Levitate",
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
@@ -758,7 +794,7 @@
                             "levitate"
                         ],
                         "visibility_rules": [
-                            "$sniffLocationVisible"
+                            "$sniffLocationVisible|1"
                         ]
                     },
                     {
@@ -1082,13 +1118,27 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 7,
+                        "item_count": 6,
                         "access_rules": [
                             "axe_2"
                         ],
                         "visibility_rules": [
                             "$gourdLocationVisible",
                             "$gourdVanillaLocationVisible|0"
+                        ]
+                    },
+                    {
+                        "name": "hidden Gourds behind Bronze Axe",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "axe_2"
+                        ],
+                        "visibility_rules": [
+                            "$gourdLocationVisible|1",
+                            "$gourdVanillaLocationVisible|0|1"
                         ]
                     },
                     {
@@ -1138,10 +1188,21 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 9,
+                        "item_count": 7,
                         "visibility_rules": [
                             "$gourdLocationVisible",
                             "$gourdVanillaLocationVisible|0"
+                        ]
+                    },
+                    {
+                        "name": "hidden Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$gourdLocationVisible|1",
+                            "$gourdVanillaLocationVisible|0|1"
                         ]
                     },
                     {
@@ -1252,10 +1313,21 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 4,
+                        "item_count": 1,
                         "visibility_rules": [
                             "$gourdLocationVisible",
                             "$gourdVanillaLocationVisible|0"
+                        ]
+                    },
+                    {
+                        "name": "hidden Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$gourdLocationVisible|1",
+                            "$gourdVanillaLocationVisible|0|1"
                         ]
                     },
                     {
@@ -1364,9 +1436,19 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 34,
+                        "item_count": 29,
                         "visibility_rules": [
                             "$gourdLocationVisible"
+                        ]
+                    },
+                    {
+                        "name": "hidden Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$gourdLocationVisible|1"
                         ]
                     },
                     {
@@ -1374,9 +1456,19 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 33,
+                        "item_count": 28,
                         "visibility_rules": [
                             "$gourdVanillaLocationVisible|0"
+                        ]
+                    },
+                    {
+                        "name": "hidden Gourds (Vanilla)",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$gourdVanillaLocationVisible|0|1"
                         ]
                     },
                     {
@@ -1752,10 +1844,21 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/gourd.png",
                         "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 40,
+                        "item_count": 26,
                         "visibility_rules": [
                             "$gourdLocationVisible",
                             "$gourdVanillaLocationVisible|0"
+                        ]
+                    },
+                    {
+                        "name": "hidden Gourds",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/gourd.png",
+                        "chest_opened_img": "images/locations/gourd_open.png",
+                        "item_count": 14,
+                        "visibility_rules": [
+                            "$gourdLocationVisible|1",
+                            "$gourdVanillaLocationVisible|0|1"
                         ]
                     },
                     {
@@ -1763,9 +1866,19 @@
                         "clear_as_group": false,
                         "chest_unopened_img": "images/locations/sniff.png",
                         "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 37,
+                        "item_count": 33,
                         "visibility_rules": [
                             "$sniffLocationVisible"
+                        ]
+                    },
+                    {
+                        "name": "hidden Sniff Spots",
+                        "clear_as_group": false,
+                        "chest_unopened_img": "images/locations/sniff.png",
+                        "chest_opened_img": "images/locations/sniff_open_gray.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$sniffLocationVisible|1"
                         ]
                     },
                     {

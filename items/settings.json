@@ -130,6 +130,36 @@
         ]
     },
     {
+        "name": "Difficulty",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/items/settings/Easy.png",
+                "inherit_codes": false,
+                "codes": "opt_difficulty, opt_difficulty_easy"
+            },
+            {
+                "img": "images/items/settings/Normal.png",
+                "inherit_codes": false,
+                "codes": "opt_difficulty, opt_difficulty_normal"
+            },
+            {
+                "img": "images/items/settings/Hard.png",
+                "inherit_codes": false,
+                "codes": "opt_difficulty, opt_difficulty_hard"
+            },
+            {
+                "img": "images/items/settings/Random.png",
+                "inherit_codes": false,
+                "codes": "opt_difficulty, opt_difficulty_random"
+            }
+        ]
+    },
+    {
         "name": "Alchemizer",
         "type": "progressive",
         "loop": true,
