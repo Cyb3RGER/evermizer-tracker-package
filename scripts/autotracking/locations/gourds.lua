@@ -613,7 +613,7 @@ GOURDS_OVERWORLD = {
         [0x40] = { "@Act 2/Pyramid/Gourds" },
         [0x20] = { "@Act 2/Pyramid/Gourds" },
         [0x01] = { "@Act 3/Ivor Tower/hidden Gourds" },
-        [0x02] = { "@Act 3/Ivor Tower/Gourds" },
+        [0x02] = { "@Act 3/Ivor Tower/hidden Gourds" },
         [0x04] = { "@Act 3/Ivor Tower/hidden Gourds" }
     },
     [0x7e227d] = {
