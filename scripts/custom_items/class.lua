@@ -1,14 +1,14 @@
 -- This file is sourced from https://github.com/jonstoler/class.lua, and is licensed freely for any purpose, given thanks. Thank you.
 -- License from https://github.com/jonstoler/class.lua/blob/master/LICENSE.md as of retrieving this source on 4/8/2019
 
--- By attaching this document to the given files (the ìworkî), you, the licensee, are hereby granted free usage in both personal and
+-- By attaching this document to the given files (the ‚Äúwork‚Äù), you, the licensee, are hereby granted free usage in both personal and
 -- commerical environments, without any obligation of attribution or payment (monetary or otherwise). The licensee is free to use, copy,
 -- modify, publish, distribute, sublicence, and/or merchandise the work, subject to the licensee inflecting a positive message unto someone.
--- This includes (but is not limited to): smiling, being nice, saying ìthank youî, assisting other persons, or any similar actions percolating the given concept.
+-- This includes (but is not limited to): smiling, being nice, saying ‚Äúthank you‚Äù, assisting other persons, or any similar actions percolating the given concept.
 
 -- The above copyright notice serves as a permissions notice also, and may optionally be included in copies or portions of the work.
 
--- The work is provided ìas isî, without warranty or support, express or implied. The author(s) are not liable for any damages, misuse, or other claim, whether from or as a consequence of usage of the given work.
+-- The work is provided ‚Äúas is‚Äù, without warranty or support, express or implied. The author(s) are not liable for any damages, misuse, or other claim, whether from or as a consequence of usage of the given work.
 
 Class = {}
 
