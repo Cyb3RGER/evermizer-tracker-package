@@ -320,7 +320,7 @@
         "loop": true,
         "capturable": false,
         "allow_disabled": false,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "stages": [
             {
                 "img": "images/items/settings/Off.png",
