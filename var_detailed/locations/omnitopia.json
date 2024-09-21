@@ -2,7 +2,7 @@
     {
         "name": "Main District",
         "access_rules": [
-            "rocket, $canCutBushes"
+            "rocket, ^$canCutBushes"
         ],
         "children": [           
             {
@@ -239,7 +239,7 @@
                             "opt_energy_core_fragments"
                         ],
                         "access_rules": [
-                            "[energy_core]"
+                            "^$hasAllEnergyCoreFragments"
                         ]
                     },
                     {
@@ -277,8 +277,9 @@
                     }
                 ],
                 "access_rules": [
-                    "energy_core, fix_seq_on",
-                    "[energy_core], fix_seq_off"
+                    "energy_core, seq_breaks_off",
+                    "[energy_core], seq_breaks_on",
+                    "seq_breaks_logic"
                 ],
                 "sections": [
                     {

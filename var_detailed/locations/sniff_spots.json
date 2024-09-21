@@ -3,7 +3,7 @@
         "name": "Sniff Spot #0",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -34,7 +34,7 @@
         "name": "Sniff Spot #1",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -65,7 +65,7 @@
         "name": "Sniff Spot #2",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -96,7 +96,7 @@
         "name": "Sniff Spot #3",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -465,7 +465,7 @@
         "name": "Sniff Spot #17",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -496,7 +496,7 @@
         "name": "Sniff Spot #18",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -527,7 +527,7 @@
         "name": "Sniff Spot #19",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -1130,7 +1130,7 @@
         "name": "Sniff Spot #50",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -1239,7 +1239,7 @@
         "name": "Sniff Spot #54",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -1270,7 +1270,7 @@
         "name": "Sniff Spot #55",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -1301,7 +1301,7 @@
         "name": "Sniff Spot #56",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -1332,7 +1332,7 @@
         "name": "Sniff Spot #57",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -3860,7 +3860,7 @@
         "name": "Sniff Spot #151",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -3891,7 +3891,7 @@
         "name": "Sniff Spot #152",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -3922,7 +3922,7 @@
         "name": "Sniff Spot #153",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -3953,7 +3953,7 @@
         "name": "Sniff Spot #154",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -3984,7 +3984,7 @@
         "name": "Sniff Spot #155",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4015,7 +4015,7 @@
         "name": "Sniff Spot #156",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4046,7 +4046,7 @@
         "name": "Sniff Spot #157",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4077,7 +4077,7 @@
         "name": "Sniff Spot #158",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4108,7 +4108,7 @@
         "name": "Sniff Spot #159",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4139,7 +4139,7 @@
         "name": "Sniff Spot #160",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4170,7 +4170,7 @@
         "name": "Sniff Spot #161",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4227,7 +4227,7 @@
         "name": "Sniff Spot #163",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4258,7 +4258,7 @@
         "name": "Sniff Spot #164",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4289,7 +4289,7 @@
         "name": "Sniff Spot #165",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4320,7 +4320,7 @@
         "name": "Sniff Spot #166",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4351,7 +4351,7 @@
         "name": "Sniff Spot #167",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4382,7 +4382,7 @@
         "name": "Sniff Spot #168",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4413,7 +4413,7 @@
         "name": "Sniff Spot #169",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4444,7 +4444,7 @@
         "name": "Sniff Spot #170",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4475,7 +4475,7 @@
         "name": "Sniff Spot #171",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4506,7 +4506,7 @@
         "name": "Sniff Spot #172",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4537,7 +4537,7 @@
         "name": "Sniff Spot #173",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4568,7 +4568,7 @@
         "name": "Sniff Spot #174",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4599,7 +4599,7 @@
         "name": "Sniff Spot #175",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4630,7 +4630,7 @@
         "name": "Sniff Spot #176",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4661,7 +4661,7 @@
         "name": "Sniff Spot #177",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4692,7 +4692,7 @@
         "name": "Sniff Spot #178",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4723,7 +4723,7 @@
         "name": "Sniff Spot #179",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4754,7 +4754,7 @@
         "name": "Sniff Spot #180",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4785,7 +4785,7 @@
         "name": "Sniff Spot #181",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4816,7 +4816,7 @@
         "name": "Sniff Spot #182",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4847,7 +4847,7 @@
         "name": "Sniff Spot #183",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4878,7 +4878,7 @@
         "name": "Sniff Spot #184",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4909,7 +4909,7 @@
         "name": "Sniff Spot #185",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4940,7 +4940,7 @@
         "name": "Sniff Spot #186",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -4971,7 +4971,7 @@
         "name": "Sniff Spot #187",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5002,7 +5002,7 @@
         "name": "Sniff Spot #188",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5033,7 +5033,7 @@
         "name": "Sniff Spot #189",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5064,7 +5064,7 @@
         "name": "Sniff Spot #190",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5095,7 +5095,7 @@
         "name": "Sniff Spot #191",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5126,7 +5126,7 @@
         "name": "Sniff Spot #192",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5157,7 +5157,7 @@
         "name": "Sniff Spot #193",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5188,7 +5188,7 @@
         "name": "Sniff Spot #194",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5219,7 +5219,7 @@
         "name": "Sniff Spot #195",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5250,7 +5250,7 @@
         "name": "Sniff Spot #196",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5281,7 +5281,7 @@
         "name": "Sniff Spot #197",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5312,7 +5312,7 @@
         "name": "Sniff Spot #198",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5343,7 +5343,7 @@
         "name": "Sniff Spot #199",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5374,7 +5374,7 @@
         "name": "Sniff Spot #200",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5405,7 +5405,7 @@
         "name": "Sniff Spot #201",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5436,7 +5436,7 @@
         "name": "Sniff Spot #202",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5467,7 +5467,7 @@
         "name": "Sniff Spot #203",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5498,7 +5498,7 @@
         "name": "Sniff Spot #204",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5529,7 +5529,7 @@
         "name": "Sniff Spot #205",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5560,7 +5560,7 @@
         "name": "Sniff Spot #206",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5591,7 +5591,7 @@
         "name": "Sniff Spot #207",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5622,7 +5622,7 @@
         "name": "Sniff Spot #208",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5653,7 +5653,7 @@
         "name": "Sniff Spot #209",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5684,7 +5684,7 @@
         "name": "Sniff Spot #210",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5715,7 +5715,7 @@
         "name": "Sniff Spot #211",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5746,7 +5746,7 @@
         "name": "Sniff Spot #212",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5777,7 +5777,7 @@
         "name": "Sniff Spot #213",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5808,7 +5808,7 @@
         "name": "Sniff Spot #214",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5839,7 +5839,7 @@
         "name": "Sniff Spot #215",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5870,7 +5870,7 @@
         "name": "Sniff Spot #216",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5901,7 +5901,7 @@
         "name": "Sniff Spot #217",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5932,7 +5932,7 @@
         "name": "Sniff Spot #218",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5963,7 +5963,7 @@
         "name": "Sniff Spot #219",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -5994,7 +5994,7 @@
         "name": "Sniff Spot #220",
         "access_rules": [
             [
-                "$hasNonSword"
+                "^$hasNonSword"
             ]
         ],
         "visibility_rules": [
@@ -6025,7 +6025,7 @@
         "name": "Sniff Spot #221",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6056,7 +6056,7 @@
         "name": "Sniff Spot #222",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6087,7 +6087,7 @@
         "name": "Sniff Spot #223",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6118,7 +6118,7 @@
         "name": "Sniff Spot #224",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6149,7 +6149,7 @@
         "name": "Sniff Spot #225",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6180,7 +6180,7 @@
         "name": "Sniff Spot #226",
         "access_rules": [
             [
-                "$hasNonSword"
+                "^$hasNonSword"
             ]
         ],
         "visibility_rules": [
@@ -6211,7 +6211,7 @@
         "name": "Sniff Spot #227",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6242,7 +6242,7 @@
         "name": "Sniff Spot #228",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6273,7 +6273,7 @@
         "name": "Sniff Spot #229",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6304,7 +6304,7 @@
         "name": "Sniff Spot #230",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6335,7 +6335,7 @@
         "name": "Sniff Spot #231",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6366,7 +6366,7 @@
         "name": "Sniff Spot #232",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6397,7 +6397,7 @@
         "name": "Sniff Spot #233",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6428,7 +6428,7 @@
         "name": "Sniff Spot #234",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6459,7 +6459,7 @@
         "name": "Sniff Spot #235",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6490,7 +6490,7 @@
         "name": "Sniff Spot #236",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6521,7 +6521,7 @@
         "name": "Sniff Spot #237",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6552,7 +6552,7 @@
         "name": "Sniff Spot #238",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6583,7 +6583,7 @@
         "name": "Sniff Spot #239",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6614,7 +6614,7 @@
         "name": "Sniff Spot #240",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6645,7 +6645,7 @@
         "name": "Sniff Spot #241",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6676,7 +6676,7 @@
         "name": "Sniff Spot #242",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6707,7 +6707,7 @@
         "name": "Sniff Spot #243",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6738,7 +6738,7 @@
         "name": "Sniff Spot #244",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6769,7 +6769,7 @@
         "name": "Sniff Spot #245",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6800,7 +6800,7 @@
         "name": "Sniff Spot #246",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6831,7 +6831,7 @@
         "name": "Sniff Spot #247",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6862,7 +6862,7 @@
         "name": "Sniff Spot #248",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6893,7 +6893,7 @@
         "name": "Sniff Spot #249",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6924,7 +6924,7 @@
         "name": "Sniff Spot #250",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6955,7 +6955,7 @@
         "name": "Sniff Spot #251",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -6986,7 +6986,7 @@
         "name": "Sniff Spot #252",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7017,7 +7017,7 @@
         "name": "Sniff Spot #253",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7048,7 +7048,7 @@
         "name": "Sniff Spot #254",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7079,7 +7079,7 @@
         "name": "Sniff Spot #255",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7110,7 +7110,7 @@
         "name": "Sniff Spot #256",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7141,7 +7141,7 @@
         "name": "Sniff Spot #258",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7172,7 +7172,7 @@
         "name": "Sniff Spot #259",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7203,7 +7203,7 @@
         "name": "Sniff Spot #260",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7234,7 +7234,7 @@
         "name": "Sniff Spot #261",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7265,7 +7265,7 @@
         "name": "Sniff Spot #262",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7296,7 +7296,7 @@
         "name": "Sniff Spot #263",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7327,7 +7327,7 @@
         "name": "Sniff Spot #264",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7358,14 +7358,7 @@
         "name": "Sniff Spot #265",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7396,14 +7389,7 @@
         "name": "Sniff Spot #266",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7434,14 +7420,7 @@
         "name": "Sniff Spot #267",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7472,14 +7451,7 @@
         "name": "Sniff Spot #268",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7510,14 +7482,7 @@
         "name": "Sniff Spot #269",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7548,14 +7513,7 @@
         "name": "Sniff Spot #270",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7586,14 +7544,7 @@
         "name": "Sniff Spot #271",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7624,7 +7575,7 @@
         "name": "Sniff Spot #272",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -7655,14 +7606,7 @@
         "name": "Sniff Spot #273",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7693,14 +7637,7 @@
         "name": "Sniff Spot #274",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7731,14 +7668,7 @@
         "name": "Sniff Spot #275",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7769,14 +7699,7 @@
         "name": "Sniff Spot #276",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7807,14 +7730,7 @@
         "name": "Sniff Spot #277",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7845,14 +7761,7 @@
         "name": "Sniff Spot #278",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7883,14 +7792,7 @@
         "name": "Sniff Spot #279",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7921,14 +7823,7 @@
         "name": "Sniff Spot #280",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7959,14 +7854,7 @@
         "name": "Sniff Spot #281",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -7997,14 +7885,7 @@
         "name": "Sniff Spot #282",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8035,14 +7916,7 @@
         "name": "Sniff Spot #283",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8073,14 +7947,7 @@
         "name": "Sniff Spot #284",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8111,14 +7978,7 @@
         "name": "Sniff Spot #285",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8149,14 +8009,7 @@
         "name": "Sniff Spot #286",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8187,14 +8040,7 @@
         "name": "Sniff Spot #287",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8225,14 +8071,7 @@
         "name": "Sniff Spot #288",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8263,14 +8102,7 @@
         "name": "Sniff Spot #289",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8301,14 +8133,7 @@
         "name": "Sniff Spot #290",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8339,14 +8164,7 @@
         "name": "Sniff Spot #291",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8377,14 +8195,7 @@
         "name": "Sniff Spot #292",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8415,14 +8226,7 @@
         "name": "Sniff Spot #293",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8453,14 +8257,7 @@
         "name": "Sniff Spot #294",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8491,14 +8288,7 @@
         "name": "Sniff Spot #295",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8529,14 +8319,7 @@
         "name": "Sniff Spot #296",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8567,14 +8350,7 @@
         "name": "Sniff Spot #297",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8605,14 +8381,7 @@
         "name": "Sniff Spot #298",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8643,14 +8412,7 @@
         "name": "Sniff Spot #299",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8681,14 +8443,7 @@
         "name": "Sniff Spot #300",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8719,14 +8474,7 @@
         "name": "Sniff Spot #301",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8757,14 +8505,7 @@
         "name": "Sniff Spot #302",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8795,14 +8536,7 @@
         "name": "Sniff Spot #303",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate",
-                "fix_seq_on"
-            ],
-            [
-                "$canCutBushes",
-                "[levitate]",
-                "fix_seq_off"
+                "^$volcano_entered"
             ]
         ],
         "visibility_rules": [
@@ -8833,7 +8567,7 @@
         "name": "Sniff Spot #313",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -8864,7 +8598,7 @@
         "name": "Sniff Spot #314",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -8895,7 +8629,7 @@
         "name": "Sniff Spot #315",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -8926,7 +8660,7 @@
         "name": "Sniff Spot #316",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -8957,7 +8691,7 @@
         "name": "Sniff Spot #317",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -8988,7 +8722,7 @@
         "name": "Sniff Spot #318",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9019,7 +8753,7 @@
         "name": "Sniff Spot #319",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9050,7 +8784,7 @@
         "name": "Sniff Spot #320",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9081,7 +8815,7 @@
         "name": "Sniff Spot #321",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9112,7 +8846,7 @@
         "name": "Sniff Spot #322",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "aegis"
             ]
         ],
@@ -9144,7 +8878,7 @@
         "name": "Sniff Spot #323",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "aegis"
             ]
         ],
@@ -9176,7 +8910,7 @@
         "name": "Sniff Spot #324",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "aegis"
             ]
         ],
@@ -9208,7 +8942,7 @@
         "name": "Sniff Spot #325",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "aegis"
             ]
         ],
@@ -9240,7 +8974,7 @@
         "name": "Sniff Spot #326",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "aegis"
             ]
         ],
@@ -9272,7 +9006,7 @@
         "name": "Sniff Spot #327",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "aegis"
             ]
         ],
@@ -9304,7 +9038,7 @@
         "name": "Sniff Spot #328",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "aegis"
             ]
         ],
@@ -9336,7 +9070,7 @@
         "name": "Sniff Spot #329",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "aegis"
             ]
         ],
@@ -9368,7 +9102,7 @@
         "name": "Sniff Spot #330",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "aegis"
             ]
         ],
@@ -9400,7 +9134,7 @@
         "name": "Sniff Spot #331",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "aegis"
             ]
         ],
@@ -9432,7 +9166,7 @@
         "name": "Sniff Spot #332",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9463,7 +9197,7 @@
         "name": "Sniff Spot #333",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9494,7 +9228,7 @@
         "name": "Sniff Spot #334",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9525,7 +9259,7 @@
         "name": "Sniff Spot #335",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9556,7 +9290,7 @@
         "name": "Sniff Spot #336",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9587,7 +9321,7 @@
         "name": "Sniff Spot #337",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9618,7 +9352,7 @@
         "name": "Sniff Spot #338",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9649,7 +9383,7 @@
         "name": "Sniff Spot #339",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9680,7 +9414,7 @@
         "name": "Sniff Spot #340",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9711,7 +9445,7 @@
         "name": "Sniff Spot #341",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9742,7 +9476,7 @@
         "name": "Sniff Spot #342",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9773,7 +9507,7 @@
         "name": "Sniff Spot #343",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9804,7 +9538,7 @@
         "name": "Sniff Spot #344",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9835,7 +9569,7 @@
         "name": "Sniff Spot #345",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9866,7 +9600,7 @@
         "name": "Sniff Spot #346",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9897,7 +9631,7 @@
         "name": "Sniff Spot #347",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9928,7 +9662,7 @@
         "name": "Sniff Spot #348",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9959,7 +9693,7 @@
         "name": "Sniff Spot #349",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -9990,8 +9724,8 @@
         "name": "Sniff Spot #350",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -10022,7 +9756,7 @@
         "name": "Sniff Spot #351",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10053,7 +9787,7 @@
         "name": "Sniff Spot #352",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10084,7 +9818,7 @@
         "name": "Sniff Spot #353",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10115,7 +9849,7 @@
         "name": "Sniff Spot #354",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10146,7 +9880,7 @@
         "name": "Sniff Spot #355",
         "access_rules": [
             [
-                "$hasBronzeAxeOrHigher"
+                "^$hasBronzeAxeOrHigher"
             ]
         ],
         "visibility_rules": [
@@ -10177,7 +9911,7 @@
         "name": "Sniff Spot #356",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10208,7 +9942,7 @@
         "name": "Sniff Spot #357",
         "access_rules": [
             [
-                "$hasBronzeAxeOrHigher"
+                "^$hasBronzeAxeOrHigher"
             ]
         ],
         "visibility_rules": [
@@ -10239,7 +9973,7 @@
         "name": "Sniff Spot #358",
         "access_rules": [
             [
-                "$hasBronzeAxeOrHigher"
+                "^$hasBronzeAxeOrHigher"
             ]
         ],
         "visibility_rules": [
@@ -10270,7 +10004,7 @@
         "name": "Sniff Spot #359",
         "access_rules": [
             [
-                "$hasBronzeAxeOrHigher"
+                "^$hasBronzeAxeOrHigher"
             ]
         ],
         "visibility_rules": [
@@ -10301,7 +10035,7 @@
         "name": "Sniff Spot #360",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10332,7 +10066,7 @@
         "name": "Sniff Spot #361",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10363,7 +10097,7 @@
         "name": "Sniff Spot #362",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10394,7 +10128,7 @@
         "name": "Sniff Spot #363",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10425,7 +10159,7 @@
         "name": "Sniff Spot #364",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10456,7 +10190,7 @@
         "name": "Sniff Spot #365",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10487,7 +10221,7 @@
         "name": "Sniff Spot #366",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10518,7 +10252,7 @@
         "name": "Sniff Spot #367",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10549,7 +10283,7 @@
         "name": "Sniff Spot #368",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10580,7 +10314,7 @@
         "name": "Sniff Spot #369",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10611,7 +10345,7 @@
         "name": "Sniff Spot #370",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10642,7 +10376,7 @@
         "name": "Sniff Spot #371",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10673,8 +10407,8 @@
         "name": "Sniff Spot #372",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate"
+                "^$canCutBushes",
+                "^$east_crustacia_chests_access"
             ]
         ],
         "visibility_rules": [
@@ -10705,7 +10439,7 @@
         "name": "Sniff Spot #373",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10736,7 +10470,7 @@
         "name": "Sniff Spot #374",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10767,7 +10501,7 @@
         "name": "Sniff Spot #375",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10798,7 +10532,7 @@
         "name": "Sniff Spot #376",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10829,7 +10563,7 @@
         "name": "Sniff Spot #377",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10860,7 +10594,7 @@
         "name": "Sniff Spot #378",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10891,7 +10625,7 @@
         "name": "Sniff Spot #379",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10922,7 +10656,7 @@
         "name": "Sniff Spot #380",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10953,7 +10687,7 @@
         "name": "Sniff Spot #381",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -10984,7 +10718,7 @@
         "name": "Sniff Spot #382",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11015,7 +10749,7 @@
         "name": "Sniff Spot #383",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11046,7 +10780,7 @@
         "name": "Sniff Spot #384",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11077,8 +10811,8 @@
         "name": "Sniff Spot #385",
         "access_rules": [
             [
-                "$canCutBushes",
-                "levitate"
+                "^$canCutBushes",
+                "^$east_crustacia_chests_access"
             ]
         ],
         "visibility_rules": [
@@ -11109,7 +10843,7 @@
         "name": "Sniff Spot #386",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11140,7 +10874,7 @@
         "name": "Sniff Spot #387",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11171,7 +10905,7 @@
         "name": "Sniff Spot #388",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11202,7 +10936,7 @@
         "name": "Sniff Spot #389",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11233,7 +10967,7 @@
         "name": "Sniff Spot #390",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11264,7 +10998,7 @@
         "name": "Sniff Spot #391",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11295,7 +11029,7 @@
         "name": "Sniff Spot #392",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11326,7 +11060,7 @@
         "name": "Sniff Spot #393",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11357,7 +11091,7 @@
         "name": "Sniff Spot #394",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11388,7 +11122,7 @@
         "name": "Sniff Spot #395",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11419,7 +11153,7 @@
         "name": "Sniff Spot #396",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11450,7 +11184,7 @@
         "name": "Sniff Spot #397",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11481,7 +11215,7 @@
         "name": "Sniff Spot #398",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11512,7 +11246,7 @@
         "name": "Sniff Spot #399",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11543,7 +11277,7 @@
         "name": "Sniff Spot #400",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11574,7 +11308,7 @@
         "name": "Sniff Spot #401",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11605,7 +11339,7 @@
         "name": "Sniff Spot #402",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11636,7 +11370,7 @@
         "name": "Sniff Spot #403",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11667,7 +11401,7 @@
         "name": "Sniff Spot #404",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11698,7 +11432,7 @@
         "name": "Sniff Spot #405",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -11729,14 +11463,8 @@
         "name": "Sniff Spot #406",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -11767,14 +11495,8 @@
         "name": "Sniff Spot #407",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -11805,14 +11527,8 @@
         "name": "Sniff Spot #408",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -11843,14 +11559,8 @@
         "name": "Sniff Spot #409",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -11881,14 +11591,8 @@
         "name": "Sniff Spot #410",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -11919,14 +11623,8 @@
         "name": "Sniff Spot #411",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -11957,14 +11655,8 @@
         "name": "Sniff Spot #412",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -11995,14 +11687,8 @@
         "name": "Sniff Spot #413",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -12033,14 +11719,8 @@
         "name": "Sniff Spot #414",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -12071,14 +11751,8 @@
         "name": "Sniff Spot #415",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -12109,14 +11783,8 @@
         "name": "Sniff Spot #416",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -12147,14 +11815,8 @@
         "name": "Sniff Spot #417",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -12185,14 +11847,8 @@
         "name": "Sniff Spot #418",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -12223,14 +11879,8 @@
         "name": "Sniff Spot #419",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -12261,14 +11911,8 @@
         "name": "Sniff Spot #421",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -12299,14 +11943,8 @@
         "name": "Sniff Spot #422",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -12337,14 +11975,8 @@
         "name": "Sniff Spot #423",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -12375,14 +12007,8 @@
         "name": "Sniff Spot #424",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -12413,14 +12039,8 @@
         "name": "Sniff Spot #425",
         "access_rules": [
             [
-                "$canCutBushes",
-                "$canCutBushes",
-                "[revealer]"
-            ],
-            [
-                "$canCutBushes",
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$pyramid"
             ]
         ],
         "visibility_rules": [
@@ -12451,8 +12071,8 @@
         "name": "Sniff Spot #426",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12483,8 +12103,8 @@
         "name": "Sniff Spot #427",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12515,8 +12135,8 @@
         "name": "Sniff Spot #428",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12547,8 +12167,8 @@
         "name": "Sniff Spot #429",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12579,8 +12199,8 @@
         "name": "Sniff Spot #430",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12611,8 +12231,8 @@
         "name": "Sniff Spot #431",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12643,8 +12263,8 @@
         "name": "Sniff Spot #432",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12675,8 +12295,8 @@
         "name": "Sniff Spot #433",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12707,8 +12327,8 @@
         "name": "Sniff Spot #434",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12739,8 +12359,8 @@
         "name": "Sniff Spot #435",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12771,8 +12391,8 @@
         "name": "Sniff Spot #436",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12803,8 +12423,8 @@
         "name": "Sniff Spot #437",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12835,8 +12455,8 @@
         "name": "Sniff Spot #438",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12867,8 +12487,8 @@
         "name": "Sniff Spot #439",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12899,8 +12519,8 @@
         "name": "Sniff Spot #440",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12931,8 +12551,8 @@
         "name": "Sniff Spot #441",
         "access_rules": [
             [
-                "$canCutBushes",
-                "[revealer]"
+                "^$canCutBushes",
+                "^$revealer"
             ]
         ],
         "visibility_rules": [
@@ -12963,8 +12583,8 @@
         "name": "Sniff Spot #442",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -12995,8 +12615,8 @@
         "name": "Sniff Spot #443",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13027,8 +12647,8 @@
         "name": "Sniff Spot #444",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13059,8 +12679,8 @@
         "name": "Sniff Spot #445",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13091,8 +12711,8 @@
         "name": "Sniff Spot #446",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13123,8 +12743,8 @@
         "name": "Sniff Spot #447",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13155,8 +12775,8 @@
         "name": "Sniff Spot #448",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13187,8 +12807,8 @@
         "name": "Sniff Spot #449",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13219,8 +12839,8 @@
         "name": "Sniff Spot #450",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13251,8 +12871,8 @@
         "name": "Sniff Spot #451",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13283,8 +12903,8 @@
         "name": "Sniff Spot #452",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13315,8 +12935,8 @@
         "name": "Sniff Spot #453",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13347,8 +12967,8 @@
         "name": "Sniff Spot #454",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13379,8 +12999,8 @@
         "name": "Sniff Spot #455",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13411,8 +13031,8 @@
         "name": "Sniff Spot #456",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13443,8 +13063,8 @@
         "name": "Sniff Spot #457",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13475,8 +13095,8 @@
         "name": "Sniff Spot #458",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13507,8 +13127,8 @@
         "name": "Sniff Spot #459",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13539,8 +13159,8 @@
         "name": "Sniff Spot #460",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13571,8 +13191,8 @@
         "name": "Sniff Spot #461",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13603,8 +13223,8 @@
         "name": "Sniff Spot #462",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13635,8 +13255,8 @@
         "name": "Sniff Spot #463",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13667,8 +13287,8 @@
         "name": "Sniff Spot #464",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13699,8 +13319,8 @@
         "name": "Sniff Spot #465",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13731,8 +13351,8 @@
         "name": "Sniff Spot #466",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13763,8 +13383,8 @@
         "name": "Sniff Spot #467",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13795,8 +13415,8 @@
         "name": "Sniff Spot #468",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13827,8 +13447,8 @@
         "name": "Sniff Spot #469",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13859,8 +13479,8 @@
         "name": "Sniff Spot #470",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13891,8 +13511,8 @@
         "name": "Sniff Spot #471",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13923,8 +13543,8 @@
         "name": "Sniff Spot #472",
         "access_rules": [
             [
-                "$canCutBushes",
-                "aegis"
+                "^$canCutBushes",
+                "^$oglin_access"
             ]
         ],
         "visibility_rules": [
@@ -13955,7 +13575,7 @@
         "name": "Sniff Spot #473",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -13986,7 +13606,7 @@
         "name": "Sniff Spot #474",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14017,7 +13637,7 @@
         "name": "Sniff Spot #475",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14048,7 +13668,7 @@
         "name": "Sniff Spot #476",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14079,7 +13699,7 @@
         "name": "Sniff Spot #477",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14110,7 +13730,7 @@
         "name": "Sniff Spot #478",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14141,7 +13761,7 @@
         "name": "Sniff Spot #479",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14172,7 +13792,7 @@
         "name": "Sniff Spot #480",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14203,7 +13823,7 @@
         "name": "Sniff Spot #481",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14234,7 +13854,7 @@
         "name": "Sniff Spot #482",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14265,7 +13885,7 @@
         "name": "Sniff Spot #483",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14296,7 +13916,7 @@
         "name": "Sniff Spot #484",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14327,7 +13947,7 @@
         "name": "Sniff Spot #485",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14358,7 +13978,7 @@
         "name": "Sniff Spot #486",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14389,7 +14009,7 @@
         "name": "Sniff Spot #487",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14420,7 +14040,7 @@
         "name": "Sniff Spot #488",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14451,7 +14071,7 @@
         "name": "Sniff Spot #489",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14482,7 +14102,7 @@
         "name": "Sniff Spot #490",
         "access_rules": [
             [
-                "axe_3"
+                "^$knight_basher"
             ]
         ],
         "visibility_rules": [
@@ -14513,7 +14133,7 @@
         "name": "Sniff Spot #491",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14544,7 +14164,7 @@
         "name": "Sniff Spot #492",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14575,7 +14195,7 @@
         "name": "Sniff Spot #493",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14606,7 +14226,7 @@
         "name": "Sniff Spot #494",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14637,7 +14257,7 @@
         "name": "Sniff Spot #495",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14668,7 +14288,7 @@
         "name": "Sniff Spot #496",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14699,7 +14319,7 @@
         "name": "Sniff Spot #497",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14730,7 +14350,7 @@
         "name": "Sniff Spot #498",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14761,7 +14381,7 @@
         "name": "Sniff Spot #499",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14792,7 +14412,7 @@
         "name": "Sniff Spot #500",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14823,7 +14443,7 @@
         "name": "Sniff Spot #501",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14854,7 +14474,7 @@
         "name": "Sniff Spot #502",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14885,7 +14505,7 @@
         "name": "Sniff Spot #503",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14916,7 +14536,7 @@
         "name": "Sniff Spot #504",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14947,7 +14567,7 @@
         "name": "Sniff Spot #505",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -14978,7 +14598,7 @@
         "name": "Sniff Spot #506",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15009,7 +14629,7 @@
         "name": "Sniff Spot #507",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15040,7 +14660,7 @@
         "name": "Sniff Spot #508",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15071,7 +14691,7 @@
         "name": "Sniff Spot #509",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15102,7 +14722,7 @@
         "name": "Sniff Spot #510",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15133,7 +14753,7 @@
         "name": "Sniff Spot #511",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15164,7 +14784,7 @@
         "name": "Sniff Spot #512",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15195,7 +14815,7 @@
         "name": "Sniff Spot #513",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15226,7 +14846,7 @@
         "name": "Sniff Spot #514",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15257,7 +14877,7 @@
         "name": "Sniff Spot #515",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15288,7 +14908,7 @@
         "name": "Sniff Spot #516",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15319,7 +14939,7 @@
         "name": "Sniff Spot #517",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15350,7 +14970,7 @@
         "name": "Sniff Spot #518",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15381,7 +15001,7 @@
         "name": "Sniff Spot #519",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15412,7 +15032,7 @@
         "name": "Sniff Spot #520",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15443,7 +15063,7 @@
         "name": "Sniff Spot #521",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15474,7 +15094,7 @@
         "name": "Sniff Spot #522",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15505,7 +15125,7 @@
         "name": "Sniff Spot #523",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15536,7 +15156,7 @@
         "name": "Sniff Spot #524",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15567,7 +15187,7 @@
         "name": "Sniff Spot #525",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15598,7 +15218,7 @@
         "name": "Sniff Spot #526",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15629,7 +15249,7 @@
         "name": "Sniff Spot #527",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15660,7 +15280,7 @@
         "name": "Sniff Spot #528",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15691,7 +15311,7 @@
         "name": "Sniff Spot #529",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15722,7 +15342,7 @@
         "name": "Sniff Spot #530",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15753,7 +15373,7 @@
         "name": "Sniff Spot #531",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15784,7 +15404,7 @@
         "name": "Sniff Spot #532",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15815,7 +15435,7 @@
         "name": "Sniff Spot #533",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15846,7 +15466,7 @@
         "name": "Sniff Spot #534",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15877,7 +15497,7 @@
         "name": "Sniff Spot #535",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15908,7 +15528,7 @@
         "name": "Sniff Spot #536",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15939,7 +15559,7 @@
         "name": "Sniff Spot #537",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -15970,7 +15590,7 @@
         "name": "Sniff Spot #538",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16001,7 +15621,7 @@
         "name": "Sniff Spot #539",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16032,7 +15652,7 @@
         "name": "Sniff Spot #540",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16063,7 +15683,7 @@
         "name": "Sniff Spot #541",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16094,7 +15714,7 @@
         "name": "Sniff Spot #542",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16125,7 +15745,7 @@
         "name": "Sniff Spot #543",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16156,8 +15776,8 @@
         "name": "Sniff Spot #544",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16188,7 +15808,7 @@
         "name": "Sniff Spot #545",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16219,8 +15839,8 @@
         "name": "Sniff Spot #546",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16251,8 +15871,8 @@
         "name": "Sniff Spot #547",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16283,7 +15903,7 @@
         "name": "Sniff Spot #548",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16314,7 +15934,7 @@
         "name": "Sniff Spot #549",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16345,8 +15965,8 @@
         "name": "Sniff Spot #550",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16377,8 +15997,8 @@
         "name": "Sniff Spot #551",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16409,8 +16029,8 @@
         "name": "Sniff Spot #552",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16441,8 +16061,8 @@
         "name": "Sniff Spot #553",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16473,8 +16093,8 @@
         "name": "Sniff Spot #554",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16505,8 +16125,8 @@
         "name": "Sniff Spot #555",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16537,8 +16157,8 @@
         "name": "Sniff Spot #556",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16569,8 +16189,8 @@
         "name": "Sniff Spot #557",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16601,8 +16221,8 @@
         "name": "Sniff Spot #558",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16633,8 +16253,8 @@
         "name": "Sniff Spot #559",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16665,8 +16285,8 @@
         "name": "Sniff Spot #560",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16697,8 +16317,8 @@
         "name": "Sniff Spot #561",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16729,7 +16349,7 @@
         "name": "Sniff Spot #562",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16760,8 +16380,8 @@
         "name": "Sniff Spot #563",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16792,8 +16412,8 @@
         "name": "Sniff Spot #564",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16824,8 +16444,8 @@
         "name": "Sniff Spot #565",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16856,8 +16476,8 @@
         "name": "Sniff Spot #566",
         "access_rules": [
             [
-                "$canCutBushes",
-                "queens_key"
+                "^$canCutBushes",
+                "^$queens_key"
             ]
         ],
         "visibility_rules": [
@@ -16888,7 +16508,7 @@
         "name": "Sniff Spot #567",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16919,7 +16539,7 @@
         "name": "Sniff Spot #568",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16950,7 +16570,7 @@
         "name": "Sniff Spot #569",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -16981,7 +16601,7 @@
         "name": "Sniff Spot #570",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -17012,7 +16632,7 @@
         "name": "Sniff Spot #571",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -17043,7 +16663,7 @@
         "name": "Sniff Spot #572",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -17074,7 +16694,7 @@
         "name": "Sniff Spot #573",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -17105,7 +16725,7 @@
         "name": "Sniff Spot #574",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -17136,7 +16756,7 @@
         "name": "Sniff Spot #575",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -17167,7 +16787,7 @@
         "name": "Sniff Spot #576",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -17198,7 +16818,7 @@
         "name": "Sniff Spot #577",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -17229,7 +16849,7 @@
         "name": "Sniff Spot #578",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -17260,7 +16880,7 @@
         "name": "Sniff Spot #579",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -17291,7 +16911,7 @@
         "name": "Sniff Spot #580",
         "access_rules": [
             [
-                "$canCutBushes"
+                "^$canCutBushes"
             ]
         ],
         "visibility_rules": [
@@ -17322,7 +16942,7 @@
         "name": "Sniff Spot #581",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "rocket"
             ]
         ],
@@ -17354,7 +16974,7 @@
         "name": "Sniff Spot #582",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "rocket"
             ]
         ],
@@ -17386,7 +17006,7 @@
         "name": "Sniff Spot #583",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "rocket"
             ]
         ],
@@ -17418,7 +17038,7 @@
         "name": "Sniff Spot #584",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "rocket"
             ]
         ],
@@ -17450,7 +17070,7 @@
         "name": "Sniff Spot #585",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "rocket"
             ]
         ],
@@ -17482,7 +17102,7 @@
         "name": "Sniff Spot #586",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "rocket"
             ]
         ],
@@ -17514,7 +17134,7 @@
         "name": "Sniff Spot #587",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "rocket"
             ]
         ],
@@ -17546,7 +17166,7 @@
         "name": "Sniff Spot #588",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "rocket"
             ]
         ],
@@ -17578,7 +17198,7 @@
         "name": "Sniff Spot #589",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "rocket"
             ]
         ],
@@ -17610,7 +17230,7 @@
         "name": "Sniff Spot #590",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "rocket"
             ]
         ],
@@ -17642,7 +17262,7 @@
         "name": "Sniff Spot #591",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "rocket"
             ]
         ],
@@ -17674,7 +17294,7 @@
         "name": "Sniff Spot #592",
         "access_rules": [
             [
-                "$canCutBushes",
+                "^$canCutBushes",
                 "rocket"
             ]
         ],

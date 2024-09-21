@@ -75,6 +75,14 @@
         "max_quantity": 99
     },
     {
+        "name": "Required Energy Core Fragments",
+        "type": "consumable",
+        "capturable": false,
+        "img": "images/items/keyitems/energy_core_fragments.png",
+        "codes": "required_energy_core_fragments",
+        "max_quantity": 99
+    },
+    {
         "name": "Aeroglider",
         "type": "toggle",
         "capturable": true,

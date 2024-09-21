@@ -78,7 +78,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes"
+                    "^$canCutBushes"
                 ],
                 "sections": [
                     {
@@ -103,7 +103,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes"
+                    "^$canCutBushes"
                 ],
                 "sections": [
                     {
@@ -128,7 +128,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes"
+                    "^$canCutBushes"
                 ],
                 "sections": [
                     {
@@ -153,7 +153,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes"
+                    "^$canCutBushes"
                 ],
                 "sections": [
                     {
@@ -546,7 +546,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes",
+                    "^$canCutBushes",
                     "thraxx"
                 ],
                 "sections": [
@@ -572,7 +572,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes",
+                    "^$canCutBushes",
                     "thraxx"
                 ],
                 "sections": [
@@ -598,7 +598,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes",
+                    "^$canCutBushes",
                     "thraxx"
                 ],
                 "sections": [
@@ -624,7 +624,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes",
+                    "^$canCutBushes",
                     "thraxx"
                 ],
                 "sections": [
@@ -650,7 +650,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes",
+                    "^$canCutBushes",
                     "thraxx"
                 ],
                 "sections": [
@@ -676,7 +676,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes",
+                    "^$canCutBushes",
                     "thraxx"
                 ],
                 "sections": [
@@ -928,7 +928,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes",
+                    "^$canCutBushes",
                     "thraxx"
                 ],
                 "sections": [
@@ -954,7 +954,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$canCutBushes",
+                    "^$canCutBushes",
                     "thraxx"
                 ],
                 "sections": [
@@ -975,7 +975,7 @@
     {
         "name": "Northern Jungle",
         "access_rules": [
-            "$canCutBushes"
+            "^$canCutBushes"
         ],
         "children": [
             {
@@ -1108,7 +1108,7 @@
     {
         "name": "Volcano Path",
         "access_rules": [
-            "$canCutBushes"
+            "^$canCutBushes"
         ],
         "children": [
             {
@@ -1163,7 +1163,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$hasNonSword"
+                    "^$hasNonSword"
                 ],
                 "sections": [
                     {
@@ -1187,7 +1187,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$hasNonSword"
+                    "^$hasNonSword"
                 ],
                 "sections": [
                     {
@@ -1231,7 +1231,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$hasNonSword"
+                    "^$hasNonSword"
                 ],
                 "sections": [
                     {
@@ -1300,7 +1300,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$hasNonSword, magmar"
+                    "^$gauge_access"
                 ],
                 "sections": [
                     {
@@ -1324,7 +1324,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$hasNonSword, magmar"
+                    "^$gauge_access"
                 ],
                 "sections": [
                     {
@@ -1340,7 +1340,7 @@
     {
         "name": "Swamp",
         "access_rules": [
-            "$canCutBushes"
+            "^$canCutBushes"
         ],
         "children": [
             {
@@ -1576,8 +1576,7 @@
     {
         "name": "Volcano Core",
         "access_rules": [
-            "$canCutBushes, levitate, fix_seq_on",
-            "$canCutBushes, [levitate], fix_seq_off"
+            "^$volcano_entered"
         ],
         "children": [
             {
@@ -1995,8 +1994,7 @@
     {
         "name": "Volcano Sewers",
         "access_rules": [
-            "$canCutBushes, levitate, fix_seq_on",
-            "$canCutBushes, [levitate], fix_seq_off"
+            "^$volcano_entered"
         ],
         "children": [
             {

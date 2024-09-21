@@ -1,32 +1,32 @@
 KEY_ITEMS = {
-    addr = 0x7E2264,
-    --BYTE 1
-    [0] = {
-        --["diamond_eyes"] = 0x01,
-        --["diamond_eyes"] = 0x02,
-        --["gauge"] = 0x04,
-        --["wheel"] = 0x08,
-        ["queens_key"] =  0x10,
-        --["energy_core"] = 0x20,
-        --["unused_3"] = 0x40,
-        --["unused_4"] = 0x80
-    }
+	addr = 0x7E2264,
+	--BYTE 1
+	[0] = {
+		--["diamond_eyes"] = 0x01,
+		--["diamond_eyes"] = 0x02,
+		--["gauge"] = 0x04,
+		--["wheel"] = 0x08,
+		["queens_key"] = 0x10,
+		--["energy_core"] = 0x20,
+		--["unused_3"] = 0x40,
+		--["unused_4"] = 0x80
+	}
 }
 KEY_ITEMS_2 = { --used for given way keyitems
-    addr = 0x7E22DC,
-    --BYTE 0x7E22DC
-    [0x0] = {        
-        ["gauge"] =  0x10,
-        ["wheel"] = 0x20,
-        --["diamond_eyes"] = 0x40
-    },
-}    
+	addr = 0x7E22DC,
+	--BYTE 0x7E22DC
+	[0x0] = {
+		["gauge"] = 0x10,
+		["wheel"] = 0x20,
+		--["diamond_eyes"] = 0x40
+	},
+}
 KEY_ITEMS_3 = { --used for given way keyitems
-    addr = 0x7E22F9,
-    --BYTE 0x7E22F9
-    [0x0] = {
-        ["energy_core"] = 0x20,
-    },
+	addr = 0x7E22F9,
+	--BYTE 0x7E22F9
+	[0x0] = {
+		["energy_core"] = 0x20,
+	},
 }
 GAVE_AWAY_DES = false
 GAVE_AWAY_WHEEL = false
@@ -38,4 +38,4 @@ HAS_GAUGE = false
 HAS_CORE = false
 AEROGLIDER_ADDR = 0x7E2355
 ROCKET_ADDR = 0x7E22DC
-ENERGY_CORE_FRAGMENTS_ADDR = 0x7E252F --to 7E2530 
+ENERGY_CORE_FRAGMENTS_ADDR = 0x7E252F --to 7E2530

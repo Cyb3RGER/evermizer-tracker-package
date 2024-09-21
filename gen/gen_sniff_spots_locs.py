@@ -8,19 +8,19 @@ SNIFF_BORDER_SIZE = 2
 TILE_SIZE = 16
 
 LOGIC_FUNCTION_MAPPING = {
-    "weapon": [["$canCutBushes"]],
-    "non-sword": [["$hasNonSword"]],
-    "volcano entered": [["$canCutBushes", "levitate", "fix_seq_on"], ["$canCutBushes", "[levitate]", "fix_seq_off"]],
-    "east crustacia chests access": [["levitate"]],
+    "weapon": [["^$canCutBushes"]],
+    "non-sword": [["^$hasNonSword"]],
+    "volcano entered": [["^$volcano_entered"]],
+    "east crustacia chests access": [["^$east_crustacia_chests_access"]],
     "levitate": [["levitate"]],
     "aegis": [["aegis"]],
-    "oglin cave access": [["aegis"]],
-    "bronze axe+": [["$hasBronzeAxeOrHigher"]],
-    "revealer": [["[revealer]"]],
-    "pyramid": [["$canCutBushes", "[revealer]"], ["$canCutBushes", "aegis"]],
-    "knight basher": [["axe_3"]],
-    "queen's key chests access": [["queens_key"]],
-    "rocket": [["$canCutBushes", "rocket"]]
+    "oglin cave access": [["^$oglin_access"]],
+    "bronze axe+": [["^$hasBronzeAxeOrHigher"]],
+    "revealer": [["^$revealer"]],
+    "pyramid": [["^$pyramid"]],
+    "knight basher": [["^$knight_basher"]],
+    "queen's key chests access": [["^$queens_key"]],
+    "rocket": [["^$canCutBushes", "rocket"]]
 }
 
 

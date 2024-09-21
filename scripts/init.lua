@@ -233,7 +233,7 @@ Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 
-ScriptHost:LoadScript("scripts/settingsWatches.lua")
+ScriptHost:LoadScript("scripts/watches.lua")
 if PopVersion then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end

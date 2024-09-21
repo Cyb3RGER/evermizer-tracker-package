@@ -1,26 +1,56 @@
 [
     {
-        "name": "Fix Sequence",
+        "name": "Sequence Breaks",
         "type": "progressive",
         "loop": true,
         "capturable": false,
         "allow_disabled": false,
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "stages": [
             {
                 "img": "images/items/settings/Off.png",
                 "inherit_codes": false,
-                "codes": "fix_seq, fix_seq_off"
+                "codes": "seq_breaks, seq_breaks_off"
             },
             {
                 "img": "images/items/settings/On.png",
                 "inherit_codes": false,
-                "codes": "fix_seq, fix_seq_on"
+                "codes": "seq_breaks, seq_breaks_on"
+            },
+            {
+                "img": "images/items/settings/In_Logic.png",
+                "inherit_codes": false,
+                "codes": "seq_breaks, seq_breaks_logic"
             }
         ]
     },
     {
-        "name": "Trudo Mode",
+        "name": "Out of Bounds",
+        "type": "progressive",
+        "loop": true,
+        "capturable": false,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/settings/Off.png",
+                "inherit_codes": false,
+                "codes": "oob, oob_off"
+            },
+            {
+                "img": "images/items/settings/On.png",
+                "inherit_codes": false,
+                "codes": "oob, oob_on"
+            },
+            {
+                "img": "images/items/settings/In_Logic.png",
+                "inherit_codes": false,
+                "codes": "oob, oob_logic"
+            }
+        ]
+    },
+    {
+        "name": "Turdo Mode",
         "type": "progressive",
         "loop": true,
         "capturable": false,
@@ -185,7 +215,7 @@
         ]
     },
     {
-        "name": "Boss dropamizer",
+        "name": "Boss Dropamizer",
         "type": "progressive",
         "loop": true,
         "capturable": false,
