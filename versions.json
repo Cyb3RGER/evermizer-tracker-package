@@ -1,6 +1,19 @@
 {
     "versions": [
         {
+            "package_version": "0.4.0.0",
+            "download_url": "https://github.com/Cyb3RGER/evermizer-tracker-package/releases/download/v0.4.0.0/evermizer-tracker-package-v0_4_0_0.zip",
+            "sha256": "866343446bd3fef1bbcfd9fe8274178e2bac5ec3c1ef44bb85173f7eff52df18",
+            "changelog": [
+                "Added automatic settings tracking (evermizer v049+)",
+                "Added OoB Logic and updated Sequence Breaks Logic",
+                "Keyitem counts can now be clicked to count them down/up",
+                "Added `min_poptracker_version` and `target_poptracker_version`",
+                "Hide excluded locations when hide junk is on, specifically hide junk now also hides \"hidden\" locations on easy difficulty",
+                "Mark Gourd #201 as hidden"
+            ]
+        },
+        {
             "package_version": "0.3.2.0",
             "download_url": "https://github.com/Cyb3RGER/evermizer-tracker-package/releases/download/v0.3.2.0/evermizer-tracker-package-v0_3_2_0.zip",
             "sha256": "d11143ee4399eb1f1f9acad7197976d618de7daf783f67e324b3efc63fa94583",
