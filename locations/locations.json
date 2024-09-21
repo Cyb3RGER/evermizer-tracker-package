@@ -624,7 +624,7 @@
                     }
                 ],
                 "access_rules": [
-                    "^$volcano_access"
+                    "^$volcano_entered"
                 ],
                 "sections": [
                     {

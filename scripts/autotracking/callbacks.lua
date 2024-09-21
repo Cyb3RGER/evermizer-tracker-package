@@ -31,24 +31,32 @@ function updateUI()
 	end
 	if CURRENT_ROOM == 0x74 then
 		if EBON_KEEP_FLAG then
-			print(string.format("Setting ActivateTab to %s", "Ebon Keep Int"))
+			if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+				print(string.format("Setting ActivateTab to %s", "Ebon Keep Int"))
+			end
 			Tracker:UiHint("ActivateTab", "Gothica")
 			Tracker:UiHint("ActivateTab", "Ebon Keep")
 			Tracker:UiHint("ActivateTab", "Interiors")
 		else
-			print(string.format("Setting ActivateTab to %s", "Ivor Tower Dungeon"))
+			if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+				print(string.format("Setting ActivateTab to %s", "Ivor Tower Dungeon"))
+			end
 			Tracker:UiHint("ActivateTab", "Gothica")
 			Tracker:UiHint("ActivateTab", "Ivor Tower")
 			Tracker:UiHint("ActivateTab", "Dungeon")
 		end
 	elseif CURRENT_ROOM >= 0x7b and CURRENT_ROOM <= 0x7d then
 		if EBON_KEEP_FLAG then
-			print(string.format("Setting ActivateTab to %s", "Ebon Keep City"))
+			if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+				print(string.format("Setting ActivateTab to %s", "Ebon Keep City"))
+			end
 			Tracker:UiHint("ActivateTab", "Gothica")
 			Tracker:UiHint("ActivateTab", "Ebon Keep")
 			Tracker:UiHint("ActivateTab", "City")
 		else
-			print(string.format("Setting ActivateTab to %s", "Ivor Tower City"))
+			if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+				print(string.format("Setting ActivateTab to %s", "Ivor Tower City"))
+			end
 			Tracker:UiHint("ActivateTab", "Gothica")
 			Tracker:UiHint("ActivateTab", "Ivor Tower")
 			Tracker:UiHint("ActivateTab", "City")
@@ -57,11 +65,13 @@ function updateUI()
 		local mapping = ROOM_MAPPING[CURRENT_ROOM]
 		for _, v in ipairs(mapping) do
 			if type(v) == "string" then
-				print(string.format("Setting ActivateTab to %s", v))
+				if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+					print(string.format("Setting ActivateTab to %s", v))
+				end
 				Tracker:UiHint("ActivateTab", v)
 			end
 		end
-	else
+	elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
 		print(string.format("In unmapped room %x", CURRENT_ROOM))
 	end
 end
@@ -90,7 +100,9 @@ function updateEbonKeepFlag(segment)
 		return
 	end
 	EBON_KEEP_FLAG = segment:ReadUInt8(EBON_KEEP_FLAG_ADDR) & 0x40 > 0
-	print(string.format("EBON_KEEP_FLAG is now %x", CURRENT_ROOM))
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+		print(string.format("EBON_KEEP_FLAG is now %x", CURRENT_ROOM))
+	end
 	updateUI()
 end
 
@@ -695,23 +707,23 @@ function updateSettings(segment)
 	parseSettings(flags, settings)
 end
 
-SETTINGS_MAP = 
+SETTINGS_MAP =
 {
 	--[char] = {code, missing_val, lower_val, upper_val
-	["j"] = {"seq_breaks", 0, 1, 2},
-	["u"] = {"oob", 0, 1, 2},
-	["t"] = {"turdo", 0, 1},
+	["j"] = { "seq_breaks", 0, 1, 2 },
+	["u"] = { "oob", 0, 1, 2 },
+	["t"] = { "turdo", 0, 1 },
 	--["c"] = {"callbeadamizer", 0, 1, 2},
-	["z"] = {"opt_energy_core", 1, 0, 2},
-	["e"] = {"opt_difficulty", nil, 0},
-	["n"] = {"opt_difficulty", nil, 1},
-	["h"] = {"opt_difficulty", nil, 2},
-	["r"] = {"opt_difficulty", nil, 3},
-	["a"] = {"opt_alchemizer", 1, 0, 2},
-	["b"] = {"opt_boss_drops", 1, 0, 2},
-	["g"] = {"opt_gourdomizer", 1, 0, 2},
-	["s"] = {"opt_sniffamizer", 1, 0, 2},
-	["o"] = {"opt_pool", 0, 1, 2},
+	["z"] = { "opt_energy_core", 1, 0, 2 },
+	["e"] = { "opt_difficulty", nil, 0 },
+	["n"] = { "opt_difficulty", nil, 1 },
+	["h"] = { "opt_difficulty", nil, 2 },
+	["r"] = { "opt_difficulty", nil, 3 },
+	["a"] = { "opt_alchemizer", 1, 0, 2 },
+	["b"] = { "opt_boss_drops", 1, 0, 2 },
+	["g"] = { "opt_gourdomizer", 1, 0, 2 },
+	["s"] = { "opt_sniffamizer", 1, 0, 2 },
+	["o"] = { "opt_pool", 0, 1, 2 },
 }
 
 function parseSettings(flags, settings)
@@ -724,15 +736,15 @@ function parseSettings(flags, settings)
 		local missing_val = info[2]
 		local lower_val = info[3]
 		local upper_val = info[4]
-	    if settings:find(char) then
-	        setSetting(code, lower_val)
-	    elseif upper_val ~= nil then
-	        if settings:find(char:upper()) then
-	    		setSetting(code, upper_val)
-	    	end
-	    elseif missing_val ~= nil then
-	    	setSetting(code, missing_val)
-	    end
+		if settings:find(char) then
+			setSetting(code, lower_val)
+		elseif upper_val ~= nil then
+			if settings:find(char:upper()) then
+				setSetting(code, upper_val)
+			end
+		elseif missing_val ~= nil then
+			setSetting(code, missing_val)
+		end
 	end
 end
 

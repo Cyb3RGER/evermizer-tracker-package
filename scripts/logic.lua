@@ -214,7 +214,7 @@ function energy_core_access()
 		return oob_val
 	end
 	local value = Tracker:ProviderCountForCode("aeroglider") > 0
-	if (value > 0) then
+	if value then
 		return AccessibilityLevel.Normal
 	end
 	return _or_combine_access(oob_val, AccessibilityLevel.None)
