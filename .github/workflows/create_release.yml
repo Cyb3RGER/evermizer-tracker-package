@@ -10,7 +10,7 @@ jobs:
     steps:
       # Step 1: Checkout the repository
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       # Step 2: Install GitHub CLI
       - name: Install GitHub CLI
@@ -32,20 +32,24 @@ jobs:
           TAG_NAME="v${{ env.PACKAGE_VERSION }}"
           
           # Check if the release exists using GitHub CLI
-          gh release view $TAG_NAME --json draft --jq .draft 2> /dev/null || echo "not_found" > release_status.txt
+          RELEASE_INFO=$(gh release view $TAG_NAME --json isDraft,uploadUrl --jq '{isDraft: .isDraft, uploadUrl: .uploadUrl}' 2> /dev/null) || echo '{"isDraft": false, "uploadUrl": ""}' > release_info.json
           
-          if [ -f release_status.txt ]; then
-            echo "release_not_found=true" >> $GITHUB_ENV
-          else
+          # Parse the release information
+          if [ -f release_info.json ]; then
+            RELEASE_DATA=$(jq . release_info.json)
+            IS_DRAFT=$(echo $RELEASE_DATA | jq -r .isDraft)
+            UPLOAD_URL=$(echo $RELEASE_DATA | jq -r .uploadUrl)
             echo "release_not_found=false" >> $GITHUB_ENV
-            DRAFT_STATUS=$(gh release view $TAG_NAME --json draft --jq .draft)
-          
-            if [ "$DRAFT_STATUS" = "false" ]; then
-              echo "Release with tag $TAG_NAME already exists and is not a draft. Failing the workflow."
-              exit 1  # Fail the workflow if the release exists but is not a draft
-            fi
+            echo "UPLOAD_URL=$UPLOAD_URL" >> $GITHUB_ENV  # Save upload URL for later use
+          else
+            echo "release_not_found=true" >> $GITHUB_ENV
           fi
 
+          # Fail if the release exists but is not a draft
+          if [ "$IS_DRAFT" = "false" ]; then
+            echo "Release with tag $TAG_NAME already exists and is not a draft. Failing the workflow."
+            exit 1  # Fail the workflow if the release exists but is not a draft
+          fi
 
       # Step 5: Remove unnecessary files and directories
       - name: Clean up unnecessary files
@@ -61,26 +65,27 @@ jobs:
         run: |
           ZIP_NAME="evermizer-tracker-package-v${{ env.PACKAGE_VERSION_UNDERSCORED }}.zip"
           zip -r $ZIP_NAME ./*
-
+          
       # Step 7: Create a new draft release if no release exists
       - name: Create a draft release
+        id: create_release
         if: env.release_not_found == 'true'
         uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: v${{ env.PACKAGE_VERSION }}  # Tag name is the version prefixed with 'v'
           release_name: v${{ env.PACKAGE_VERSION }}  # Release name is also prefixed with 'v'
           draft: true  # Create a draft release
-          prerelease: false  # Set to true if it's a pre-release
+          prerelease: false  # Set to true if it's a pre-release          
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the default GitHub token for authentication
 
-      # Step 8: Upload the ZIP file to the release
+      # Step 8: Upload the ZIP to the release
       - name: Upload ZIP to Release
         uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          upload_url: ${{ env.release_not_found == 'true' && steps.create_release.outputs.upload_url || env.UPLOAD_URL }}  # Use the correct upload URL
           asset_path: evermizer-tracker-package-v${{ env.PACKAGE_VERSION_UNDERSCORED }}.zip
           asset_name: evermizer-tracker-package-v${{ env.PACKAGE_VERSION_UNDERSCORED }}.zip
           asset_content_type: application/zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
