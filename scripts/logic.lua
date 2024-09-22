@@ -287,11 +287,11 @@ function _false()
 	return 0
 end
 
-function hasAllEnergyCoreFragments()	
-	if not EVERMIZER_VERSION then
-		return
+function hasAllEnergyCoreFragments()
+	if not EVERMIZER_VERSION or not SETTING_FLAGS then
+		return AccessibilityLevel.SequenceBreak
 	end
-	if EVERMIZER_VERSION < 049 then
+	if EVERMIZER_VERSION < 049 or SETTING_FLAGS & 1 == 1 then
 		return AccessibilityLevel.SequenceBreak
 	end
 	local current = Tracker:FindObjectForCode("energy_core_fragments").AcquiredCount
