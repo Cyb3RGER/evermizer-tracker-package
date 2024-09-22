@@ -28,6 +28,8 @@ jobs:
       # Step 4: Check if release exists and is draft (fail if release exists and is not a draft)
       - name: Check if release exists and is draft
         id: check_release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TAG_NAME="v${{ env.PACKAGE_VERSION }}"
           
