@@ -205,15 +205,17 @@ def main():
             offset = get_offset(offsets, row)
             if offset is None or row['pop_pos_mode'] == 'ignore':
                 continue
+            loc_name = f'Sniff Spot #{row["id"]}'
             loc = PopTrackerLocation(
-                name=f'Sniff Spot #{row["id"]}',
+                name=loc_name,
                 access_rules=get_access_rules(row['logic'], row['pop_logic']),
                 visibility_rules=get_visibility_rules(is_hidden),
                 chest_opened_img='images/locations/sniff_open_gray.png',
                 chest_unopened_img='images/locations/sniff.png',
                 map_locations=get_map_locs(offsets, row)
             )
-            sec = PopTrackerSection('')
+            sec_name = f'(Vanilla: {row["prize_text"]})'
+            sec = PopTrackerSection(sec_name)            
             loc.sections.append(sec)
             locs.append(loc)
             addr = int(row['address'])
@@ -223,7 +225,7 @@ def main():
                 detailed_mapping[addr] = {}
             if int(row['bit']) not in detailed_mapping[addr]:
                 detailed_mapping[addr][int(row['bit'])] = []
-            detailed_mapping[addr][int(row['bit'])].append(f'@Sniff Spot #{row["id"]}/')
+            detailed_mapping[addr][int(row['bit'])].append(f'@{loc_name}/{sec_name}')
             overview_name = f'@{translate_act(row["map_name"])}/{row["pop_overview_parent"]}/{"hidden " if is_hidden else ""}Sniff Spots'
             if row['pop_postfix']:
                 overview_name += f' {row["pop_postfix"]}'
