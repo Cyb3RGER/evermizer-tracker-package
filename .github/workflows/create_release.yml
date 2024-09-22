@@ -10,7 +10,7 @@ jobs:
     steps:
       # Step 1: Checkout the repository
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Step 2: Extract package version from manifest.json
       - name: Extract package version
@@ -40,6 +40,8 @@ jobs:
       - name: Create GitHub Release
         id: create_release
         uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: v${{ env.PACKAGE_VERSION }}  # Tag name is the version prefixed with 'v'
           release_name: v${{ env.PACKAGE_VERSION }}  # Release name is also prefixed with 'v'
