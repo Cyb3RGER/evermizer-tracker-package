@@ -33,29 +33,27 @@ jobs:
           
           # Check if the release exists using GitHub CLI
           echo "Checking for release with tag $TAG_NAME..."
-          RELEASE_INFO=$(gh release view $TAG_NAME --json isDraft,uploadUrl --jq '{isDraft: .isDraft, uploadUrl: .uploadUrl}' 2> /dev/null) || echo '{"isDraft": false, "uploadUrl": ""}' > release_info.json
-          
-          # Parse the release information
-          if [ -f release_info.json ]; then
-            RELEASE_DATA=$(jq . release_info.json)
+          RELEASE_INFO=$(gh release view $TAG_NAME --json isDraft,uploadUrl --jq '{isDraft: .isDraft, uploadUrl: .uploadUrl}' 2> /dev/null)
+
+          if [ $? -ne 0 ]; then
+            echo "No release found."
+            echo "release_not_found=true" >> $GITHUB_ENV
+          else
+            RELEASE_DATA=$(echo $RELEASE_INFO)
             IS_DRAFT=$(echo $RELEASE_DATA | jq -r .isDraft)
             UPLOAD_URL=$(echo $RELEASE_DATA | jq -r .uploadUrl)
             echo "Release found: isDraft=$IS_DRAFT, uploadUrl=$UPLOAD_URL"
             echo "release_not_found=false" >> $GITHUB_ENV
             echo "UPLOAD_URL=$UPLOAD_URL" >> $GITHUB_ENV  # Save upload URL for later use
-          else
-            echo "No release found."
-            echo "release_not_found=true" >> $GITHUB_ENV
+          
+            # Fail if the release exists but is not a draft
+            if [ "$IS_DRAFT" = "false" ]; then
+              echo "Release with tag $TAG_NAME already exists and is not a draft. Failing the workflow."
+              exit 1  # Fail the workflow if the release exists but is not a draft
+            fi
           fi
 
-          # Fail if the release exists but is not a draft
-          if [ "$IS_DRAFT" = "false" ]; then
-            echo "Release with tag $TAG_NAME already exists and is not a draft. Failing the workflow."
-            exit 1  # Fail the workflow if the release exists but is not a draft
-          fi
-
-
-      # Step 5: Remove unnecessary files and directories
+      # Step 4: Remove unnecessary files and directories
       - name: Clean up unnecessary files
         run: |
           rm -rf gen
@@ -69,7 +67,7 @@ jobs:
         run: |
           ZIP_NAME="evermizer-tracker-package-v${{ env.PACKAGE_VERSION_UNDERSCORED }}.zip"
           zip -r $ZIP_NAME ./*
-          
+
       # Step 7: Create a new draft release if no release exists
       - name: Create a draft release
         id: create_release
