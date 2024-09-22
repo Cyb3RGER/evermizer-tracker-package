@@ -40,7 +40,7 @@ jobs:
           EXIT_CODE=$?
           set -e
           
-          if [ $EXIT_CODE -eq 1 ]; then          
+          if [ $EXIT_CODE -eq 0 ]; then          
             IS_DRAFT=$RELEASE_INFO
             echo "Release found: isDraft=$IS_DRAFT"
           
@@ -49,6 +49,8 @@ jobs:
               echo "Release with tag $TAG_NAME already exists and is not a draft. Failing the workflow."
               exit 1  # Fail the workflow if the release exists but is not a draft
             fi
+          elif [ $EXIT_CODE -eq 1 ]; then
+            echo "Release not found"
           else
             exit $EXIT_CODE
           fi
