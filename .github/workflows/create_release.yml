@@ -34,13 +34,13 @@ jobs:
           TAG_NAME="v${{ env.PACKAGE_VERSION }}"
           
           # Check if the release exists using GitHub CLI
-          echo "Checking for release with tag $TAG_NAME..."
+          echo "Checking for release with tag $TAG_NAME..."        
+          set +e
           RELEASE_INFO=$(gh release view $TAG_NAME --json isDraft --jq '.isDraft' 2> /dev/null)
           EXIT_CODE=$?
+          set -e
           
-          if [ $EXIT_CODE -ne 0 ]; then
-            echo "No release found."
-          else
+          if [ $EXIT_CODE -eq 1 ]; then          
             IS_DRAFT=$RELEASE_INFO
             echo "Release found: isDraft=$IS_DRAFT"
           
@@ -49,6 +49,8 @@ jobs:
               echo "Release with tag $TAG_NAME already exists and is not a draft. Failing the workflow."
               exit 1  # Fail the workflow if the release exists but is not a draft
             fi
+          else
+            exit $EXIT_CODE
           fi
 
       # Step 5: Remove unnecessary files and directories
