@@ -38,7 +38,7 @@ jobs:
           RELEASE_INFO=$(gh release view $TAG_NAME --json isDraft --jq '.isDraft' 2> /dev/null)
           EXIT_CODE=$?
           
-          if [ $EXIT_CODE -ne  ]; then
+          if [ $EXIT_CODE -ne 0 ]; then
             echo "No release found."
           else
             IS_DRAFT=$RELEASE_INFO
