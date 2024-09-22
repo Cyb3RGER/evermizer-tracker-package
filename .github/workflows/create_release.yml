@@ -36,8 +36,9 @@ jobs:
           # Check if the release exists using GitHub CLI
           echo "Checking for release with tag $TAG_NAME..."
           RELEASE_INFO=$(gh release view $TAG_NAME --json isDraft --jq '.isDraft' 2> /dev/null)
-
-          if [ $? -ne 0 ]; then
+          EXIT_CODE=$?
+          
+          if [ $EXIT_CODE -ne  ]; then
             echo "No release found."
           else
             IS_DRAFT=$RELEASE_INFO
