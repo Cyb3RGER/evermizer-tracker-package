@@ -1,337 +1,337 @@
 [
-    {
-        "name": "Sequence Breaks",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/settings/Off.png",
-                "inherit_codes": false,
-                "codes": "seq_breaks, seq_breaks_off"
-            },
-            {
-                "img": "images/items/settings/On.png",
-                "inherit_codes": false,
-                "codes": "seq_breaks, seq_breaks_on"
-            },
-            {
-                "img": "images/items/settings/In_Logic.png",
-                "inherit_codes": false,
-                "codes": "seq_breaks, seq_breaks_logic"
-            }
-        ]
-    },
-    {
-        "name": "Out of Bounds",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/settings/Off.png",
-                "inherit_codes": false,
-                "codes": "oob, oob_off"
-            },
-            {
-                "img": "images/items/settings/On.png",
-                "inherit_codes": false,
-                "codes": "oob, oob_on"
-            },
-            {
-                "img": "images/items/settings/In_Logic.png",
-                "inherit_codes": false,
-                "codes": "oob, oob_logic"
-            }
-        ]
-    },
-    {
-        "name": "Turdo Mode",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/settings/Off.png",
-                "inherit_codes": false,
-                "codes": "turdo, turdo_off"
-            },
-            {
-                "img": "images/items/settings/On.png",
-                "inherit_codes": false,
-                "codes": "turdo, turdo_on"
-            }
-        ]
-    },
-    {
-        "name": "Callbeadamizer",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/settings/Off.png",
-                "inherit_codes": false,
-                "codes": "callbeadamizer, callbeadamizer_off"
-            },
-            {
-                "img": "images/items/settings/On.png",
-                "inherit_codes": false,
-                "codes": "callbeadamizer, callbeadamizer_on"
-            },
-            {
-                "img": "images/items/settings/Chaos.png",
-                "inherit_codes": false,
-                "codes": "callbeadamizer, callbeadamizer_on, callbeadamizer_chaos"
-            }
-        ]
-    },
-    {
-        "name": "Stats Autotracking",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/settings/Off.png",
-                "inherit_codes": false,
-                "codes": "stats_tracking, stats_tracking_off"
-            },
-            {
-                "img": "images/items/settings/On.png",
-                "inherit_codes": false,
-                "codes": "stats_tracking, stats_tracking_on"
-            }
-        ]
-    },
-    /*{
-        "name": "Keyitem Count Tracking",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/settings/Off.png",
-                "inherit_codes": false,
-                "codes": "keyitem_count_tracking, keyitem_count_tracking_off"
-            },
-            {
-                "img": "images/items/settings/On.png",
-                "inherit_codes": false,
-                "codes": "keyitem_count_tracking, keyitem_count_tracking_on"
-            }
-        ]
-    },*/    
-    {
-        "name": "Energy Core",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages": [
-            {
-                "img": "images/items/settings/Vanilla.png",
-                "inherit_codes": false,
-                "codes": "opt_energy_core, opt_energy_core_vanilla"
-            },
-            {
-                "img": "images/items/settings/Shuffle.png",
-                "inherit_codes": false,
-                "codes": "opt_energy_core, opt_energy_core_shuffle"
-            },
-            {
-                "img": "images/items/settings/Fragments.png",
-                "inherit_codes": false,
-                "codes": "opt_energy_core, opt_energy_core_fragments"
-            }
-        ]
-    },
-    {
-        "name": "Difficulty",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages": [
-            {
-                "img": "images/items/settings/Easy.png",
-                "inherit_codes": false,
-                "codes": "opt_difficulty, opt_difficulty_easy"
-            },
-            {
-                "img": "images/items/settings/Normal.png",
-                "inherit_codes": false,
-                "codes": "opt_difficulty, opt_difficulty_normal"
-            },
-            {
-                "img": "images/items/settings/Hard.png",
-                "inherit_codes": false,
-                "codes": "opt_difficulty, opt_difficulty_hard"
-            },
-            {
-                "img": "images/items/settings/Random.png",
-                "inherit_codes": false,
-                "codes": "opt_difficulty, opt_difficulty_random"
-            }
-        ]
-    },
-    {
-        "name": "Alchemizer",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages": [
-            {
-                "img": "images/items/settings/Off.png",
-                "inherit_codes": false,
-                "codes": "opt_alchemizer, opt_alchemizer_off"
-            },
-            {
-                "img": "images/items/settings/On.png",
-                "inherit_codes": false,
-                "codes": "opt_alchemizer, opt_alchemizer_on"
-            },
-            {
-                "img": "images/items/settings/Pool.png",
-                "inherit_codes": false,
-                "codes": "opt_alchemizer, opt_alchemizer_pool"
-            }
-        ]
-    },
-    {
-        "name": "Boss Dropamizer",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages": [
-            {
-                "img": "images/items/settings/Off.png",
-                "inherit_codes": false,
-                "codes": "opt_boss_drops, opt_boss_drops_off"
-            },
-            {
-                "img": "images/items/settings/On.png",
-                "inherit_codes": false,
-                "codes": "opt_boss_drops, opt_boss_drops_on"
-            },
-            {
-                "img": "images/items/settings/Pool.png",
-                "inherit_codes": false,
-                "codes": "opt_boss_drops, opt_boss_drops_pool"
-            }
-        ]
-    },
-    {
-        "name": "Gourdomizer",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages": [
-            {
-                "img": "images/items/settings/Off.png",
-                "inherit_codes": false,
-                "codes": "opt_gourdomizer, opt_gourdomizer_off"
-            },
-            {
-                "img": "images/items/settings/On.png",
-                "inherit_codes": false,
-                "codes": "opt_gourdomizer, opt_gourdomizer_on"
-            },
-            {
-                "img": "images/items/settings/Pool.png",
-                "inherit_codes": false,
-                "codes": "opt_gourdomizer, opt_gourdomizer_pool"
-            }
-        ]
-    },
-    {
-        "name": "Sniffamizer",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages": [
-            {
-                "img": "images/items/settings/Off.png",
-                "inherit_codes": false,
-                "codes": "opt_sniffamizer, opt_sniffamizer_off"
-            },
-            {
-                "img": "images/items/settings/On.png",
-                "inherit_codes": false,
-                "codes": "opt_sniffamizer, opt_sniffamizer_on"
-            },
-            {
-                "img": "images/items/settings/Pool.png",
-                "inherit_codes": false,
-                "codes": "opt_sniffamizer, opt_sniffamizer_pool"
-            }
-        ]
-    },
-    {
-        "name": "Mixed Pool Strategy",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/settings/Balance.png",
-                "inherit_codes": false,
-                "codes": "opt_pool, opt_pool_balance"
-            },
-            {
-                "img": "images/items/settings/Random.png",
-                "inherit_codes": false,
-                "codes": "opt_pool, opt_pool_random"
-            },
-            {
-                "img": "images/items/settings/Bosses.png",
-                "inherit_codes": false,
-                "codes": "opt_pool, opt_pool_bosses"
-            }
-        ]
-    },
-    {
-        "name": "Hide Junk Locations",
-        "type": "progressive",
-        "loop": true,
-        "capturable": false,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages": [
-            {
-                "img": "images/items/settings/Off.png",
-                "inherit_codes": false,
-                "codes": "opt_hide_junk, opt_hide_junk_off"
-            },
-            {
-                "img": "images/items/settings/On.png",
-                "inherit_codes": false,
-                "codes": "opt_hide_junk, opt_hide_junk_on"
-            }
-        ]
-    }
+  {
+    "name": "Sequence Breaks",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/settings/Off.png",
+        "inherit_codes": false,
+        "codes": "seq_breaks, seq_breaks_off"
+      },
+      {
+        "img": "images/items/settings/On.png",
+        "inherit_codes": false,
+        "codes": "seq_breaks, seq_breaks_on"
+      },
+      {
+        "img": "images/items/settings/In_Logic.png",
+        "inherit_codes": false,
+        "codes": "seq_breaks, seq_breaks_logic"
+      }
+    ]
+  },
+  {
+    "name": "Out of Bounds",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/settings/Off.png",
+        "inherit_codes": false,
+        "codes": "oob, oob_off"
+      },
+      {
+        "img": "images/items/settings/On.png",
+        "inherit_codes": false,
+        "codes": "oob, oob_on"
+      },
+      {
+        "img": "images/items/settings/In_Logic.png",
+        "inherit_codes": false,
+        "codes": "oob, oob_logic"
+      }
+    ]
+  },
+  {
+    "name": "Turdo Mode",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/settings/Off.png",
+        "inherit_codes": false,
+        "codes": "turdo, turdo_off"
+      },
+      {
+        "img": "images/items/settings/On.png",
+        "inherit_codes": false,
+        "codes": "turdo, turdo_on"
+      }
+    ]
+  },
+  {
+    "name": "Callbeadamizer",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/settings/Off.png",
+        "inherit_codes": false,
+        "codes": "callbeadamizer, callbeadamizer_off"
+      },
+      {
+        "img": "images/items/settings/On.png",
+        "inherit_codes": false,
+        "codes": "callbeadamizer, callbeadamizer_on"
+      },
+      {
+        "img": "images/items/settings/Chaos.png",
+        "inherit_codes": false,
+        "codes": "callbeadamizer, callbeadamizer_on, callbeadamizer_chaos"
+      }
+    ]
+  },
+  {
+    "name": "Stats Autotracking",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/settings/Off.png",
+        "inherit_codes": false,
+        "codes": "stats_tracking, stats_tracking_off"
+      },
+      {
+        "img": "images/items/settings/On.png",
+        "inherit_codes": false,
+        "codes": "stats_tracking, stats_tracking_on"
+      }
+    ]
+  },
+  /*{
+      "name": "Keyitem Count Tracking",
+      "type": "progressive",
+      "loop": true,
+      "capturable": false,
+      "allow_disabled": false,
+      "initial_stage_idx": 0,
+      "stages": [
+          {
+              "img": "images/items/settings/Off.png",
+              "inherit_codes": false,
+              "codes": "keyitem_count_tracking, keyitem_count_tracking_off"
+          },
+          {
+              "img": "images/items/settings/On.png",
+              "inherit_codes": false,
+              "codes": "keyitem_count_tracking, keyitem_count_tracking_on"
+          }
+      ]
+  },*/
+  {
+    "name": "Energy Core",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/settings/Vanilla.png",
+        "inherit_codes": false,
+        "codes": "opt_energy_core, opt_energy_core_vanilla"
+      },
+      {
+        "img": "images/items/settings/Shuffle.png",
+        "inherit_codes": false,
+        "codes": "opt_energy_core, opt_energy_core_shuffle"
+      },
+      {
+        "img": "images/items/settings/Fragments.png",
+        "inherit_codes": false,
+        "codes": "opt_energy_core, opt_energy_core_fragments"
+      }
+    ]
+  },
+  {
+    "name": "Difficulty",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/settings/Easy.png",
+        "inherit_codes": false,
+        "codes": "opt_difficulty, opt_difficulty_easy"
+      },
+      {
+        "img": "images/items/settings/Normal.png",
+        "inherit_codes": false,
+        "codes": "opt_difficulty, opt_difficulty_normal"
+      },
+      {
+        "img": "images/items/settings/Hard.png",
+        "inherit_codes": false,
+        "codes": "opt_difficulty, opt_difficulty_hard"
+      },
+      {
+        "img": "images/items/settings/Random.png",
+        "inherit_codes": false,
+        "codes": "opt_difficulty, opt_difficulty_random"
+      }
+    ]
+  },
+  {
+    "name": "Alchemizer",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/settings/Off.png",
+        "inherit_codes": false,
+        "codes": "opt_alchemizer, opt_alchemizer_off"
+      },
+      {
+        "img": "images/items/settings/On.png",
+        "inherit_codes": false,
+        "codes": "opt_alchemizer, opt_alchemizer_on"
+      },
+      {
+        "img": "images/items/settings/Pool.png",
+        "inherit_codes": false,
+        "codes": "opt_alchemizer, opt_alchemizer_pool"
+      }
+    ]
+  },
+  {
+    "name": "Boss Dropamizer",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/settings/Off.png",
+        "inherit_codes": false,
+        "codes": "opt_boss_drops, opt_boss_drops_off"
+      },
+      {
+        "img": "images/items/settings/On.png",
+        "inherit_codes": false,
+        "codes": "opt_boss_drops, opt_boss_drops_on"
+      },
+      {
+        "img": "images/items/settings/Pool.png",
+        "inherit_codes": false,
+        "codes": "opt_boss_drops, opt_boss_drops_pool"
+      }
+    ]
+  },
+  {
+    "name": "Gourdomizer",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/settings/Off.png",
+        "inherit_codes": false,
+        "codes": "opt_gourdomizer, opt_gourdomizer_off"
+      },
+      {
+        "img": "images/items/settings/On.png",
+        "inherit_codes": false,
+        "codes": "opt_gourdomizer, opt_gourdomizer_on"
+      },
+      {
+        "img": "images/items/settings/Pool.png",
+        "inherit_codes": false,
+        "codes": "opt_gourdomizer, opt_gourdomizer_pool"
+      }
+    ]
+  },
+  {
+    "name": "Sniffamizer",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/settings/Off.png",
+        "inherit_codes": false,
+        "codes": "opt_sniffamizer, opt_sniffamizer_off"
+      },
+      {
+        "img": "images/items/settings/On.png",
+        "inherit_codes": false,
+        "codes": "opt_sniffamizer, opt_sniffamizer_on"
+      },
+      {
+        "img": "images/items/settings/Pool.png",
+        "inherit_codes": false,
+        "codes": "opt_sniffamizer, opt_sniffamizer_pool"
+      }
+    ]
+  },
+  {
+    "name": "Mixed Pool Strategy",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/settings/Balance.png",
+        "inherit_codes": false,
+        "codes": "opt_pool, opt_pool_balance"
+      },
+      {
+        "img": "images/items/settings/Random.png",
+        "inherit_codes": false,
+        "codes": "opt_pool, opt_pool_random"
+      },
+      {
+        "img": "images/items/settings/Bosses.png",
+        "inherit_codes": false,
+        "codes": "opt_pool, opt_pool_bosses"
+      }
+    ]
+  },
+  {
+    "name": "Hide Junk Locations",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/settings/Off.png",
+        "inherit_codes": false,
+        "codes": "opt_hide_junk, opt_hide_junk_off"
+      },
+      {
+        "img": "images/items/settings/On.png",
+        "inherit_codes": false,
+        "codes": "opt_hide_junk, opt_hide_junk_on"
+      }
+    ]
+  }
 ]

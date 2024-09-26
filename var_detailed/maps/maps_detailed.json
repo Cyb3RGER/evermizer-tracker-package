@@ -1,290 +1,290 @@
 [
-    {
-        "name": "overview",
-        "location_size": 24,
-        "location_border_thickness": 2,
-        "img": "images/maps/evermore.png"
-    },
-    {
-        "name": "southern_jungle",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/southern_jungle.png"
-    },
-    {
-        "name": "raptor_attack",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/raptor_attack.png"
-    },
-    {
-        "name": "fe_village",
-        "location_size": 24,
-        "location_border_thickness": 2,
-        "img": "images/maps/fe_village.png"
-    },
-    {
-        "name": "eastern_jungle",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/eastern_jungle.png"
-    },
-    {
-        "name": "quick_sand_fields",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/quick_sand_fields.png"
-    },
-    {
-        "name": "bugmuck",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/bugmuck.png"
-    },
-    {
-        "name": "bugmaze",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/bugmaze.png"
-    },
-    {
-        "name": "bugroom2",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/bugroom2.png"
-    },
-    {
-        "name": "northern_jungle",
-        "location_size": 24,
-        "location_border_thickness": 2,
-        "img": "images/maps/northern_jungle.png"
-    },
-    {
-        "name": "mammoth_graveyard",
-        "location_size": 24,
-        "location_border_thickness": 2,
-        "img": "images/maps/mammoth_graveyard.png"
-    },
-    {
-        "name": "volcano_path",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/volcano_path.png"
-    },
-    {
-        "name": "swamp",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/swamp.png"
-    },
-    {
-        "name": "volcano_core",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/volcano_core.png"
-    },
-    {
-        "name": "volcano_sewers",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/volcano_sewers.png"
-    },
-    {
-        "name": "eastern_beach",
-        "location_size": 24,
-        "location_border_thickness": 2,
-        "img": "images/maps/eastern_beach.png"
-    },
-    {
-        "name": "crustacia",
-        "location_size": 24,
-        "location_border_thickness": 2,
-        "img": "images/maps/crustacia.png"
-    },
-    {
-        "name": "nobilia",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/nobilia.png"
-    },
-    {
-        "name": "nobilia_colosseum",
-        "location_size": 24,
-        "location_border_thickness": 2,
-        "img": "images/maps/nobilia_colosseum.png"
-    },
-    {
-        "name": "nobilia_palace",
-        "location_size": 24,
-        "location_border_thickness": 2,
-        "img": "images/maps/nobilia_palace.png"
-    },
-    {
-        "name": "river",
-        "location_size": 24,
-        "location_border_thickness": 2,
-        "img": "images/maps/river.png"
-    },
-    {
-        "name": "western_beach",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/western_beach.png"
-    },
-    {
-        "name": "horace_camp",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/horace_camp.png"
-    },
-    {
-        "name": "pyramid_outside",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/pyramid_outside.png"
-    },
-    {
-        "name": "pyramid_lower",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/pyramid_lower.png"
-    },
-    {
-        "name": "pyramid_upper",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/pyramid_upper.png"
-    },
-    {
-        "name": "halls_of_collosia_outside",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/halls_of_collosia_outside.png"
-    },
-    {
-        "name": "halls_of_collosia_1",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/halls_of_collosia_1.png"
-    },
-    {
-        "name": "halls_of_collosia_2",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/halls_of_collosia_2.png"
-    },
-    {
-        "name": "halls_of_collosia_3",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/halls_of_collosia_3.png"
-    },
-    {
-        "name": "halls_of_collosia_4",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/halls_of_collosia_4.png"
-    },
-    {
-        "name": "tinys_hideout",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/tinys_hideout.png"
-    },
-    {
-        "name": "oglin_tunnel",
-        "location_size": 64,
-        "location_border_thickness": 6,
-        "img": "images/maps/oglin_tunnel.png"
-    },
-    {
-        "name": "ebon_keep_interiors",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/ebon_keep_interiors.png"
-    },
-    {
-        "name": "ebon_keep",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/ebon_keep.png"
-    },
-    {
-        "name": "ebon_keep_sewers",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/ebon_keep_sewers.png"
-    },
-    {
-        "name": "dark_forest_1",
-        "location_size": 128,
-        "location_border_thickness": 12,
-        "img": "images/maps/dark_forest_1.png"
-    },
-    {
-        "name": "dark_forest_2",
-        "location_size": 64,
-        "location_border_thickness": 6,
-        "img": "images/maps/dark_forest_2.png"
-    },
-    {
-        "name": "chessboard",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/chessboard.png"
-    },
-    {
-        "name": "ivor_tower_interiors",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/ivor_tower_interiors.png"
-    },
-    {
-        "name": "ivor_tower_dungeon",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/ivor_tower_dungeon.png"
-    },
-    {
-        "name": "ivor_tower_dogmaze",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/dogmaze.png"
-    },
-    {
-        "name": "ivor_tower",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/ivor_tower.png"
-    },
-    {
-        "name": "ivor_tower_south",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/ivor_tower_south.png"
-    },
-    {
-        "name": "ivor_tower_sewers",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/ivor_tower_sewers.png"
-    },
-    {
-        "name": "gomi_tower",
-        "location_size": 48,
-        "location_border_thickness": 4,
-        "img": "images/maps/gomi_tower.png"
-    },
-    {
-        "name": "main_district",
-        "location_size": 32,
-        "location_border_thickness": 3,
-        "img": "images/maps/main_district.png"
-    },
-    {
-        "name": "boiler_room",
-        "location_size": 24,
-        "location_border_thickness": 2,
-        "img": "images/maps/boiler_room.png"
-    }
+  {
+    "name": "overview",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/evermore.png"
+  },
+  {
+    "name": "southern_jungle",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/southern_jungle.png"
+  },
+  {
+    "name": "raptor_attack",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/raptor_attack.png"
+  },
+  {
+    "name": "fe_village",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/fe_village.png"
+  },
+  {
+    "name": "eastern_jungle",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/eastern_jungle.png"
+  },
+  {
+    "name": "quick_sand_fields",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/quick_sand_fields.png"
+  },
+  {
+    "name": "bugmuck",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/bugmuck.png"
+  },
+  {
+    "name": "bugmaze",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/bugmaze.png"
+  },
+  {
+    "name": "bugroom2",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/bugroom2.png"
+  },
+  {
+    "name": "northern_jungle",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/northern_jungle.png"
+  },
+  {
+    "name": "mammoth_graveyard",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/mammoth_graveyard.png"
+  },
+  {
+    "name": "volcano_path",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/volcano_path.png"
+  },
+  {
+    "name": "swamp",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/swamp.png"
+  },
+  {
+    "name": "volcano_core",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/volcano_core.png"
+  },
+  {
+    "name": "volcano_sewers",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/volcano_sewers.png"
+  },
+  {
+    "name": "eastern_beach",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/eastern_beach.png"
+  },
+  {
+    "name": "crustacia",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/crustacia.png"
+  },
+  {
+    "name": "nobilia",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/nobilia.png"
+  },
+  {
+    "name": "nobilia_colosseum",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/nobilia_colosseum.png"
+  },
+  {
+    "name": "nobilia_palace",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/nobilia_palace.png"
+  },
+  {
+    "name": "river",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/river.png"
+  },
+  {
+    "name": "western_beach",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/western_beach.png"
+  },
+  {
+    "name": "horace_camp",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/horace_camp.png"
+  },
+  {
+    "name": "pyramid_outside",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/pyramid_outside.png"
+  },
+  {
+    "name": "pyramid_lower",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/pyramid_lower.png"
+  },
+  {
+    "name": "pyramid_upper",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/pyramid_upper.png"
+  },
+  {
+    "name": "halls_of_collosia_outside",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/halls_of_collosia_outside.png"
+  },
+  {
+    "name": "halls_of_collosia_1",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/halls_of_collosia_1.png"
+  },
+  {
+    "name": "halls_of_collosia_2",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/halls_of_collosia_2.png"
+  },
+  {
+    "name": "halls_of_collosia_3",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/halls_of_collosia_3.png"
+  },
+  {
+    "name": "halls_of_collosia_4",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/halls_of_collosia_4.png"
+  },
+  {
+    "name": "tinys_hideout",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/tinys_hideout.png"
+  },
+  {
+    "name": "oglin_tunnel",
+    "location_size": 64,
+    "location_border_thickness": 6,
+    "img": "images/maps/oglin_tunnel.png"
+  },
+  {
+    "name": "ebon_keep_interiors",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/ebon_keep_interiors.png"
+  },
+  {
+    "name": "ebon_keep",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/ebon_keep.png"
+  },
+  {
+    "name": "ebon_keep_sewers",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/ebon_keep_sewers.png"
+  },
+  {
+    "name": "dark_forest_1",
+    "location_size": 128,
+    "location_border_thickness": 12,
+    "img": "images/maps/dark_forest_1.png"
+  },
+  {
+    "name": "dark_forest_2",
+    "location_size": 64,
+    "location_border_thickness": 6,
+    "img": "images/maps/dark_forest_2.png"
+  },
+  {
+    "name": "chessboard",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/chessboard.png"
+  },
+  {
+    "name": "ivor_tower_interiors",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/ivor_tower_interiors.png"
+  },
+  {
+    "name": "ivor_tower_dungeon",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/ivor_tower_dungeon.png"
+  },
+  {
+    "name": "ivor_tower_dogmaze",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/dogmaze.png"
+  },
+  {
+    "name": "ivor_tower",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/ivor_tower.png"
+  },
+  {
+    "name": "ivor_tower_south",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/ivor_tower_south.png"
+  },
+  {
+    "name": "ivor_tower_sewers",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/ivor_tower_sewers.png"
+  },
+  {
+    "name": "gomi_tower",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/gomi_tower.png"
+  },
+  {
+    "name": "main_district",
+    "location_size": 32,
+    "location_border_thickness": 3,
+    "img": "images/maps/main_district.png"
+  },
+  {
+    "name": "boiler_room",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/boiler_room.png"
+  }
 ]

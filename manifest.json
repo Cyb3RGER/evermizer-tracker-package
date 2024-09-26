@@ -1,25 +1,25 @@
 {
-    "name": "Evermizer - Map and Item Tracker",
-    "game_name": "Evermizer",
-    "platform": "snes",
-    "package_version": "0.4.1.0",
-    "package_uid": "evermizer",
-    "author": "Cyb3R, black-sliver",
-    "min_poptracker_version": "0.25.6",
-    "target_poptracker_version": "0.28.0",
-    "variants": {
-        "standard": {
-            "display_name": "Map Tracker"
-        },
-        "var_detailed": {
-            "display_name": "Map Tracker - Detailed"
-        },
-        "var_itemsonly": {
-            "display_name": "Items Only"
-        },
-        "var_itemsonly_compact": {
-            "display_name": "Items Only - Compact"
-        }
+  "name": "Evermizer - Map and Item Tracker",
+  "game_name": "Evermizer",
+  "platform": "snes",
+  "package_version": "0.4.1.0",
+  "package_uid": "evermizer",
+  "author": "Cyb3R, black-sliver",
+  "min_poptracker_version": "0.25.6",
+  "target_poptracker_version": "0.28.0",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker"
     },
-    "versions_url": "https://raw.githubusercontent.com/Cyb3RGER/evermizer-tracker-package/main/versions.json"
+    "var_detailed": {
+      "display_name": "Map Tracker - Detailed"
+    },
+    "var_itemsonly": {
+      "display_name": "Items Only"
+    },
+    "var_itemsonly_compact": {
+      "display_name": "Items Only - Compact"
+    }
+  },
+  "versions_url": "https://raw.githubusercontent.com/Cyb3RGER/evermizer-tracker-package/main/versions.json"
 }

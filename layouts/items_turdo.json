@@ -1,39 +1,39 @@
 {
-    "items_magic": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "rows": [
-            [
-                "atlas",
-                "barrier",
-                "call_up",
-                "cure",
-                "defend",
-                "energize",
-                "escape"
-            ],
-            [
-                "force_field",
-                "heal",
-                "levitate",
-                "miracle_cure",
-                "one_up",
-                "reflect"
-            ],
-            [
-                "regrowth",
-                "revealer",
-                "revive",
-                "speed",
-                "stop",
-                "super_heal"
-            ],
-            [
-                "turd_ball_1",
-                "turd_ball_2",
-                "turd_ball_3"
-            ]
-        ]
-    }
+  "items_magic": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "atlas",
+        "barrier",
+        "call_up",
+        "cure",
+        "defend",
+        "energize",
+        "escape"
+      ],
+      [
+        "force_field",
+        "heal",
+        "levitate",
+        "miracle_cure",
+        "one_up",
+        "reflect"
+      ],
+      [
+        "regrowth",
+        "revealer",
+        "revive",
+        "speed",
+        "stop",
+        "super_heal"
+      ],
+      [
+        "turd_ball_1",
+        "turd_ball_2",
+        "turd_ball_3"
+      ]
+    ]
+  }
 }

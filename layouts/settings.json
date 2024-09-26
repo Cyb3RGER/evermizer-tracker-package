@@ -1,6 +1,5 @@
 {
-  "settings_popup":
-  {
+  "settings_popup": {
     "type": "array",
     "orientation": "horizontal",
     "content": [
@@ -159,5 +158,4 @@
       }
     ]
   }
-  
 }

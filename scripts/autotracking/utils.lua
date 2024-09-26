@@ -30,7 +30,6 @@ function checkFlagsInSegmentUsingTable(segment, table, checkmode)
                         for k2, v2 in pairs(ALCHEMY_SPELLS_TURDO) do
                             for _, v3 in pairs(v2) do
                                 if (k == v3) then
-
                                     if not ALCHEMY_SPELLS_TURDO_FOUND[k2] then
                                         ALCHEMY_SPELLS_TURDO_FOUND[k2] = 0
                                     end
@@ -64,7 +63,7 @@ function checkFlagsInSegmentUsingTable(segment, table, checkmode)
                         obj.ItemState:setActive(readResult & v > 0)
                     end
                 elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-                    print(string.format("Unknown checkmode %s", checkmode))                
+                    print(string.format("Unknown checkmode %s", checkmode))
                 end
             end
         end

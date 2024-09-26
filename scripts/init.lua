@@ -6,7 +6,7 @@ CALLBEADMIZER_MODE = 0
 ENABLE_DEBUG_LOG = false
 
 if PopVersion and ENABLE_DEBUG_LOG then
-    print(string.format("PopVersion: %s",PopVersion))
+    print(string.format("PopVersion: %s", PopVersion))
 end
 
 CALL_BEAD_CHARS = {
@@ -167,36 +167,41 @@ ScriptHost:LoadScript("scripts/custom_items/class.lua")
 ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
 
-for i = 0,3 do
-    for j =0,4 do
-        CB_SPELLS[i*5+j] = ProgressiveTogglePlus("Call Bead Spell "..(j+1),"call_bead_spell_"..(i+1).."_"..(j+1),CALL_BEAD_SPELLS,true,false,false,0,false)
+for i = 0, 3 do
+    for j = 0, 4 do
+        CB_SPELLS[i * 5 + j] = ProgressiveTogglePlus("Call Bead Spell " .. (j + 1), "call_bead_spell_" ..
+        (i + 1) .. "_" .. (j + 1), CALL_BEAD_SPELLS, true, false, false, 0, false)
     end
 end
 
-CB_CHARS[0] = ProgressiveTogglePlus("Elizabeth's Call Bead Spells","call_bead_char_1",CALL_BEAD_CHARS,true,true,false,0,true,
-{ CB_SPELLS[0],CB_SPELLS[1],CB_SPELLS[2],CB_SPELLS[3],CB_SPELLS[4] },true,
-{
-    children = {[0] = CB_SPELLS[0],CB_SPELLS[1],CB_SPELLS[2],CB_SPELLS[3],CB_SPELLS[4]},
-    states = CALL_BEAD_CHILD_PROGRESSION_STATES
-}, true)
-CB_CHARS[1] = ProgressiveTogglePlus("Horace's Call Bead Spells","call_bead_char_2",CALL_BEAD_CHARS,true,false,false,0,false,
-{ CB_SPELLS[5],CB_SPELLS[6],CB_SPELLS[7] },true,
-{
-    children = {[0] = CB_SPELLS[5],CB_SPELLS[6],CB_SPELLS[7],CB_SPELLS[8],CB_SPELLS[9]},
-    states = CALL_BEAD_CHILD_PROGRESSION_STATES
-}, true)
-CB_CHARS[2] = ProgressiveTogglePlus("Camellia's Call Bead Spells","call_bead_char_3",CALL_BEAD_CHARS,true,false,false,0,false,
-{ CB_SPELLS[10],CB_SPELLS[11],CB_SPELLS[12],CB_SPELLS[13],CB_SPELLS[14] },true,
-{
-    children = {[0] = CB_SPELLS[10],CB_SPELLS[11],CB_SPELLS[12],CB_SPELLS[13],CB_SPELLS[14]},
-    states = CALL_BEAD_CHILD_PROGRESSION_STATES
-}, true)
-CB_CHARS[3] = ProgressiveTogglePlus("Sidney's Call Bead Spells","call_bead_char_4",CALL_BEAD_CHARS,true,false,false,0,false,
-{ CB_SPELLS[15],CB_SPELLS[16],CB_SPELLS[17],CB_SPELLS[18],CB_SPELLS[19] },true,
-{
-    children = {[0] = CB_SPELLS[15],CB_SPELLS[16],CB_SPELLS[17],CB_SPELLS[18],CB_SPELLS[19]},
-    states = CALL_BEAD_CHILD_PROGRESSION_STATES
-}, true)
+CB_CHARS[0] = ProgressiveTogglePlus("Elizabeth's Call Bead Spells", "call_bead_char_1", CALL_BEAD_CHARS, true, true,
+    false, 0, true,
+    { CB_SPELLS[0], CB_SPELLS[1], CB_SPELLS[2], CB_SPELLS[3], CB_SPELLS[4] }, true,
+    {
+        children = { [0] = CB_SPELLS[0], CB_SPELLS[1], CB_SPELLS[2], CB_SPELLS[3], CB_SPELLS[4] },
+        states = CALL_BEAD_CHILD_PROGRESSION_STATES
+    }, true)
+CB_CHARS[1] = ProgressiveTogglePlus("Horace's Call Bead Spells", "call_bead_char_2", CALL_BEAD_CHARS, true, false, false,
+    0, false,
+    { CB_SPELLS[5], CB_SPELLS[6], CB_SPELLS[7] }, true,
+    {
+        children = { [0] = CB_SPELLS[5], CB_SPELLS[6], CB_SPELLS[7], CB_SPELLS[8], CB_SPELLS[9] },
+        states = CALL_BEAD_CHILD_PROGRESSION_STATES
+    }, true)
+CB_CHARS[2] = ProgressiveTogglePlus("Camellia's Call Bead Spells", "call_bead_char_3", CALL_BEAD_CHARS, true, false,
+    false, 0, false,
+    { CB_SPELLS[10], CB_SPELLS[11], CB_SPELLS[12], CB_SPELLS[13], CB_SPELLS[14] }, true,
+    {
+        children = { [0] = CB_SPELLS[10], CB_SPELLS[11], CB_SPELLS[12], CB_SPELLS[13], CB_SPELLS[14] },
+        states = CALL_BEAD_CHILD_PROGRESSION_STATES
+    }, true)
+CB_CHARS[3] = ProgressiveTogglePlus("Sidney's Call Bead Spells", "call_bead_char_4", CALL_BEAD_CHARS, true, false, false,
+    0, false,
+    { CB_SPELLS[15], CB_SPELLS[16], CB_SPELLS[17], CB_SPELLS[18], CB_SPELLS[19] }, true,
+    {
+        children = { [0] = CB_SPELLS[15], CB_SPELLS[16], CB_SPELLS[17], CB_SPELLS[18], CB_SPELLS[19] },
+        states = CALL_BEAD_CHILD_PROGRESSION_STATES
+    }, true)
 
 
 
@@ -237,4 +242,3 @@ ScriptHost:LoadScript("scripts/watches.lua")
 if PopVersion then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
-

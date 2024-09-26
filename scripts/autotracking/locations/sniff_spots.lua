@@ -1,6 +1,6 @@
 SNIFF_SPOT_WATCHES = {
-    { addr=0x7e228c, len=0x25 },
-    { addr=0x7e22b2, len=0x27 },
+    { addr = 0x7e228c, len = 0x25 },
+    { addr = 0x7e22b2, len = 0x27 },
 }
 SNIFF_MAPPING_DETAILED = {
     [0x7E228F] = {

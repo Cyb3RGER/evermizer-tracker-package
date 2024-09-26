@@ -1,2128 +1,2126 @@
 [
-    {
-        "name": "Act 1",
-        "children": [
-            {
-                "name": "Southern Jungle",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 430,
-                        "y": 400
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 3,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Gourds behind bushes",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 6,
-                        "access_rules": [
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 17,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots behind bushes",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 7,
-                        "access_rules": [
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Miracle Cure",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Miracle Cure (Vanilla)",
-                        "hosted_item": "miracle_cure",
-                        "access_rules": [
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Fire Eyes' Village",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 435,
-                        "y": 355
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 26,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 15,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Flash",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Flash (Vanilla)",
-                        "hosted_item": "flash",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Defend",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "access_rules": [
-                            "thraxx"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Defend (Vanilla)",
-                        "hosted_item": "defend",
-                        "access_rules": [
-                            "thraxx"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Quick Sand Fields",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 480,
-                        "y": 380
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 5,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Gourds behind Thraxx or bushes",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 7,
-                        "access_rules": [
-                            "thraxx",
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 23,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots behind bushes",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 9,
-                        "access_rules": [
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots behind Thraxx or bushes",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 6,
-                        "access_rules": [
-                            "thraxx",
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Acid Rain",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "thraxx",
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Acid Rain (Vanilla)",
-                        "hosted_item": "acid_rain",
-                        "access_rules": [
-                            "thraxx",
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Jaguar Ring",
-                        "hosted_item": "jaguar_ring"
-                    }
-                ]
-            },
-            {
-                "name": "Bugmuck",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 490,
-                        "y": 415
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 9,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Gourds behind Thraxx or bushes",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "thraxx",
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "hidden Gourds behind Thraxx or bushes",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "thraxx",
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 67,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots behind Thraxx or bushes",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 3,
-                        "access_rules": [
-                            "thraxx",
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Hard Ball",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Hard Ball (Vanilla)",
-                        "hosted_item": "hard_ball",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Thraxx",
-                        "hosted_item": "thraxx",
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Coleoptera",
-                        "hosted_item": "coleoptera",
-                        "access_rules": [
-                            "thraxx"
-                        ],
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Northern Jungle",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 465,
-                        "y": 340
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds behind bushes",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 4,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ],
-                        "access_rules": [
-                            "^$canCutBushes"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots behind bushes",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 51,
-                        "access_rules": [
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Mammoth Graveyard Vipers",
-                        "hosted_item": "viper_commander_1",
-                        "access_rules": [
-                            "^$canCutBushes"
-                        ],
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Heal",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$canCutBushes, viper_commander_1"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Heal (Vanilla)",
-                        "hosted_item": "heal",
-                        "access_rules": [
-                            "^$canCutBushes, viper_commander_1"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Volcano Path",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 480,
-                        "y": 310
-                    }
-                ],
-                "access_rules": [
-                    "^$canCutBushes"
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 5,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Gourd behind non-sword",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "access_rules": [
-                            "^$hasNonSword"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 25,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots behind non-sword",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 2,
-                        "access_rules": [
-                            "^$hasNonSword"
-                        ],
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Vanilla Gauge Gourd",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "access_rules": [
-                            "^$gauge_access"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gauge",
-                        "hosted_item": "gauge",
-                        "access_rules": [
-                            "^$gauge_access"
-                        ],
-                        "visibility_rules": [
-                            "$gourdVanillaLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Raptor Cave",
-                        "hosted_item": "raptors",
-                        "visibility_rules": [
-                            "$bossLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Levitate",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$hasNonSword"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Levitate (Vanilla)",
-                        "hosted_item": "levitate",
-                        "access_rules": [
-                            "^$hasNonSword"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Swamp",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 530,
-                        "y": 335
-                    }
-                ],
-                "access_rules": [
-                    "^$canCutBushes"
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 12,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 35,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Salabog",
-                        "hosted_item": "salabog",
-                        "visibility_rules": [
-                            "$bossLocationVisible"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Volcano Core",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 450,
-                        "y": 310
-                    }
-                ],
-                "access_rules": [
-                    "^$volcano_entered"
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 16,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "hidden Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 6,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 38,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Speed",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Speed (Vanilla)",
-                        "hosted_item": "speed",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Commander Viper",
-                        "hosted_item": "viper_commander_2",
-                        "visibility_rules": [
-                            "$bossLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Magmar",
-                        "hosted_item": "magmar",
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            }
+  {
+    "name": "Act 1",
+    "children": [
+      {
+        "name": "Southern Jungle",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 430,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 3,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Gourds behind bushes",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 6,
+            "access_rules": [
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 17,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Sniff Spots behind bushes",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 7,
+            "access_rules": [
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Miracle Cure",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Miracle Cure (Vanilla)",
+            "hosted_item": "miracle_cure",
+            "access_rules": [
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible|0"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Act 2",
-        "children": [
-            {
-                "name": "Crustacia",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 575,
-                        "y": 665
-                    }
-                ],
-                "access_rules": [
-                    "^$canCutBushes"
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 8,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Gourds behind Bronze Axe or higher",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 6,
-                        "access_rules": [
-                            "^$hasBronzeAxeOrHigher"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-
-                    },
-                    {
-                        "name": "hidden Gourds behind Levitate",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2,
-                        "access_rules": [
-                            "^$east_crustacia_chests_access"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 48,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "hidden Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 5,
-                        "visibility_rules": [
-                            "$sniffLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots behind Bronze Axe or higher",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 4,
-                        "access_rules": [
-                            "^$hasBronzeAxeOrHigher"
-                        ],
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "hidden Sniff Spots behind Levitate",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 2,
-                        "access_rules": [
-                            "^$east_crustacia_chests_access"
-                        ],
-                        "visibility_rules": [
-                            "$sniffLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Crush",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Crush (Vanilla)",
-                        "hosted_item": "crush",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Revive",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "vigor"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Revive (Vanilla)",
-                        "hosted_item": "revive",
-                        "access_rules": [
-                            "vigor"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Drain",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$hasBronzeAxeOrHigher"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Drain (Vanilla)",
-                        "hosted_item": "drain",
-                        "access_rules": [
-                            "^$hasBronzeAxeOrHigher"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Double Drain",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$hasBronzeAxeOrHigher, aegis"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Double Drain (Vanilla)",
-                        "hosted_item": "double_drain",
-                        "access_rules": [
-                            "^$hasBronzeAxeOrHigher, aegis"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Revealer",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Revealer (Vanilla)",
-                        "hosted_item": "revealer",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Escape",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$revealer, rimsala",
-                            "^$revealer, megataur"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Escape (Vanilla)",
-                        "hosted_item": "escape",
-                        "access_rules": [
-                            "^$revealer, rimsala",
-                            "^$revealer, megataur"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Nobilia",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 720,
-                        "y": 250
-                    }
-                ],
-                "access_rules": [
-                    "^$canCutBushes"
-                ],
-                "sections": [
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 19,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots behind Aegis",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 10,
-                        "access_rules": [
-                            "aegis"
-                        ],
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Cure",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Cure (Vanilla)",
-                        "hosted_item": "cure",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Atlas",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Atlas (Vanilla)",
-                        "hosted_item": "atlas",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Jail Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 8,
-                        "access_rules": [
-                            "market_timer_done"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Vigor",
-                        "hosted_item": "vigor",
-                        "access_rules": [
-                            "market_timer_done"
-                        ],
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Aegis",
-                        "hosted_item": "aegis",
-                        "access_rules": [
-                            "vigor, diamond_eyes_2"
-                        ],
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Barrier",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "aegis"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Barrier (Vanilla)",
-                        "hosted_item": "barrier",
-                        "access_rules": [
-                            "aegis"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Desert of Doom",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 745,
-                        "y": 375
-                    }
-                ],
-                "access_rules": [
-                    "^$canCutBushes"
-                ],
-                "sections": [
-                    {
-                        "name": "Sting",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Sting (Vanilla)",
-                        "hosted_item": "sting",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Pyramid",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 450,
-                        "y": 700
-                    }
-                ],
-                "access_rules": [
-                    "^$pyramid"
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 34,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Gourds behind Bronze Axe",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 6,
-                        "access_rules": [
-                            "axe_2"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "hidden Gourds behind Bronze Axe",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "axe_2"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 19,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Sons Of Anhur",
-                        "hosted_item": "sons_of_anhur",
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Rimsala",
-                        "hosted_item": "rimsala",
-                        "access_rules": [
-                            "axe_2"
-                        ],
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Halls of Collosia",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 495,
-                        "y": 600
-                    }
-                ],
-                "access_rules": [
-                    "^$canCutBushes, ^$revealer"
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 7,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "hidden Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    },
-                    {
-                        "name": "Gourds behind Bronze Axe or higher",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$hasBronzeAxeOrHigher"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Gourds behind Jaguar Ring",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 4,
-                        "access_rules": [
-                            "jaguar_ring"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 17,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Fireball",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "jaguar_ring"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Fireball (Vanilla)",
-                        "hosted_item": "fireball",
-                        "access_rules": [
-                            "jaguar_ring"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Mini-Taur",
-                        "hosted_item": "mini_taur",
-                        "visibility_rules": [
-                            "$bossLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Mad Monk",
-                        "hosted_item": "mad_monk",
-                        "access_rules": [
-                            "jaguar_ring"
-                        ],
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Megataur",
-                        "hosted_item": "megataur",
-                        "access_rules": [
-                            "$hasBronzeSpearOrHigher"
-                        ],
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Tiny's Hideout",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 470,
-                        "y": 720
-                    }
-                ],
-                "access_rules": [
-                    "^$canCutBushes, aegis"
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "hidden Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 3,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    },
-                    {
-                        "name": "Gourds behind Bronze Axe or higher",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$hasBronzeAxeOrHigher"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Gourds behind Knight Basher or higher",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2,
-                        "access_rules": [
-                            "^$hasKnightBasherOrHigher"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Tiny",
-                        "hosted_item": "tiny",
-                        "access_rules": [
-                            "levitate"
-                        ],
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Oglin Tunnel",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 300,
-                        "y": 560
-                    }
-                ],
-                "access_rules": [
-                    "^$oglin_access"
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 31,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Aquagoth",
-                        "hosted_item": "aquagoth",
-                        "visibility_rules": [
-                            "$bossLocationVisible"
-                        ]
-                    }
-                ]
-            }
+      },
+      {
+        "name": "Fire Eyes' Village",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 435,
+            "y": 355
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 26,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 15,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Flash",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Flash (Vanilla)",
+            "hosted_item": "flash",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Defend",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "access_rules": [
+              "thraxx"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Defend (Vanilla)",
+            "hosted_item": "defend",
+            "access_rules": [
+              "thraxx"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible|0"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Act 3",
-        "children": [
-            {
-                "name": "Ebon Keep",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 270,
-                        "y": 300
-                    }
-                ],
-                "access_rules": [
-                    "^$canCutBushes"
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 29,
-                        "visibility_rules": [
-                            "$gourdLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "hidden Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 5,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Gourds (Vanilla)",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 28,
-                        "visibility_rules": [
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "hidden Gourds (Vanilla)",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 5,
-                        "visibility_rules": [
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    },
-                    {
-                        "name": "Knight Basher",
-                        "hosted_item": "axe_3",
-                        "visibility_rules": [
-                            "$gourdVanillaLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Atom Smasher",
-                        "hosted_item": "axe_4",
-                        "visibility_rules": [
-                            "$gourdVanillaLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Slow Burn",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Slow Burn (Vanilla)",
-                        "hosted_item": "slow_burn",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Explosion",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Explosion (Vanilla)",
-                        "hosted_item": "explosion",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Nitro",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "aeroglider"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Nitro (Vanilla)",
-                        "hosted_item": "nitro",
-                        "access_rules": [
-                            "aeroglider"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Super Heal",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Super Heal (Vanilla)",
-                        "hosted_item": "super_heal",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Lance (NPC)",
-                        "hosted_item": "lance_npc",
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Lance",
-                        "hosted_item": "lance",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]                
-                    },
-                    {
-                        "name": "Regrowth",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Regrowth (Vanilla)",
-                        "hosted_item": "regrowth",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Verminator",
-                        "hosted_item": "verminator",
-                        "visibility_rules": [
-                            "$bossLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Rocket",
-                        "hosted_item": "rocket",
-                        "access_rules": [
-                            "diamond_eyes_2, gauge, wheel"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Dark Forest",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 210,
-                        "y": 330
-                    }
-                ],
-                "access_rules": [
-                    "^$canCutBushes"
-                ],
-                "sections": [
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 15,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots behind Knight Basher",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 18,
-                        "access_rules": [
-                            "^$knight_basher"
-                        ],
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-
-                    },
-                    {
-                        "name": "Timberdrake",
-                        "hosted_item": "timberdrake",
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Bad Boys",
-                        "hosted_item": "bad_boys",
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "One Up",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "One Up (Vanilla)",
-                        "hosted_item": "one_up",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Gomi Tower Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 4,
-                        "access_rules": [
-                            "^$knight_basher"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Sterling",
-                        "hosted_item": "sterling",
-                        "access_rules": [
-                            "^$knight_basher"
-                        ],
-                        "visibility_rules": [
-                            "$bossLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Lightning Storm",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "sterling"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Lightning Storm (Vanilla)",
-                        "hosted_item": "lightning_storm",
-                        "access_rules": [
-                            "sterling"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Chessboard",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 210,
-                        "y": 285
-                    }
-                ],
-                "access_rules": [
-                    "^$canCutBushes"
-                ],
-                "sections": [
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 19,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "FootKnight",
-                        "hosted_item": "footknight",
-                        "visibility_rules": [
-                            "$bossLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Energy Core",
-                        "hosted_item": "energy_core",
-                        "access_rules": [
-                            "^$energy_core_access"
-                        ],
-                        "visibility_rules": [                            
-                            "$gourdVanillaLocationVisible|1, opt_energy_core_shuffle",
-                            "opt_energy_core_vanilla"
-                        ]
-                    },
-                    {
-                        "name": "Energy Core #285",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$energy_core_access"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible, opt_energy_core_shuffle",
-                            "opt_energy_core_fragments"
-                        ]
-                    },
-                    {
-                        "name": "Force Field",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$energy_core_access"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Force Field (Vanilla)",
-                        "hosted_item": "force_field",
-                        "access_rules": [
-                            "^$energy_core_access"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Stop",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$energy_core_access, oracle_bone"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Stop (Vanilla)",
-                        "hosted_item": "stop",
-                        "access_rules": [
-                            "^$energy_core_access, oracle_bone"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Ivor Tower",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 145,
-                        "y": 300
-                    }
-                ],
-                "access_rules": [
-                    "^$canCutBushes"
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 25,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "hidden Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 15,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 33,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "hidden Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 4,
-                        "visibility_rules": [
-                            "$sniffLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Lance",
-                        "hosted_item": "lance_npc",
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Lance (Vanilla)",
-                        "hosted_item": "lance",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Queen's Key",
-                        "hosted_item": "queens_key"
-                    },
-                    {
-                        "name": "Gourds behind Queen's Key",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 6,
-                        "access_rules": [
-                            "^$queens_key"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots behind Queen's Key",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 19,
-                        "access_rules": [
-                            "^$queens_key"
-                        ],
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Corrosion",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Corrosion (Vanilla)",
-                        "hosted_item": "corrosion",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Fire Power",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$queens_key"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Fire Power (Vanilla)",
-                        "hosted_item": "fire_power",
-                        "access_rules": [
-                            "^$queens_key"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Mungola",
-                        "hosted_item": "mungola",
-                        "access_rules": [
-                            "sterling"
-                        ],
-                        "visibility_rules": [
-                            "$bossLocationVisible"
-                        ]
-                    }
-                ]
-            }
+      },
+      {
+        "name": "Quick Sand Fields",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 480,
+            "y": 380
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 5,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Gourds behind Thraxx or bushes",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 7,
+            "access_rules": [
+              "thraxx",
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 23,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Sniff Spots behind bushes",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 9,
+            "access_rules": [
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Sniff Spots behind Thraxx or bushes",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 6,
+            "access_rules": [
+              "thraxx",
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Acid Rain",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "thraxx",
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Acid Rain (Vanilla)",
+            "hosted_item": "acid_rain",
+            "access_rules": [
+              "thraxx",
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Jaguar Ring",
+            "hosted_item": "jaguar_ring"
+          }
         ]
-    },
-    {
-        "name": "Act 4",
-        "children": [
-            {
-                "name": "Omnitopia",
-                "map_locations": [
-                    {
-                        "map": "overview",
-                        "x": 370,
-                        "y": 260
-                    }
-                ],
-                "access_rules": [
-                    "^$canCutBushes, rocket"
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 11,
-                        "visibility_rules": [
-                            "$gourdLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Gourds (Vanilla)",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 10,
-                        "visibility_rules": [
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Laser Lance",
-                        "hosted_item": "spear_4",
-                        "visibility_rules": [
-                            "$gourdVanillaLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Sniff Spots",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/sniff.png",
-                        "chest_opened_img": "images/locations/sniff_open_gray.png",
-                        "item_count": 12,
-                        "visibility_rules": [
-                            "$sniffLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Reflect",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Reflect (Vanilla)",
-                        "hosted_item": "reflect",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Call Up",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Call Up (Vanilla)",
-                        "hosted_item": "call_up",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Aeroglider",
-                        "hosted_item": "aeroglider"
-                    },
-                    {
-                        "name": "Energy Core",
-                        "hosted_item": "energy_core",
-                        "access_rules": [
-                            "^$hasAllEnergyCoreFragments"
-                        ],
-                        "visibility_rules": [
-                            "opt_energy_core_fragments"
-                        ]
-                    },
-                    {
-                        "name": "Energize",
-                        "clear_as_group": false,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "energy_core"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Energize (Vanilla)",
-                        "hosted_item": "energize",
-                        "access_rules": [
-                            "energy_core"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Face",
-                        "hosted_item": "face",
-                        "visibility_rules": [
-                            "$bossLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Carltron's Robot",
-                        "hosted_item": "carltrons_robot",
-                        "access_rules": [
-                            "energy_core, seq_breaks_off",
-                            "[energy_core], seq_breaks_on",
-                            "seq_breaks_logic"
-                        ],
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            }
+      },
+      {
+        "name": "Bugmuck",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 490,
+            "y": 415
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 9,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Gourds behind Thraxx or bushes",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "thraxx",
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "hidden Gourds behind Thraxx or bushes",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "thraxx",
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 67,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Sniff Spots behind Thraxx or bushes",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 3,
+            "access_rules": [
+              "thraxx",
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Hard Ball",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Hard Ball (Vanilla)",
+            "hosted_item": "hard_ball",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Thraxx",
+            "hosted_item": "thraxx",
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Coleoptera",
+            "hosted_item": "coleoptera",
+            "access_rules": [
+              "thraxx"
+            ],
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
         ]
-    }
+      },
+      {
+        "name": "Northern Jungle",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 465,
+            "y": 340
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gourds behind bushes",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 4,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ],
+            "access_rules": [
+              "^$canCutBushes"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Sniff Spots behind bushes",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 51,
+            "access_rules": [
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Mammoth Graveyard Vipers",
+            "hosted_item": "viper_commander_1",
+            "access_rules": [
+              "^$canCutBushes"
+            ],
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Heal",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$canCutBushes, viper_commander_1"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Heal (Vanilla)",
+            "hosted_item": "heal",
+            "access_rules": [
+              "^$canCutBushes, viper_commander_1"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Volcano Path",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 480,
+            "y": 310
+          }
+        ],
+        "access_rules": [
+          "^$canCutBushes"
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 5,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Gourd behind non-sword",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "access_rules": [
+              "^$hasNonSword"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 25,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Sniff Spots behind non-sword",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 2,
+            "access_rules": [
+              "^$hasNonSword"
+            ],
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Vanilla Gauge Gourd",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "access_rules": [
+              "^$gauge_access"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Gauge",
+            "hosted_item": "gauge",
+            "access_rules": [
+              "^$gauge_access"
+            ],
+            "visibility_rules": [
+              "$gourdVanillaLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Raptor Cave",
+            "hosted_item": "raptors",
+            "visibility_rules": [
+              "$bossLocationVisible"
+            ]
+          },
+          {
+            "name": "Levitate",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$hasNonSword"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Levitate (Vanilla)",
+            "hosted_item": "levitate",
+            "access_rules": [
+              "^$hasNonSword"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible|1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Swamp",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 530,
+            "y": 335
+          }
+        ],
+        "access_rules": [
+          "^$canCutBushes"
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 12,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 35,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Salabog",
+            "hosted_item": "salabog",
+            "visibility_rules": [
+              "$bossLocationVisible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Volcano Core",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 450,
+            "y": 310
+          }
+        ],
+        "access_rules": [
+          "^$volcano_entered"
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 16,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "hidden Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 6,
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 38,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Speed",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Speed (Vanilla)",
+            "hosted_item": "speed",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Commander Viper",
+            "hosted_item": "viper_commander_2",
+            "visibility_rules": [
+              "$bossLocationVisible"
+            ]
+          },
+          {
+            "name": "Magmar",
+            "hosted_item": "magmar",
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Act 2",
+    "children": [
+      {
+        "name": "Crustacia",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 575,
+            "y": 665
+          }
+        ],
+        "access_rules": [
+          "^$canCutBushes"
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 8,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Gourds behind Bronze Axe or higher",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 6,
+            "access_rules": [
+              "^$hasBronzeAxeOrHigher"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "hidden Gourds behind Levitate",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 2,
+            "access_rules": [
+              "^$east_crustacia_chests_access"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 48,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "hidden Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 5,
+            "visibility_rules": [
+              "$sniffLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Sniff Spots behind Bronze Axe or higher",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 4,
+            "access_rules": [
+              "^$hasBronzeAxeOrHigher"
+            ],
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "hidden Sniff Spots behind Levitate",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 2,
+            "access_rules": [
+              "^$east_crustacia_chests_access"
+            ],
+            "visibility_rules": [
+              "$sniffLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Crush",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Crush (Vanilla)",
+            "hosted_item": "crush",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Revive",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "vigor"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Revive (Vanilla)",
+            "hosted_item": "revive",
+            "access_rules": [
+              "vigor"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Drain",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$hasBronzeAxeOrHigher"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Drain (Vanilla)",
+            "hosted_item": "drain",
+            "access_rules": [
+              "^$hasBronzeAxeOrHigher"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Double Drain",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$hasBronzeAxeOrHigher, aegis"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Double Drain (Vanilla)",
+            "hosted_item": "double_drain",
+            "access_rules": [
+              "^$hasBronzeAxeOrHigher, aegis"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Revealer",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Revealer (Vanilla)",
+            "hosted_item": "revealer",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Escape",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$revealer, rimsala",
+              "^$revealer, megataur"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Escape (Vanilla)",
+            "hosted_item": "escape",
+            "access_rules": [
+              "^$revealer, rimsala",
+              "^$revealer, megataur"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nobilia",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 720,
+            "y": 250
+          }
+        ],
+        "access_rules": [
+          "^$canCutBushes"
+        ],
+        "sections": [
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 19,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Sniff Spots behind Aegis",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 10,
+            "access_rules": [
+              "aegis"
+            ],
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Cure",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Cure (Vanilla)",
+            "hosted_item": "cure",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Atlas",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Atlas (Vanilla)",
+            "hosted_item": "atlas",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Jail Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 8,
+            "access_rules": [
+              "market_timer_done"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Vigor",
+            "hosted_item": "vigor",
+            "access_rules": [
+              "market_timer_done"
+            ],
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Aegis",
+            "hosted_item": "aegis",
+            "access_rules": [
+              "vigor, diamond_eyes_2"
+            ],
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Barrier",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "aegis"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Barrier (Vanilla)",
+            "hosted_item": "barrier",
+            "access_rules": [
+              "aegis"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert of Doom",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 745,
+            "y": 375
+          }
+        ],
+        "access_rules": [
+          "^$canCutBushes"
+        ],
+        "sections": [
+          {
+            "name": "Sting",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Sting (Vanilla)",
+            "hosted_item": "sting",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pyramid",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 450,
+            "y": 700
+          }
+        ],
+        "access_rules": [
+          "^$pyramid"
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 34,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Gourds behind Bronze Axe",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 6,
+            "access_rules": [
+              "axe_2"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "hidden Gourds behind Bronze Axe",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "axe_2"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 19,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Sons Of Anhur",
+            "hosted_item": "sons_of_anhur",
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Rimsala",
+            "hosted_item": "rimsala",
+            "access_rules": [
+              "axe_2"
+            ],
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Halls of Collosia",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 495,
+            "y": 600
+          }
+        ],
+        "access_rules": [
+          "^$canCutBushes, ^$revealer"
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 7,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "hidden Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 2,
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          },
+          {
+            "name": "Gourds behind Bronze Axe or higher",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$hasBronzeAxeOrHigher"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Gourds behind Jaguar Ring",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 4,
+            "access_rules": [
+              "jaguar_ring"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 17,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Fireball",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "jaguar_ring"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Fireball (Vanilla)",
+            "hosted_item": "fireball",
+            "access_rules": [
+              "jaguar_ring"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Mini-Taur",
+            "hosted_item": "mini_taur",
+            "visibility_rules": [
+              "$bossLocationVisible"
+            ]
+          },
+          {
+            "name": "Mad Monk",
+            "hosted_item": "mad_monk",
+            "access_rules": [
+              "jaguar_ring"
+            ],
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Megataur",
+            "hosted_item": "megataur",
+            "access_rules": [
+              "$hasBronzeSpearOrHigher"
+            ],
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tiny's Hideout",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 470,
+            "y": 720
+          }
+        ],
+        "access_rules": [
+          "^$canCutBushes, aegis"
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "hidden Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 3,
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          },
+          {
+            "name": "Gourds behind Bronze Axe or higher",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$hasBronzeAxeOrHigher"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Gourds behind Knight Basher or higher",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 2,
+            "access_rules": [
+              "^$hasKnightBasherOrHigher"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Tiny",
+            "hosted_item": "tiny",
+            "access_rules": [
+              "levitate"
+            ],
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Oglin Tunnel",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 300,
+            "y": 560
+          }
+        ],
+        "access_rules": [
+          "^$oglin_access"
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 31,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Aquagoth",
+            "hosted_item": "aquagoth",
+            "visibility_rules": [
+              "$bossLocationVisible"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Act 3",
+    "children": [
+      {
+        "name": "Ebon Keep",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 270,
+            "y": 300
+          }
+        ],
+        "access_rules": [
+          "^$canCutBushes"
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 29,
+            "visibility_rules": [
+              "$gourdLocationVisible"
+            ]
+          },
+          {
+            "name": "hidden Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 5,
+            "visibility_rules": [
+              "$gourdLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Gourds (Vanilla)",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 28,
+            "visibility_rules": [
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "hidden Gourds (Vanilla)",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 5,
+            "visibility_rules": [
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          },
+          {
+            "name": "Knight Basher",
+            "hosted_item": "axe_3",
+            "visibility_rules": [
+              "$gourdVanillaLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Atom Smasher",
+            "hosted_item": "axe_4",
+            "visibility_rules": [
+              "$gourdVanillaLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Slow Burn",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Slow Burn (Vanilla)",
+            "hosted_item": "slow_burn",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Explosion",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Explosion (Vanilla)",
+            "hosted_item": "explosion",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Nitro",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "aeroglider"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Nitro (Vanilla)",
+            "hosted_item": "nitro",
+            "access_rules": [
+              "aeroglider"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Super Heal",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Super Heal (Vanilla)",
+            "hosted_item": "super_heal",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Lance (NPC)",
+            "hosted_item": "lance_npc",
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Lance",
+            "hosted_item": "lance",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Regrowth",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Regrowth (Vanilla)",
+            "hosted_item": "regrowth",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Verminator",
+            "hosted_item": "verminator",
+            "visibility_rules": [
+              "$bossLocationVisible"
+            ]
+          },
+          {
+            "name": "Rocket",
+            "hosted_item": "rocket",
+            "access_rules": [
+              "diamond_eyes_2, gauge, wheel"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Forest",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 210,
+            "y": 330
+          }
+        ],
+        "access_rules": [
+          "^$canCutBushes"
+        ],
+        "sections": [
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 15,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Sniff Spots behind Knight Basher",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 18,
+            "access_rules": [
+              "^$knight_basher"
+            ],
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Timberdrake",
+            "hosted_item": "timberdrake",
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Bad Boys",
+            "hosted_item": "bad_boys",
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          },
+          {
+            "name": "One Up",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "One Up (Vanilla)",
+            "hosted_item": "one_up",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Gomi Tower Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 4,
+            "access_rules": [
+              "^$knight_basher"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Sterling",
+            "hosted_item": "sterling",
+            "access_rules": [
+              "^$knight_basher"
+            ],
+            "visibility_rules": [
+              "$bossLocationVisible"
+            ]
+          },
+          {
+            "name": "Lightning Storm",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "sterling"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Lightning Storm (Vanilla)",
+            "hosted_item": "lightning_storm",
+            "access_rules": [
+              "sterling"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chessboard",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 210,
+            "y": 285
+          }
+        ],
+        "access_rules": [
+          "^$canCutBushes"
+        ],
+        "sections": [
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 19,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "FootKnight",
+            "hosted_item": "footknight",
+            "visibility_rules": [
+              "$bossLocationVisible"
+            ]
+          },
+          {
+            "name": "Energy Core",
+            "hosted_item": "energy_core",
+            "access_rules": [
+              "^$energy_core_access"
+            ],
+            "visibility_rules": [
+              "$gourdVanillaLocationVisible|1, opt_energy_core_shuffle",
+              "opt_energy_core_vanilla"
+            ]
+          },
+          {
+            "name": "Energy Core #285",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$energy_core_access"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible, opt_energy_core_shuffle",
+              "opt_energy_core_fragments"
+            ]
+          },
+          {
+            "name": "Force Field",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$energy_core_access"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Force Field (Vanilla)",
+            "hosted_item": "force_field",
+            "access_rules": [
+              "^$energy_core_access"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Stop",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$energy_core_access, oracle_bone"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Stop (Vanilla)",
+            "hosted_item": "stop",
+            "access_rules": [
+              "^$energy_core_access, oracle_bone"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ivor Tower",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 145,
+            "y": 300
+          }
+        ],
+        "access_rules": [
+          "^$canCutBushes"
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 25,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "hidden Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 15,
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 33,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "hidden Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 4,
+            "visibility_rules": [
+              "$sniffLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Lance",
+            "hosted_item": "lance_npc",
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Lance (Vanilla)",
+            "hosted_item": "lance",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Queen's Key",
+            "hosted_item": "queens_key"
+          },
+          {
+            "name": "Gourds behind Queen's Key",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 6,
+            "access_rules": [
+              "^$queens_key"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Sniff Spots behind Queen's Key",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 19,
+            "access_rules": [
+              "^$queens_key"
+            ],
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Corrosion",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Corrosion (Vanilla)",
+            "hosted_item": "corrosion",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Fire Power",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$queens_key"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Fire Power (Vanilla)",
+            "hosted_item": "fire_power",
+            "access_rules": [
+              "^$queens_key"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Mungola",
+            "hosted_item": "mungola",
+            "access_rules": [
+              "sterling"
+            ],
+            "visibility_rules": [
+              "$bossLocationVisible"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Act 4",
+    "children": [
+      {
+        "name": "Omnitopia",
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 370,
+            "y": 260
+          }
+        ],
+        "access_rules": [
+          "^$canCutBushes, rocket"
+        ],
+        "sections": [
+          {
+            "name": "Gourds",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 11,
+            "visibility_rules": [
+              "$gourdLocationVisible"
+            ]
+          },
+          {
+            "name": "Gourds (Vanilla)",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 10,
+            "visibility_rules": [
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Laser Lance",
+            "hosted_item": "spear_4",
+            "visibility_rules": [
+              "$gourdVanillaLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Sniff Spots",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/sniff.png",
+            "chest_opened_img": "images/locations/sniff_open_gray.png",
+            "item_count": 12,
+            "visibility_rules": [
+              "$sniffLocationVisible"
+            ]
+          },
+          {
+            "name": "Reflect",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Reflect (Vanilla)",
+            "hosted_item": "reflect",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Call Up",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Call Up (Vanilla)",
+            "hosted_item": "call_up",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Aeroglider",
+            "hosted_item": "aeroglider"
+          },
+          {
+            "name": "Energy Core",
+            "hosted_item": "energy_core",
+            "access_rules": [
+              "^$hasAllEnergyCoreFragments"
+            ],
+            "visibility_rules": [
+              "opt_energy_core_fragments"
+            ]
+          },
+          {
+            "name": "Energize",
+            "clear_as_group": false,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "energy_core"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Energize (Vanilla)",
+            "hosted_item": "energize",
+            "access_rules": [
+              "energy_core"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Face",
+            "hosted_item": "face",
+            "visibility_rules": [
+              "$bossLocationVisible"
+            ]
+          },
+          {
+            "name": "Carltron's Robot",
+            "hosted_item": "carltrons_robot",
+            "access_rules": [
+              "energy_core, seq_breaks_off",
+              "[energy_core], seq_breaks_on",
+              "seq_breaks_logic"
+            ],
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ]

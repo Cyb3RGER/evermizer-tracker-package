@@ -21,7 +21,7 @@ CHARMS = {
         ["ruby_heart"] = 0x20,
         ["silver_sheath"] = 0x40,
         ["staff_of_life"] = 0x80,
-    },    
+    },
     --BYTE 3
     [2] = {
         ["sun_stone"] = 0x01,

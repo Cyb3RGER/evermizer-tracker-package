@@ -1,476 +1,481 @@
 {
-    "items_money": {
+  "items_money": {
+    "type": "dock",
+    "dock": "left",
+    "h_alignment": "left",
+    "v_alignment": "stretch",
+    "content": [
+      {
+        "type": "item",
+        "item": "talons",
+        "item_margin": 5
+      },
+      {
+        "type": "item",
+        "item": "jewels"
+      },
+      {
+        "type": "item",
+        "item": "gold"
+      },
+      {
+        "type": "item",
+        "item": "credits"
+      }
+    ]
+  },
+  "items_stats": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "",
+        "boy",
+        "",
+        "",
+        "dog",
+        ""
+      ],
+      [
+        "",
+        "boy_lvl",
+        "",
+        "",
+        "dog_lvl",
+        ""
+      ],
+      [
+        "",
+        "boy_exp",
+        "",
+        "",
+        "dog_exp",
+        ""
+      ],
+      [
+        "",
+        "boy_exp_next_lvl",
+        "",
+        "",
+        "dog_exp_next_lvl",
+        ""
+      ]
+    ]
+  },
+  "items_weapons": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "sword_1",
+        "sword_2",
+        "sword_3",
+        "sword_4"
+      ],
+      [
+        "axe_1",
+        "axe_2",
+        "axe_3",
+        "axe_4"
+      ],
+      [
+        "spear_1",
+        "spear_2",
+        "spear_3",
+        "spear_4"
+      ],
+      [
+        "bazooka",
+        "ammo_1",
+        "ammo_2",
+        "ammo_3"
+      ]
+    ]
+  },
+  "items_magic": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "6,3",
+    "rows": [
+      [
+        "acid_rain",
+        "atlas",
+        "barrier",
+        "call_up",
+        "corrosion",
+        "crush",
+        "cure",
+        "defend",
+        "double_drain"
+      ],
+      [
+        "drain",
+        "energize",
+        "escape",
+        "explosion",
+        "fireball",
+        "fire_power",
+        "flash",
+        "force_field",
+        "hard_ball"
+      ],
+      [
+        "heal",
+        "lance",
+        "levitate",
+        "lightning_storm",
+        "miracle_cure",
+        "nitro",
+        "one_up",
+        "reflect"
+      ],
+      [
+        "regrowth",
+        "revealer",
+        "revive",
+        "slow_burn",
+        "speed",
+        "sting",
+        "stop",
+        "super_heal"
+      ]
+    ]
+  },
+  "items_magic_turdo": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "atlas",
+        "barrier",
+        "call_up",
+        "cure",
+        "defend",
+        "energize",
+        "escape"
+      ],
+      [
+        "force_field",
+        "heal",
+        "levitate",
+        "miracle_cure",
+        "one_up",
+        "reflect"
+      ],
+      [
+        "regrowth",
+        "revealer",
+        "revive",
+        "speed",
+        "stop",
+        "super_heal"
+      ],
+      [
+        "turd_ball_1",
+        "turd_ball_2",
+        "turd_ball_3"
+      ]
+    ]
+  },
+  "items_keyitems": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "diamond_eyes",
+        "gauge",
+        "wheel"
+      ],
+      [
+        "rocket",
+        "aeroglider"
+      ],
+      [
+        "energy_core",
+        "energy_core_fragments"
+      ],
+      [
+        "queens_key",
+        "market_timer"
+      ]
+    ]
+  },
+  "items_charms": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "jaguar_ring",
+        "chocobo_egg",
+        "oracle_bone",
+        "thugs_cloak"
+      ],
+      [
+        "silver_sheath",
+        "moxa_stick",
+        "armor_polish",
+        "insect_incense"
+      ],
+      [
+        "jade_disk",
+        "ruby_heart",
+        "wizards_coin"
+      ],
+      [
+        "staff_of_life",
+        "sun_stone",
+        "magic_gourd"
+      ]
+    ]
+  },
+  "items_bosses": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "4,4",
+    "rows": [
+      [
+        "thraxx",
+        "coleoptera",
+        "viper_commander_1",
+        "raptors",
+        "salabog",
+        "viper_commander_2",
+        "magmar",
+        "vigor"
+      ],
+      [
+        "aegis",
+        "sons_of_anhur",
+        "rimsala",
+        "mini_taur",
+        "mad_monk",
+        "megataur",
+        "tiny",
+        "aquagoth"
+      ],
+      [
+        "verminator",
+        "timberdrake",
+        "bad_boys",
+        "footknight",
+        "sterling",
+        "mungola",
+        "face",
+        "carltrons_robot"
+      ]
+    ]
+  },
+  "items_call_beads": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "call_bead_char_1",
+        "call_bead_char_2",
+        "call_bead_char_3",
+        "call_bead_char_4"
+      ],
+      [
+        "call_bead_spell_1_1",
+        "call_bead_spell_2_1",
+        "call_bead_spell_3_1",
+        "call_bead_spell_4_1"
+      ],
+      [
+        "call_bead_spell_1_2",
+        "call_bead_spell_2_2",
+        "call_bead_spell_3_2",
+        "call_bead_spell_4_2"
+      ],
+      [
+        "call_bead_spell_1_3",
+        "call_bead_spell_2_3",
+        "call_bead_spell_3_3",
+        "call_bead_spell_4_3"
+      ],
+      [
+        "call_bead_spell_1_4",
+        "call_bead_spell_2_4",
+        "call_bead_spell_3_4",
+        "call_bead_spell_4_4"
+      ],
+      [
+        "call_bead_spell_1_5",
+        "call_bead_spell_2_5",
+        "call_bead_spell_3_5",
+        "call_bead_spell_4_5"
+      ]
+    ]
+  },
+  "items_pool": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "alchemy_keyitems",
+        "boss_keyitems",
+        "gourd_keyitems",
+        "sniff_keyitems"
+      ]
+    ]
+  },
+  "items_compact": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": "4,4",
+    "rows": [
+      [
+        "diamond_eyes",
+        "gauge",
+        "wheel",
+        "energy_core",
+        "aeroglider"
+      ],
+      [
+        "sword_1",
+        "sword_2",
+        "sword_3",
+        "sword_4"
+      ],
+      [
+        "axe_1",
+        "axe_2",
+        "axe_3",
+        "axe_4"
+      ],
+      [
+        "spear_1",
+        "spear_2",
+        "spear_3",
+        "spear_4"
+      ],
+      [
+        "bazooka",
+        "levitate",
+        "revealer"
+      ],
+      [
+        "queens_key",
+        "jaguar_ring",
+        "oracle_bone"
+      ]
+    ]
+  },
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
         "type": "dock",
-        "dock": "left",
-        "h_alignment": "left",
-        "v_alignment": "stretch",
         "content": [
-            {
-                "type": "item",
-                "item": "talons",
-                "item_margin": 5
+          {
+            "type": "group",
+            "header": "Weapons",
+            "dock": "left",
+            "header_content": {
+              "type": "button_popup",
+              "style": "settings",
+              "popup_background": "#55212121",
+              "layout": "settings_popup"
             },
-            {
-                "type": "item",
-                "item": "jewels"
-            },
-            {
-                "type": "item",
-                "item": "gold"
-            },
-            {
-                "type": "item",
-                "item": "credits"
+            "content": {
+              "type": "layout",
+              "key": "items_weapons"
             }
+          },
+          {
+            "type": "group",
+            "header": "Call Beads",
+            "dock": "left",
+            "content": {
+              "type": "layout",
+              "key": "items_call_beads"
+            }
+          },
+          {
+            "type": "group",
+            "header": "Alchemy",
+            "v_alignment": "stretch",
+            "dock": "left",
+            "content": {
+              "type": "layout",
+              "key": "items_magic"
+            }
+          },
+          {
+            "type": "group",
+            "header": "Pool Distribution",
+            "v_alignment": "stretch",
+            "dock": "left",
+            "content": {
+              "type": "layout",
+              "key": "items_pool"
+            }
+          }
         ]
-    },
-    "items_stats": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "rows": [
-            [
-                "",
-                "boy",
-                "",
-                "",
-                "dog",
-                ""
-            ],
-            [
-                "",
-                "boy_lvl",
-                "",
-                "",
-                "dog_lvl",
-                ""
-            ],
-            [
-                "",
-                "boy_exp",
-                "",
-                "",
-                "dog_exp",
-                ""
-            ],
-            [
-                "",
-                "boy_exp_next_lvl",
-                "",
-                "",
-                "dog_exp_next_lvl",
-                ""
-            ]
-        ]
-    },
-    "items_weapons": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "rows": [
-            [
-                "sword_1",
-                "sword_2",
-                "sword_3",
-                "sword_4"
-            ],
-            [
-                "axe_1",
-                "axe_2",
-                "axe_3",
-                "axe_4"
-            ],
-            [
-                "spear_1",
-                "spear_2",
-                "spear_3",
-                "spear_4"
-            ],
-            [
-                "bazooka",
-                "ammo_1",
-                "ammo_2",
-                "ammo_3"
-            ]
-        ]
-    },
-    "items_magic": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "6,3",
-        "rows": [
-            [
-                "acid_rain",
-                "atlas",
-                "barrier",
-                "call_up",
-                "corrosion",
-                "crush",
-                "cure",
-                "defend",
-                "double_drain"
-            ],
-            [
-                "drain",
-                "energize",
-                "escape",
-                "explosion",
-                "fireball",
-                "fire_power",
-                "flash",
-                "force_field",
-                "hard_ball"
-            ],
-            [
-                "heal",
-                "lance",
-                "levitate",
-                "lightning_storm",
-                "miracle_cure",
-                "nitro",
-                "one_up",
-                "reflect"
-            ],
-            [
-                "regrowth",
-                "revealer",
-                "revive",
-                "slow_burn",
-                "speed",
-                "sting",
-                "stop",
-                "super_heal"
-            ]
-        ]
-    },
-    "items_magic_turdo": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "rows": [
-            [
-                "atlas",
-                "barrier",
-                "call_up",
-                "cure",
-                "defend",
-                "energize",
-                "escape"
-            ],
-            [
-                "force_field",
-                "heal",
-                "levitate",
-                "miracle_cure",
-                "one_up",
-                "reflect"
-            ],
-            [
-                "regrowth",
-                "revealer",
-                "revive",
-                "speed",
-                "stop",
-                "super_heal"
-            ],
-            [
-                "turd_ball_1",
-                "turd_ball_2",
-                "turd_ball_3"
-            ]
-        ]
-    },
-    "items_keyitems": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "rows": [
-            [
-                "diamond_eyes",
-                "gauge",
-                "wheel"
-            ],
-            [
-                "rocket",
-                "aeroglider"
-            ],
-            [
-                "energy_core",
-                "energy_core_fragments"
-            ],
-            [
-                "queens_key",
-                "market_timer"
-            ]
-        ]
-    },
-    "items_charms": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "rows": [
-            [
-                "jaguar_ring",
-                "chocobo_egg",
-                "oracle_bone",
-                "thugs_cloak"
-            ],
-            [
-                "silver_sheath",
-                "moxa_stick",
-                "armor_polish",
-                "insect_incense"
-            ],
-            [
-                "jade_disk",
-                "ruby_heart",
-                "wizards_coin"
-            ],
-            [
-                "staff_of_life",
-                "sun_stone",
-                "magic_gourd"
-            ]
-        ]
-    },
-    "items_bosses": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "item_size": "4,4",
-        "rows": [
-            [
-                "thraxx",
-                "coleoptera",
-                "viper_commander_1",
-                "raptors",
-                "salabog",
-                "viper_commander_2",
-                "magmar",
-                "vigor"
-            ],
-            [
-                "aegis",
-                "sons_of_anhur",
-                "rimsala",
-                "mini_taur",
-                "mad_monk",
-                "megataur",
-                "tiny",
-                "aquagoth"
-            ],
-            [
-                "verminator",
-                "timberdrake",
-                "bad_boys",
-                "footknight",
-                "sterling",
-                "mungola",
-                "face",
-                "carltrons_robot"
-            ]
-        ]
-    },
-    "items_call_beads": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "rows": [
-            [
-                "call_bead_char_1",
-                "call_bead_char_2",
-                "call_bead_char_3",
-                "call_bead_char_4"
-            ],
-            [
-                "call_bead_spell_1_1",
-                "call_bead_spell_2_1",
-                "call_bead_spell_3_1",
-                "call_bead_spell_4_1"
-            ],
-            [
-                "call_bead_spell_1_2",
-                "call_bead_spell_2_2",
-                "call_bead_spell_3_2",
-                "call_bead_spell_4_2"
-            ],
-            [
-                "call_bead_spell_1_3",
-                "call_bead_spell_2_3",
-                "call_bead_spell_3_3",
-                "call_bead_spell_4_3"
-            ],
-            [
-                "call_bead_spell_1_4",
-                "call_bead_spell_2_4",
-                "call_bead_spell_3_4",
-                "call_bead_spell_4_4"
-            ],
-            [
-                "call_bead_spell_1_5",
-                "call_bead_spell_2_5",
-                "call_bead_spell_3_5",
-                "call_bead_spell_4_5"
-            ]
-        ]
-    },
-    "items_pool": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "rows": [
-            ["alchemy_keyitems", "boss_keyitems", "gourd_keyitems", "sniff_keyitems"]
-        ]
-    },
-    "items_compact": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "item_size": "4,4",
-        "rows": [
-            [
-                "diamond_eyes",
-                "gauge",
-                "wheel",
-                "energy_core",
-                "aeroglider"
-            ],
-            [
-                "sword_1",
-                "sword_2",
-                "sword_3",
-                "sword_4"
-            ],
-            [
-                "axe_1",
-                "axe_2",
-                "axe_3",
-                "axe_4"
-            ],
-            [
-                "spear_1",
-                "spear_2",
-                "spear_3",
-                "spear_4"
-            ],
-            [
-                "bazooka",
-                "levitate",
-                "revealer"
-            ],
-            [
-                "queens_key",
-                "jaguar_ring",
-                "oracle_bone"
-            ]
-        ]
-    },
-    "shared_item_grid": {
-        "type": "array",
-        "orientation": "vertical",
+      },
+      {
+        "type": "dock",
         "content": [
-            {
-                "type": "dock",
-                "content": [
-                    {
-                        "type": "group",
-                        "header": "Weapons",
-                        "dock": "left",
-                        "header_content": {
-                            "type": "button_popup",
-                            "style": "settings",
-                            "popup_background": "#55212121",
-                            "layout": "settings_popup"
-                        },
-                        "content": {
-                            "type": "layout",
-                            "key": "items_weapons"
-                        }
-                    },
-                    {
-                        "type": "group",
-                        "header": "Call Beads",
-                        "dock": "left",
-                        "content": {
-                            "type": "layout",
-                            "key": "items_call_beads"
-                        }
-                    },
-                    {
-                        "type": "group",
-                        "header": "Alchemy",
-                        "v_alignment": "stretch",
-                        "dock": "left",                        
-                        "content": {
-                            "type": "layout",
-                            "key": "items_magic"
-                        }
-                    },
-                    {
-                        "type": "group",
-                        "header": "Pool Distribution",
-                        "v_alignment": "stretch",
-                        "dock": "left",                        
-                        "content": {
-                            "type": "layout",
-                            "key": "items_pool"
-                        }
-                    }
-                ]
-            },
-            {
-                "type": "dock",
-                "content": [
-                    {
-                        "type": "group",
-                        "header": "Key Items",
-                        "dock": "left",
-                        "content": {
-                            "type": "layout",
-                            "key": "items_keyitems"
-                        }
-                    },
-                    {
-                        "type": "group",
-                        "header": "Charms",
-                        "dock": "left",
-                        "content": {
-                            "type": "layout",
-                            "key": "items_charms"
-                        }
-                    },
-                    {
-                        "type": "group",
-                        "header": "Bosses",
-                        "v_alignment": "stretch",
-                        "dock": "left",
-                        "content": {
-                            "type": "layout",
-                            "key": "items_bosses"
-                        }
-                    }
-                ]
+          {
+            "type": "group",
+            "header": "Key Items",
+            "dock": "left",
+            "content": {
+              "type": "layout",
+              "key": "items_keyitems"
             }
+          },
+          {
+            "type": "group",
+            "header": "Charms",
+            "dock": "left",
+            "content": {
+              "type": "layout",
+              "key": "items_charms"
+            }
+          },
+          {
+            "type": "group",
+            "header": "Bosses",
+            "v_alignment": "stretch",
+            "dock": "left",
+            "content": {
+              "type": "layout",
+              "key": "items_bosses"
+            }
+          }
         ]
-    },
-    "compact_item_grid": {
-        "type": "array",
-        "orientation": "vertical",
+      }
+    ]
+  },
+  "compact_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "dock",
         "content": [
-            {
-                "type": "dock",
-                "content": [
-                    {
-                        "type": "group",
-                        "header": "Items",
-                        "dock": "left",
-                        "content": {
-                            "type": "layout",
-                            "key": "items_compact"
-                        }
-                    }
-                ]
+          {
+            "type": "group",
+            "header": "Items",
+            "dock": "left",
+            "content": {
+              "type": "layout",
+              "key": "items_compact"
             }
+          }
         ]
-    }
+      }
+    ]
+  }
 }

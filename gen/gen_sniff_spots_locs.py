@@ -169,9 +169,9 @@ def translate_act(map_name):
 def write_mapping(outf, name, mapping):
     outf.write(f'{name} = {{\n')
     for k, v in mapping.items():
-        outf.write(f"    [0x{k+0x7e0000:X}] = {{\n")
+        outf.write(f"    [0x{k + 0x7e0000:X}] = {{\n")
         for k2, v2 in v.items():
-            outf.write(f"        [0x{1<<k2:02X}] = {{ ")
+            outf.write(f"        [0x{1 << k2:02X}] = {{ ")
             for v3 in v2:
                 outf.write(f"\"{v3}\"")
             outf.write(" },\n")
@@ -182,7 +182,7 @@ def write_mapping(outf, name, mapping):
 def write_watches(outf, watches):
     outf.write('SNIFF_SPOT_WATCHES = {\n')
     for watch in watches:
-        outf.write(f'    {{ addr=0x{0x7e0000+watch.addr:x}, len=0x{watch.len:x} }},\n')
+        outf.write(f'    {{ addr=0x{0x7e0000 + watch.addr:x}, len=0x{watch.len:x} }},\n')
     outf.write('}\n')
 
 
@@ -215,7 +215,7 @@ def main():
                 map_locations=get_map_locs(offsets, row)
             )
             sec_name = f'(Vanilla: {row["prize_text"]})'
-            sec = PopTrackerSection(sec_name)            
+            sec = PopTrackerSection(sec_name)
             loc.sections.append(sec)
             locs.append(loc)
             addr = int(row['address'])
@@ -246,7 +246,7 @@ def main():
         print(_len, f'{addr:x}')
         last = addr
     watches.append(Watch(addr + 1 - _len, _len))
-    print([(f'0x{w.addr:x}-0x{w.addr+w.len:x}', f'0x{w.len:x}') for w in watches])
+    print([(f'0x{w.addr:x}-0x{w.addr + w.len:x}', f'0x{w.len:x}') for w in watches])
     print(overworld_mapping)
     print(detailed_mapping)
 

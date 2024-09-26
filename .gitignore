@@ -7,3 +7,4 @@ gourds_tracking.ods
 images/*.png
 .idea
 .luarc.json
+venv/

@@ -1,560 +1,560 @@
 {
-    "tracker_default": {
-        "type": "container",
-        "background": "#877373",
-        "content": {
-            "type": "dock",
-            "dropshadow": true,
-            "content": [
-                {
-                    "type": "dock",
-                    "dock": "bottom",
-                    "v_alignment": "stretch",
-                    "margin": "0,0,3,0",
-                    "content": [
+  "tracker_default": {
+    "type": "container",
+    "background": "#877373",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "v_alignment": "stretch",
+          "margin": "0,0,3,0",
+          "content": [
+            {
+              "type": "layout",
+              "key": "shared_item_grid"
+            }
+            // ,
+            // {
+            //     "type": "group",
+            //     "header": "Pinned Locations",
+            //     "dock": "right",
+            //     "content": {
+            //         "type": "recentpins",
+            //         "style": "wrap",
+            //         "h_alignment": "stretch",
+            //         "v_alignment": "stretch",
+            //         "orientation": "vertical",
+            //         "compact": true
+            //     }
+            // }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Overview",
+              "icon": "images/items/keyitems/aeroglider.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "overview"
+                ]
+              }
+            },
+            {
+              "title": "Prehistoria",
+              "icon": "images/items/stats/talon_icon.png",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Southern Jungle",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "southern_jungle"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Raptor Attack",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "raptor_attack"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Fire Eyes' Village",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "fe_village"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Eastern Jungle",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "eastern_jungle"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Quick Sand Fields",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "quick_sand_fields"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Bugmuck",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
                         {
-                            "type": "layout",
-                            "key": "shared_item_grid"
+                          "title": "Outside",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "bugmuck"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Bugmaze",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "bugmaze"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 2",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "bugroom2"
+                            ]
+                          }
                         }
-                        // ,
-                        // {
-                        //     "type": "group",
-                        //     "header": "Pinned Locations",
-                        //     "dock": "right",
-                        //     "content": {
-                        //         "type": "recentpins",
-                        //         "style": "wrap",
-                        //         "h_alignment": "stretch",
-                        //         "v_alignment": "stretch",
-                        //         "orientation": "vertical",
-                        //         "compact": true
-                        //     }
-                        // }
-                    ]
-                },
-                {
-                    "type": "tabbed",
-                    "tabs": [
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Northern Jungle",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "northern_jungle"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mammoth Graveyard",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mammoth_graveyard"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Volcano Path",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "volcano_path"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Swamp",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "swamp"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Volcano Core",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "volcano_core"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Volcano Sewers",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "volcano_sewers"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Antiqua",
+              "icon": "images/items/stats/jewel_icon.png",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Eastern Beach",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "eastern_beach"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Crustacia",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "crustacia"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Nobilia",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
                         {
-                            "title": "Overview",
-                            "icon": "images/items/keyitems/aeroglider.png",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "overview"
-                                ]
-                            }
+                          "title": "Market",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "nobilia"
+                            ]
+                          }
                         },
                         {
-                            "title": "Prehistoria",
-                            "icon": "images/items/stats/talon_icon.png",
-                            "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "Southern Jungle",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "southern_jungle"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Raptor Attack",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "raptor_attack"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Fire Eyes' Village",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "fe_village"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Eastern Jungle",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "eastern_jungle"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Quick Sand Fields",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "quick_sand_fields"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Bugmuck",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Outside",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "bugmuck"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Bugmaze",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "bugmaze"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Room 2",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "bugroom2"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Northern Jungle",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "northern_jungle"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Mammoth Graveyard",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "mammoth_graveyard"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Volcano Path",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "volcano_path"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Swamp",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "swamp"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Volcano Core",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "volcano_core"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Volcano Sewers",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "volcano_sewers"
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
+                          "title": "Colosseum",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "nobilia_colosseum"
+                            ]
+                          }
                         },
                         {
-                            "title": "Antiqua",
-                            "icon": "images/items/stats/jewel_icon.png",
-                            "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "Eastern Beach",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "eastern_beach"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Crustacia",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "crustacia"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Nobilia",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Market",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "nobilia"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Colosseum",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "nobilia_colosseum"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Palace",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "nobilia_palace"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "River",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "river"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Western Beach",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "western_beach"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Horace Camp",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "horace_camp"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Pyramid",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Outside",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "pyramid_outside"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Lower",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "pyramid_lower"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Upper",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "pyramid_upper"
-                                                        ]
-                                                    }
-                                                }
-                                            ]                                            
-                                        }
-                                    },
-                                    {
-                                        "title": "Halls of Collosia",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Outside",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "halls_of_collosia_outside"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Room 1",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "halls_of_collosia_1"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Room 2",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "halls_of_collosia_2"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Room 3",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "halls_of_collosia_3"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Room 4",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "halls_of_collosia_4"
-                                                        ]
-                                                    }
-                                                }
-                                            ]                                            
-                                        }
-                                    },                                    
-                                    {
-                                        "title": "Tiny's Hideout",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "tinys_hideout"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Oglin Tunnel",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "oglin_tunnel"
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Gothica",
-                            "icon": "images/items/stats/gold_icon.png",
-                            "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "Ebon Keep",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Interiors",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "ebon_keep_interiors"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "City",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "ebon_keep"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Sewers",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "ebon_keep_sewers"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },                    
-                                    {
-                                        "title": "Dark Forest 1",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "dark_forest_1"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Dark Forest 2",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "dark_forest_2"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Chessboard",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "chessboard"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Ivor Tower",
-                                        "content": {
-                                            "type": "tabbed",
-                                            "tabs": [
-                                                {
-                                                    "title": "Interiors",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "ivor_tower_interiors"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Dungeon",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "ivor_tower_dungeon"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Dogmaze",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "ivor_tower_dogmaze"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "City",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "ivor_tower"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "South",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "ivor_tower_south"
-                                                        ]
-                                                    }
-                                                },
-                                                {
-                                                    "title": "Sewers",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "ivor_tower_sewers"
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },                                    
-                                    {
-                                        "title": "Gomi Tower",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "gomi_tower"
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Omnitopia",
-                            "icon": "images/items/stats/credit_icon.png",
-                            "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "Boiler Room",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "boiler_room"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Main District",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "main_district"
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
+                          "title": "Palace",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "nobilia_palace"
+                            ]
+                          }
                         }
-                    ]
-                }
-            ]
+                      ]
+                    }
+                  },
+                  {
+                    "title": "River",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "river"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Western Beach",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "western_beach"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Horace Camp",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "horace_camp"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pyramid",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Outside",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pyramid_outside"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Lower",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pyramid_lower"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Upper",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pyramid_upper"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Halls of Collosia",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Outside",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "halls_of_collosia_outside"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 1",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "halls_of_collosia_1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 2",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "halls_of_collosia_2"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 3",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "halls_of_collosia_3"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 4",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "halls_of_collosia_4"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Tiny's Hideout",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tinys_hideout"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Oglin Tunnel",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "oglin_tunnel"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Gothica",
+              "icon": "images/items/stats/gold_icon.png",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Ebon Keep",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Interiors",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ebon_keep_interiors"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "City",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ebon_keep"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Sewers",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ebon_keep_sewers"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Dark Forest 1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "dark_forest_1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Dark Forest 2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "dark_forest_2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Chessboard",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "chessboard"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Ivor Tower",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Interiors",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ivor_tower_interiors"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Dungeon",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ivor_tower_dungeon"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Dogmaze",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ivor_tower_dogmaze"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "City",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ivor_tower"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "South",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ivor_tower_south"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Sewers",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ivor_tower_sewers"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Gomi Tower",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "gomi_tower"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Omnitopia",
+              "icon": "images/items/stats/credit_icon.png",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Boiler Room",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "boiler_room"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Main District",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "main_district"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
         }
+      ]
     }
+  }
 }

@@ -1,110 +1,110 @@
 [
-    {
-        "name": "Diamond Eyes",
-        "type": "progressive",
-        "capturable": false,
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/items/keyitems/diamond_eyes_0.png",
-                "codes": "diamond_eyes, diamond_eyes_0",
-                "secondary_codes": "diamond_eyes_0"
-            },
-            {
-                "name": "1 Diamond Eye",
-                "img": "images/items/keyitems/diamond_eyes_1.png",
-                "codes": "diamond_eyes, diamond_eyes_1",
-                "secondary_codes": "diamond_eyes_1"
-            },
-            {
-                "name": "2 Diamond Eyes",
-                "img": "images/items/keyitems/diamond_eyes_2.png",
-                "codes": "diamond_eyes, diamond_eyes_2",
-                "secondary_codes": "diamond_eyes_2"
-            },
-            {
-                "name": "3 Diamond Eyes",
-                "img": "images/items/keyitems/diamond_eyes_3.png",
-                "codes": "diamond_eyes, diamond_eyes_3",
-                "secondary_codes": "diamond_eyes_3"
-            }
-        ]
-    },
-    {
-        "name": "Gauge",
-        "type": "toggle",
-        "capturable": true,
-        "img": "images/items/keyitems/gauge.png",
-        "codes": "gauge"
-    },
-    {
-        "name": "Wheel",
-        "type": "toggle",
-        "capturable": true,
-        "img": "images/items/keyitems/wheel.png",
-        "codes": "wheel"
-    },
-    {
-        "name": "Queen's Key",
-        "type": "toggle",
-        "capturable": true,
-        "img": "images/items/keyitems/queens_key.png",
-        "codes": "queens_key"
-    },
-    {
-        "name": "Rocket",
-        "type": "toggle",
-        "capturable": true,
-        "img": "images/items/keyitems/rocket.png",
-        "codes": "rocket"
-    },
-    {
-        "name": "Energy Core",
-        "type": "toggle",
-        "capturable": true,
-        "img": "images/items/keyitems/energy_core.png",
-        "codes": "energy_core"
-    },
-    {
-        "name": "Energy Core Fragments",
-        "type": "consumable",
-        "capturable": true,
-        "img": "images/items/keyitems/energy_core_fragments.png",
-        "codes": "energy_core_fragments",
-        "max_quantity": 99
-    },
-    {
-        "name": "Required Energy Core Fragments",
-        "type": "consumable",
-        "capturable": false,
-        "img": "images/items/keyitems/energy_core_fragments.png",
-        "codes": "required_energy_core_fragments",
-        "max_quantity": 99
-    },
-    {
-        "name": "Aeroglider",
-        "type": "toggle",
-        "capturable": true,
-        "img": "images/items/keyitems/aeroglider.png",
-        "codes": "aeroglider"
-    },
-    {
-        "name": "Market Timer",
-        "type": "progressive",
-        "capturable": false,
-        "allow_disabled": true,
-        "stages": [
-            {
-                "img": "images/items/keyitems/market_timer.png",
-                "codes": "market_timer, market_timer_running",
-                "secondary_codes": "market_timer_running"
-            },
-            {
-                "img": "images/items/keyitems/market_timer_done.png",
-                "codes": "market_timer, market_timer_done",
-                "secondary_codes": "market_timer_done"
-            }
-        ]
-    }
+  {
+    "name": "Diamond Eyes",
+    "type": "progressive",
+    "capturable": false,
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/keyitems/diamond_eyes_0.png",
+        "codes": "diamond_eyes, diamond_eyes_0",
+        "secondary_codes": "diamond_eyes_0"
+      },
+      {
+        "name": "1 Diamond Eye",
+        "img": "images/items/keyitems/diamond_eyes_1.png",
+        "codes": "diamond_eyes, diamond_eyes_1",
+        "secondary_codes": "diamond_eyes_1"
+      },
+      {
+        "name": "2 Diamond Eyes",
+        "img": "images/items/keyitems/diamond_eyes_2.png",
+        "codes": "diamond_eyes, diamond_eyes_2",
+        "secondary_codes": "diamond_eyes_2"
+      },
+      {
+        "name": "3 Diamond Eyes",
+        "img": "images/items/keyitems/diamond_eyes_3.png",
+        "codes": "diamond_eyes, diamond_eyes_3",
+        "secondary_codes": "diamond_eyes_3"
+      }
+    ]
+  },
+  {
+    "name": "Gauge",
+    "type": "toggle",
+    "capturable": true,
+    "img": "images/items/keyitems/gauge.png",
+    "codes": "gauge"
+  },
+  {
+    "name": "Wheel",
+    "type": "toggle",
+    "capturable": true,
+    "img": "images/items/keyitems/wheel.png",
+    "codes": "wheel"
+  },
+  {
+    "name": "Queen's Key",
+    "type": "toggle",
+    "capturable": true,
+    "img": "images/items/keyitems/queens_key.png",
+    "codes": "queens_key"
+  },
+  {
+    "name": "Rocket",
+    "type": "toggle",
+    "capturable": true,
+    "img": "images/items/keyitems/rocket.png",
+    "codes": "rocket"
+  },
+  {
+    "name": "Energy Core",
+    "type": "toggle",
+    "capturable": true,
+    "img": "images/items/keyitems/energy_core.png",
+    "codes": "energy_core"
+  },
+  {
+    "name": "Energy Core Fragments",
+    "type": "consumable",
+    "capturable": true,
+    "img": "images/items/keyitems/energy_core_fragments.png",
+    "codes": "energy_core_fragments",
+    "max_quantity": 99
+  },
+  {
+    "name": "Required Energy Core Fragments",
+    "type": "consumable",
+    "capturable": false,
+    "img": "images/items/keyitems/energy_core_fragments.png",
+    "codes": "required_energy_core_fragments",
+    "max_quantity": 99
+  },
+  {
+    "name": "Aeroglider",
+    "type": "toggle",
+    "capturable": true,
+    "img": "images/items/keyitems/aeroglider.png",
+    "codes": "aeroglider"
+  },
+  {
+    "name": "Market Timer",
+    "type": "progressive",
+    "capturable": false,
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "images/items/keyitems/market_timer.png",
+        "codes": "market_timer, market_timer_running",
+        "secondary_codes": "market_timer_running"
+      },
+      {
+        "img": "images/items/keyitems/market_timer_done.png",
+        "codes": "market_timer, market_timer_done",
+        "secondary_codes": "market_timer_done"
+      }
+    ]
+  }
 ]

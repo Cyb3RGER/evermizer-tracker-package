@@ -1,2315 +1,2315 @@
 [
-    {
-        "name": "Eastern Beach",
-        "access_rules": [
-            "^$canCutBushes"
+  {
+    "name": "Eastern Beach",
+    "access_rules": [
+      "^$canCutBushes"
+    ],
+    "children": [
+      {
+        "name": "Gourd #108",
+        "map_locations": [
+          {
+            "map": "eastern_beach",
+            "x": 480,
+            "y": 385
+          }
         ],
-        "children": [
-            {
-                "name": "Gourd #108",
-                "map_locations": [
-                    {
-                        "map": "eastern_beach",
-                        "x": 480,
-                        "y": 385
-                    }
-                ],
-                "access_rules": [
-                    "^$east_crustacia_chests_access"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #107",
-                "map_locations": [
-                    {
-                        "map": "eastern_beach",
-                        "x": 447,
-                        "y": 337
-                    }
-                ],
-                "access_rules": [
-                    "^$east_crustacia_chests_access"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Blimp's Cave",
-                "map_locations": [
-                    {
-                        "map": "eastern_beach",
-                        "x": 167,
-                        "y": 195
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds #109-110",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Crush",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Crush (Vanilla)",
-                        "hosted_item": "crush",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Revive",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "vigor"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Revive (Vanilla)",
-                        "hosted_item": "revive",
-                        "access_rules": [
-                            "vigor"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Desert of Doom",
-                "map_locations": [
-                    {
-                        "map": "eastern_beach",
-                        "x": 330,
-                        "y": 0
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Sting",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Sting (Vanilla)",
-                        "hosted_item": "sting",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Crustacia",
         "access_rules": [
-            "^$canCutBushes"
+          "^$east_crustacia_chests_access"
         ],
-        "children": [
-            {
-                "name": "Ship",
-                "map_locations": [
-                    {
-                        "map": "crustacia",
-                        "x": 395,
-                        "y": 493
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourd #115",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Item Shop House",
-                "map_locations": [
-                    {
-                        "map": "crustacia",
-                        "x": 710,
-                        "y": 345
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourd #114",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "House",
-                "map_locations": [
-                    {
-                        "map": "crustacia",
-                        "x": 597,
-                        "y": 83
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds #112-113",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Armor Shop House",
-                "map_locations": [
-                    {
-                        "map": "crustacia",
-                        "x": 383,
-                        "y": 273
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourd #116",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Inn House",
-                "map_locations": [
-                    {
-                        "map": "crustacia",
-                        "x": 150,
-                        "y": 83
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourd #111",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          }
         ]
-    },
-    {
-        "name": "River",
+      },
+      {
+        "name": "Gourd #107",
+        "map_locations": [
+          {
+            "map": "eastern_beach",
+            "x": 447,
+            "y": 337
+          }
+        ],
         "access_rules": [
-            "^$canCutBushes"
+          "^$east_crustacia_chests_access"
         ],
-        "children": [
-            {
-                "name": "Drain Cave",
-                "map_locations": [
-                    {
-                        "map": "river",
-                        "x": 520,
-                        "y": 85
-                    }
-                ],
-                "access_rules": [
-                    "^$hasBronzeAxeOrHigher"
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds #180-181",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Drain",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Drain (Vanilla)",
-                        "hosted_item": "drain",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Double Drain",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "aegis"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Double Drain (Vanilla)",
-                        "hosted_item": "double_drain",
-                        "access_rules": [
-                            "aegis"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Horace Camp",
+      },
+      {
+        "name": "Blimp's Cave",
+        "map_locations": [
+          {
+            "map": "eastern_beach",
+            "x": 167,
+            "y": 195
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gourds #109-110",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 2,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Crush",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Crush (Vanilla)",
+            "hosted_item": "crush",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Revive",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "vigor"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Revive (Vanilla)",
+            "hosted_item": "revive",
+            "access_rules": [
+              "vigor"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert of Doom",
+        "map_locations": [
+          {
+            "map": "eastern_beach",
+            "x": 330,
+            "y": 0
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sting",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Sting (Vanilla)",
+            "hosted_item": "sting",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Crustacia",
+    "access_rules": [
+      "^$canCutBushes"
+    ],
+    "children": [
+      {
+        "name": "Ship",
+        "map_locations": [
+          {
+            "map": "crustacia",
+            "x": 395,
+            "y": 493
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gourd #115",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Item Shop House",
+        "map_locations": [
+          {
+            "map": "crustacia",
+            "x": 710,
+            "y": 345
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gourd #114",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "House",
+        "map_locations": [
+          {
+            "map": "crustacia",
+            "x": 597,
+            "y": 83
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gourds #112-113",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 2,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Armor Shop House",
+        "map_locations": [
+          {
+            "map": "crustacia",
+            "x": 383,
+            "y": 273
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gourd #116",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Inn House",
+        "map_locations": [
+          {
+            "map": "crustacia",
+            "x": 150,
+            "y": 83
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gourd #111",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "River",
+    "access_rules": [
+      "^$canCutBushes"
+    ],
+    "children": [
+      {
+        "name": "Drain Cave",
+        "map_locations": [
+          {
+            "map": "river",
+            "x": 520,
+            "y": 85
+          }
+        ],
         "access_rules": [
-            "^$canCutBushes"
+          "^$hasBronzeAxeOrHigher"
         ],
-        "children": [
-            {
-                "name": "Madronius",
-                "map_locations": [
-                    {
-                        "map": "horace_camp",
-                        "x": 512,
-                        "y": 310
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Revealer",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Revealer (Vanilla)",
-                        "hosted_item": "revealer",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible|1"
-                        ]
-                    },
-                    {
-                        "name": "Escape",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$revealer, rimsala",
-                            "^$revealer, megataur"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Escape (Vanilla)",
-                        "hosted_item": "escape",
-                        "access_rules": [
-                            "^$revealer, rimsala",
-                            "^$revealer, megataur"
-                        ],
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "name": "Gourds #180-181",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 2,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Drain",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Drain (Vanilla)",
+            "hosted_item": "drain",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          },
+          {
+            "name": "Double Drain",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "aegis"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Double Drain (Vanilla)",
+            "hosted_item": "double_drain",
+            "access_rules": [
+              "aegis"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Western Beach",
+      }
+    ]
+  },
+  {
+    "name": "Horace Camp",
+    "access_rules": [
+      "^$canCutBushes"
+    ],
+    "children": [
+      {
+        "name": "Madronius",
+        "map_locations": [
+          {
+            "map": "horace_camp",
+            "x": 512,
+            "y": 310
+          }
+        ],
+        "sections": [
+          {
+            "name": "Revealer",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Revealer (Vanilla)",
+            "hosted_item": "revealer",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible|1"
+            ]
+          },
+          {
+            "name": "Escape",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$revealer, rimsala",
+              "^$revealer, megataur"
+            ],
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Escape (Vanilla)",
+            "hosted_item": "escape",
+            "access_rules": [
+              "^$revealer, rimsala",
+              "^$revealer, megataur"
+            ],
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Western Beach",
+    "access_rules": [
+      "^$canCutBushes"
+    ],
+    "children": [
+      {
+        "name": "Gourd #103",
+        "map_locations": [
+          {
+            "map": "western_beach",
+            "x": 530,
+            "y": 705
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$hasBronzeAxeOrHigher"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #104",
+        "map_locations": [
+          {
+            "map": "western_beach",
+            "x": 575,
+            "y": 350
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$hasBronzeAxeOrHigher"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #105",
+        "map_locations": [
+          {
+            "map": "western_beach",
+            "x": 605,
+            "y": 380
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$hasBronzeAxeOrHigher"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #106",
+        "map_locations": [
+          {
+            "map": "western_beach",
+            "x": 655,
+            "y": 435
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "access_rules": [
+              "^$hasBronzeAxeOrHigher"
+            ],
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pyramid (lower)",
+    "access_rules": [
+      "^$pyramid"
+    ],
+    "children": [
+      {
+        "name": "Gourd #130",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 225,
+            "y": 340
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #133",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 50,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #132",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 50,
+            "y": 515
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #131",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 50,
+            "y": 560
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #134",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 288,
+            "y": 945
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #129",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 303,
+            "y": 755
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #117",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 365,
+            "y": 755
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #128",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 430,
+            "y": 755
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #126",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 895,
+            "y": 640
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #127",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 735,
+            "y": 640
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sons of Anhur",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 675,
+            "y": 285
+          }
+        ],
+        "sections": [
+          {
+            "hosted_item": "sons_of_anhur",
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #125",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 1247,
+            "y": 100
+          }
+        ],
         "access_rules": [
-            "^$canCutBushes"
+          "axe_2"
         ],
-        "children": [            
-            {
-                "name": "Gourd #103",
-                "map_locations": [
-                    {
-                        "map": "western_beach",
-                        "x": 530,
-                        "y": 705
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$hasBronzeAxeOrHigher"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #104",
-                "map_locations": [
-                    {
-                        "map": "western_beach",
-                        "x": 575,
-                        "y": 350
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$hasBronzeAxeOrHigher"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #105",
-                "map_locations": [
-                    {
-                        "map": "western_beach",
-                        "x": 605,
-                        "y": 380
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$hasBronzeAxeOrHigher"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #106",
-                "map_locations": [
-                    {
-                        "map": "western_beach",
-                        "x": 655,
-                        "y": 435
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "^$hasBronzeAxeOrHigher"
-                        ],
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]                
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Pyramid (lower)",
+      },
+      {
+        "name": "Gourd #123",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 1279,
+            "y": 100
+          }
+        ],
         "access_rules": [
-            "^$pyramid"
+          "axe_2"
         ],
-        "children": [
-            {
-                "name": "Gourd #130",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 225,
-                        "y": 340
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #133",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 50,
-                        "y": 100
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #132",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 50,
-                        "y": 515
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #131",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 50,
-                        "y": 560
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #134",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 288,
-                        "y": 945
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #129",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 303,
-                        "y": 755
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #117",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 365,
-                        "y": 755
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #128",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 430,
-                        "y": 755
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #126",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 895,
-                        "y": 640
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #127",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 735,
-                        "y": 640
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Sons of Anhur",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 675,
-                        "y": 285
-                    }
-                ],
-                "sections": [
-                    {
-                        "hosted_item": "sons_of_anhur",
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #125",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 1247,
-                        "y": 100
-                    }
-                ],
-                "access_rules": [
-                    "axe_2"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #123",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 1279,
-                        "y": 100
-                    }
-                ],
-                "access_rules": [
-                    "axe_2"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #121",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 1311,
-                        "y": 100
-                    }
-                ],
-                "access_rules": [
-                    "axe_2"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #122",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 1343,
-                        "y": 100
-                    }
-                ],
-                "access_rules": [
-                    "axe_2"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #124",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 1375,
-                        "y": 100
-                    }
-                ],
-                "access_rules": [
-                    "axe_2"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #118",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 1648,
-                        "y": 210
-                    }
-                ],
-                "access_rules": [
-                    "axe_2"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #119",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 1490,
-                        "y": 785
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #120",
-                "map_locations": [
-                    {
-                        "map": "pyramid_lower",
-                        "x": 1200,
-                        "y": 1090
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Pyramid (upper)",
+      },
+      {
+        "name": "Gourd #121",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 1311,
+            "y": 100
+          }
+        ],
         "access_rules": [
-            "^$pyramid"
+          "axe_2"
         ],
-        "children": [
-            {
-                "name": "Gourd #135",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 1455,
-                        "y": 100
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #136",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 1345,
-                        "y": 100
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #137",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 1025,
-                        "y": 100
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #138",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 930,
-                        "y": 125
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #139",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 895,
-                        "y": 125
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #141",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 830,
-                        "y": 750
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #142",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 560,
-                        "y": 800
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #143",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 560,
-                        "y": 705
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #144",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 560,
-                        "y": 610
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #145",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 400,
-                        "y": 800
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #146",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 400,
-                        "y": 705
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #147",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 400,
-                        "y": 610
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #148",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 335,
-                        "y": 800
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #149",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 335,
-                        "y": 705
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #150",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 335,
-                        "y": 610
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #151",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 175,
-                        "y": 800
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #152",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 175,
-                        "y": 705
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #153",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 175,
-                        "y": 610
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #154",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 110,
-                        "y": 800
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #155",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 110,
-                        "y": 705
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #156",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 110,
-                        "y": 610
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #157",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 175,
-                        "y": 225
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #140",
-                "map_locations": [
-                    {
-                        "map": "pyramid_upper",
-                        "x": 895,
-                        "y": 435
-                    }
-                ],
-                "access_rules": [
-                    "axe_2"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Rimsala",
-                "map_locations": [
-                    {
-                        "map": "pyramid_outside",
-                        "x": 656,
-                        "y": 428
-                    }
-                ],
-                "access_rules": [
-                    "axe_2"
-                ],
-                "sections": [
-                    {
-                        "hosted_item": "rimsala",
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Tiny's Hideout",
+      },
+      {
+        "name": "Gourd #122",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 1343,
+            "y": 100
+          }
+        ],
         "access_rules": [
-            "^$canCutBushes, aegis"
+          "axe_2"
         ],
-        "children": [
-            {
-                "name": "Gourd #159",
-                "map_locations": [
-                    {
-                        "map": "tinys_hideout",
-                        "x": 625,
-                        "y": 785
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #164",
-                "map_locations": [
-                    {
-                        "map": "tinys_hideout",
-                        "x": 95,
-                        "y": 225
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #163",
-                "map_locations": [
-                    {
-                        "map": "tinys_hideout",
-                        "x": 175,
-                        "y": 255
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #162",
-                "map_locations": [
-                    {
-                        "map": "tinys_hideout",
-                        "x": 625,
-                        "y": 175
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #158",
-                "map_locations": [
-                    {
-                        "map": "tinys_hideout",
-                        "x": 1535,
-                        "y": 480
-                    }
-                ],
-                "access_rules": [
-                    "^$hasBronzeAxeOrHigher"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #160",
-                "map_locations": [
-                    {
-                        "map": "tinys_hideout",
-                        "x": 625,
-                        "y": 480
-                    }
-                ],
-                "access_rules": [
-                    "^$hasKnightBasherOrHigher"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #161",
-                "map_locations": [
-                    {
-                        "map": "tinys_hideout",
-                        "x": 625,
-                        "y": 365
-                    }
-                ],
-                "access_rules": [
-                    "^$hasKnightBasherOrHigher"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Tiny",
-                "map_locations": [
-                    {
-                        "map": "tinys_hideout",
-                        "x": 1000,
-                        "y": 215
-                    }
-                ],
-                "access_rules": [
-                    "levitate"
-                ],
-                "sections": [
-                    {
-                        "hosted_item": "tiny",
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Halls of Collosia 1",
+      },
+      {
+        "name": "Gourd #124",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 1375,
+            "y": 100
+          }
+        ],
         "access_rules": [
-            "^$canCutBushes, ^$revealer"
+          "axe_2"
         ],
-        "children": [
-            {
-                "name": "Gourd #165",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_1",
-                        "x": 225,
-                        "y": 80
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #166",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_1",
-                        "x": 465,
-                        "y": 80
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Mini-Taur",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_1",
-                        "x": 610,
-                        "y": 725
-                    }
-                ],
-                "sections": [
-                    {
-                        "hosted_item": "mini_taur",
-                        "visibility_rules": [
-                            "$bossLocationVisible"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Megataur",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_1",
-                        "x": 335,
-                        "y": 0
-                    }
-                ],
-                "access_rules": [
-                    "$hasBronzeSpearOrHigher"
-                ],
-                "sections": [
-                    {
-                        "hosted_item": "megataur",
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Halls of Collosia 2",
+      },
+      {
+        "name": "Gourd #118",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 1648,
+            "y": 210
+          }
+        ],
         "access_rules": [
-            "^$canCutBushes, ^$revealer"
+          "axe_2"
         ],
-        "children": [
-            {
-                "name": "Gourd #173",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_2",
-                        "x": 750,
-                        "y": 560
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #172",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_2",
-                        "x": 465,
-                        "y": 995
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #170",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_2",
-                        "x": 95,
-                        "y": 1265
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #171",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_2",
-                        "x": 385,
-                        "y": 1395
-                    }
-                ],
-                "access_rules": [
-                    "^$hasBronzeAxeOrHigher"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Halls of Collosia 3",
+      },
+      {
+        "name": "Gourd #119",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 1490,
+            "y": 785
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #120",
+        "map_locations": [
+          {
+            "map": "pyramid_lower",
+            "x": 1200,
+            "y": 1090
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pyramid (upper)",
+    "access_rules": [
+      "^$pyramid"
+    ],
+    "children": [
+      {
+        "name": "Gourd #135",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 1455,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #136",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 1345,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #137",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 1025,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #138",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 930,
+            "y": 125
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #139",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 895,
+            "y": 125
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #141",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 830,
+            "y": 750
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #142",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 560,
+            "y": 800
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #143",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 560,
+            "y": 705
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #144",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 560,
+            "y": 610
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #145",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 400,
+            "y": 800
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #146",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 400,
+            "y": 705
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #147",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 400,
+            "y": 610
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #148",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 335,
+            "y": 800
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #149",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 335,
+            "y": 705
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #150",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 335,
+            "y": 610
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #151",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 175,
+            "y": 800
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #152",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 175,
+            "y": 705
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #153",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 175,
+            "y": 610
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #154",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 110,
+            "y": 800
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #155",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 110,
+            "y": 705
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #156",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 110,
+            "y": 610
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #157",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 175,
+            "y": 225
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #140",
+        "map_locations": [
+          {
+            "map": "pyramid_upper",
+            "x": 895,
+            "y": 435
+          }
+        ],
         "access_rules": [
-            "^$canCutBushes, ^$revealer"
+          "axe_2"
         ],
-        "children": [
-            {
-                "name": "Gourd #169",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_3",
-                        "x": 115,
-                        "y": 975
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #168",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_3",
-                        "x": 190,
-                        "y": 975
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #167",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_3",
-                        "x": 400,
-                        "y": 815
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #178",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_3",
-                        "x": 560,
-                        "y": 930
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible|1",
-                            "$gourdVanillaLocationVisible|0|1"
-                        ]
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Halls of Collosia 4",
+      },
+      {
+        "name": "Rimsala",
+        "map_locations": [
+          {
+            "map": "pyramid_outside",
+            "x": 656,
+            "y": 428
+          }
+        ],
         "access_rules": [
-            "^$canCutBushes, ^$revealer, jaguar_ring"
+          "axe_2"
         ],
-        "children": [
-            {
-                "name": "Gourd #174",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_4",
-                        "x": 225,
-                        "y": 130
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #175",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_4",
-                        "x": 385,
-                        "y": 515
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #176",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_4",
-                        "x": 1545,
-                        "y": 1135
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Gourd #177",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_4",
-                        "x": 1500,
-                        "y": 1135
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Fireball",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_4",
-                        "x": 1445,
-                        "y": 1325
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Vanilla",
-                        "hosted_item": "fireball",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Mad Monk",
-                "map_locations": [
-                    {
-                        "map": "halls_of_collosia_4",
-                        "x": 635,
-                        "y": 1015
-                    }
-                ],
-                "sections": [
-                    {
-                        "hosted_item": "mad_monk",
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "hosted_item": "rimsala",
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Nobilia",
+      }
+    ]
+  },
+  {
+    "name": "Tiny's Hideout",
+    "access_rules": [
+      "^$canCutBushes, aegis"
+    ],
+    "children": [
+      {
+        "name": "Gourd #159",
+        "map_locations": [
+          {
+            "map": "tinys_hideout",
+            "x": 625,
+            "y": 785
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #164",
+        "map_locations": [
+          {
+            "map": "tinys_hideout",
+            "x": 95,
+            "y": 225
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #163",
+        "map_locations": [
+          {
+            "map": "tinys_hideout",
+            "x": 175,
+            "y": 255
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #162",
+        "map_locations": [
+          {
+            "map": "tinys_hideout",
+            "x": 625,
+            "y": 175
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #158",
+        "map_locations": [
+          {
+            "map": "tinys_hideout",
+            "x": 1535,
+            "y": 480
+          }
+        ],
         "access_rules": [
-            "^$canCutBushes"
+          "^$hasBronzeAxeOrHigher"
         ],
-        "children": [
-            {
-                "name": "Cure",
-                "map_locations": [
-                    {
-                        "map": "nobilia",
-                        "x": 475,
-                        "y": 100
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Vanilla",
-                        "hosted_item": "cure",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Atlas",
-                "map_locations": [
-                    {
-                        "map": "nobilia",
-                        "x": 830,
-                        "y": 775
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Vanilla",
-                        "hosted_item": "atlas",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Colosseum",
-                "access_rules": [
-                    "market_timer_done"
-                ],
-                "map_locations": [
-                    {
-                        "map": "nobilia_colosseum",
-                        "x": 510,
-                        "y": 69
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Gourds #95-102",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 8,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    },
-                    {
-                        "name": "Vigor",
-                        "hosted_item": "vigor",
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Aegis",
-                "map_locations": [
-                    {
-                        "map": "nobilia",
-                        "x": 1120,
-                        "y": 345
-                    }
-                ],
-                "access_rules": [
-                    "vigor, diamond_eyes_2"
-                ],
-                "sections": [
-                    {
-                        "hosted_item": "aegis",
-                        "visibility_rules": [
-                            "$bossLocationVisible|1"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Barrier",
-                "map_locations": [
-                    {
-                        "map": "nobilia_palace",
-                        "x": 688,
-                        "y": 254
-                    }
-                ],
-                "access_rules": [
-                    "aegis"
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/alchemy.png",
-                        "chest_opened_img": "images/locations/alchemy_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$alchemyLocationVisible"
-                        ]
-                    },
-                    {
-                        "name": "Vanilla",
-                        "hosted_item": "barrier",
-                        "visibility_rules": [
-                            "$alchemyVanillaLocationVisible"
-                        ]
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
         ]
-    },
-    {
-        "name": "Oglin Tunnel",
+      },
+      {
+        "name": "Gourd #160",
+        "map_locations": [
+          {
+            "map": "tinys_hideout",
+            "x": 625,
+            "y": 480
+          }
+        ],
         "access_rules": [
-            "^$oglin_access"
+          "^$hasKnightBasherOrHigher"
         ],
-        "children": [
-            {
-                "name": "Gourd #179",
-                "map_locations": [
-                    {
-                        "map": "oglin_tunnel",
-                        "x": 850,
-                        "y": 755
-                    }
-                ],
-                "sections": [
-                    {
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/locations/gourd.png",
-                        "chest_opened_img": "images/locations/gourd_open.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$gourdLocationVisible",
-                            "$gourdVanillaLocationVisible|0"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Aquagoth",
-                "map_locations": [
-                    {
-                        "map": "oglin_tunnel",
-                        "x": 510,
-                        "y": 410
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Aquagoth",
-                        "hosted_item": "aquagoth",
-                        "visibility_rules": [
-                            "$bossLocationVisible"
-                        ]
-                    }
-                ]
-            }
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
         ]
-    }
+      },
+      {
+        "name": "Gourd #161",
+        "map_locations": [
+          {
+            "map": "tinys_hideout",
+            "x": 625,
+            "y": 365
+          }
+        ],
+        "access_rules": [
+          "^$hasKnightBasherOrHigher"
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tiny",
+        "map_locations": [
+          {
+            "map": "tinys_hideout",
+            "x": 1000,
+            "y": 215
+          }
+        ],
+        "access_rules": [
+          "levitate"
+        ],
+        "sections": [
+          {
+            "hosted_item": "tiny",
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Halls of Collosia 1",
+    "access_rules": [
+      "^$canCutBushes, ^$revealer"
+    ],
+    "children": [
+      {
+        "name": "Gourd #165",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_1",
+            "x": 225,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #166",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_1",
+            "x": 465,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mini-Taur",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_1",
+            "x": 610,
+            "y": 725
+          }
+        ],
+        "sections": [
+          {
+            "hosted_item": "mini_taur",
+            "visibility_rules": [
+              "$bossLocationVisible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Megataur",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_1",
+            "x": 335,
+            "y": 0
+          }
+        ],
+        "access_rules": [
+          "$hasBronzeSpearOrHigher"
+        ],
+        "sections": [
+          {
+            "hosted_item": "megataur",
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Halls of Collosia 2",
+    "access_rules": [
+      "^$canCutBushes, ^$revealer"
+    ],
+    "children": [
+      {
+        "name": "Gourd #173",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_2",
+            "x": 750,
+            "y": 560
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #172",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_2",
+            "x": 465,
+            "y": 995
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #170",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_2",
+            "x": 95,
+            "y": 1265
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #171",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_2",
+            "x": 385,
+            "y": 1395
+          }
+        ],
+        "access_rules": [
+          "^$hasBronzeAxeOrHigher"
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Halls of Collosia 3",
+    "access_rules": [
+      "^$canCutBushes, ^$revealer"
+    ],
+    "children": [
+      {
+        "name": "Gourd #169",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_3",
+            "x": 115,
+            "y": 975
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #168",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_3",
+            "x": 190,
+            "y": 975
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #167",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_3",
+            "x": 400,
+            "y": 815
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #178",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_3",
+            "x": 560,
+            "y": 930
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible|1",
+              "$gourdVanillaLocationVisible|0|1"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Halls of Collosia 4",
+    "access_rules": [
+      "^$canCutBushes, ^$revealer, jaguar_ring"
+    ],
+    "children": [
+      {
+        "name": "Gourd #174",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_4",
+            "x": 225,
+            "y": 130
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #175",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_4",
+            "x": 385,
+            "y": 515
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #176",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_4",
+            "x": 1545,
+            "y": 1135
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gourd #177",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_4",
+            "x": 1500,
+            "y": 1135
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fireball",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_4",
+            "x": 1445,
+            "y": 1325
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Vanilla",
+            "hosted_item": "fireball",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mad Monk",
+        "map_locations": [
+          {
+            "map": "halls_of_collosia_4",
+            "x": 635,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "hosted_item": "mad_monk",
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nobilia",
+    "access_rules": [
+      "^$canCutBushes"
+    ],
+    "children": [
+      {
+        "name": "Cure",
+        "map_locations": [
+          {
+            "map": "nobilia",
+            "x": 475,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Vanilla",
+            "hosted_item": "cure",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Atlas",
+        "map_locations": [
+          {
+            "map": "nobilia",
+            "x": 830,
+            "y": 775
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Vanilla",
+            "hosted_item": "atlas",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Colosseum",
+        "access_rules": [
+          "market_timer_done"
+        ],
+        "map_locations": [
+          {
+            "map": "nobilia_colosseum",
+            "x": 510,
+            "y": 69
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gourds #95-102",
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 8,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          },
+          {
+            "name": "Vigor",
+            "hosted_item": "vigor",
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aegis",
+        "map_locations": [
+          {
+            "map": "nobilia",
+            "x": 1120,
+            "y": 345
+          }
+        ],
+        "access_rules": [
+          "vigor, diamond_eyes_2"
+        ],
+        "sections": [
+          {
+            "hosted_item": "aegis",
+            "visibility_rules": [
+              "$bossLocationVisible|1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Barrier",
+        "map_locations": [
+          {
+            "map": "nobilia_palace",
+            "x": 688,
+            "y": 254
+          }
+        ],
+        "access_rules": [
+          "aegis"
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/alchemy.png",
+            "chest_opened_img": "images/locations/alchemy_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$alchemyLocationVisible"
+            ]
+          },
+          {
+            "name": "Vanilla",
+            "hosted_item": "barrier",
+            "visibility_rules": [
+              "$alchemyVanillaLocationVisible"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Oglin Tunnel",
+    "access_rules": [
+      "^$oglin_access"
+    ],
+    "children": [
+      {
+        "name": "Gourd #179",
+        "map_locations": [
+          {
+            "map": "oglin_tunnel",
+            "x": 850,
+            "y": 755
+          }
+        ],
+        "sections": [
+          {
+            "clear_as_group": true,
+            "chest_unopened_img": "images/locations/gourd.png",
+            "chest_opened_img": "images/locations/gourd_open.png",
+            "item_count": 1,
+            "visibility_rules": [
+              "$gourdLocationVisible",
+              "$gourdVanillaLocationVisible|0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aquagoth",
+        "map_locations": [
+          {
+            "map": "oglin_tunnel",
+            "x": 510,
+            "y": 410
+          }
+        ],
+        "sections": [
+          {
+            "name": "Aquagoth",
+            "hosted_item": "aquagoth",
+            "visibility_rules": [
+              "$bossLocationVisible"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,7 +1,7 @@
 BOSSES_1 = {
     addr = 0x7E225C,
     -- BYTE 0x7E225C
-    [0x0] = { 
+    [0x0] = {
         ["aquagoth"] = 0x08,
         ["viper_commander_2"] = 0x10,
         ["mad_monk"] = 0x20,
@@ -57,7 +57,7 @@ BOSSES_2 = {
     --BYTE 0x7E22E6
     [0xE] = {
         ["footknight"] = 0x01,
-        ["face"] = 0x80 
+        ["face"] = 0x80
     },
     --BYTE 0x7E22E8
     [0x10] = {

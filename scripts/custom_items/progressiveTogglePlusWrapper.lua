@@ -18,25 +18,25 @@ function CustomItemProgressiveTogglePlus:createItem(name)
     end
     local function invokeAdvanceToCode(item, code)
         return item.ItemState:advanceToCode(code)
-    end    
+    end
     local function invokeSave(item)
         return item.ItemState:save()
     end
     local function invokeLoad(item, data)
         return item.ItemState:load(data)
-    end     
+    end
     local function invokePropertyChanged(item, key, value)
         return item.ItemState:propertyChanged(key, value)
-    end      
-    
+    end
+
     self.ItemInstance = ScriptHost:CreateLuaItem()
     self.ItemInstance.Name = name
     self.ItemInstance.ItemState = self
     self.ItemInstance.OnLeftClickFunc = invokeLeftClick
     self.ItemInstance.OnRightClickFunc = invokeRightClick
-    self.ItemInstance.CanProvideCodeFunc = invokeCanProvideCode    
-    self.ItemInstance.ProvidesCodeFunc = invokeProvidesCode    
-    self.ItemInstance.AdvanceToCodeFunc = invokeAdvanceToCode    
+    self.ItemInstance.CanProvideCodeFunc = invokeCanProvideCode
+    self.ItemInstance.ProvidesCodeFunc = invokeProvidesCode
+    self.ItemInstance.AdvanceToCodeFunc = invokeAdvanceToCode
     self.ItemInstance.SaveFunc = invokeSave
     self.ItemInstance.LoadFunc = invokeLoad
     self.ItemInstance.PropertyChangedFunc = invokePropertyChanged
@@ -74,7 +74,7 @@ end
 --
 --  Return a table of key-value pairs, for simple value types (bool, integer, string, etc.)
 function CustomItemProgressiveTogglePlus:save()
-    return { }
+    return {}
 end
 
 --  Called when the user is loading progress. Data is a table containing your saved data.
