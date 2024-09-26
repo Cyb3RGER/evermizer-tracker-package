@@ -274,7 +274,8 @@ end
 function updateTimerObj()
     if IS_GAME_RUNNING then
         local vigor = Tracker:FindObjectForCode("vigor") -- Also an override flag but we get this thru boss flags
-        local market_timer = Tracker:FindObjectForCode("market_timer")
+        ---@cast vigor JsonItem?
+        local market_timer = Tracker:FindObjectForCode("market_timer") ---@cast market_timer JsonItem?
         if market_timer and vigor then
             local isDone = vigor.Active or MARKET_TIMER.OVERRIDE_FLAG
             local hasStarted = MARKET_TIMER.TIMER > 0
@@ -289,25 +290,26 @@ function updateTimerObj()
                     local val = MARKET_TIMER.TIMER_GOAL - diff
                     if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
                         print(string.format(
-                            "Updating market_timer with TIMER at %x and FRAME_COUNTER at %x  and diff %x and value %x",
+                            "Updating market_timer with TIMER at %x and FRAME_COUNTER at %x and diff %x and value %x",
                             MARKET_TIMER.TIMER, MARKET_TIMER.FRAME_COUNTER, diff, val))
                     end
                     if val <= 0 then
                         market_timer.CurrentStage = 2
                         if market_timer.SetOverlay then
-                            market_timer:SetOverlay("")
+                            local timer_str = "-" .. _convertValueToTimerString((2 ^ 16) - diff)
+                            if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                                print(string.format("Updating market_timer overlay to %s", timer_str))
+                            end
+                            market_timer:SetOverlay(timer_str)
                         end
                     else
                         market_timer.CurrentStage = 1
                         if market_timer.SetOverlay then
-                            local secs = math.floor(val / MARKET_TIMER.FPS)
-                            local mins = math.floor(secs / 60)
-                            secs = secs % 60
+                            local timer_str = _convertValueToTimerString(val)
                             if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-                                print(string.format("Updating market_timer overlay to %s",
-                                    string.format("%d:%02d", mins, secs)))
+                                print(string.format("Updating market_timer overlay to %s", timer_str))
                             end
-                            market_timer:SetOverlay(string.format("%d:%02d", mins, secs))
+                            market_timer:SetOverlay(timer_str)
                         end
                     end
                 end
@@ -317,6 +319,13 @@ function updateTimerObj()
             end
         end
     end
+end
+
+function _convertValueToTimerString(val)
+    local secs = math.floor(val / MARKET_TIMER.FPS)
+    local mins = math.floor(secs / 60)
+    secs = secs % 60
+    return string.format("%d:%02d", mins, secs)
 end
 
 function updateFrameCounter(segment)
