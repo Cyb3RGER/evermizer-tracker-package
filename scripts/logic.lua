@@ -237,7 +237,7 @@ function gauge_access()
     if oob_val == AccessibilityLevel.Normal then
         return oob_val
     end
-    local value = Tracker:ProviderCountForCode("magmar") > 0
+    local value = Tracker:ProviderCountForCode("magmar") > 0 and hasNonSword() > 0
     if value then
         return AccessibilityLevel.Normal
     end
