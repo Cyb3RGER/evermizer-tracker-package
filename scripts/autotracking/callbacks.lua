@@ -277,6 +277,7 @@ function updateTimerObj()
         ---@cast vigor JsonItem?
         local market_timer = Tracker:FindObjectForCode("market_timer") ---@cast market_timer JsonItem?
         if market_timer and vigor then
+            market_timer:SetOverlayBackground("#9000")
             local isDone = vigor.Active or MARKET_TIMER.OVERRIDE_FLAG
             local hasStarted = MARKET_TIMER.TIMER > 0
             if hasStarted then
