@@ -1,45 +1,30 @@
 # Evermizer Tracker Package for PopTracker
 
-**THIS IS STILL WIP!**
+This is an item and map tracker package for the Secret of Evermore Randomizer (Evermizer), compatible with PopTracker. Might also work with EmoTracker but some features might not work as expected.
 
-Evermizer Item and Map Tracker for PopTracker or other comapible programms.
+## Useful Links
 
-The Evermizer can be found [here](https://evermizer.com).
-
-Also join the Evermizer Discord [here](https://discord.gg/MSJqgMtGY2).
-
-PopTracker can be found [here](https://github.com/black-sliver/PopTracker/releases).
-
-Alternatively, EmoTracker can be found [here](https://emotracker.net).
+- **Evermizer**: [https://evermizer.com](https://evermizer.com)
+- **Evermizer Discord**: [https://discord.gg/MSJqgMtGY2](https://discord.gg/MSJqgMtGY2)
+- **PopTracker**: [https://github.com/black-sliver/PopTracker/releases](https://github.com/black-sliver/PopTracker/releases)
 
 ## Installation
 
-Just download the lastest build and put in your packs folder (as a zip or unpacked, both works).
+Download the latest build and drag it into the PopTracker window. PopTracker will prompt for confirmation and install it automatically. For manual installation, you can place the pack in your packs folder (both zip and unpacked formats are supported).
 
 ### PopTracker
 
-For PopTracker the packs folder can be under `USER/Documents/PopTracker/packs`, `USER/PopTracker/packs` or `APP/packs`,
-where `USER` stands for your user directory and `APP` for the PopTracker installation directory.
+For PopTracker the packs folder can be under `USER/Documents/PopTracker/packs`, `USER/PopTracker/packs` or `APP/packs`, where `USER` stands for your user directory and `APP` for the PopTracker installation directory.
 
 ### EmoTracker
 
-For EmoTracker the packs folder can be found under `USER/Documents/EmoTracker/packs`, where `USER` stands for your user
-directory.
+For EmoTracker the packs folder can be found under `USER/Documents/EmoTracker/packs`, where `USER` stands for your user directory.
 
 ## Customization
 
-### PopTracker
+To customize the pack, place your modified files in the overrides folder. For PopTracker see [here](https://github.com/black-sliver/PopTracker/#user-overrides). For EmoTracker the overrides folder is located in `Documents/EmoTracker/user_overrides` in your user directory.
 
-For Customization in PopTracker just edit the pack's files. Documenation for PopTracker's pack format can be
-found [here](https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md).
-For example: if you want to change the broadcast layout, you can add your desired layout to the `layout/broadcast.json`
-file.
-Make sure you have you layout backed up tho, so you don't lose it when you override the file while updating the pack.
-
-### EmoTracker
-
-For Customization in EmoTracker you overwrite the pack's file by placing the file in EmoTracks overrides folder (
-`USER/Documents/EmoTracker/user_overides`). Good luck finding a documenation for EmoTracker tho :3.
+Note: EmoTracker documentation is limited and may require experimentation.
 
 ## Autotracking
 
@@ -48,4 +33,4 @@ be found [here](https://github.com/black-sliver/PopTracker/#auto-tracking).
 
 ## Credits
 
-Maps by Grizzly from [VGMaps](https://www.vgmaps.com/Atlas/SuperNES/index.htm#SecretOfEvermore).
+Maps created by Grizzly from [VGMaps](https://www.vgmaps.com/Atlas/SuperNES/index.htm#SecretOfEvermore).
