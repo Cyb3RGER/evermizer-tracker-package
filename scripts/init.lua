@@ -4,6 +4,7 @@ IS_COMPACT = variant:find("itemsonly_compact")
 IS_DETAILED = variant:find("detailed")
 CALLBEADMIZER_MODE = 0
 ENABLE_DEBUG_LOG = false
+DEBUG = false
 
 if PopVersion and ENABLE_DEBUG_LOG then
     print(string.format("PopVersion: %s", PopVersion))

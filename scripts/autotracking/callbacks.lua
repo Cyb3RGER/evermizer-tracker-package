@@ -366,10 +366,16 @@ function updateLocWithVals(overworld_mapping, detailed_mapping)
 end
 
 function updateGourds(segment)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print("called updateGourds")
+    end
     updateLocWithVals(GOURDS_OVERWORLD, GOURDS_DETAILED)
 end
 
 function updateSniffSpots(segment)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print("called updateSniffSpots")
+    end
     updateLocWithVals(SNIFF_MAPPING_OVERWORLD, SNIFF_MAPPING_DETAILED)
 end
 
@@ -377,13 +383,15 @@ function addValsFromTable(vals, table)
     for addr, masks in pairs(table) do
         local b = AutoTracker:ReadU8(addr) -- FIXME: this may be slow in emo
         for mask, codes in pairs(masks) do
-            if b & mask > 0 then
-                for _, code in ipairs(codes) do
+            for _, code in ipairs(codes) do
+                if b & mask > 0 then
                     if vals[code] then
                         vals[code] = vals[code] + 1
                     else
                         vals[code] = 1;
                     end
+                elseif not vals[code] then
+                    vals[code] = 0;
                 end
             end
         end
