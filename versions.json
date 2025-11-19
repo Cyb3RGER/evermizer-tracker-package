@@ -1,6 +1,17 @@
 {
   "versions": [
     {
+      "package_version": "0.4.2.0",
+      "download_url": "https://github.com/Cyb3RGER/evermizer-tracker-package/releases/download/v0.4.2.0/evermizer-tracker-package-v0_4_2_0.zip",
+      "sha256": "6351c15d1907845614747af3ede38462dcd4180e5743c63225b11660afdc41c4",
+      "changelog": [
+        "Fixed gauge access",
+        "Fixed location not being reset by SNES tracking on console reset",
+        "Added an option to count fragments as junk (default: off)",
+        "Added a semi-transparent background to market timer"
+      ]
+    },
+    {
       "package_version": "0.4.1.0",
       "download_url": "https://github.com/Cyb3RGER/evermizer-tracker-package/releases/download/v0.4.1.0/evermizer-tracker-package-v0_4_1_0.zip",
       "sha256": "e89820eb303b893f6808e360ef3006f35d157fe966ac34a639f5ee719ae98930",
