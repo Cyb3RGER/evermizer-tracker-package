@@ -337,11 +337,11 @@ function gourdLocationVisible(hideOnEasy)
     local energy_core = Tracker:FindObjectForCode("opt_energy_core").CurrentStage
 
     local allOnBosses = pool == 2 and boss_drops == 2
-    local shouldShowOnEasy = hideOnEasy == 0 or difficulty ~= 0 --or shouldShowFragments?
+    local shouldShowOnEasy = hideOnEasy == 0 or difficulty ~= 0
     local shouldShowFragments = energy_core == 2 and hide_fragments == 0
 
     local value = gourdomizer ~= 0 and
-        (hide_junk == 0 or shouldShowFragments or (gourdomizer == 1 or gourdomizer == 2 and not allOnBosses and shouldShowOnEasy))
+        (hide_junk == 0 or (((gourdomizer == 1 or gourdomizer == 2 and not allOnBosses) or shouldShowFragments) and shouldShowOnEasy))
 
     if ENABLE_DEBUG_LOG then
         print(string.format("gourdLocationVisible: value: %s, hideOnEasy: %s", value, hideOnEasy))
@@ -369,7 +369,7 @@ function gourdVanillaLocationVisible(isVanillaProg, hideOnEasy)
     local energy_core = Tracker:FindObjectForCode("opt_energy_core").CurrentStage
     local difficulty = Tracker:FindObjectForCode("opt_difficulty").CurrentStage
 
-    local shouldShowOnEasy = hideOnEasy == 0 or difficulty ~= 0 --or shouldShowFragments?
+    local shouldShowOnEasy = hideOnEasy == 0 or difficulty ~= 0
     local shouldShowFragments = energy_core == 2 and hide_fragments == 0
 
     local value = gourdomizer == 0 and
@@ -450,7 +450,7 @@ function sniffLocationVisible(hideOnEasy)
     local difficulty = Tracker:FindObjectForCode("opt_difficulty").CurrentStage
     local energy_core = Tracker:FindObjectForCode("opt_energy_core").CurrentStage
 
-    local shouldShowOnEasy = hideOnEasy == 0 or difficulty ~= 0 --or shouldShowFragments?
+    local shouldShowOnEasy = hideOnEasy == 0 or difficulty ~= 0
     local anyOtherPoolEnabled = alchemizer == 2 or boss_drops == 2 or gourdomizer == 2
     local canHaveFragments = energy_core == 2 and gourdomizer == 2 and sniffamizer == 2
     local shouldShowFragments = canHaveFragments and hide_fragments == 0
